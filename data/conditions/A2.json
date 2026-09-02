@@ -1,0 +1,110 @@
+{
+  "id": 3,
+  "study_id": 1,
+  "code": "A2",
+  "name": "TXT + материалы",
+  "description": "LLM-анализ содержания по транскрипту и материалам курса.",
+  "condition_order": 2,
+  "instruments": [
+    {
+      "code": "LLM_EVAL",
+      "name": "LLM-оценка критериев ТюмГУ",
+      "instrument_kind": "llm",
+      "role": "primary",
+      "notes": "Планируемая доработка LLM-инструмента."
+    }
+  ],
+  "data_types": [
+    {
+      "code": "transcript_txt",
+      "name": "TXT-транскрипт",
+      "category": "transcript",
+      "requirement_role": "required",
+      "purpose": "Текст занятия."
+    },
+    {
+      "code": "slides",
+      "name": "Слайды и визуальные материалы",
+      "category": "materials",
+      "requirement_role": "optional",
+      "purpose": "Слайды как материал без анализа видео."
+    },
+    {
+      "code": "lesson_plan",
+      "name": "План занятия",
+      "category": "materials",
+      "requirement_role": "optional",
+      "purpose": "План занятия."
+    },
+    {
+      "code": "course_program",
+      "name": "Программа дисциплины",
+      "category": "materials",
+      "requirement_role": "optional",
+      "purpose": "Программа."
+    },
+    {
+      "code": "learning_objectives",
+      "name": "Цели и задачи занятия",
+      "category": "materials",
+      "requirement_role": "optional",
+      "purpose": "Цели."
+    }
+  ],
+  "effect_checks": [
+    {
+      "effect_code": "E1",
+      "effect_name": "Конструктная валидность",
+      "check_code": "EC_E1",
+      "role": "candidate",
+      "notes": null,
+      "method_code": "T1",
+      "method_name": "Экспертная проверка доказательств"
+    },
+    {
+      "effect_code": "E2",
+      "effect_name": "Точность обнаружения событий",
+      "check_code": "EC_E2",
+      "role": "candidate",
+      "notes": null,
+      "method_code": "T2",
+      "method_name": "Сопоставление событий и таймкодов"
+    },
+    {
+      "effect_code": "E3",
+      "effect_name": "Согласие по итоговой оценке",
+      "check_code": "EC_E3",
+      "role": "candidate",
+      "notes": null,
+      "method_code": "T3",
+      "method_name": "Согласие шкалы 0–2"
+    },
+    {
+      "effect_code": "E4",
+      "effect_name": "Добавочная ценность мультимодальности",
+      "check_code": "EC_E4",
+      "role": "ablation",
+      "notes": "Добавлен текст и материалы.",
+      "method_code": "T4",
+      "method_name": "Мультимодальная абляция"
+    },
+    {
+      "effect_code": "E5",
+      "effect_name": "Переносимость",
+      "check_code": "EC_E5",
+      "role": "candidate",
+      "notes": null,
+      "method_code": "T5",
+      "method_name": "Holdout и анализ переносимости"
+    },
+    {
+      "effect_code": "E6",
+      "effect_name": "Калиброванная неопределённость",
+      "check_code": "EC_E6",
+      "role": "candidate",
+      "notes": null,
+      "method_code": "T6",
+      "method_name": "Калибровка неопределённости"
+    }
+  ]
+}

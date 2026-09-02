@@ -1,0 +1,150 @@
+{
+  "id": 23,
+  "number": 23,
+  "code": "C23",
+  "block_name": "Профессиональная позиция",
+  "subblock_name": null,
+  "name": "Эмоционально безопасное пространство",
+  "source_document_id": 1,
+  "source_locator": "checklist.csv:97",
+  "readiness_status": "prototype_now",
+  "platform_coverage_status": "partial",
+  "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+  "source_title": "Шкала 26 критериев ТюмГУ",
+  "source_path": "Материалы/Eval-2024/class_eval/checklist.csv",
+  "levels": [
+    {
+      "score": 2,
+      "description": "Вызывает желание участвовать в обсуждениях, задавать вопросы, пробовать, экспериментировать. Конструктивно обсуждает разные точки зрения. Проявляет уважение. Гибко и адекватно особенностям группы / отдельных студентов занимает позицию: партнерскую или инструктирующую"
+    },
+    {
+      "score": 1,
+      "description": "Выслушивает мнения, но не учитывает их в своей работе. Работает только с активными студентами. Преимущественно выбирает инструктирующую позицию"
+    },
+    {
+      "score": 0,
+      "description": "Дает оценочные негативные комментарии студентам, позволяет себе и студентам в адрес друг друга обесценивающие, неуважительные комментарии. Общается с позиции сверху, использует поучающий тон. Или демонстрирует беспомощность, заискивание и т.п. Противопоставляет свое мнение мнению студентов, спорит. Не вовлекает участников в диалог, «гасит» активность. Проявляет неуважение"
+    }
+  ],
+  "data_requirements": [],
+  "instrument_coverage": [
+    {
+      "instrument_code": "LLM_EVAL",
+      "instrument_name": "LLM-оценка критериев ТюмГУ",
+      "instrument_kind": "llm",
+      "version_code": "eval-2024",
+      "version_name": "Eval-2024 — исторический транскрипт-only прототип",
+      "lifecycle_status": "historical",
+      "methodology_status": "partial",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_code": "MGPU_VISUAL",
+      "instrument_name": "Визуальный считыватель эмоций МГПУ",
+      "instrument_kind": "video_analytics",
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия визуального модуля МГПУ",
+      "lifecycle_status": "prototype",
+      "methodology_status": "not_documented",
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Эмоции не являются прямой мерой психологической безопасности."
+    },
+    {
+      "instrument_code": "MGPU_AUDIO",
+      "instrument_name": "Анализатор аудио МГПУ",
+      "instrument_kind": "audio_analytics",
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия аудиомодуля МГПУ",
+      "lifecycle_status": "prototype",
+      "methodology_status": "not_documented",
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Похвала, давление, границы и оценка мнения — только отдельные сигналы."
+    },
+    {
+      "instrument_code": "EXPERT",
+      "instrument_name": "Эксперт по чек-листу ТюмГУ",
+      "instrument_kind": "human",
+      "version_code": "checklist-2024-v1",
+      "version_name": "Экспертный протокол по чек-листу ТюмГУ 2024",
+      "lifecycle_status": "reference",
+      "methodology_status": "documented",
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    }
+  ],
+  "effects": [
+    {
+      "code": "E1",
+      "name": "Конструктная валидность",
+      "check_code": "EC_E1",
+      "method_code": "T1",
+      "method_name": "Экспертная проверка доказательств",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E2",
+      "name": "Точность обнаружения событий",
+      "check_code": "EC_E2",
+      "method_code": "T2",
+      "method_name": "Сопоставление событий и таймкодов",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E3",
+      "name": "Согласие по итоговой оценке",
+      "check_code": "EC_E3",
+      "method_code": "T3",
+      "method_name": "Согласие шкалы 0–2",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E4",
+      "name": "Добавочная ценность мультимодальности",
+      "check_code": "EC_E4",
+      "method_code": "T4",
+      "method_name": "Мультимодальная абляция",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E5",
+      "name": "Переносимость",
+      "check_code": "EC_E5",
+      "method_code": "T5",
+      "method_name": "Holdout и анализ переносимости",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E6",
+      "name": "Калиброванная неопределённость",
+      "check_code": "EC_E6",
+      "method_code": "T6",
+      "method_name": "Калибровка неопределённости",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E7",
+      "name": "Практическая полезность эксперту",
+      "check_code": "EC_E7",
+      "method_code": "T7",
+      "method_name": "Сбалансированный crossover A0–A5",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E9",
+      "name": "Надёжность во времени",
+      "check_code": "EC_E9",
+      "method_code": "T9",
+      "method_name": "Продольная и повторная проверка",
+      "scope_role": "primary"
+    }
+  ]
+}

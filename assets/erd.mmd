@@ -1,0 +1,303 @@
+%% ERD базы пилота автоматизации критериев ТюмГУ
+%% SQLite-файл и SQL-схема являются источником истины.
+%%{init: {"theme":"base","er":{"layoutDirection":"TB","useMaxWidth":false},"themeVariables":{"fontFamily":"Arial, sans-serif","fontSize":"13px","primaryTextColor":"#172033","lineColor":"#64748b","primaryColor":"#f8fafc","primaryBorderColor":"#475569"}}}%%
+erDiagram
+    SOURCE_DOCUMENTS {
+        INTEGER id PK
+        TEXT code UK
+        TEXT relative_path UK
+        TEXT sha256
+    }
+    CRITERIA {
+        INTEGER id PK
+        INTEGER number UK
+        TEXT code UK
+        TEXT block_name
+        TEXT subblock_name
+        TEXT name
+        INTEGER source_document_id FK
+    }
+    CRITERION_SCORE_LEVELS {
+        INTEGER id PK
+        INTEGER criterion_id FK
+        INTEGER score
+        TEXT description
+        INTEGER source_document_id FK
+    }
+    DATA_TYPES {
+        INTEGER id PK
+        TEXT code UK
+        TEXT name
+        TEXT category
+        INTEGER contains_personal_data
+    }
+    CRITERION_DATA_REQUIREMENTS {
+        INTEGER criterion_id PK,FK
+        INTEGER data_type_id PK,FK
+        TEXT requirement_role PK
+        TEXT reason
+        INTEGER source_document_id FK
+    }
+    INSTRUMENTS {
+        INTEGER id PK
+        TEXT code UK
+        TEXT name
+        TEXT provider
+        TEXT instrument_kind
+    }
+    INSTRUMENT_VERSIONS {
+        INTEGER id PK
+        INTEGER instrument_id FK
+        TEXT version_code
+        TEXT lifecycle_status
+        TEXT methodology_status
+        INTEGER source_document_id FK
+    }
+    INSTRUMENT_VERSION_DATA_TYPES {
+        INTEGER instrument_version_id PK,FK
+        INTEGER data_type_id PK,FK
+        TEXT requirement_role PK
+        TEXT purpose
+    }
+    INSTRUMENT_VERSION_CRITERIA {
+        INTEGER instrument_version_id PK,FK
+        INTEGER criterion_id PK,FK
+        TEXT coverage_status
+        TEXT validation_status
+        TEXT output_type
+    }
+    STUDIES {
+        INTEGER id PK
+        TEXT code UK
+        TEXT name
+        TEXT status
+        TEXT design_version
+        INTEGER source_document_id FK
+    }
+    STUDY_CRITERIA {
+        INTEGER study_id PK,FK
+        INTEGER criterion_id PK,FK
+        TEXT readiness_status
+        TEXT platform_coverage_status
+    }
+    COMPARISON_CONDITIONS {
+        INTEGER id PK
+        INTEGER study_id FK
+        TEXT code
+        TEXT name
+        INTEGER condition_order
+    }
+    CONDITION_INSTRUMENTS {
+        INTEGER condition_id PK,FK
+        INTEGER instrument_id PK,FK
+        TEXT role
+    }
+    CONDITION_DATA_TYPES {
+        INTEGER condition_id PK,FK
+        INTEGER data_type_id PK,FK
+        TEXT requirement_role PK
+    }
+    EFFECTS {
+        INTEGER id PK
+        INTEGER study_id FK
+        TEXT code
+        TEXT name
+        INTEGER effect_order
+    }
+    VERIFICATION_METHODS {
+        INTEGER id PK
+        TEXT code UK
+        TEXT name
+        TEXT metrics
+    }
+    EFFECT_CHECKS {
+        INTEGER id PK
+        INTEGER effect_id FK
+        TEXT code UK
+        INTEGER verification_method_id FK
+        TEXT unit_of_analysis
+        TEXT success_rule
+    }
+    EFFECT_CHECK_CONDITIONS {
+        INTEGER effect_check_id PK,FK
+        INTEGER condition_id PK,FK
+        TEXT role
+    }
+    EFFECT_CHECK_DATA_TYPES {
+        INTEGER effect_check_id PK,FK
+        INTEGER data_type_id PK,FK
+        TEXT role PK
+    }
+    EFFECT_CHECK_CRITERIA {
+        INTEGER effect_check_id PK,FK
+        INTEGER criterion_id PK,FK
+        TEXT scope_role
+    }
+    EXPERTS {
+        INTEGER id PK
+        TEXT pseudonym UK
+        TEXT qualification
+    }
+    INSTRUCTORS {
+        INTEGER id PK
+        TEXT pseudonym UK
+        TEXT discipline_area
+    }
+    STUDENT_GROUPS {
+        INTEGER id PK
+        TEXT pseudonym UK
+        INTEGER approximate_size
+    }
+    LESSONS {
+        INTEGER id PK
+        TEXT public_id UK
+        INTEGER study_id FK
+        INTEGER instructor_id FK
+        INTEGER student_group_id FK
+        TEXT lesson_format
+        TEXT status
+    }
+    DATASET_SPLITS {
+        INTEGER id PK
+        INTEGER study_id FK
+        TEXT code
+        TEXT purpose
+        INTEGER is_locked
+    }
+    LESSON_SPLITS {
+        INTEGER lesson_id PK,FK
+        INTEGER split_id PK,FK
+    }
+    LESSON_ARTIFACTS {
+        INTEGER id PK
+        TEXT public_id UK
+        INTEGER lesson_id FK
+        INTEGER data_type_id FK
+        TEXT storage_uri
+        TEXT sha256
+        TEXT quality_status
+        TEXT access_class
+    }
+    EVALUATION_RUNS {
+        INTEGER id PK
+        TEXT public_id UK
+        INTEGER lesson_id FK
+        INTEGER condition_id FK
+        INTEGER expert_id FK
+        TEXT status
+    }
+    RUN_INSTRUMENTS {
+        INTEGER run_id PK,FK
+        INTEGER instrument_version_id PK,FK
+        TEXT role
+    }
+    RUN_INPUTS {
+        INTEGER run_id PK,FK
+        INTEGER artifact_id PK,FK
+        TEXT input_role
+    }
+    CRITERION_EVALUATIONS {
+        INTEGER id PK
+        INTEGER run_id FK
+        INTEGER criterion_id FK
+        TEXT result_status
+        INTEGER score
+        REAL confidence
+    }
+    EVIDENCE_FRAGMENTS {
+        INTEGER id PK
+        INTEGER criterion_evaluation_id FK
+        INTEGER artifact_id FK
+        INTEGER start_ms
+        INTEGER end_ms
+        TEXT evidence_role
+    }
+    EVALUATION_REVIEWS {
+        INTEGER id PK
+        INTEGER criterion_evaluation_id FK
+        INTEGER expert_id FK
+        TEXT review_type
+        TEXT verdict
+        INTEGER revised_score
+    }
+    EFFECT_RESULTS {
+        INTEGER id PK
+        INTEGER effect_check_id FK
+        INTEGER criterion_id FK
+        INTEGER split_id FK
+        TEXT metric_name
+        REAL estimate
+        REAL ci_low
+        REAL ci_high
+        TEXT result_status
+    }
+    AUTOMATION_DECISION_TYPES {
+        TEXT code PK
+        TEXT name
+    }
+    CRITERION_DECISIONS {
+        INTEGER id PK
+        INTEGER study_id FK
+        INTEGER criterion_id FK
+        TEXT decision_code FK
+        INTEGER based_on_effect_result_id FK
+        INTEGER version
+    }
+
+    SOURCE_DOCUMENTS ||--o{ CRITERIA : "определяет"
+    SOURCE_DOCUMENTS ||--o{ CRITERION_SCORE_LEVELS : "подтверждает"
+    SOURCE_DOCUMENTS ||--o{ INSTRUMENT_VERSIONS : "описывает"
+    SOURCE_DOCUMENTS ||--o{ STUDIES : "задаёт дизайн"
+    CRITERIA ||--|{ CRITERION_SCORE_LEVELS : "имеет 0-1-2"
+    CRITERIA ||--o{ CRITERION_DATA_REQUIREMENTS : "требует данные"
+    DATA_TYPES ||--o{ CRITERION_DATA_REQUIREMENTS : "удовлетворяет"
+    SOURCE_DOCUMENTS o|--o{ CRITERION_DATA_REQUIREMENTS : "обосновывает"
+    INSTRUMENTS ||--|{ INSTRUMENT_VERSIONS : "версионируется"
+    INSTRUMENT_VERSIONS ||--o{ INSTRUMENT_VERSION_DATA_TYPES : "использует"
+    DATA_TYPES ||--o{ INSTRUMENT_VERSION_DATA_TYPES : "требуется"
+    INSTRUMENT_VERSIONS ||--o{ INSTRUMENT_VERSION_CRITERIA : "оценивает"
+    CRITERIA ||--o{ INSTRUMENT_VERSION_CRITERIA : "покрывается"
+    STUDIES ||--|{ STUDY_CRITERIA : "включает"
+    CRITERIA ||--o{ STUDY_CRITERIA : "классифицируется"
+    STUDIES ||--|{ COMPARISON_CONDITIONS : "сравнивает"
+    COMPARISON_CONDITIONS ||--|{ CONDITION_INSTRUMENTS : "комбинирует"
+    INSTRUMENTS ||--o{ CONDITION_INSTRUMENTS : "участвует"
+    COMPARISON_CONDITIONS ||--|{ CONDITION_DATA_TYPES : "требует"
+    DATA_TYPES ||--o{ CONDITION_DATA_TYPES : "подаётся"
+    STUDIES ||--|{ EFFECTS : "проверяет"
+    EFFECTS ||--|| EFFECT_CHECKS : "операционализирован"
+    VERIFICATION_METHODS ||--o{ EFFECT_CHECKS : "реализует"
+    EFFECT_CHECKS ||--o{ EFFECT_CHECK_CONDITIONS : "сопоставляет"
+    COMPARISON_CONDITIONS ||--o{ EFFECT_CHECK_CONDITIONS : "участвует"
+    EFFECT_CHECKS ||--o{ EFFECT_CHECK_DATA_TYPES : "проверяет на данных"
+    DATA_TYPES ||--o{ EFFECT_CHECK_DATA_TYPES : "используется"
+    EFFECT_CHECKS ||--o{ EFFECT_CHECK_CRITERIA : "применяется"
+    CRITERIA ||--o{ EFFECT_CHECK_CRITERIA : "проверяется"
+    STUDIES ||--o{ LESSONS : "содержит"
+    INSTRUCTORS o|--o{ LESSONS : "проводит"
+    STUDENT_GROUPS o|--o{ LESSONS : "участвует"
+    STUDIES ||--o{ DATASET_SPLITS : "делит выборку"
+    LESSONS ||--o{ LESSON_SPLITS : "назначается"
+    DATASET_SPLITS ||--o{ LESSON_SPLITS : "содержит"
+    LESSONS ||--o{ LESSON_ARTIFACTS : "имеет"
+    DATA_TYPES ||--o{ LESSON_ARTIFACTS : "типизирует"
+    LESSONS ||--o{ EVALUATION_RUNS : "анализируется"
+    COMPARISON_CONDITIONS ||--o{ EVALUATION_RUNS : "задаёт условие"
+    EXPERTS o|--o{ EVALUATION_RUNS : "выполняет"
+    EVALUATION_RUNS ||--|{ RUN_INSTRUMENTS : "запускает"
+    INSTRUMENT_VERSIONS ||--o{ RUN_INSTRUMENTS : "исполняется"
+    EVALUATION_RUNS ||--o{ RUN_INPUTS : "получает"
+    LESSON_ARTIFACTS ||--o{ RUN_INPUTS : "подаётся"
+    EVALUATION_RUNS ||--o{ CRITERION_EVALUATIONS : "выдаёт"
+    CRITERIA ||--o{ CRITERION_EVALUATIONS : "оценивается"
+    CRITERION_EVALUATIONS ||--o{ EVIDENCE_FRAGMENTS : "обосновывается"
+    LESSON_ARTIFACTS o|--o{ EVIDENCE_FRAGMENTS : "локализует"
+    CRITERION_EVALUATIONS ||--o{ EVALUATION_REVIEWS : "проверяется"
+    EXPERTS ||--o{ EVALUATION_REVIEWS : "рецензирует"
+    EFFECT_CHECKS ||--o{ EFFECT_RESULTS : "рассчитывается"
+    CRITERIA o|--o{ EFFECT_RESULTS : "детализирует"
+    DATASET_SPLITS o|--o{ EFFECT_RESULTS : "измеряется"
+    STUDIES ||--o{ CRITERION_DECISIONS : "принимает"
+    CRITERIA ||--o{ CRITERION_DECISIONS : "получает решение"
+    AUTOMATION_DECISION_TYPES ||--o{ CRITERION_DECISIONS : "классифицирует"
+    EFFECT_RESULTS o|--o{ CRITERION_DECISIONS : "обосновывает"

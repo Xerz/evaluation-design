@@ -1,0 +1,185 @@
+{
+  "name": "effect_check_data_types",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "effect_check_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "data_type_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 2
+    },
+    {
+      "cid": 2,
+      "name": "role",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 3
+    },
+    {
+      "cid": 3,
+      "name": "notes",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "effect_check_id": 1,
+      "data_type_id": 1,
+      "role": "required",
+      "notes": "Текстовый источник доказательств."
+    },
+    {
+      "effect_check_id": 1,
+      "data_type_id": 23,
+      "role": "reference",
+      "notes": "Экспертное решение о соответствии конструкту."
+    },
+    {
+      "effect_check_id": 2,
+      "data_type_id": 2,
+      "role": "required",
+      "notes": "Экспертные и автоматические таймкоды."
+    },
+    {
+      "effect_check_id": 2,
+      "data_type_id": 3,
+      "role": "required",
+      "notes": "Структурированные сегменты."
+    },
+    {
+      "effect_check_id": 2,
+      "data_type_id": 23,
+      "role": "reference",
+      "notes": "Эталон событий."
+    },
+    {
+      "effect_check_id": 3,
+      "data_type_id": 23,
+      "role": "reference",
+      "notes": "Согласованная шкала 0–2."
+    },
+    {
+      "effect_check_id": 4,
+      "data_type_id": 1,
+      "role": "contrast",
+      "notes": "Текстовая модальность."
+    },
+    {
+      "effect_check_id": 4,
+      "data_type_id": 4,
+      "role": "contrast",
+      "notes": "Аудиомодальность."
+    },
+    {
+      "effect_check_id": 4,
+      "data_type_id": 5,
+      "role": "contrast",
+      "notes": "Видеомодальность."
+    },
+    {
+      "effect_check_id": 4,
+      "data_type_id": 7,
+      "role": "contrast",
+      "notes": "Материалы и слайды."
+    },
+    {
+      "effect_check_id": 5,
+      "data_type_id": 22,
+      "role": "required",
+      "notes": "Страты качества и технических условий."
+    },
+    {
+      "effect_check_id": 5,
+      "data_type_id": 23,
+      "role": "reference",
+      "notes": "Экспертный референс."
+    },
+    {
+      "effect_check_id": 6,
+      "data_type_id": 23,
+      "role": "reference",
+      "notes": "Проверка правильности выводов и отказов."
+    },
+    {
+      "effect_check_id": 7,
+      "data_type_id": 23,
+      "role": "reference",
+      "notes": "Референс и журнал экспертных решений."
+    },
+    {
+      "effect_check_id": 8,
+      "data_type_id": 8,
+      "role": "supplemental",
+      "notes": "План занятия."
+    },
+    {
+      "effect_check_id": 8,
+      "data_type_id": 9,
+      "role": "supplemental",
+      "notes": "Программа дисциплины."
+    },
+    {
+      "effect_check_id": 8,
+      "data_type_id": 15,
+      "role": "supplemental",
+      "notes": "Источники для достоверности."
+    },
+    {
+      "effect_check_id": 8,
+      "data_type_id": 16,
+      "role": "contrast",
+      "notes": "Диагностика до."
+    },
+    {
+      "effect_check_id": 8,
+      "data_type_id": 17,
+      "role": "contrast",
+      "notes": "Опрос после."
+    },
+    {
+      "effect_check_id": 8,
+      "data_type_id": 18,
+      "role": "contrast",
+      "notes": "Прямые данные опыта успеха."
+    },
+    {
+      "effect_check_id": 8,
+      "data_type_id": 19,
+      "role": "contrast",
+      "notes": "Прямые данные доверия."
+    },
+    {
+      "effect_check_id": 8,
+      "data_type_id": 20,
+      "role": "contrast",
+      "notes": "Результаты обучения."
+    },
+    {
+      "effect_check_id": 9,
+      "data_type_id": 22,
+      "role": "required",
+      "notes": "Идентичность версий и качество повторных записей."
+    },
+    {
+      "effect_check_id": 9,
+      "data_type_id": 23,
+      "role": "reference",
+      "notes": "Экспертный референс по повторным занятиям."
+    }
+  ],
+  "total": 24
+}

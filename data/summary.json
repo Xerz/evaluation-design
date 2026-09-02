@@ -1,0 +1,41 @@
+{
+  "study": {
+    "code": "TYUMGU_AUTOMATION_PILOT",
+    "name": "Пилот автоматизации критериев оценки преподавателя ТюмГУ",
+    "objective": "Определить, какая часть каждого из 26 критериев может быть автоматизирована, при каких данных и с какой надёжностью.",
+    "status": "design",
+    "design_version": "1.0"
+  },
+  "counts": {
+    "criteria": 26,
+    "score_levels": 78,
+    "instruments": 4,
+    "conditions": 6,
+    "effects": 9,
+    "tables": 36,
+    "views": 4
+  },
+  "readiness": {
+    "conditional": 4,
+    "not_from_recording": 2,
+    "prototype_now": 20
+  },
+  "coverage": {
+    "indirect": 3,
+    "not_covered": 10,
+    "partial": 13
+  },
+  "operational": {
+    "lessons": 0,
+    "runs": 0,
+    "evaluations": 0,
+    "evidence": 0,
+    "results": 0
+  },
+  "database": {
+    "file": "База пилота автоматизации критериев ТюмГУ.sqlite",
+    "quick_check": "ok",
+    "mode": "static_snapshot",
+    "sha256": "0fbcda19a2367c156abf2c1d5ac7de2a35188e331008d65c2d977a31e67088b1"
+  }
+}

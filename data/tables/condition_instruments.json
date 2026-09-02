@@ -1,0 +1,119 @@
+{
+  "name": "condition_instruments",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "condition_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "instrument_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 2
+    },
+    {
+      "cid": 2,
+      "name": "role",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "notes",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "condition_id": 1,
+      "instrument_id": 4,
+      "role": "reference",
+      "notes": "Независимая разметка."
+    },
+    {
+      "condition_id": 2,
+      "instrument_id": 2,
+      "role": "primary",
+      "notes": "Готовые визуальные метрики."
+    },
+    {
+      "condition_id": 2,
+      "instrument_id": 3,
+      "role": "primary",
+      "notes": "Готовые аудиометрики."
+    },
+    {
+      "condition_id": 3,
+      "instrument_id": 1,
+      "role": "primary",
+      "notes": "Планируемая доработка LLM-инструмента."
+    },
+    {
+      "condition_id": 4,
+      "instrument_id": 1,
+      "role": "primary",
+      "notes": "Содержательный анализ."
+    },
+    {
+      "condition_id": 4,
+      "instrument_id": 3,
+      "role": "assistant",
+      "notes": "Аудиопризнаки и события."
+    },
+    {
+      "condition_id": 5,
+      "instrument_id": 1,
+      "role": "primary",
+      "notes": "Содержательный и мультимодальный синтез."
+    },
+    {
+      "condition_id": 5,
+      "instrument_id": 2,
+      "role": "assistant",
+      "notes": "Визуальные прокси."
+    },
+    {
+      "condition_id": 5,
+      "instrument_id": 3,
+      "role": "assistant",
+      "notes": "Аудиопризнаки и события."
+    },
+    {
+      "condition_id": 6,
+      "instrument_id": 1,
+      "role": "assistant",
+      "notes": "Кандидаты доказательных фрагментов."
+    },
+    {
+      "condition_id": 6,
+      "instrument_id": 2,
+      "role": "assistant",
+      "notes": "Дополнительные визуальные прокси."
+    },
+    {
+      "condition_id": 6,
+      "instrument_id": 3,
+      "role": "assistant",
+      "notes": "Дополнительные аудиопрокси."
+    },
+    {
+      "condition_id": 6,
+      "instrument_id": 4,
+      "role": "primary",
+      "notes": "Окончательное экспертное решение."
+    }
+  ],
+  "total": 13
+}

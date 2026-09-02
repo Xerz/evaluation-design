@@ -1,0 +1,85 @@
+{
+  "id": 2,
+  "study_id": 1,
+  "code": "A1",
+  "name": "Готовые метрики МГПУ",
+  "description": "Визуальные и аудиопоказатели текущей платформы без новых моделей.",
+  "condition_order": 1,
+  "instruments": [
+    {
+      "code": "MGPU_VISUAL",
+      "name": "Визуальный считыватель эмоций МГПУ",
+      "instrument_kind": "video_analytics",
+      "role": "primary",
+      "notes": "Готовые визуальные метрики."
+    },
+    {
+      "code": "MGPU_AUDIO",
+      "name": "Анализатор аудио МГПУ",
+      "instrument_kind": "audio_analytics",
+      "role": "primary",
+      "notes": "Готовые аудиометрики."
+    }
+  ],
+  "data_types": [
+    {
+      "code": "audio_recording",
+      "name": "Аудиозапись",
+      "category": "recording",
+      "requirement_role": "required",
+      "purpose": "Вход аудиомодуля."
+    },
+    {
+      "code": "video_recording",
+      "name": "Видеозапись",
+      "category": "recording",
+      "requirement_role": "required",
+      "purpose": "Вход визуального модуля."
+    },
+    {
+      "code": "platform_metrics",
+      "name": "Метрики платформы МГПУ",
+      "category": "platform",
+      "requirement_role": "derived",
+      "purpose": "Готовые метрики платформы."
+    }
+  ],
+  "effect_checks": [
+    {
+      "effect_code": "E3",
+      "effect_name": "Согласие по итоговой оценке",
+      "check_code": "EC_E3",
+      "role": "candidate",
+      "notes": null,
+      "method_code": "T3",
+      "method_name": "Согласие шкалы 0–2"
+    },
+    {
+      "effect_code": "E4",
+      "effect_name": "Добавочная ценность мультимодальности",
+      "check_code": "EC_E4",
+      "role": "baseline",
+      "notes": null,
+      "method_code": "T4",
+      "method_name": "Мультимодальная абляция"
+    },
+    {
+      "effect_code": "E5",
+      "effect_name": "Переносимость",
+      "check_code": "EC_E5",
+      "role": "candidate",
+      "notes": null,
+      "method_code": "T5",
+      "method_name": "Holdout и анализ переносимости"
+    },
+    {
+      "effect_code": "E6",
+      "effect_name": "Калиброванная неопределённость",
+      "check_code": "EC_E6",
+      "role": "candidate",
+      "notes": null,
+      "method_code": "T6",
+      "method_name": "Калибровка неопределённости"
+    }
+  ]
+}

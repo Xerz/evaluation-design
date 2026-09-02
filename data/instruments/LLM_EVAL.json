@@ -1,0 +1,298 @@
+{
+  "id": 1,
+  "code": "LLM_EVAL",
+  "name": "LLM-оценка критериев ТюмГУ",
+  "provider": "ТюмГУ",
+  "instrument_kind": "llm",
+  "description": "Прототипируемый анализ 26 критериев по транскрипту и, в будущих версиях, материалам занятия.",
+  "versions": [
+    {
+      "id": 1,
+      "instrument_id": 1,
+      "version_code": "eval-2024",
+      "version_name": "Eval-2024 — исторический транскрипт-only прототип",
+      "lifecycle_status": "historical",
+      "model_name": "Coze bot, идентификатор не переносится",
+      "prompt_version": "embedded-v1",
+      "implementation_ref": "Материалы/Eval-2024/class_eval/class_feedback.ipynb",
+      "config_summary": "Для каждого критерия передавались шкала 0–2 и первые 3000 символов транскрипта; выход — балл и текстовое обоснование.",
+      "limitations": "Нет таймкодов; анализируется не полный транскрипт; при ошибке код записывал 0; валидность не подтверждена; 17 отчётов существуют, но не импортируются.",
+      "methodology_status": "partial",
+      "source_document_id": 2,
+      "source_title": "Исторический прототип Eval-2024",
+      "source_path": "Материалы/Eval-2024/class_eval/class_feedback.ipynb"
+    }
+  ],
+  "inputs": [
+    {
+      "instrument_version_id": 1,
+      "code": "transcript_txt",
+      "name": "TXT-транскрипт",
+      "category": "transcript",
+      "requirement_role": "required",
+      "purpose": "Единственный фактически использованный вход исторической версии."
+    }
+  ],
+  "coverage": [
+    {
+      "instrument_version_id": 1,
+      "code": "C01",
+      "number": 1,
+      "name": "Уместность",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C02",
+      "number": 2,
+      "name": "Структурность",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C03",
+      "number": 3,
+      "name": "Достоверность",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C04",
+      "number": 4,
+      "name": "Наличие «крупных планов»",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C05",
+      "number": 5,
+      "name": "Наличие «частных случаев»",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C06",
+      "number": 6,
+      "name": "Сложность",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C07",
+      "number": 7,
+      "name": "Ресурсность",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C08",
+      "number": 8,
+      "name": "Присоединение",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C09",
+      "number": 9,
+      "name": "Понятность и логичность",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C10",
+      "number": 10,
+      "name": "Профессиональный язык",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C11",
+      "number": 11,
+      "name": "Акцентирование",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C12",
+      "number": 12,
+      "name": "Визуализация",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C13",
+      "number": 13,
+      "name": "Темп",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C14",
+      "number": 14,
+      "name": "Цель и задачи занятия",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C15",
+      "number": 15,
+      "name": "Методический инструментарий",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C16",
+      "number": 16,
+      "name": "Создание комфортных условий",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C17",
+      "number": 17,
+      "name": "Гибкость",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C18",
+      "number": 18,
+      "name": "Концентрация внимания",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C19",
+      "number": 19,
+      "name": "Проблемность",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C20",
+      "number": 20,
+      "name": "Диалогичность",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C21",
+      "number": 21,
+      "name": "Подведение итогов",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C22",
+      "number": 22,
+      "name": "Использование цифровых инструментов",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C23",
+      "number": 23,
+      "name": "Эмоционально безопасное пространство",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C24",
+      "number": 24,
+      "name": "Опыт успеха",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C25",
+      "number": 25,
+      "name": "Доверие",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "code": "C26",
+      "number": 26,
+      "name": "«Делает то, что проповедует»",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    }
+  ]
+}

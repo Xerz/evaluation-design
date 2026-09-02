@@ -1,0 +1,112 @@
+{
+  "name": "criterion_data_requirements",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "criterion_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "data_type_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 2
+    },
+    {
+      "cid": 2,
+      "name": "requirement_role",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 3
+    },
+    {
+      "cid": 3,
+      "name": "reason",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "source_document_id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "criterion_id": 3,
+      "data_type_id": 15,
+      "requirement_role": "required",
+      "reason": "Проверка достоверности требует внешних предметных источников и экспертного контекста.",
+      "source_document_id": 7
+    },
+    {
+      "criterion_id": 6,
+      "data_type_id": 14,
+      "requirement_role": "required",
+      "reason": "Оценка сложности требует данных об уровне подготовки группы.",
+      "source_document_id": 7
+    },
+    {
+      "criterion_id": 6,
+      "data_type_id": 16,
+      "requirement_role": "supplemental",
+      "reason": "Входная диагностика уточняет доступность материала для конкретной группы.",
+      "source_document_id": 7
+    },
+    {
+      "criterion_id": 7,
+      "data_type_id": 17,
+      "requirement_role": "supplemental",
+      "reason": "Опрос после занятия помогает проверить сформированный познавательный запрос.",
+      "source_document_id": 7
+    },
+    {
+      "criterion_id": 24,
+      "data_type_id": 18,
+      "requirement_role": "required",
+      "reason": "Опыт успеха требует прямой студенческой самооценки продвижения.",
+      "source_document_id": 6
+    },
+    {
+      "criterion_id": 24,
+      "data_type_id": 20,
+      "requirement_role": "supplemental",
+      "reason": "Результаты до–после могут подтвердить фактический прогресс.",
+      "source_document_id": 6
+    },
+    {
+      "criterion_id": 25,
+      "data_type_id": 19,
+      "requirement_role": "required",
+      "reason": "Доверие определяется только валидированным студенческим опросом.",
+      "source_document_id": 6
+    },
+    {
+      "criterion_id": 26,
+      "data_type_id": 8,
+      "requirement_role": "required",
+      "reason": "Нужны заявленные принципы и планируемые действия преподавателя.",
+      "source_document_id": 7
+    },
+    {
+      "criterion_id": 26,
+      "data_type_id": 13,
+      "requirement_role": "supplemental",
+      "reason": "Несколько материалов и наблюдений нужны для продольного сопоставления слов и поведения.",
+      "source_document_id": 7
+    }
+  ],
+  "total": 9
+}

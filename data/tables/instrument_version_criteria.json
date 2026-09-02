@@ -1,0 +1,657 @@
+{
+  "name": "instrument_version_criteria",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "instrument_version_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "criterion_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 2
+    },
+    {
+      "cid": 2,
+      "name": "coverage_status",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "validation_status",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "output_type",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 5,
+      "name": "notes",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 1,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 2,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 3,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 4,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 5,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 6,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 7,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 8,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 9,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 10,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 11,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 12,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 13,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 14,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 15,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 16,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 17,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 18,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 19,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 20,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 21,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 22,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 23,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 24,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 25,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 1,
+      "criterion_id": 26,
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_version_id": 2,
+      "criterion_id": 6,
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Эмоции и вовлечённость дают только слабый прокси реакции."
+    },
+    {
+      "instrument_version_id": 2,
+      "criterion_id": 16,
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Визуальный сигнал покрывает лишь отдельные аспекты условий."
+    },
+    {
+      "instrument_version_id": 2,
+      "criterion_id": 18,
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Вовлечённость не является прямой мерой концентрации внимания."
+    },
+    {
+      "instrument_version_id": 2,
+      "criterion_id": 23,
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Эмоции не являются прямой мерой психологической безопасности."
+    },
+    {
+      "instrument_version_id": 2,
+      "criterion_id": 24,
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Позитивная эмоция не доказывает опыт успеха."
+    },
+    {
+      "instrument_version_id": 2,
+      "criterion_id": 25,
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Эмоции и взгляд не доказывают доверие."
+    },
+    {
+      "instrument_version_id": 3,
+      "criterion_id": 2,
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Структурирующие и резюмирующие тактики."
+    },
+    {
+      "instrument_version_id": 3,
+      "criterion_id": 6,
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Скорость речи — слабый прокси доступности сложности."
+    },
+    {
+      "instrument_version_id": 3,
+      "criterion_id": 7,
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Тактики мотивации, провокации и приглашения к участию."
+    },
+    {
+      "instrument_version_id": 3,
+      "criterion_id": 9,
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Темп и отдельные признаки формальной организации."
+    },
+    {
+      "instrument_version_id": 3,
+      "criterion_id": 11,
+      "coverage_status": "not_covered",
+      "validation_status": "not_documented",
+      "output_type": "semantic_mismatch",
+      "notes": "«Акцентуация собственной точки зрения» не измеряет педагогическое акцентирование ключевых понятий."
+    },
+    {
+      "instrument_version_id": 3,
+      "criterion_id": 13,
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Скорость речи, речь и тишина."
+    },
+    {
+      "instrument_version_id": 3,
+      "criterion_id": 14,
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Начало урока и постановка темы."
+    },
+    {
+      "instrument_version_id": 3,
+      "criterion_id": 15,
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Тактики управления дискуссией и вводный инструктаж."
+    },
+    {
+      "instrument_version_id": 3,
+      "criterion_id": 16,
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Громкость, темп и отдельные коммуникативные тактики."
+    },
+    {
+      "instrument_version_id": 3,
+      "criterion_id": 17,
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Координация, смена ориентиров и реакции на участников."
+    },
+    {
+      "instrument_version_id": 3,
+      "criterion_id": 18,
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Распределение разговора и приглашения к участию."
+    },
+    {
+      "instrument_version_id": 3,
+      "criterion_id": 19,
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Проблемные и рефлексивные коммуникативные тактики."
+    },
+    {
+      "instrument_version_id": 3,
+      "criterion_id": 20,
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Распределение речи и механики организации диалога."
+    },
+    {
+      "instrument_version_id": 3,
+      "criterion_id": 21,
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Промежуточное и общее резюмирование."
+    },
+    {
+      "instrument_version_id": 3,
+      "criterion_id": 23,
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Похвала, давление, границы и оценка мнения — только отдельные сигналы."
+    },
+    {
+      "instrument_version_id": 3,
+      "criterion_id": 24,
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Похвала не доказывает субъективный опыт успеха."
+    },
+    {
+      "instrument_version_id": 3,
+      "criterion_id": 25,
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Похвала не доказывает личное и профессиональное доверие."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 1,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 2,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 3,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 4,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 5,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 6,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 7,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 8,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 9,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 10,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 11,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 12,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 13,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 14,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 15,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 16,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 17,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 18,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 19,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 20,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 21,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 22,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 23,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 24,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 25,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    },
+    {
+      "instrument_version_id": 4,
+      "criterion_id": 26,
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    }
+  ],
+  "total": 75
+}

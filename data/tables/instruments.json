@@ -1,0 +1,89 @@
+{
+  "name": "instruments",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "code",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "name",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "provider",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "instrument_kind",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 5,
+      "name": "description",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "code": "LLM_EVAL",
+      "name": "LLM-оценка критериев ТюмГУ",
+      "provider": "ТюмГУ",
+      "instrument_kind": "llm",
+      "description": "Прототипируемый анализ 26 критериев по транскрипту и, в будущих версиях, материалам занятия."
+    },
+    {
+      "id": 2,
+      "code": "MGPU_VISUAL",
+      "name": "Визуальный считыватель эмоций МГПУ",
+      "provider": "МГПУ",
+      "instrument_kind": "video_analytics",
+      "description": "Визуальные показатели эмоций и вовлечённости; не являются прямыми измерениями педагогических конструктов."
+    },
+    {
+      "id": 3,
+      "code": "MGPU_AUDIO",
+      "name": "Анализатор аудио МГПУ",
+      "provider": "МГПУ",
+      "instrument_kind": "audio_analytics",
+      "description": "Показатели речи, тишины, темпа и коммуникативных тактик; методики большей части показателей не документированы."
+    },
+    {
+      "id": 4,
+      "code": "EXPERT",
+      "name": "Эксперт по чек-листу ТюмГУ",
+      "provider": "ТюмГУ",
+      "instrument_kind": "human",
+      "description": "Независимая экспертная оценка по операционализированному чек-листу и доказательным фрагментам."
+    }
+  ],
+  "total": 4
+}

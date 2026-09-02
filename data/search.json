@@ -1,0 +1,2624 @@
+{
+  "criteria": [
+    {
+      "id": 1,
+      "number": 1,
+      "code": "C01",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Качество содержания",
+      "name": "Уместность",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 2
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "code": "C02",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Качество содержания",
+      "name": "Структурность",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 3
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "code": "C03",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Качество содержания",
+      "name": "Достоверность",
+      "readiness_status": "conditional",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 1,
+      "instrument_links_count": 2
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "code": "C04",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Качество содержания",
+      "name": "Наличие «крупных планов»",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 2
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "code": "C05",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Качество содержания",
+      "name": "Наличие «частных случаев»",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 2
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "code": "C06",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Качество содержания",
+      "name": "Сложность",
+      "readiness_status": "conditional",
+      "platform_coverage_status": "indirect",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 2,
+      "instrument_links_count": 4
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "code": "C07",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Качество содержания",
+      "name": "Ресурсность",
+      "readiness_status": "conditional",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 1,
+      "instrument_links_count": 3
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "code": "C08",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Объяснение («разворачивание») содержания",
+      "name": "Присоединение",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 2
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "code": "C09",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Объяснение («разворачивание») содержания",
+      "name": "Понятность и логичность",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 3
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "code": "C10",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Объяснение («разворачивание») содержания",
+      "name": "Профессиональный язык",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 2
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "code": "C11",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Объяснение («разворачивание») содержания",
+      "name": "Акцентирование",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 3
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "code": "C12",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Объяснение («разворачивание») содержания",
+      "name": "Визуализация",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 2
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "code": "C13",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Объяснение («разворачивание») содержания",
+      "name": "Темп",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 3
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "code": "C14",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Цель и задачи занятия",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 3
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "code": "C15",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Методический инструментарий",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 3
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "code": "C16",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Создание комфортных условий",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 4
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "code": "C17",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Гибкость",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 3
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "code": "C18",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Концентрация внимания",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 4
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "code": "C19",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Проблемность",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 3
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "code": "C20",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Диалогичность",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 3
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "code": "C21",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Подведение итогов",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 3
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "code": "C22",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Использование цифровых инструментов",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 2
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "code": "C23",
+      "block_name": "Профессиональная позиция",
+      "subblock_name": null,
+      "name": "Эмоционально безопасное пространство",
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 0,
+      "instrument_links_count": 4
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "code": "C24",
+      "block_name": "Профессиональная позиция",
+      "subblock_name": null,
+      "name": "Опыт успеха",
+      "readiness_status": "not_from_recording",
+      "platform_coverage_status": "indirect",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 2,
+      "instrument_links_count": 4
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "code": "C25",
+      "block_name": "Профессиональная позиция",
+      "subblock_name": null,
+      "name": "Доверие",
+      "readiness_status": "not_from_recording",
+      "platform_coverage_status": "indirect",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 1,
+      "instrument_links_count": 4
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "code": "C26",
+      "block_name": "Профессиональная позиция",
+      "subblock_name": null,
+      "name": "«Делает то, что проповедует»",
+      "readiness_status": "conditional",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+      "data_requirements_count": 2,
+      "instrument_links_count": 2
+    }
+  ],
+  "instruments": [
+    {
+      "id": 1,
+      "code": "LLM_EVAL",
+      "name": "LLM-оценка критериев ТюмГУ",
+      "provider": "ТюмГУ",
+      "instrument_kind": "llm",
+      "description": "Прототипируемый анализ 26 критериев по транскрипту и, в будущих версиях, материалам занятия.",
+      "versions_count": 1,
+      "criteria_count": 26
+    },
+    {
+      "id": 2,
+      "code": "MGPU_VISUAL",
+      "name": "Визуальный считыватель эмоций МГПУ",
+      "provider": "МГПУ",
+      "instrument_kind": "video_analytics",
+      "description": "Визуальные показатели эмоций и вовлечённости; не являются прямыми измерениями педагогических конструктов.",
+      "versions_count": 1,
+      "criteria_count": 6
+    },
+    {
+      "id": 3,
+      "code": "MGPU_AUDIO",
+      "name": "Анализатор аудио МГПУ",
+      "provider": "МГПУ",
+      "instrument_kind": "audio_analytics",
+      "description": "Показатели речи, тишины, темпа и коммуникативных тактик; методики большей части показателей не документированы.",
+      "versions_count": 1,
+      "criteria_count": 17
+    },
+    {
+      "id": 4,
+      "code": "EXPERT",
+      "name": "Эксперт по чек-листу ТюмГУ",
+      "provider": "ТюмГУ",
+      "instrument_kind": "human",
+      "description": "Независимая экспертная оценка по операционализированному чек-листу и доказательным фрагментам.",
+      "versions_count": 1,
+      "criteria_count": 26
+    }
+  ],
+  "conditions": [
+    {
+      "id": 1,
+      "study_id": 1,
+      "code": "A0",
+      "name": "Эксперт без ИИ",
+      "description": "Независимый экспертный референс и базовая трудоёмкость.",
+      "condition_order": 0,
+      "instruments": [
+        {
+          "code": "EXPERT",
+          "name": "Эксперт по чек-листу ТюмГУ",
+          "instrument_kind": "human",
+          "role": "reference",
+          "notes": "Независимая разметка."
+        }
+      ],
+      "data_types": [
+        {
+          "code": "transcript_txt",
+          "name": "TXT-транскрипт",
+          "category": "transcript",
+          "requirement_role": "required",
+          "purpose": "Основной текстовый источник референса."
+        },
+        {
+          "code": "audio_recording",
+          "name": "Аудиозапись",
+          "category": "recording",
+          "requirement_role": "optional",
+          "purpose": "Проверка речи."
+        },
+        {
+          "code": "video_recording",
+          "name": "Видеозапись",
+          "category": "recording",
+          "requirement_role": "optional",
+          "purpose": "Проверка визуального контекста."
+        },
+        {
+          "code": "slides",
+          "name": "Слайды и визуальные материалы",
+          "category": "materials",
+          "requirement_role": "optional",
+          "purpose": "Проверка слайдов."
+        },
+        {
+          "code": "course_program",
+          "name": "Программа дисциплины",
+          "category": "materials",
+          "requirement_role": "optional",
+          "purpose": "Предметный контекст."
+        },
+        {
+          "code": "expert_annotation",
+          "name": "Экспертная разметка",
+          "category": "annotation",
+          "requirement_role": "derived",
+          "purpose": "Экспертный референс."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "study_id": 1,
+      "code": "A1",
+      "name": "Готовые метрики МГПУ",
+      "description": "Визуальные и аудиопоказатели текущей платформы без новых моделей.",
+      "condition_order": 1,
+      "instruments": [
+        {
+          "code": "MGPU_VISUAL",
+          "name": "Визуальный считыватель эмоций МГПУ",
+          "instrument_kind": "video_analytics",
+          "role": "primary",
+          "notes": "Готовые визуальные метрики."
+        },
+        {
+          "code": "MGPU_AUDIO",
+          "name": "Анализатор аудио МГПУ",
+          "instrument_kind": "audio_analytics",
+          "role": "primary",
+          "notes": "Готовые аудиометрики."
+        }
+      ],
+      "data_types": [
+        {
+          "code": "audio_recording",
+          "name": "Аудиозапись",
+          "category": "recording",
+          "requirement_role": "required",
+          "purpose": "Вход аудиомодуля."
+        },
+        {
+          "code": "video_recording",
+          "name": "Видеозапись",
+          "category": "recording",
+          "requirement_role": "required",
+          "purpose": "Вход визуального модуля."
+        },
+        {
+          "code": "platform_metrics",
+          "name": "Метрики платформы МГПУ",
+          "category": "platform",
+          "requirement_role": "derived",
+          "purpose": "Готовые метрики платформы."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "study_id": 1,
+      "code": "A2",
+      "name": "TXT + материалы",
+      "description": "LLM-анализ содержания по транскрипту и материалам курса.",
+      "condition_order": 2,
+      "instruments": [
+        {
+          "code": "LLM_EVAL",
+          "name": "LLM-оценка критериев ТюмГУ",
+          "instrument_kind": "llm",
+          "role": "primary",
+          "notes": "Планируемая доработка LLM-инструмента."
+        }
+      ],
+      "data_types": [
+        {
+          "code": "transcript_txt",
+          "name": "TXT-транскрипт",
+          "category": "transcript",
+          "requirement_role": "required",
+          "purpose": "Текст занятия."
+        },
+        {
+          "code": "slides",
+          "name": "Слайды и визуальные материалы",
+          "category": "materials",
+          "requirement_role": "optional",
+          "purpose": "Слайды как материал без анализа видео."
+        },
+        {
+          "code": "lesson_plan",
+          "name": "План занятия",
+          "category": "materials",
+          "requirement_role": "optional",
+          "purpose": "План занятия."
+        },
+        {
+          "code": "course_program",
+          "name": "Программа дисциплины",
+          "category": "materials",
+          "requirement_role": "optional",
+          "purpose": "Программа."
+        },
+        {
+          "code": "learning_objectives",
+          "name": "Цели и задачи занятия",
+          "category": "materials",
+          "requirement_role": "optional",
+          "purpose": "Цели."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "study_id": 1,
+      "code": "A3",
+      "name": "Аудио + TXT + материалы",
+      "description": "Аудиопоказатели вместе с текстовым и содержательным анализом.",
+      "condition_order": 3,
+      "instruments": [
+        {
+          "code": "LLM_EVAL",
+          "name": "LLM-оценка критериев ТюмГУ",
+          "instrument_kind": "llm",
+          "role": "primary",
+          "notes": "Содержательный анализ."
+        },
+        {
+          "code": "MGPU_AUDIO",
+          "name": "Анализатор аудио МГПУ",
+          "instrument_kind": "audio_analytics",
+          "role": "assistant",
+          "notes": "Аудиопризнаки и события."
+        }
+      ],
+      "data_types": [
+        {
+          "code": "transcript_txt",
+          "name": "TXT-транскрипт",
+          "category": "transcript",
+          "requirement_role": "required",
+          "purpose": "Текст занятия."
+        },
+        {
+          "code": "audio_recording",
+          "name": "Аудиозапись",
+          "category": "recording",
+          "requirement_role": "required",
+          "purpose": "Аудиосигнал."
+        },
+        {
+          "code": "lesson_plan",
+          "name": "План занятия",
+          "category": "materials",
+          "requirement_role": "optional",
+          "purpose": "План занятия."
+        },
+        {
+          "code": "course_program",
+          "name": "Программа дисциплины",
+          "category": "materials",
+          "requirement_role": "optional",
+          "purpose": "Программа."
+        },
+        {
+          "code": "learning_objectives",
+          "name": "Цели и задачи занятия",
+          "category": "materials",
+          "requirement_role": "optional",
+          "purpose": "Цели."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "study_id": 1,
+      "code": "A4",
+      "name": "Видео + аудио + TXT + материалы",
+      "description": "Полный мультимодальный анализ записи, слайдов и контекста.",
+      "condition_order": 4,
+      "instruments": [
+        {
+          "code": "LLM_EVAL",
+          "name": "LLM-оценка критериев ТюмГУ",
+          "instrument_kind": "llm",
+          "role": "primary",
+          "notes": "Содержательный и мультимодальный синтез."
+        },
+        {
+          "code": "MGPU_VISUAL",
+          "name": "Визуальный считыватель эмоций МГПУ",
+          "instrument_kind": "video_analytics",
+          "role": "assistant",
+          "notes": "Визуальные прокси."
+        },
+        {
+          "code": "MGPU_AUDIO",
+          "name": "Анализатор аудио МГПУ",
+          "instrument_kind": "audio_analytics",
+          "role": "assistant",
+          "notes": "Аудиопризнаки и события."
+        }
+      ],
+      "data_types": [
+        {
+          "code": "transcript_txt",
+          "name": "TXT-транскрипт",
+          "category": "transcript",
+          "requirement_role": "required",
+          "purpose": "Текст занятия."
+        },
+        {
+          "code": "audio_recording",
+          "name": "Аудиозапись",
+          "category": "recording",
+          "requirement_role": "required",
+          "purpose": "Аудиосигнал."
+        },
+        {
+          "code": "video_recording",
+          "name": "Видеозапись",
+          "category": "recording",
+          "requirement_role": "required",
+          "purpose": "Видео занятия."
+        },
+        {
+          "code": "screen_recording",
+          "name": "Запись демонстрации экрана",
+          "category": "recording",
+          "requirement_role": "optional",
+          "purpose": "Демонстрация экрана."
+        },
+        {
+          "code": "slides",
+          "name": "Слайды и визуальные материалы",
+          "category": "materials",
+          "requirement_role": "optional",
+          "purpose": "Исходные слайды."
+        },
+        {
+          "code": "lesson_plan",
+          "name": "План занятия",
+          "category": "materials",
+          "requirement_role": "optional",
+          "purpose": "План занятия."
+        },
+        {
+          "code": "course_program",
+          "name": "Программа дисциплины",
+          "category": "materials",
+          "requirement_role": "optional",
+          "purpose": "Программа."
+        },
+        {
+          "code": "learning_objectives",
+          "name": "Цели и задачи занятия",
+          "category": "materials",
+          "requirement_role": "optional",
+          "purpose": "Цели."
+        },
+        {
+          "code": "slide_frames_ocr",
+          "name": "Кадры и OCR слайдов",
+          "category": "materials",
+          "requirement_role": "derived",
+          "purpose": "Кадры и OCR слайдов."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "study_id": 1,
+      "code": "A5",
+      "name": "Эксперт + ИИ-доказательства",
+      "description": "Эксперт принимает решение с доступом к найденным ИИ фрагментам; crossover с A0.",
+      "condition_order": 5,
+      "instruments": [
+        {
+          "code": "LLM_EVAL",
+          "name": "LLM-оценка критериев ТюмГУ",
+          "instrument_kind": "llm",
+          "role": "assistant",
+          "notes": "Кандидаты доказательных фрагментов."
+        },
+        {
+          "code": "MGPU_VISUAL",
+          "name": "Визуальный считыватель эмоций МГПУ",
+          "instrument_kind": "video_analytics",
+          "role": "assistant",
+          "notes": "Дополнительные визуальные прокси."
+        },
+        {
+          "code": "MGPU_AUDIO",
+          "name": "Анализатор аудио МГПУ",
+          "instrument_kind": "audio_analytics",
+          "role": "assistant",
+          "notes": "Дополнительные аудиопрокси."
+        },
+        {
+          "code": "EXPERT",
+          "name": "Эксперт по чек-листу ТюмГУ",
+          "instrument_kind": "human",
+          "role": "primary",
+          "notes": "Окончательное экспертное решение."
+        }
+      ],
+      "data_types": [
+        {
+          "code": "transcript_txt",
+          "name": "TXT-транскрипт",
+          "category": "transcript",
+          "requirement_role": "required",
+          "purpose": "Текст занятия."
+        },
+        {
+          "code": "audio_recording",
+          "name": "Аудиозапись",
+          "category": "recording",
+          "requirement_role": "optional",
+          "purpose": "Аудиоконтекст."
+        },
+        {
+          "code": "video_recording",
+          "name": "Видеозапись",
+          "category": "recording",
+          "requirement_role": "optional",
+          "purpose": "Видеоконтекст."
+        },
+        {
+          "code": "slides",
+          "name": "Слайды и визуальные материалы",
+          "category": "materials",
+          "requirement_role": "optional",
+          "purpose": "Визуальные материалы."
+        },
+        {
+          "code": "expert_annotation",
+          "name": "Экспертная разметка",
+          "category": "annotation",
+          "requirement_role": "derived",
+          "purpose": "Экспертное решение с журналом изменений."
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "id": 1,
+      "study_id": 1,
+      "code": "E1",
+      "name": "Конструктная валидность",
+      "hypothesis": "Машина находит проявление самого критерия, а не похожий технический след.",
+      "effect_order": 1,
+      "effect_check_id": 1,
+      "check_code": "EC_E1",
+      "unit_of_analysis": "Доказательный фрагмент по критерию",
+      "comparison_description": "A2–A4 против независимого A0.",
+      "success_rule": "Порог доли подтверждённых доказательств и допустимых типов ошибок фиксируется после калибровки.",
+      "method_code": "T1",
+      "method_name": "Экспертная проверка доказательств",
+      "method_description": "Эксперт принимает или отклоняет каждый доказательный фрагмент и классифицирует подмену конструкта.",
+      "metrics": "Доля подтверждённых доказательств; типы ложных выводов",
+      "procedure": "Слепая независимая проверка и качественный разбор ошибок.",
+      "conditions": [
+        {
+          "code": "A0",
+          "name": "Эксперт без ИИ",
+          "role": "reference",
+          "notes": null
+        },
+        {
+          "code": "A2",
+          "name": "TXT + материалы",
+          "role": "candidate",
+          "notes": null
+        },
+        {
+          "code": "A3",
+          "name": "Аудио + TXT + материалы",
+          "role": "candidate",
+          "notes": null
+        },
+        {
+          "code": "A4",
+          "name": "Видео + аудио + TXT + материалы",
+          "role": "candidate",
+          "notes": null
+        }
+      ],
+      "data_types": [
+        {
+          "code": "transcript_txt",
+          "name": "TXT-транскрипт",
+          "role": "required",
+          "notes": "Текстовый источник доказательств."
+        },
+        {
+          "code": "expert_annotation",
+          "name": "Экспертная разметка",
+          "role": "reference",
+          "notes": "Экспертное решение о соответствии конструкту."
+        }
+      ],
+      "criteria": [
+        {
+          "code": "C01",
+          "number": 1,
+          "name": "Уместность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C02",
+          "number": 2,
+          "name": "Структурность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C03",
+          "number": 3,
+          "name": "Достоверность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C04",
+          "number": 4,
+          "name": "Наличие «крупных планов»",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C05",
+          "number": 5,
+          "name": "Наличие «частных случаев»",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C06",
+          "number": 6,
+          "name": "Сложность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C07",
+          "number": 7,
+          "name": "Ресурсность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C08",
+          "number": 8,
+          "name": "Присоединение",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C09",
+          "number": 9,
+          "name": "Понятность и логичность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C10",
+          "number": 10,
+          "name": "Профессиональный язык",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C11",
+          "number": 11,
+          "name": "Акцентирование",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C12",
+          "number": 12,
+          "name": "Визуализация",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C13",
+          "number": 13,
+          "name": "Темп",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C14",
+          "number": 14,
+          "name": "Цель и задачи занятия",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C15",
+          "number": 15,
+          "name": "Методический инструментарий",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C16",
+          "number": 16,
+          "name": "Создание комфортных условий",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C17",
+          "number": 17,
+          "name": "Гибкость",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C18",
+          "number": 18,
+          "name": "Концентрация внимания",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C19",
+          "number": 19,
+          "name": "Проблемность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C20",
+          "number": 20,
+          "name": "Диалогичность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C21",
+          "number": 21,
+          "name": "Подведение итогов",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C22",
+          "number": 22,
+          "name": "Использование цифровых инструментов",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C23",
+          "number": 23,
+          "name": "Эмоционально безопасное пространство",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C24",
+          "number": 24,
+          "name": "Опыт успеха",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C25",
+          "number": 25,
+          "name": "Доверие",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C26",
+          "number": 26,
+          "name": "«Делает то, что проповедует»",
+          "scope_role": "primary"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "study_id": 1,
+      "code": "E2",
+      "name": "Точность обнаружения событий",
+      "hypothesis": "Таймкоды и сегменты согласуются с независимой экспертной разметкой.",
+      "effect_order": 2,
+      "effect_check_id": 2,
+      "check_code": "EC_E2",
+      "unit_of_analysis": "Событие или временной сегмент",
+      "comparison_description": "A2–A4 против таймкодов A0.",
+      "success_rule": "Пороги macro-F1 и temporal IoU фиксируются до независимого теста.",
+      "method_code": "T2",
+      "method_name": "Сопоставление событий и таймкодов",
+      "method_description": "Автоматические сегменты сопоставляются с экспертными событиями.",
+      "metrics": "Precision; recall; macro-F1; temporal IoU; допуск по таймкоду",
+      "procedure": "Расчёт отдельно по каждому критерию на независимой выборке.",
+      "conditions": [
+        {
+          "code": "A0",
+          "name": "Эксперт без ИИ",
+          "role": "reference",
+          "notes": null
+        },
+        {
+          "code": "A2",
+          "name": "TXT + материалы",
+          "role": "candidate",
+          "notes": null
+        },
+        {
+          "code": "A3",
+          "name": "Аудио + TXT + материалы",
+          "role": "candidate",
+          "notes": null
+        },
+        {
+          "code": "A4",
+          "name": "Видео + аудио + TXT + материалы",
+          "role": "candidate",
+          "notes": null
+        }
+      ],
+      "data_types": [
+        {
+          "code": "transcript_srt",
+          "name": "SRT-транскрипт",
+          "role": "required",
+          "notes": "Экспертные и автоматические таймкоды."
+        },
+        {
+          "code": "transcript_json",
+          "name": "Структурированный транскрипт",
+          "role": "required",
+          "notes": "Структурированные сегменты."
+        },
+        {
+          "code": "expert_annotation",
+          "name": "Экспертная разметка",
+          "role": "reference",
+          "notes": "Эталон событий."
+        }
+      ],
+      "criteria": [
+        {
+          "code": "C01",
+          "number": 1,
+          "name": "Уместность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C02",
+          "number": 2,
+          "name": "Структурность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C03",
+          "number": 3,
+          "name": "Достоверность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C04",
+          "number": 4,
+          "name": "Наличие «крупных планов»",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C05",
+          "number": 5,
+          "name": "Наличие «частных случаев»",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C06",
+          "number": 6,
+          "name": "Сложность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C07",
+          "number": 7,
+          "name": "Ресурсность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C08",
+          "number": 8,
+          "name": "Присоединение",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C09",
+          "number": 9,
+          "name": "Понятность и логичность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C10",
+          "number": 10,
+          "name": "Профессиональный язык",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C11",
+          "number": 11,
+          "name": "Акцентирование",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C12",
+          "number": 12,
+          "name": "Визуализация",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C13",
+          "number": 13,
+          "name": "Темп",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C14",
+          "number": 14,
+          "name": "Цель и задачи занятия",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C15",
+          "number": 15,
+          "name": "Методический инструментарий",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C16",
+          "number": 16,
+          "name": "Создание комфортных условий",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C17",
+          "number": 17,
+          "name": "Гибкость",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C18",
+          "number": 18,
+          "name": "Концентрация внимания",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C19",
+          "number": 19,
+          "name": "Проблемность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C20",
+          "number": 20,
+          "name": "Диалогичность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C21",
+          "number": 21,
+          "name": "Подведение итогов",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C22",
+          "number": 22,
+          "name": "Использование цифровых инструментов",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C23",
+          "number": 23,
+          "name": "Эмоционально безопасное пространство",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C24",
+          "number": 24,
+          "name": "Опыт успеха",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C25",
+          "number": 25,
+          "name": "Доверие",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C26",
+          "number": 26,
+          "name": "«Делает то, что проповедует»",
+          "scope_role": "primary"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "study_id": 1,
+      "code": "E3",
+      "name": "Согласие по итоговой оценке",
+      "hypothesis": "Машинный уровень 0–2 сопоставим с экспертным референсом при явном статусе недостатка данных.",
+      "effect_order": 3,
+      "effect_check_id": 3,
+      "check_code": "EC_E3",
+      "unit_of_analysis": "Критерий × занятие",
+      "comparison_description": "A1–A4 против согласованного A0.",
+      "success_rule": "Пороги weighted kappa, macro-F1 и MAE фиксируются после оценки межэкспертного согласия.",
+      "method_code": "T3",
+      "method_name": "Согласие шкалы 0–2",
+      "method_description": "Сначала проверяется согласие экспертов, затем машина сравнивается с согласованным референсом.",
+      "metrics": "Weighted kappa; macro-F1; MAE",
+      "procedure": "Статус недостатка данных анализируется отдельно и не кодируется нулём.",
+      "conditions": [
+        {
+          "code": "A0",
+          "name": "Эксперт без ИИ",
+          "role": "reference",
+          "notes": null
+        },
+        {
+          "code": "A1",
+          "name": "Готовые метрики МГПУ",
+          "role": "candidate",
+          "notes": null
+        },
+        {
+          "code": "A2",
+          "name": "TXT + материалы",
+          "role": "candidate",
+          "notes": null
+        },
+        {
+          "code": "A3",
+          "name": "Аудио + TXT + материалы",
+          "role": "candidate",
+          "notes": null
+        },
+        {
+          "code": "A4",
+          "name": "Видео + аудио + TXT + материалы",
+          "role": "candidate",
+          "notes": null
+        }
+      ],
+      "data_types": [
+        {
+          "code": "expert_annotation",
+          "name": "Экспертная разметка",
+          "role": "reference",
+          "notes": "Согласованная шкала 0–2."
+        }
+      ],
+      "criteria": [
+        {
+          "code": "C01",
+          "number": 1,
+          "name": "Уместность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C02",
+          "number": 2,
+          "name": "Структурность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C03",
+          "number": 3,
+          "name": "Достоверность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C04",
+          "number": 4,
+          "name": "Наличие «крупных планов»",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C05",
+          "number": 5,
+          "name": "Наличие «частных случаев»",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C06",
+          "number": 6,
+          "name": "Сложность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C07",
+          "number": 7,
+          "name": "Ресурсность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C08",
+          "number": 8,
+          "name": "Присоединение",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C09",
+          "number": 9,
+          "name": "Понятность и логичность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C10",
+          "number": 10,
+          "name": "Профессиональный язык",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C11",
+          "number": 11,
+          "name": "Акцентирование",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C12",
+          "number": 12,
+          "name": "Визуализация",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C13",
+          "number": 13,
+          "name": "Темп",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C14",
+          "number": 14,
+          "name": "Цель и задачи занятия",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C15",
+          "number": 15,
+          "name": "Методический инструментарий",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C16",
+          "number": 16,
+          "name": "Создание комфортных условий",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C17",
+          "number": 17,
+          "name": "Гибкость",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C18",
+          "number": 18,
+          "name": "Концентрация внимания",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C19",
+          "number": 19,
+          "name": "Проблемность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C20",
+          "number": 20,
+          "name": "Диалогичность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C21",
+          "number": 21,
+          "name": "Подведение итогов",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C22",
+          "number": 22,
+          "name": "Использование цифровых инструментов",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C23",
+          "number": 23,
+          "name": "Эмоционально безопасное пространство",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C24",
+          "number": 24,
+          "name": "Опыт успеха",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C25",
+          "number": 25,
+          "name": "Доверие",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C26",
+          "number": 26,
+          "name": "«Делает то, что проповедует»",
+          "scope_role": "primary"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "study_id": 1,
+      "code": "E4",
+      "name": "Добавочная ценность мультимодальности",
+      "hypothesis": "Аудио, видео и материалы улучшают результат относительно готовых метрик или одного транскрипта.",
+      "effect_order": 4,
+      "effect_check_id": 4,
+      "check_code": "EC_E4",
+      "unit_of_analysis": "Критерий × занятие",
+      "comparison_description": "Парная абляция A1 ↔ A2 ↔ A3 ↔ A4.",
+      "success_rule": "Добавление модальности должно давать заранее зарегистрированный положительный эффект или обоснованно не требоваться.",
+      "method_code": "T4",
+      "method_name": "Мультимодальная абляция",
+      "method_description": "На одних занятиях последовательно сравниваются A1, A2, A3 и A4.",
+      "metrics": "Разница F1/kappa; доля подтверждённых доказательств",
+      "procedure": "Парное сравнение с кластерным bootstrap по занятиям и преподавателям.",
+      "conditions": [
+        {
+          "code": "A1",
+          "name": "Готовые метрики МГПУ",
+          "role": "baseline",
+          "notes": null
+        },
+        {
+          "code": "A2",
+          "name": "TXT + материалы",
+          "role": "ablation",
+          "notes": "Добавлен текст и материалы."
+        },
+        {
+          "code": "A3",
+          "name": "Аудио + TXT + материалы",
+          "role": "ablation",
+          "notes": "Добавлено аудио."
+        },
+        {
+          "code": "A4",
+          "name": "Видео + аудио + TXT + материалы",
+          "role": "ablation",
+          "notes": "Добавлено видео."
+        }
+      ],
+      "data_types": [
+        {
+          "code": "transcript_txt",
+          "name": "TXT-транскрипт",
+          "role": "contrast",
+          "notes": "Текстовая модальность."
+        },
+        {
+          "code": "audio_recording",
+          "name": "Аудиозапись",
+          "role": "contrast",
+          "notes": "Аудиомодальность."
+        },
+        {
+          "code": "video_recording",
+          "name": "Видеозапись",
+          "role": "contrast",
+          "notes": "Видеомодальность."
+        },
+        {
+          "code": "slides",
+          "name": "Слайды и визуальные материалы",
+          "role": "contrast",
+          "notes": "Материалы и слайды."
+        }
+      ],
+      "criteria": [
+        {
+          "code": "C01",
+          "number": 1,
+          "name": "Уместность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C02",
+          "number": 2,
+          "name": "Структурность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C03",
+          "number": 3,
+          "name": "Достоверность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C04",
+          "number": 4,
+          "name": "Наличие «крупных планов»",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C05",
+          "number": 5,
+          "name": "Наличие «частных случаев»",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C06",
+          "number": 6,
+          "name": "Сложность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C07",
+          "number": 7,
+          "name": "Ресурсность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C08",
+          "number": 8,
+          "name": "Присоединение",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C09",
+          "number": 9,
+          "name": "Понятность и логичность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C10",
+          "number": 10,
+          "name": "Профессиональный язык",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C11",
+          "number": 11,
+          "name": "Акцентирование",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C12",
+          "number": 12,
+          "name": "Визуализация",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C13",
+          "number": 13,
+          "name": "Темп",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C14",
+          "number": 14,
+          "name": "Цель и задачи занятия",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C15",
+          "number": 15,
+          "name": "Методический инструментарий",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C16",
+          "number": 16,
+          "name": "Создание комфортных условий",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C17",
+          "number": 17,
+          "name": "Гибкость",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C18",
+          "number": 18,
+          "name": "Концентрация внимания",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C19",
+          "number": 19,
+          "name": "Проблемность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C20",
+          "number": 20,
+          "name": "Диалогичность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C21",
+          "number": 21,
+          "name": "Подведение итогов",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C22",
+          "number": 22,
+          "name": "Использование цифровых инструментов",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C23",
+          "number": 23,
+          "name": "Эмоционально безопасное пространство",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C24",
+          "number": 24,
+          "name": "Опыт успеха",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C25",
+          "number": 25,
+          "name": "Доверие",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C26",
+          "number": 26,
+          "name": "«Делает то, что проповедует»",
+          "scope_role": "primary"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "study_id": 1,
+      "code": "E5",
+      "name": "Переносимость",
+      "hypothesis": "Качество сохраняется на новых преподавателях, дисциплинах, форматах и условиях записи.",
+      "effect_order": 5,
+      "effect_check_id": 5,
+      "check_code": "EC_E5",
+      "unit_of_analysis": "Преподаватель, занятие и страта",
+      "comparison_description": "A1–A4 на holdout по преподавателям с A0 как референсом.",
+      "success_rule": "Качество и интервалы должны оставаться приемлемыми в ключевых стратах.",
+      "method_code": "T5",
+      "method_name": "Holdout и анализ переносимости",
+      "method_description": "Настройка и тест разделяются по преподавателям и занятиям.",
+      "metrics": "Метрики качества по стратам и их доверительные интервалы",
+      "procedure": "Отдельные срезы по формату, размеру аудитории, дисциплине и качеству записи.",
+      "conditions": [
+        {
+          "code": "A0",
+          "name": "Эксперт без ИИ",
+          "role": "reference",
+          "notes": null
+        },
+        {
+          "code": "A1",
+          "name": "Готовые метрики МГПУ",
+          "role": "candidate",
+          "notes": null
+        },
+        {
+          "code": "A2",
+          "name": "TXT + материалы",
+          "role": "candidate",
+          "notes": null
+        },
+        {
+          "code": "A3",
+          "name": "Аудио + TXT + материалы",
+          "role": "candidate",
+          "notes": null
+        },
+        {
+          "code": "A4",
+          "name": "Видео + аудио + TXT + материалы",
+          "role": "candidate",
+          "notes": null
+        }
+      ],
+      "data_types": [
+        {
+          "code": "technical_metadata",
+          "name": "Технические метаданные",
+          "role": "required",
+          "notes": "Страты качества и технических условий."
+        },
+        {
+          "code": "expert_annotation",
+          "name": "Экспертная разметка",
+          "role": "reference",
+          "notes": "Экспертный референс."
+        }
+      ],
+      "criteria": [
+        {
+          "code": "C01",
+          "number": 1,
+          "name": "Уместность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C02",
+          "number": 2,
+          "name": "Структурность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C03",
+          "number": 3,
+          "name": "Достоверность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C04",
+          "number": 4,
+          "name": "Наличие «крупных планов»",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C05",
+          "number": 5,
+          "name": "Наличие «частных случаев»",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C06",
+          "number": 6,
+          "name": "Сложность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C07",
+          "number": 7,
+          "name": "Ресурсность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C08",
+          "number": 8,
+          "name": "Присоединение",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C09",
+          "number": 9,
+          "name": "Понятность и логичность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C10",
+          "number": 10,
+          "name": "Профессиональный язык",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C11",
+          "number": 11,
+          "name": "Акцентирование",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C12",
+          "number": 12,
+          "name": "Визуализация",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C13",
+          "number": 13,
+          "name": "Темп",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C14",
+          "number": 14,
+          "name": "Цель и задачи занятия",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C15",
+          "number": 15,
+          "name": "Методический инструментарий",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C16",
+          "number": 16,
+          "name": "Создание комфортных условий",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C17",
+          "number": 17,
+          "name": "Гибкость",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C18",
+          "number": 18,
+          "name": "Концентрация внимания",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C19",
+          "number": 19,
+          "name": "Проблемность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C20",
+          "number": 20,
+          "name": "Диалогичность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C21",
+          "number": 21,
+          "name": "Подведение итогов",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C22",
+          "number": 22,
+          "name": "Использование цифровых инструментов",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C23",
+          "number": 23,
+          "name": "Эмоционально безопасное пространство",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C24",
+          "number": 24,
+          "name": "Опыт успеха",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C25",
+          "number": 25,
+          "name": "Доверие",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C26",
+          "number": 26,
+          "name": "«Делает то, что проповедует»",
+          "scope_role": "primary"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "study_id": 1,
+      "code": "E6",
+      "name": "Калиброванная неопределённость",
+      "hypothesis": "Система распознаёт границы применимости и корректно отказывается от неподтверждённых выводов.",
+      "effect_order": 6,
+      "effect_check_id": 6,
+      "check_code": "EC_E6",
+      "unit_of_analysis": "Вывод или отказ по критерию",
+      "comparison_description": "A1–A4 против A0 при разных порогах уверенности.",
+      "success_rule": "Опасные уверенные ошибки ограничены, selective accuracy растёт при снижении coverage.",
+      "method_code": "T6",
+      "method_name": "Калибровка неопределённости",
+      "method_description": "Проверяется точность при разных порогах уверенности и качество отказов.",
+      "metrics": "Coverage; selective accuracy; доля корректных отказов; опасные уверенные ошибки",
+      "procedure": "Порог фиксируется после калибровки до открытия независимого теста.",
+      "conditions": [
+        {
+          "code": "A0",
+          "name": "Эксперт без ИИ",
+          "role": "reference",
+          "notes": null
+        },
+        {
+          "code": "A1",
+          "name": "Готовые метрики МГПУ",
+          "role": "candidate",
+          "notes": null
+        },
+        {
+          "code": "A2",
+          "name": "TXT + материалы",
+          "role": "candidate",
+          "notes": null
+        },
+        {
+          "code": "A3",
+          "name": "Аудио + TXT + материалы",
+          "role": "candidate",
+          "notes": null
+        },
+        {
+          "code": "A4",
+          "name": "Видео + аудио + TXT + материалы",
+          "role": "candidate",
+          "notes": null
+        }
+      ],
+      "data_types": [
+        {
+          "code": "expert_annotation",
+          "name": "Экспертная разметка",
+          "role": "reference",
+          "notes": "Проверка правильности выводов и отказов."
+        }
+      ],
+      "criteria": [
+        {
+          "code": "C01",
+          "number": 1,
+          "name": "Уместность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C02",
+          "number": 2,
+          "name": "Структурность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C03",
+          "number": 3,
+          "name": "Достоверность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C04",
+          "number": 4,
+          "name": "Наличие «крупных планов»",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C05",
+          "number": 5,
+          "name": "Наличие «частных случаев»",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C06",
+          "number": 6,
+          "name": "Сложность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C07",
+          "number": 7,
+          "name": "Ресурсность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C08",
+          "number": 8,
+          "name": "Присоединение",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C09",
+          "number": 9,
+          "name": "Понятность и логичность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C10",
+          "number": 10,
+          "name": "Профессиональный язык",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C11",
+          "number": 11,
+          "name": "Акцентирование",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C12",
+          "number": 12,
+          "name": "Визуализация",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C13",
+          "number": 13,
+          "name": "Темп",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C14",
+          "number": 14,
+          "name": "Цель и задачи занятия",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C15",
+          "number": 15,
+          "name": "Методический инструментарий",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C16",
+          "number": 16,
+          "name": "Создание комфортных условий",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C17",
+          "number": 17,
+          "name": "Гибкость",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C18",
+          "number": 18,
+          "name": "Концентрация внимания",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C19",
+          "number": 19,
+          "name": "Проблемность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C20",
+          "number": 20,
+          "name": "Диалогичность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C21",
+          "number": 21,
+          "name": "Подведение итогов",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C22",
+          "number": 22,
+          "name": "Использование цифровых инструментов",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C23",
+          "number": 23,
+          "name": "Эмоционально безопасное пространство",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C24",
+          "number": 24,
+          "name": "Опыт успеха",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C25",
+          "number": 25,
+          "name": "Доверие",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C26",
+          "number": 26,
+          "name": "«Делает то, что проповедует»",
+          "scope_role": "primary"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "study_id": 1,
+      "code": "E7",
+      "name": "Практическая полезность эксперту",
+      "hypothesis": "ИИ сокращает время и повышает воспроизводимость, не ухудшая качество решения.",
+      "effect_order": 7,
+      "effect_check_id": 7,
+      "check_code": "EC_E7",
+      "unit_of_analysis": "Эксперт × критерий × занятие",
+      "comparison_description": "Сбалансированный crossover A0 ↔ A5.",
+      "success_rule": "Время сокращается без ухудшения согласия с референсом и без роста опасных пропусков.",
+      "method_code": "T7",
+      "method_name": "Сбалансированный crossover A0–A5",
+      "method_description": "Эксперты оценивают сбалансированные кейсы с ИИ-подсказками и без них.",
+      "metrics": "Время; согласие с референсом; исправления; пропуски; оценка полезности",
+      "procedure": "Рандомизировать порядок условий и фиксировать время работы.",
+      "conditions": [
+        {
+          "code": "A0",
+          "name": "Эксперт без ИИ",
+          "role": "baseline",
+          "notes": null
+        },
+        {
+          "code": "A5",
+          "name": "Эксперт + ИИ-доказательства",
+          "role": "assisted",
+          "notes": null
+        }
+      ],
+      "data_types": [
+        {
+          "code": "expert_annotation",
+          "name": "Экспертная разметка",
+          "role": "reference",
+          "notes": "Референс и журнал экспертных решений."
+        }
+      ],
+      "criteria": [
+        {
+          "code": "C01",
+          "number": 1,
+          "name": "Уместность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C02",
+          "number": 2,
+          "name": "Структурность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C03",
+          "number": 3,
+          "name": "Достоверность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C04",
+          "number": 4,
+          "name": "Наличие «крупных планов»",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C05",
+          "number": 5,
+          "name": "Наличие «частных случаев»",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C06",
+          "number": 6,
+          "name": "Сложность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C07",
+          "number": 7,
+          "name": "Ресурсность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C08",
+          "number": 8,
+          "name": "Присоединение",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C09",
+          "number": 9,
+          "name": "Понятность и логичность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C10",
+          "number": 10,
+          "name": "Профессиональный язык",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C11",
+          "number": 11,
+          "name": "Акцентирование",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C12",
+          "number": 12,
+          "name": "Визуализация",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C13",
+          "number": 13,
+          "name": "Темп",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C14",
+          "number": 14,
+          "name": "Цель и задачи занятия",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C15",
+          "number": 15,
+          "name": "Методический инструментарий",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C16",
+          "number": 16,
+          "name": "Создание комфортных условий",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C17",
+          "number": 17,
+          "name": "Гибкость",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C18",
+          "number": 18,
+          "name": "Концентрация внимания",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C19",
+          "number": 19,
+          "name": "Проблемность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C20",
+          "number": 20,
+          "name": "Диалогичность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C21",
+          "number": 21,
+          "name": "Подведение итогов",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C22",
+          "number": 22,
+          "name": "Использование цифровых инструментов",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C23",
+          "number": 23,
+          "name": "Эмоционально безопасное пространство",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C24",
+          "number": 24,
+          "name": "Опыт успеха",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C25",
+          "number": 25,
+          "name": "Доверие",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C26",
+          "number": 26,
+          "name": "«Делает то, что проповедует»",
+          "scope_role": "primary"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "study_id": 1,
+      "code": "E8",
+      "name": "Необходимость дополнительных данных",
+      "hypothesis": "Скрытые состояния и содержательные свойства не угадываются по эмоциям или поведению; новые данные дают проверяемый прирост.",
+      "effect_order": 8,
+      "effect_check_id": 8,
+      "check_code": "EC_E8",
+      "unit_of_analysis": "Критерий × набор доступных данных",
+      "comparison_description": "Запись-only A4 против A4 с дополнительными материалами, диагностикой и опросами.",
+      "success_rule": "Без прямых данных система корректно отказывается; добавочные данные дают измеримый и интерпретируемый прирост.",
+      "method_code": "T8",
+      "method_name": "Проверка границ и добавочных данных",
+      "method_description": "Сравнивается запись-only с записью плюс материалы, диагностика или прямой опрос.",
+      "metrics": "Прирост качества; корректные отказы; ложные выводы без прямых данных",
+      "procedure": "Для критериев 24–25 машинный вывод без прямых студенческих данных запрещён.",
+      "conditions": [
+        {
+          "code": "A0",
+          "name": "Эксперт без ИИ",
+          "role": "reference",
+          "notes": null
+        },
+        {
+          "code": "A4",
+          "name": "Видео + аудио + TXT + материалы",
+          "role": "recording_only",
+          "notes": "Дополнительные данные моделируются через effect_check_data_types."
+        }
+      ],
+      "data_types": [
+        {
+          "code": "lesson_plan",
+          "name": "План занятия",
+          "role": "supplemental",
+          "notes": "План занятия."
+        },
+        {
+          "code": "course_program",
+          "name": "Программа дисциплины",
+          "role": "supplemental",
+          "notes": "Программа дисциплины."
+        },
+        {
+          "code": "external_sources",
+          "name": "Проверенные внешние источники",
+          "role": "supplemental",
+          "notes": "Источники для достоверности."
+        },
+        {
+          "code": "pre_survey",
+          "name": "Опрос до занятия",
+          "role": "contrast",
+          "notes": "Диагностика до."
+        },
+        {
+          "code": "post_survey",
+          "name": "Опрос после занятия",
+          "role": "contrast",
+          "notes": "Опрос после."
+        },
+        {
+          "code": "exit_ticket",
+          "name": "Exit ticket",
+          "role": "contrast",
+          "notes": "Прямые данные опыта успеха."
+        },
+        {
+          "code": "trust_survey",
+          "name": "Валидированный опрос доверия",
+          "role": "contrast",
+          "notes": "Прямые данные доверия."
+        },
+        {
+          "code": "learning_results",
+          "name": "Результаты обучения",
+          "role": "contrast",
+          "notes": "Результаты обучения."
+        }
+      ],
+      "criteria": [
+        {
+          "code": "C03",
+          "number": 3,
+          "name": "Достоверность",
+          "scope_role": "boundary"
+        },
+        {
+          "code": "C06",
+          "number": 6,
+          "name": "Сложность",
+          "scope_role": "boundary"
+        },
+        {
+          "code": "C07",
+          "number": 7,
+          "name": "Ресурсность",
+          "scope_role": "boundary"
+        },
+        {
+          "code": "C24",
+          "number": 24,
+          "name": "Опыт успеха",
+          "scope_role": "boundary"
+        },
+        {
+          "code": "C25",
+          "number": 25,
+          "name": "Доверие",
+          "scope_role": "boundary"
+        },
+        {
+          "code": "C26",
+          "number": 26,
+          "name": "«Делает то, что проповедует»",
+          "scope_role": "boundary"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "study_id": 1,
+      "code": "E9",
+      "name": "Надёжность во времени",
+      "hypothesis": "Вывод устойчив на повторных занятиях и повторных прогонах.",
+      "effect_order": 9,
+      "effect_check_id": 9,
+      "check_code": "EC_E9",
+      "unit_of_analysis": "Повторное занятие или повторный прогон",
+      "comparison_description": "Повторные A4 с A0 как референсом.",
+      "success_rule": "Стабильность фиксируется заранее выбранными метриками; критерий 26 оценивается только продольно.",
+      "method_code": "T9",
+      "method_name": "Продольная и повторная проверка",
+      "method_description": "Сопоставляются повторные занятия и повторные прогоны одной версии.",
+      "metrics": "Стабильность признаков, ошибок, баллов и уверенности",
+      "procedure": "Для критерия 26 итог возможен только по нескольким наблюдениям.",
+      "conditions": [
+        {
+          "code": "A0",
+          "name": "Эксперт без ИИ",
+          "role": "reference",
+          "notes": null
+        },
+        {
+          "code": "A4",
+          "name": "Видео + аудио + TXT + материалы",
+          "role": "candidate",
+          "notes": null
+        }
+      ],
+      "data_types": [
+        {
+          "code": "technical_metadata",
+          "name": "Технические метаданные",
+          "role": "required",
+          "notes": "Идентичность версий и качество повторных записей."
+        },
+        {
+          "code": "expert_annotation",
+          "name": "Экспертная разметка",
+          "role": "reference",
+          "notes": "Экспертный референс по повторным занятиям."
+        }
+      ],
+      "criteria": [
+        {
+          "code": "C01",
+          "number": 1,
+          "name": "Уместность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C02",
+          "number": 2,
+          "name": "Структурность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C03",
+          "number": 3,
+          "name": "Достоверность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C04",
+          "number": 4,
+          "name": "Наличие «крупных планов»",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C05",
+          "number": 5,
+          "name": "Наличие «частных случаев»",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C06",
+          "number": 6,
+          "name": "Сложность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C07",
+          "number": 7,
+          "name": "Ресурсность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C08",
+          "number": 8,
+          "name": "Присоединение",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C09",
+          "number": 9,
+          "name": "Понятность и логичность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C10",
+          "number": 10,
+          "name": "Профессиональный язык",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C11",
+          "number": 11,
+          "name": "Акцентирование",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C12",
+          "number": 12,
+          "name": "Визуализация",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C13",
+          "number": 13,
+          "name": "Темп",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C14",
+          "number": 14,
+          "name": "Цель и задачи занятия",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C15",
+          "number": 15,
+          "name": "Методический инструментарий",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C16",
+          "number": 16,
+          "name": "Создание комфортных условий",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C17",
+          "number": 17,
+          "name": "Гибкость",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C18",
+          "number": 18,
+          "name": "Концентрация внимания",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C19",
+          "number": 19,
+          "name": "Проблемность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C20",
+          "number": 20,
+          "name": "Диалогичность",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C21",
+          "number": 21,
+          "name": "Подведение итогов",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C22",
+          "number": 22,
+          "name": "Использование цифровых инструментов",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C23",
+          "number": 23,
+          "name": "Эмоционально безопасное пространство",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C24",
+          "number": 24,
+          "name": "Опыт успеха",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C25",
+          "number": 25,
+          "name": "Доверие",
+          "scope_role": "primary"
+        },
+        {
+          "code": "C26",
+          "number": 26,
+          "name": "«Делает то, что проповедует»",
+          "scope_role": "longitudinal"
+        }
+      ]
+    }
+  ]
+}

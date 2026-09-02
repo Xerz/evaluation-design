@@ -1,0 +1,239 @@
+{
+  "name": "condition_data_types",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "condition_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "data_type_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 2
+    },
+    {
+      "cid": 2,
+      "name": "requirement_role",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 3
+    },
+    {
+      "cid": 3,
+      "name": "purpose",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "condition_id": 1,
+      "data_type_id": 1,
+      "requirement_role": "required",
+      "purpose": "Основной текстовый источник референса."
+    },
+    {
+      "condition_id": 1,
+      "data_type_id": 4,
+      "requirement_role": "optional",
+      "purpose": "Проверка речи."
+    },
+    {
+      "condition_id": 1,
+      "data_type_id": 5,
+      "requirement_role": "optional",
+      "purpose": "Проверка визуального контекста."
+    },
+    {
+      "condition_id": 1,
+      "data_type_id": 7,
+      "requirement_role": "optional",
+      "purpose": "Проверка слайдов."
+    },
+    {
+      "condition_id": 1,
+      "data_type_id": 9,
+      "requirement_role": "optional",
+      "purpose": "Предметный контекст."
+    },
+    {
+      "condition_id": 1,
+      "data_type_id": 23,
+      "requirement_role": "derived",
+      "purpose": "Экспертный референс."
+    },
+    {
+      "condition_id": 2,
+      "data_type_id": 4,
+      "requirement_role": "required",
+      "purpose": "Вход аудиомодуля."
+    },
+    {
+      "condition_id": 2,
+      "data_type_id": 5,
+      "requirement_role": "required",
+      "purpose": "Вход визуального модуля."
+    },
+    {
+      "condition_id": 2,
+      "data_type_id": 21,
+      "requirement_role": "derived",
+      "purpose": "Готовые метрики платформы."
+    },
+    {
+      "condition_id": 3,
+      "data_type_id": 1,
+      "requirement_role": "required",
+      "purpose": "Текст занятия."
+    },
+    {
+      "condition_id": 3,
+      "data_type_id": 7,
+      "requirement_role": "optional",
+      "purpose": "Слайды как материал без анализа видео."
+    },
+    {
+      "condition_id": 3,
+      "data_type_id": 8,
+      "requirement_role": "optional",
+      "purpose": "План занятия."
+    },
+    {
+      "condition_id": 3,
+      "data_type_id": 9,
+      "requirement_role": "optional",
+      "purpose": "Программа."
+    },
+    {
+      "condition_id": 3,
+      "data_type_id": 10,
+      "requirement_role": "optional",
+      "purpose": "Цели."
+    },
+    {
+      "condition_id": 4,
+      "data_type_id": 1,
+      "requirement_role": "required",
+      "purpose": "Текст занятия."
+    },
+    {
+      "condition_id": 4,
+      "data_type_id": 4,
+      "requirement_role": "required",
+      "purpose": "Аудиосигнал."
+    },
+    {
+      "condition_id": 4,
+      "data_type_id": 8,
+      "requirement_role": "optional",
+      "purpose": "План занятия."
+    },
+    {
+      "condition_id": 4,
+      "data_type_id": 9,
+      "requirement_role": "optional",
+      "purpose": "Программа."
+    },
+    {
+      "condition_id": 4,
+      "data_type_id": 10,
+      "requirement_role": "optional",
+      "purpose": "Цели."
+    },
+    {
+      "condition_id": 5,
+      "data_type_id": 1,
+      "requirement_role": "required",
+      "purpose": "Текст занятия."
+    },
+    {
+      "condition_id": 5,
+      "data_type_id": 4,
+      "requirement_role": "required",
+      "purpose": "Аудиосигнал."
+    },
+    {
+      "condition_id": 5,
+      "data_type_id": 5,
+      "requirement_role": "required",
+      "purpose": "Видео занятия."
+    },
+    {
+      "condition_id": 5,
+      "data_type_id": 6,
+      "requirement_role": "optional",
+      "purpose": "Демонстрация экрана."
+    },
+    {
+      "condition_id": 5,
+      "data_type_id": 7,
+      "requirement_role": "optional",
+      "purpose": "Исходные слайды."
+    },
+    {
+      "condition_id": 5,
+      "data_type_id": 8,
+      "requirement_role": "optional",
+      "purpose": "План занятия."
+    },
+    {
+      "condition_id": 5,
+      "data_type_id": 9,
+      "requirement_role": "optional",
+      "purpose": "Программа."
+    },
+    {
+      "condition_id": 5,
+      "data_type_id": 10,
+      "requirement_role": "optional",
+      "purpose": "Цели."
+    },
+    {
+      "condition_id": 5,
+      "data_type_id": 24,
+      "requirement_role": "derived",
+      "purpose": "Кадры и OCR слайдов."
+    },
+    {
+      "condition_id": 6,
+      "data_type_id": 1,
+      "requirement_role": "required",
+      "purpose": "Текст занятия."
+    },
+    {
+      "condition_id": 6,
+      "data_type_id": 4,
+      "requirement_role": "optional",
+      "purpose": "Аудиоконтекст."
+    },
+    {
+      "condition_id": 6,
+      "data_type_id": 5,
+      "requirement_role": "optional",
+      "purpose": "Видеоконтекст."
+    },
+    {
+      "condition_id": 6,
+      "data_type_id": 7,
+      "requirement_role": "optional",
+      "purpose": "Визуальные материалы."
+    },
+    {
+      "condition_id": 6,
+      "data_type_id": 23,
+      "requirement_role": "derived",
+      "purpose": "Экспертное решение с журналом изменений."
+    }
+  ],
+  "total": 33
+}

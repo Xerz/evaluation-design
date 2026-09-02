@@ -1,0 +1,32 @@
+{
+  "name": "lesson_splits",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "lesson_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "split_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 2
+    },
+    {
+      "cid": 2,
+      "name": "assigned_at",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": "CURRENT_TIMESTAMP",
+      "pk": 0
+    }
+  ],
+  "rows": [],
+  "total": 0
+}

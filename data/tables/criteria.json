@@ -1,0 +1,333 @@
+{
+  "name": "criteria",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "number",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "code",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "block_name",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "subblock_name",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 5,
+      "name": "name",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 6,
+      "name": "source_document_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 7,
+      "name": "source_locator",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "number": 1,
+      "code": "C01",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Качество содержания",
+      "name": "Уместность",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:4"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "code": "C02",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Качество содержания",
+      "name": "Структурность",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:8"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "code": "C03",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Качество содержания",
+      "name": "Достоверность",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:12"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "code": "C04",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Качество содержания",
+      "name": "Наличие «крупных планов»",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:16"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "code": "C05",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Качество содержания",
+      "name": "Наличие «частных случаев»",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:20"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "code": "C06",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Качество содержания",
+      "name": "Сложность",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:24"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "code": "C07",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Качество содержания",
+      "name": "Ресурсность",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:28"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "code": "C08",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Объяснение («разворачивание») содержания",
+      "name": "Присоединение",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:33"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "code": "C09",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Объяснение («разворачивание») содержания",
+      "name": "Понятность и логичность",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:37"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "code": "C10",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Объяснение («разворачивание») содержания",
+      "name": "Профессиональный язык",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:41"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "code": "C11",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Объяснение («разворачивание») содержания",
+      "name": "Акцентирование",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:45"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "code": "C12",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Объяснение («разворачивание») содержания",
+      "name": "Визуализация",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:49"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "code": "C13",
+      "block_name": "Работа с содержанием",
+      "subblock_name": "Объяснение («разворачивание») содержания",
+      "name": "Темп",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:53"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "code": "C14",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Цель и задачи занятия",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:59"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "code": "C15",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Методический инструментарий",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:63"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "code": "C16",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Создание комфортных условий",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:67"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "code": "C17",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Гибкость",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:71"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "code": "C18",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Концентрация внимания",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:75"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "code": "C19",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Проблемность",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:79"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "code": "C20",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Диалогичность",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:83"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "code": "C21",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Подведение итогов",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:87"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "code": "C22",
+      "block_name": "Управление результатами",
+      "subblock_name": null,
+      "name": "Использование цифровых инструментов",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:91"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "code": "C23",
+      "block_name": "Профессиональная позиция",
+      "subblock_name": null,
+      "name": "Эмоционально безопасное пространство",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:97"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "code": "C24",
+      "block_name": "Профессиональная позиция",
+      "subblock_name": null,
+      "name": "Опыт успеха",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:101"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "code": "C25",
+      "block_name": "Профессиональная позиция",
+      "subblock_name": null,
+      "name": "Доверие",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:105"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "code": "C26",
+      "block_name": "Профессиональная позиция",
+      "subblock_name": null,
+      "name": "«Делает то, что проповедует»",
+      "source_document_id": 1,
+      "source_locator": "checklist.csv:109"
+    }
+  ],
+  "total": 26
+}

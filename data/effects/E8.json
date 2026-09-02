@@ -1,0 +1,120 @@
+{
+  "id": 8,
+  "study_id": 1,
+  "code": "E8",
+  "name": "Необходимость дополнительных данных",
+  "hypothesis": "Скрытые состояния и содержательные свойства не угадываются по эмоциям или поведению; новые данные дают проверяемый прирост.",
+  "effect_order": 8,
+  "effect_check_id": 8,
+  "check_code": "EC_E8",
+  "unit_of_analysis": "Критерий × набор доступных данных",
+  "comparison_description": "Запись-only A4 против A4 с дополнительными материалами, диагностикой и опросами.",
+  "success_rule": "Без прямых данных система корректно отказывается; добавочные данные дают измеримый и интерпретируемый прирост.",
+  "method_code": "T8",
+  "method_name": "Проверка границ и добавочных данных",
+  "method_description": "Сравнивается запись-only с записью плюс материалы, диагностика или прямой опрос.",
+  "metrics": "Прирост качества; корректные отказы; ложные выводы без прямых данных",
+  "procedure": "Для критериев 24–25 машинный вывод без прямых студенческих данных запрещён.",
+  "conditions": [
+    {
+      "code": "A0",
+      "name": "Эксперт без ИИ",
+      "role": "reference",
+      "notes": null
+    },
+    {
+      "code": "A4",
+      "name": "Видео + аудио + TXT + материалы",
+      "role": "recording_only",
+      "notes": "Дополнительные данные моделируются через effect_check_data_types."
+    }
+  ],
+  "data_types": [
+    {
+      "code": "lesson_plan",
+      "name": "План занятия",
+      "role": "supplemental",
+      "notes": "План занятия."
+    },
+    {
+      "code": "course_program",
+      "name": "Программа дисциплины",
+      "role": "supplemental",
+      "notes": "Программа дисциплины."
+    },
+    {
+      "code": "external_sources",
+      "name": "Проверенные внешние источники",
+      "role": "supplemental",
+      "notes": "Источники для достоверности."
+    },
+    {
+      "code": "pre_survey",
+      "name": "Опрос до занятия",
+      "role": "contrast",
+      "notes": "Диагностика до."
+    },
+    {
+      "code": "post_survey",
+      "name": "Опрос после занятия",
+      "role": "contrast",
+      "notes": "Опрос после."
+    },
+    {
+      "code": "exit_ticket",
+      "name": "Exit ticket",
+      "role": "contrast",
+      "notes": "Прямые данные опыта успеха."
+    },
+    {
+      "code": "trust_survey",
+      "name": "Валидированный опрос доверия",
+      "role": "contrast",
+      "notes": "Прямые данные доверия."
+    },
+    {
+      "code": "learning_results",
+      "name": "Результаты обучения",
+      "role": "contrast",
+      "notes": "Результаты обучения."
+    }
+  ],
+  "criteria": [
+    {
+      "code": "C03",
+      "number": 3,
+      "name": "Достоверность",
+      "scope_role": "boundary"
+    },
+    {
+      "code": "C06",
+      "number": 6,
+      "name": "Сложность",
+      "scope_role": "boundary"
+    },
+    {
+      "code": "C07",
+      "number": 7,
+      "name": "Ресурсность",
+      "scope_role": "boundary"
+    },
+    {
+      "code": "C24",
+      "number": 24,
+      "name": "Опыт успеха",
+      "scope_role": "boundary"
+    },
+    {
+      "code": "C25",
+      "number": 25,
+      "name": "Доверие",
+      "scope_role": "boundary"
+    },
+    {
+      "code": "C26",
+      "number": 26,
+      "name": "«Делает то, что проповедует»",
+      "scope_role": "boundary"
+    }
+  ]
+}

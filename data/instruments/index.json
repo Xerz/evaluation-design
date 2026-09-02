@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "code": "LLM_EVAL",
+      "name": "LLM-оценка критериев ТюмГУ",
+      "provider": "ТюмГУ",
+      "instrument_kind": "llm",
+      "description": "Прототипируемый анализ 26 критериев по транскрипту и, в будущих версиях, материалам занятия.",
+      "versions_count": 1,
+      "criteria_count": 26
+    },
+    {
+      "id": 2,
+      "code": "MGPU_VISUAL",
+      "name": "Визуальный считыватель эмоций МГПУ",
+      "provider": "МГПУ",
+      "instrument_kind": "video_analytics",
+      "description": "Визуальные показатели эмоций и вовлечённости; не являются прямыми измерениями педагогических конструктов.",
+      "versions_count": 1,
+      "criteria_count": 6
+    },
+    {
+      "id": 3,
+      "code": "MGPU_AUDIO",
+      "name": "Анализатор аудио МГПУ",
+      "provider": "МГПУ",
+      "instrument_kind": "audio_analytics",
+      "description": "Показатели речи, тишины, темпа и коммуникативных тактик; методики большей части показателей не документированы.",
+      "versions_count": 1,
+      "criteria_count": 17
+    },
+    {
+      "id": 4,
+      "code": "EXPERT",
+      "name": "Эксперт по чек-листу ТюмГУ",
+      "provider": "ТюмГУ",
+      "instrument_kind": "human",
+      "description": "Независимая экспертная оценка по операционализированному чек-листу и доказательным фрагментам.",
+      "versions_count": 1,
+      "criteria_count": 26
+    }
+  ]
+}

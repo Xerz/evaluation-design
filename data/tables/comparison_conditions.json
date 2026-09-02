@@ -1,0 +1,105 @@
+{
+  "name": "comparison_conditions",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "study_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "code",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "name",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "description",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 5,
+      "name": "condition_order",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "study_id": 1,
+      "code": "A0",
+      "name": "Эксперт без ИИ",
+      "description": "Независимый экспертный референс и базовая трудоёмкость.",
+      "condition_order": 0
+    },
+    {
+      "id": 2,
+      "study_id": 1,
+      "code": "A1",
+      "name": "Готовые метрики МГПУ",
+      "description": "Визуальные и аудиопоказатели текущей платформы без новых моделей.",
+      "condition_order": 1
+    },
+    {
+      "id": 3,
+      "study_id": 1,
+      "code": "A2",
+      "name": "TXT + материалы",
+      "description": "LLM-анализ содержания по транскрипту и материалам курса.",
+      "condition_order": 2
+    },
+    {
+      "id": 4,
+      "study_id": 1,
+      "code": "A3",
+      "name": "Аудио + TXT + материалы",
+      "description": "Аудиопоказатели вместе с текстовым и содержательным анализом.",
+      "condition_order": 3
+    },
+    {
+      "id": 5,
+      "study_id": 1,
+      "code": "A4",
+      "name": "Видео + аудио + TXT + материалы",
+      "description": "Полный мультимодальный анализ записи, слайдов и контекста.",
+      "condition_order": 4
+    },
+    {
+      "id": 6,
+      "study_id": 1,
+      "code": "A5",
+      "name": "Эксперт + ИИ-доказательства",
+      "description": "Эксперт принимает решение с доступом к найденным ИИ фрагментам; crossover с A0.",
+      "condition_order": 5
+    }
+  ],
+  "total": 6
+}

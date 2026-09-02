@@ -1,0 +1,228 @@
+{
+  "id": 4,
+  "study_id": 1,
+  "code": "E4",
+  "name": "Добавочная ценность мультимодальности",
+  "hypothesis": "Аудио, видео и материалы улучшают результат относительно готовых метрик или одного транскрипта.",
+  "effect_order": 4,
+  "effect_check_id": 4,
+  "check_code": "EC_E4",
+  "unit_of_analysis": "Критерий × занятие",
+  "comparison_description": "Парная абляция A1 ↔ A2 ↔ A3 ↔ A4.",
+  "success_rule": "Добавление модальности должно давать заранее зарегистрированный положительный эффект или обоснованно не требоваться.",
+  "method_code": "T4",
+  "method_name": "Мультимодальная абляция",
+  "method_description": "На одних занятиях последовательно сравниваются A1, A2, A3 и A4.",
+  "metrics": "Разница F1/kappa; доля подтверждённых доказательств",
+  "procedure": "Парное сравнение с кластерным bootstrap по занятиям и преподавателям.",
+  "conditions": [
+    {
+      "code": "A1",
+      "name": "Готовые метрики МГПУ",
+      "role": "baseline",
+      "notes": null
+    },
+    {
+      "code": "A2",
+      "name": "TXT + материалы",
+      "role": "ablation",
+      "notes": "Добавлен текст и материалы."
+    },
+    {
+      "code": "A3",
+      "name": "Аудио + TXT + материалы",
+      "role": "ablation",
+      "notes": "Добавлено аудио."
+    },
+    {
+      "code": "A4",
+      "name": "Видео + аудио + TXT + материалы",
+      "role": "ablation",
+      "notes": "Добавлено видео."
+    }
+  ],
+  "data_types": [
+    {
+      "code": "transcript_txt",
+      "name": "TXT-транскрипт",
+      "role": "contrast",
+      "notes": "Текстовая модальность."
+    },
+    {
+      "code": "audio_recording",
+      "name": "Аудиозапись",
+      "role": "contrast",
+      "notes": "Аудиомодальность."
+    },
+    {
+      "code": "video_recording",
+      "name": "Видеозапись",
+      "role": "contrast",
+      "notes": "Видеомодальность."
+    },
+    {
+      "code": "slides",
+      "name": "Слайды и визуальные материалы",
+      "role": "contrast",
+      "notes": "Материалы и слайды."
+    }
+  ],
+  "criteria": [
+    {
+      "code": "C01",
+      "number": 1,
+      "name": "Уместность",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C02",
+      "number": 2,
+      "name": "Структурность",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C03",
+      "number": 3,
+      "name": "Достоверность",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C04",
+      "number": 4,
+      "name": "Наличие «крупных планов»",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C05",
+      "number": 5,
+      "name": "Наличие «частных случаев»",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C06",
+      "number": 6,
+      "name": "Сложность",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C07",
+      "number": 7,
+      "name": "Ресурсность",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C08",
+      "number": 8,
+      "name": "Присоединение",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C09",
+      "number": 9,
+      "name": "Понятность и логичность",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C10",
+      "number": 10,
+      "name": "Профессиональный язык",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C11",
+      "number": 11,
+      "name": "Акцентирование",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C12",
+      "number": 12,
+      "name": "Визуализация",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C13",
+      "number": 13,
+      "name": "Темп",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C14",
+      "number": 14,
+      "name": "Цель и задачи занятия",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C15",
+      "number": 15,
+      "name": "Методический инструментарий",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C16",
+      "number": 16,
+      "name": "Создание комфортных условий",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C17",
+      "number": 17,
+      "name": "Гибкость",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C18",
+      "number": 18,
+      "name": "Концентрация внимания",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C19",
+      "number": 19,
+      "name": "Проблемность",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C20",
+      "number": 20,
+      "name": "Диалогичность",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C21",
+      "number": 21,
+      "name": "Подведение итогов",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C22",
+      "number": 22,
+      "name": "Использование цифровых инструментов",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C23",
+      "number": 23,
+      "name": "Эмоционально безопасное пространство",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C24",
+      "number": 24,
+      "name": "Опыт успеха",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C25",
+      "number": 25,
+      "name": "Доверие",
+      "scope_role": "primary"
+    },
+    {
+      "code": "C26",
+      "number": 26,
+      "name": "«Делает то, что проповедует»",
+      "scope_role": "primary"
+    }
+  ]
+}

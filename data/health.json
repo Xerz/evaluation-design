@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "database": {
+    "file": "База пилота автоматизации критериев ТюмГУ.sqlite",
+    "quick_check": "ok",
+    "mode": "static_snapshot",
+    "sha256": "0fbcda19a2367c156abf2c1d5ac7de2a35188e331008d65c2d977a31e67088b1"
+  }
+}

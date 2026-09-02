@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Read-only навигатор по базе пилота автоматизации критериев ТюмГУ">
+  <title>Навигатор БД · Пилот ТюмГУ</title>
+  <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Основная навигация">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">Т</div>
+        <div>
+          <strong>Пилот ТюмГУ</strong>
+          <span>Навигатор БД</span>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <a href="#/overview" data-route="overview">
+          <span class="nav-icon" aria-hidden="true">⌂</span><span>Обзор</span>
+        </a>
+        <a href="#/criteria" data-route="criteria">
+          <span class="nav-icon" aria-hidden="true">26</span><span>Критерии</span>
+        </a>
+        <a href="#/instruments" data-route="instruments">
+          <span class="nav-icon" aria-hidden="true">◫</span><span>Инструменты</span>
+        </a>
+        <a href="#/conditions" data-route="conditions">
+          <span class="nav-icon" aria-hidden="true">A</span><span>Условия A0–A5</span>
+        </a>
+        <a href="#/effects" data-route="effects">
+          <span class="nav-icon" aria-hidden="true">E</span><span>Эффекты E1–E9</span>
+        </a>
+        <a href="#/erd" data-route="erd">
+          <span class="nav-icon" aria-hidden="true">⌘</span><span>ERD</span>
+        </a>
+        <a href="#/tables" data-route="tables">
+          <span class="nav-icon" aria-hidden="true">▦</span><span>Таблицы</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-note">
+        <span class="status-dot" id="db-status-dot" aria-hidden="true"></span>
+        <div>
+          <strong id="db-status-label">Проверяем базу…</strong>
+          <span>Только чтение</span>
+        </div>
+      </div>
+    </aside>
+
+    <button class="sidebar-scrim" id="sidebar-scrim" aria-label="Закрыть меню"></button>
+
+    <div class="workspace">
+      <header class="topbar">
+        <button class="icon-button menu-button" id="menu-button" aria-label="Открыть меню" aria-expanded="false">☰</button>
+        <div class="search-wrap">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="global-search" type="search" autocomplete="off" placeholder="Найти критерий, инструмент, условие или эффект…" aria-label="Глобальный поиск">
+          <kbd>⌘ K</kbd>
+          <div class="search-results" id="search-results" hidden></div>
+        </div>
+        <div class="readonly-pill" title="Приложение не выполняет операции записи">
+          <span aria-hidden="true">●</span> Read-only
+        </div>
+      </header>
+
+      <main id="app" tabindex="-1">
+        <div class="page-loading" role="status">
+          <span class="spinner" aria-hidden="true"></span>
+          Загружаем структуру базы…
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="./static/config.js" defer></script>
+  <script src="./static/app.js" defer></script>
+</body>
+</html>

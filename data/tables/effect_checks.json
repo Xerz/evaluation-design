@@ -1,0 +1,163 @@
+{
+  "name": "effect_checks",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "effect_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "code",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "verification_method_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "unit_of_analysis",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 5,
+      "name": "comparison_description",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 6,
+      "name": "success_rule",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 7,
+      "name": "preregistration_required",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": "1",
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "effect_id": 1,
+      "code": "EC_E1",
+      "verification_method_id": 1,
+      "unit_of_analysis": "Доказательный фрагмент по критерию",
+      "comparison_description": "A2–A4 против независимого A0.",
+      "success_rule": "Порог доли подтверждённых доказательств и допустимых типов ошибок фиксируется после калибровки.",
+      "preregistration_required": 1
+    },
+    {
+      "id": 2,
+      "effect_id": 2,
+      "code": "EC_E2",
+      "verification_method_id": 2,
+      "unit_of_analysis": "Событие или временной сегмент",
+      "comparison_description": "A2–A4 против таймкодов A0.",
+      "success_rule": "Пороги macro-F1 и temporal IoU фиксируются до независимого теста.",
+      "preregistration_required": 1
+    },
+    {
+      "id": 3,
+      "effect_id": 3,
+      "code": "EC_E3",
+      "verification_method_id": 3,
+      "unit_of_analysis": "Критерий × занятие",
+      "comparison_description": "A1–A4 против согласованного A0.",
+      "success_rule": "Пороги weighted kappa, macro-F1 и MAE фиксируются после оценки межэкспертного согласия.",
+      "preregistration_required": 1
+    },
+    {
+      "id": 4,
+      "effect_id": 4,
+      "code": "EC_E4",
+      "verification_method_id": 4,
+      "unit_of_analysis": "Критерий × занятие",
+      "comparison_description": "Парная абляция A1 ↔ A2 ↔ A3 ↔ A4.",
+      "success_rule": "Добавление модальности должно давать заранее зарегистрированный положительный эффект или обоснованно не требоваться.",
+      "preregistration_required": 1
+    },
+    {
+      "id": 5,
+      "effect_id": 5,
+      "code": "EC_E5",
+      "verification_method_id": 5,
+      "unit_of_analysis": "Преподаватель, занятие и страта",
+      "comparison_description": "A1–A4 на holdout по преподавателям с A0 как референсом.",
+      "success_rule": "Качество и интервалы должны оставаться приемлемыми в ключевых стратах.",
+      "preregistration_required": 1
+    },
+    {
+      "id": 6,
+      "effect_id": 6,
+      "code": "EC_E6",
+      "verification_method_id": 6,
+      "unit_of_analysis": "Вывод или отказ по критерию",
+      "comparison_description": "A1–A4 против A0 при разных порогах уверенности.",
+      "success_rule": "Опасные уверенные ошибки ограничены, selective accuracy растёт при снижении coverage.",
+      "preregistration_required": 1
+    },
+    {
+      "id": 7,
+      "effect_id": 7,
+      "code": "EC_E7",
+      "verification_method_id": 7,
+      "unit_of_analysis": "Эксперт × критерий × занятие",
+      "comparison_description": "Сбалансированный crossover A0 ↔ A5.",
+      "success_rule": "Время сокращается без ухудшения согласия с референсом и без роста опасных пропусков.",
+      "preregistration_required": 1
+    },
+    {
+      "id": 8,
+      "effect_id": 8,
+      "code": "EC_E8",
+      "verification_method_id": 8,
+      "unit_of_analysis": "Критерий × набор доступных данных",
+      "comparison_description": "Запись-only A4 против A4 с дополнительными материалами, диагностикой и опросами.",
+      "success_rule": "Без прямых данных система корректно отказывается; добавочные данные дают измеримый и интерпретируемый прирост.",
+      "preregistration_required": 1
+    },
+    {
+      "id": 9,
+      "effect_id": 9,
+      "code": "EC_E9",
+      "verification_method_id": 9,
+      "unit_of_analysis": "Повторное занятие или повторный прогон",
+      "comparison_description": "Повторные A4 с A0 как референсом.",
+      "success_rule": "Стабильность фиксируется заранее выбранными метриками; критерий 26 оценивается только продольно.",
+      "preregistration_required": 1
+    }
+  ],
+  "total": 9
+}
