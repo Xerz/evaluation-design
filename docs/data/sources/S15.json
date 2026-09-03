@@ -1,0 +1,32 @@
+{
+  "id": 15,
+  "code": "S15",
+  "citation_apa": "Wittwer, J., & Renkl, A. (2010). How effective are instructional explanations in example-based learning? A meta-analytic review. Educational Psychology Review, 22(4), 393–409.",
+  "doi": "10.1007/s10648-010-9136-5",
+  "url": "https://doi.org/10.1007/s10648-010-9136-5",
+  "study_type": "Метааналитический обзор",
+  "evidence_summary": "Выборка / контекст: 21 экспериментальное исследование обучения по примерам.\nИнструмент / конструкт: Instructional explanations in worked examples.\nНадёжность / валидность: Эффект объяснений условен: сильнее для понятийного знания; не обязательно лучше самообъяснения.",
+  "access_notes": "DOI; доступна авторская/репозиторная копия.",
+  "evidence_role": "Валидность конструкта/ограничения",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 5,
+      "code": "C05",
+      "number": 5,
+      "name": "Наличие «частных случаев»",
+      "block_name": "Работа с содержанием",
+      "link_id": 68,
+      "relation_role": "Валидность конструкта/ограничения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 19",
+      "notes": null
+    }
+  ]
+}

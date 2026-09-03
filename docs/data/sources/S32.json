@@ -1,0 +1,32 @@
+{
+  "id": 32,
+  "code": "S32",
+  "citation_apa": "Калабекова, С. В., Байрамукова, А. У., & Бережнова, О. В. (2023). К вопросу о психологической безопасности в образовательной среде. Альманах «Крым».",
+  "doi": null,
+  "url": "https://cyberleninka.ru/article/n/k-voprosu-o-psihologicheskoy-bezopasnosti-v-obrazovatelnoy-srede",
+  "study_type": "Русскоязычная обзорно-теоретическая статья",
+  "evidence_summary": "Выборка / контекст: Российская образовательная среда; учащиеся, студенты и преподаватели.\nИнструмент / конструкт: Психологическая безопасность и комфортная образовательная среда.\nНадёжность / валидность: Контекстуализирует термин, но не предоставляет валидированный протокол наблюдения занятия.",
+  "access_notes": "Открытый текст на CyberLeninka.",
+  "evidence_role": "Русскоязычная терминологическая и контекстная опора",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 23,
+      "code": "C23",
+      "number": 23,
+      "name": "Эмоционально безопасное пространство",
+      "block_name": "Профессиональная позиция",
+      "link_id": 108,
+      "relation_role": "Русскоязычная терминологическая и контекстная опора",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 36",
+      "notes": null
+    }
+  ]
+}

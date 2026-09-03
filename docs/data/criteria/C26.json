@@ -1,0 +1,194 @@
+{
+  "id": 26,
+  "number": 26,
+  "code": "C26",
+  "block_name": "Профессиональная позиция",
+  "subblock_name": null,
+  "name": "«Делает то, что проповедует»",
+  "source_document_id": 1,
+  "source_locator": "checklist.csv:109",
+  "readiness_status": "conditional",
+  "platform_coverage_status": "not_covered",
+  "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+  "source_title": "Шкала 26 критериев ТюмГУ",
+  "source_path": "Материалы/Eval-2024/class_eval/checklist.csv",
+  "levels": [
+    {
+      "score": 2,
+      "description": "Поведение и слова преподавателя подтверждают и демонстрируют то, что он преподает"
+    },
+    {
+      "score": 1,
+      "description": "Поведение преподавателя не противоречит тому, что он преподает, но и не подтверждает"
+    },
+    {
+      "score": 0,
+      "description": "Поведение и слова преподавателя (комментарии за рамками объяснений теории) противоречат тому, что он преподает"
+    }
+  ],
+  "data_requirements": [
+    {
+      "code": "lesson_plan",
+      "name": "План занятия",
+      "category": "materials",
+      "requirement_role": "required",
+      "reason": "Нужны заявленные принципы и планируемые действия преподавателя."
+    },
+    {
+      "code": "prior_course_materials",
+      "name": "Материалы предыдущих тем",
+      "category": "materials",
+      "requirement_role": "supplemental",
+      "reason": "Несколько материалов и наблюдений нужны для продольного сопоставления слов и поведения."
+    }
+  ],
+  "instrument_coverage": [
+    {
+      "instrument_code": "LLM_EVAL",
+      "instrument_name": "LLM-оценка критериев ТюмГУ",
+      "instrument_kind": "llm",
+      "version_code": "eval-2024",
+      "version_name": "Eval-2024 — исторический транскрипт-only прототип",
+      "lifecycle_status": "historical",
+      "methodology_status": "partial",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_code": "MGPU_VISUAL",
+      "instrument_name": "Визуальный считыватель эмоций МГПУ",
+      "instrument_kind": "video_analytics",
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия визуального модуля МГПУ",
+      "lifecycle_status": "prototype",
+      "methodology_status": "not_documented",
+      "coverage_status": "not_mapped",
+      "validation_status": "not_documented",
+      "output_type": null,
+      "notes": null
+    },
+    {
+      "instrument_code": "MGPU_AUDIO",
+      "instrument_name": "Анализатор аудио МГПУ",
+      "instrument_kind": "audio_analytics",
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия аудиомодуля МГПУ",
+      "lifecycle_status": "prototype",
+      "methodology_status": "not_documented",
+      "coverage_status": "not_mapped",
+      "validation_status": "not_documented",
+      "output_type": null,
+      "notes": null
+    },
+    {
+      "instrument_code": "EXPERT",
+      "instrument_name": "Эксперт-человек",
+      "instrument_kind": "human",
+      "version_code": "checklist-2024-v1",
+      "version_name": "Экспертный протокол по чек-листу ТюмГУ 2024",
+      "lifecycle_status": "reference",
+      "methodology_status": "documented",
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    }
+  ],
+  "effects": [
+    {
+      "code": "E1",
+      "name": "Конструктная валидность",
+      "check_code": "EC_E1",
+      "method_code": "T1",
+      "method_name": "Экспертная проверка доказательств",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E2",
+      "name": "Точность обнаружения событий",
+      "check_code": "EC_E2",
+      "method_code": "T2",
+      "method_name": "Сопоставление событий и таймкодов",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E3",
+      "name": "Согласие по итоговой оценке",
+      "check_code": "EC_E3",
+      "method_code": "T3",
+      "method_name": "Согласие шкалы 0–2",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E4",
+      "name": "Добавочная ценность мультимодальности",
+      "check_code": "EC_E4",
+      "method_code": "T4",
+      "method_name": "Мультимодальная абляция",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E5",
+      "name": "Переносимость",
+      "check_code": "EC_E5",
+      "method_code": "T5",
+      "method_name": "Holdout и анализ переносимости",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E6",
+      "name": "Калиброванная неопределённость",
+      "check_code": "EC_E6",
+      "method_code": "T6",
+      "method_name": "Калибровка неопределённости",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E7",
+      "name": "Практическая полезность эксперту",
+      "check_code": "EC_E7",
+      "method_code": "T7",
+      "method_name": "Сбалансированный crossover A0–A5",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E8",
+      "name": "Необходимость дополнительных данных",
+      "check_code": "EC_E8",
+      "method_code": "T8",
+      "method_name": "Проверка границ и добавочных данных",
+      "scope_role": "boundary"
+    },
+    {
+      "code": "E9",
+      "name": "Надёжность во времени",
+      "check_code": "EC_E9",
+      "method_code": "T9",
+      "method_name": "Продольная и повторная проверка",
+      "scope_role": "longitudinal"
+    }
+  ],
+  "research_sources": [
+    {
+      "id": 30,
+      "code": "S30",
+      "citation_apa": "Osman, M. A., Omar, A. M., Ahmed, A. M., Farah, A. A. S., & Abdullahi, A. M. (2026). Teachers as behavioral role models in higher education: A systematic literature review and future research directions. Cogent Education, 13, 2652695.",
+      "doi": "10.1080/2331186X.2026.2652695",
+      "url": "https://doi.org/10.1080/2331186X.2026.2652695",
+      "study_type": "Систематический обзор",
+      "evidence_summary": "Выборка / контекст: 17 исследований высшего образования из 2 695 записей; 2015–2024.\nИнструмент / конструкт: Ролевое моделирование: этические качества, педагогическая экспертиза, relational mentoring.\nНадёжность / валидность: Преобладают студенческие самоотчёты и поперечные дизайны; авторы отмечают географическую и дисциплинарную ограниченность.",
+      "access_notes": "Открытая публикация/издательская страница; не готовый наблюдательный протокол.",
+      "evidence_role": "Определение конструкта и ограничений",
+      "verification_status": "source_register_checked",
+      "registry_checked_on": "2026-09-01",
+      "link_id": 106,
+      "relation_role": "Определение конструкта и ограничений",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 34",
+      "link_notes": null
+    }
+  ]
+}

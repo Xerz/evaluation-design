@@ -1,0 +1,190 @@
+{
+  "id": 1,
+  "number": 1,
+  "code": "C01",
+  "block_name": "Работа с содержанием",
+  "subblock_name": "Качество содержания",
+  "name": "Уместность",
+  "source_document_id": 1,
+  "source_locator": "checklist.csv:4",
+  "readiness_status": "prototype_now",
+  "platform_coverage_status": "not_covered",
+  "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+  "source_title": "Шкала 26 критериев ТюмГУ",
+  "source_path": "Материалы/Eval-2024/class_eval/checklist.csv",
+  "levels": [
+    {
+      "score": 2,
+      "description": "Содержание соответствует предмету и его задачам"
+    },
+    {
+      "score": 1,
+      "description": "Содержание частично соответствует предмету и его задачам"
+    },
+    {
+      "score": 0,
+      "description": "Содержание не соответствует предмету и его задачам"
+    }
+  ],
+  "data_requirements": [],
+  "instrument_coverage": [
+    {
+      "instrument_code": "LLM_EVAL",
+      "instrument_name": "LLM-оценка критериев ТюмГУ",
+      "instrument_kind": "llm",
+      "version_code": "eval-2024",
+      "version_name": "Eval-2024 — исторический транскрипт-only прототип",
+      "lifecycle_status": "historical",
+      "methodology_status": "partial",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_code": "MGPU_VISUAL",
+      "instrument_name": "Визуальный считыватель эмоций МГПУ",
+      "instrument_kind": "video_analytics",
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия визуального модуля МГПУ",
+      "lifecycle_status": "prototype",
+      "methodology_status": "not_documented",
+      "coverage_status": "not_mapped",
+      "validation_status": "not_documented",
+      "output_type": null,
+      "notes": null
+    },
+    {
+      "instrument_code": "MGPU_AUDIO",
+      "instrument_name": "Анализатор аудио МГПУ",
+      "instrument_kind": "audio_analytics",
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия аудиомодуля МГПУ",
+      "lifecycle_status": "prototype",
+      "methodology_status": "not_documented",
+      "coverage_status": "not_mapped",
+      "validation_status": "not_documented",
+      "output_type": null,
+      "notes": null
+    },
+    {
+      "instrument_code": "EXPERT",
+      "instrument_name": "Эксперт-человек",
+      "instrument_kind": "human",
+      "version_code": "checklist-2024-v1",
+      "version_name": "Экспертный протокол по чек-листу ТюмГУ 2024",
+      "lifecycle_status": "reference",
+      "methodology_status": "documented",
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    }
+  ],
+  "effects": [
+    {
+      "code": "E1",
+      "name": "Конструктная валидность",
+      "check_code": "EC_E1",
+      "method_code": "T1",
+      "method_name": "Экспертная проверка доказательств",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E2",
+      "name": "Точность обнаружения событий",
+      "check_code": "EC_E2",
+      "method_code": "T2",
+      "method_name": "Сопоставление событий и таймкодов",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E3",
+      "name": "Согласие по итоговой оценке",
+      "check_code": "EC_E3",
+      "method_code": "T3",
+      "method_name": "Согласие шкалы 0–2",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E4",
+      "name": "Добавочная ценность мультимодальности",
+      "check_code": "EC_E4",
+      "method_code": "T4",
+      "method_name": "Мультимодальная абляция",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E5",
+      "name": "Переносимость",
+      "check_code": "EC_E5",
+      "method_code": "T5",
+      "method_name": "Holdout и анализ переносимости",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E6",
+      "name": "Калиброванная неопределённость",
+      "check_code": "EC_E6",
+      "method_code": "T6",
+      "method_name": "Калибровка неопределённости",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E7",
+      "name": "Практическая полезность эксперту",
+      "check_code": "EC_E7",
+      "method_code": "T7",
+      "method_name": "Сбалансированный crossover A0–A5",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E9",
+      "name": "Надёжность во времени",
+      "check_code": "EC_E9",
+      "method_code": "T9",
+      "method_name": "Продольная и повторная проверка",
+      "scope_role": "primary"
+    }
+  ],
+  "research_sources": [
+    {
+      "id": 4,
+      "code": "S04",
+      "citation_apa": "Sawada, D., Piburn, M. D., Judson, E., Turley, J., Falconer, K., Benford, R., & Bloom, I. (2002). Measuring reform practices in science and mathematics classrooms: The Reformed Teaching Observation Protocol. School Science and Mathematics, 102(6), 245–253.",
+      "doi": "10.1111/j.1949-8594.2002.tb17883.x",
+      "url": "https://doi.org/10.1111/j.1949-8594.2002.tb17883.x",
+      "study_type": "Валидированный наблюдательный протокол",
+      "evidence_summary": "Выборка / контекст: 153 занятий школы, колледжа и университета; естественные науки и математика.\nИнструмент / конструкт: RTOP: наблюдение реформированного преподавания.\nНадёжность / валидность: Сообщаются высокая межэкспертная надёжность и внутренняя согласованность; в исходной выборке сильные связи RTOP с нормированными приростами.",
+      "access_notes": "DOI/издатель; инструмент имеет отдельное руководство. Не переносить шкалу без адаптации.",
+      "evidence_role": "Валидность конструкта/наблюдения",
+      "verification_status": "source_register_checked",
+      "registry_checked_on": "2026-09-01",
+      "link_id": 17,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 8",
+      "link_notes": null
+    },
+    {
+      "id": 10,
+      "code": "S10",
+      "citation_apa": "Biggs, J. (1996). Enhancing teaching through constructive alignment. Higher Education, 32, 347–364.",
+      "doi": "10.1007/BF00138871",
+      "url": "https://doi.org/10.1007/BF00138871",
+      "study_type": "Теоретико-методическая статья",
+      "evidence_summary": "Выборка / контекст: Высшее образование.\nИнструмент / конструкт: Constructive alignment: согласование результатов, активности и оценивания.\nНадёжность / валидность: Концептуальная основа, не самостоятельный наблюдательный протокол.",
+      "access_notes": "DOI/издатель.",
+      "evidence_role": "Определение конструкта",
+      "verification_status": "source_register_checked",
+      "registry_checked_on": "2026-09-01",
+      "link_id": 57,
+      "relation_role": "Определение конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 14",
+      "link_notes": null
+    }
+  ]
+}

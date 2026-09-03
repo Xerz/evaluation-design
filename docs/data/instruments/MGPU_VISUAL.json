@@ -1,0 +1,114 @@
+{
+  "id": 2,
+  "code": "MGPU_VISUAL",
+  "name": "Визуальный считыватель эмоций МГПУ",
+  "provider": "МГПУ",
+  "instrument_kind": "video_analytics",
+  "description": "Визуальные показатели эмоций и вовлечённости. Видео размечено, в кабинете в данный момент нельзя скачать разметку в текстовом формате (только уже конвертированную в вовлечённость)",
+  "versions": [
+    {
+      "id": 2,
+      "instrument_id": 2,
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия визуального модуля МГПУ",
+      "lifecycle_status": "prototype",
+      "model_name": null,
+      "prompt_version": null,
+      "implementation_ref": "Тренировки 1773–1775 и сравнительная книга",
+      "config_summary": "Наблюдаемые показатели интерфейса без доступной спецификации версии модели.",
+      "limitations": "Операциональные определения эмоций неизвестны; эмоции и взгляд нельзя трактовать как прямую меру внимания, доверия, успеха или безопасности.",
+      "methodology_status": "not_documented",
+      "source_document_id": 6,
+      "source_title": "Возможности текущих инструментов по критериям ТюмГУ",
+      "source_path": "outputs/01a05c37-c522-7563-8846-1ea43a7a49d5/Возможности текущих инструментов по критериям ТюмГУ.xlsx"
+    }
+  ],
+  "inputs": [
+    {
+      "instrument_version_id": 2,
+      "code": "video_recording",
+      "name": "Видеозапись",
+      "category": "recording",
+      "requirement_role": "required",
+      "purpose": "Визуальные признаки аудитории и преподавателя."
+    },
+    {
+      "instrument_version_id": 2,
+      "code": "platform_metrics",
+      "name": "Метрики платформы МГПУ",
+      "category": "platform",
+      "requirement_role": "derived",
+      "purpose": "Агрегированные показатели визуального модуля."
+    },
+    {
+      "instrument_version_id": 2,
+      "code": "technical_metadata",
+      "name": "Технические метаданные",
+      "category": "metadata",
+      "requirement_role": "derived",
+      "purpose": "Статус обработки и версия модели, если будут доступны."
+    }
+  ],
+  "coverage": [
+    {
+      "instrument_version_id": 2,
+      "code": "C06",
+      "number": 6,
+      "name": "Сложность",
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Эмоции и вовлечённость дают только слабый прокси реакции."
+    },
+    {
+      "instrument_version_id": 2,
+      "code": "C16",
+      "number": 16,
+      "name": "Создание комфортных условий",
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Визуальный сигнал покрывает лишь отдельные аспекты условий."
+    },
+    {
+      "instrument_version_id": 2,
+      "code": "C18",
+      "number": 18,
+      "name": "Концентрация внимания",
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Вовлечённость не является прямой мерой концентрации внимания."
+    },
+    {
+      "instrument_version_id": 2,
+      "code": "C23",
+      "number": 23,
+      "name": "Эмоционально безопасное пространство",
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Эмоции не являются прямой мерой психологической безопасности."
+    },
+    {
+      "instrument_version_id": 2,
+      "code": "C24",
+      "number": 24,
+      "name": "Опыт успеха",
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Позитивная эмоция не доказывает опыт успеха."
+    },
+    {
+      "instrument_version_id": 2,
+      "code": "C25",
+      "number": 25,
+      "name": "Доверие",
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Эмоции и взгляд не доказывают доверие."
+    }
+  ]
+}

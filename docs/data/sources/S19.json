@@ -1,0 +1,45 @@
+{
+  "id": 19,
+  "code": "S19",
+  "citation_apa": "Black, P., & Wiliam, D. (1998). Assessment and classroom learning. Assessment in Education: Principles, Policy & Practice, 5(1), 7–74.",
+  "doi": "10.1080/0969595980050102",
+  "url": "https://doi.org/10.1080/0969595980050102",
+  "study_type": "Фундаментальный обзор",
+  "evidence_summary": "Выборка / контекст: Школьное образование; переносимая логика формирующего оценивания.\nИнструмент / конструкт: Использование свидетельств обучения для адаптации преподавания.\nНадёжность / валидность: Синтез большого массива исследований; не конкретный наблюдательный протокол.",
+  "access_notes": "DOI/издатель; широко доступные авторские версии.",
+  "evidence_role": "Определение конструкта",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 17,
+      "code": "C17",
+      "number": 17,
+      "name": "Гибкость",
+      "block_name": "Управление результатами",
+      "link_id": 77,
+      "relation_role": "Определение конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 23",
+      "notes": null
+    },
+    {
+      "id": 21,
+      "code": "C21",
+      "number": 21,
+      "name": "Подведение итогов",
+      "block_name": "Управление результатами",
+      "link_id": 78,
+      "relation_role": "Определение конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 23",
+      "notes": null
+    }
+  ]
+}

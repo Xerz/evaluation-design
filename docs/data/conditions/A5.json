@@ -1,0 +1,86 @@
+{
+  "id": 6,
+  "study_id": 1,
+  "code": "A5",
+  "name": "Эксперт + ИИ-доказательства",
+  "description": "Эксперт принимает решение с доступом к найденным ИИ фрагментам; crossover с A0.",
+  "condition_order": 5,
+  "instruments": [
+    {
+      "code": "LLM_EVAL",
+      "name": "LLM-оценка критериев ТюмГУ",
+      "instrument_kind": "llm",
+      "role": "assistant",
+      "notes": "Кандидаты доказательных фрагментов."
+    },
+    {
+      "code": "MGPU_VISUAL",
+      "name": "Визуальный считыватель эмоций МГПУ",
+      "instrument_kind": "video_analytics",
+      "role": "assistant",
+      "notes": "Дополнительные визуальные прокси."
+    },
+    {
+      "code": "MGPU_AUDIO",
+      "name": "Анализатор аудио МГПУ",
+      "instrument_kind": "audio_analytics",
+      "role": "assistant",
+      "notes": "Дополнительные аудиопрокси."
+    },
+    {
+      "code": "EXPERT",
+      "name": "Эксперт-человек",
+      "instrument_kind": "human",
+      "role": "primary",
+      "notes": "Окончательное экспертное решение."
+    }
+  ],
+  "data_types": [
+    {
+      "code": "transcript_txt",
+      "name": "TXT-транскрипт",
+      "category": "transcript",
+      "requirement_role": "required",
+      "purpose": "Текст занятия."
+    },
+    {
+      "code": "audio_recording",
+      "name": "Аудиозапись",
+      "category": "recording",
+      "requirement_role": "optional",
+      "purpose": "Аудиоконтекст."
+    },
+    {
+      "code": "video_recording",
+      "name": "Видеозапись",
+      "category": "recording",
+      "requirement_role": "optional",
+      "purpose": "Видеоконтекст."
+    },
+    {
+      "code": "slides",
+      "name": "Слайды и визуальные материалы",
+      "category": "materials",
+      "requirement_role": "optional",
+      "purpose": "Визуальные материалы."
+    },
+    {
+      "code": "expert_annotation",
+      "name": "Экспертная разметка",
+      "category": "annotation",
+      "requirement_role": "derived",
+      "purpose": "Экспертное решение с журналом изменений."
+    }
+  ],
+  "effect_checks": [
+    {
+      "effect_code": "E7",
+      "effect_name": "Практическая полезность эксперту",
+      "check_code": "EC_E7",
+      "role": "assisted",
+      "notes": null,
+      "method_code": "T7",
+      "method_name": "Сбалансированный crossover A0–A5"
+    }
+  ]
+}

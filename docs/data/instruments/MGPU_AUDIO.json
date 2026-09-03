@@ -1,0 +1,232 @@
+{
+  "id": 3,
+  "code": "MGPU_AUDIO",
+  "name": "Анализатор аудио МГПУ",
+  "provider": "МГПУ",
+  "instrument_kind": "audio_analytics",
+  "description": "Показатели речи, тишины, темпа и коммуникативных тактик; методики большей части показателей не документированы.",
+  "versions": [
+    {
+      "id": 3,
+      "instrument_id": 3,
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия аудиомодуля МГПУ",
+      "lifecycle_status": "prototype",
+      "model_name": null,
+      "prompt_version": null,
+      "implementation_ref": "Тренировки 1773–1775 и сравнительная книга",
+      "config_summary": "Наблюдаемые речевые показатели и коммуникативные тактики интерфейса.",
+      "limitations": "Единицы и методики большинства показателей не документированы; доля речи не равна качеству диалога.",
+      "methodology_status": "not_documented",
+      "source_document_id": 6,
+      "source_title": "Возможности текущих инструментов по критериям ТюмГУ",
+      "source_path": "outputs/01a05c37-c522-7563-8846-1ea43a7a49d5/Возможности текущих инструментов по критериям ТюмГУ.xlsx"
+    }
+  ],
+  "inputs": [
+    {
+      "instrument_version_id": 3,
+      "code": "transcript_txt",
+      "name": "TXT-транскрипт",
+      "category": "transcript",
+      "requirement_role": "optional",
+      "purpose": "Транскрипт может уточнять интерпретацию речевых событий."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "audio_recording",
+      "name": "Аудиозапись",
+      "category": "recording",
+      "requirement_role": "required",
+      "purpose": "Аудиосигнал занятия."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "platform_metrics",
+      "name": "Метрики платформы МГПУ",
+      "category": "platform",
+      "requirement_role": "derived",
+      "purpose": "Агрегированные и интервальные показатели аудиомодуля."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "technical_metadata",
+      "name": "Технические метаданные",
+      "category": "metadata",
+      "requirement_role": "derived",
+      "purpose": "Статус обработки и версия модели, если будут доступны."
+    }
+  ],
+  "coverage": [
+    {
+      "instrument_version_id": 3,
+      "code": "C02",
+      "number": 2,
+      "name": "Структурность",
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Структурирующие и резюмирующие тактики."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "C06",
+      "number": 6,
+      "name": "Сложность",
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Скорость речи — слабый прокси доступности сложности."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "C07",
+      "number": 7,
+      "name": "Ресурсность",
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Тактики мотивации, провокации и приглашения к участию."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "C09",
+      "number": 9,
+      "name": "Понятность и логичность",
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Темп и отдельные признаки формальной организации."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "C11",
+      "number": 11,
+      "name": "Акцентирование",
+      "coverage_status": "not_covered",
+      "validation_status": "not_documented",
+      "output_type": "semantic_mismatch",
+      "notes": "«Акцентуация собственной точки зрения» не измеряет педагогическое акцентирование ключевых понятий."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "C13",
+      "number": 13,
+      "name": "Темп",
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Скорость речи, речь и тишина."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "C14",
+      "number": 14,
+      "name": "Цель и задачи занятия",
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Начало урока и постановка темы."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "C15",
+      "number": 15,
+      "name": "Методический инструментарий",
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Тактики управления дискуссией и вводный инструктаж."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "C16",
+      "number": 16,
+      "name": "Создание комфортных условий",
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Громкость, темп и отдельные коммуникативные тактики."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "C17",
+      "number": 17,
+      "name": "Гибкость",
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Координация, смена ориентиров и реакции на участников."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "C18",
+      "number": 18,
+      "name": "Концентрация внимания",
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Распределение разговора и приглашения к участию."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "C19",
+      "number": 19,
+      "name": "Проблемность",
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Проблемные и рефлексивные коммуникативные тактики."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "C20",
+      "number": 20,
+      "name": "Диалогичность",
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Распределение речи и механики организации диалога."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "C21",
+      "number": 21,
+      "name": "Подведение итогов",
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Промежуточное и общее резюмирование."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "C23",
+      "number": 23,
+      "name": "Эмоционально безопасное пространство",
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Похвала, давление, границы и оценка мнения — только отдельные сигналы."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "C24",
+      "number": 24,
+      "name": "Опыт успеха",
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Похвала не доказывает субъективный опыт успеха."
+    },
+    {
+      "instrument_version_id": 3,
+      "code": "C25",
+      "number": 25,
+      "name": "Доверие",
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Похвала не доказывает личное и профессиональное доверие."
+    }
+  ]
+}

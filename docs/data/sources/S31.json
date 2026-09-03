@@ -1,0 +1,32 @@
+{
+  "id": 31,
+  "code": "S31",
+  "citation_apa": "Leppink, J., Paas, F., Van der Vleuten, C. P. M., Van Gog, T., & Van Merriënboer, J. J. G. (2013). Development of an instrument for measuring different types of cognitive load. Behavior Research Methods, 45, 1058–1072.",
+  "doi": "10.3758/s13428-013-0334-1",
+  "url": "https://doi.org/10.3758/s13428-013-0334-1",
+  "study_type": "Разработка и валидация самоотчётной шкалы",
+  "evidence_summary": "Выборка / контекст: Обучающиеся; измерение intrinsic, extraneous и germane cognitive load.\nИнструмент / конструкт: 10-пунктовый опросник когнитивной нагрузки.\nНадёжность / валидность: Доказательства внутренней структуры и надёжности; нагрузка измеряется самоотчётом, не наблюдением видео.",
+  "access_notes": "DOI/издатель; не воспроизводить пункты целиком без проверки прав.",
+  "evidence_role": "Валидность конструкта; обоснование дополнительных данных",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 6,
+      "code": "C06",
+      "number": 6,
+      "name": "Сложность",
+      "block_name": "Работа с содержанием",
+      "link_id": 107,
+      "relation_role": "Валидность конструкта; обоснование дополнительных данных",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 35",
+      "notes": null
+    }
+  ]
+}

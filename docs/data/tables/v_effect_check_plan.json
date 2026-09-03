@@ -1,0 +1,197 @@
+{
+  "name": "v_effect_check_plan",
+  "kind": "view",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "effect_code",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 1,
+      "name": "effect_name",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "check_code",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "verification_method",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "metrics",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 5,
+      "name": "unit_of_analysis",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 6,
+      "name": "comparison_description",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 7,
+      "name": "success_rule",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 8,
+      "name": "conditions",
+      "type": "",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 9,
+      "name": "data_types",
+      "type": "",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "effect_code": "E1",
+      "effect_name": "Конструктная валидность",
+      "check_code": "EC_E1",
+      "verification_method": "Экспертная проверка доказательств",
+      "metrics": "Доля подтверждённых доказательств; типы ложных выводов",
+      "unit_of_analysis": "Доказательный фрагмент по критерию",
+      "comparison_description": "A2–A4 против независимого A0.",
+      "success_rule": "Порог доли подтверждённых доказательств и допустимых типов ошибок фиксируется после калибровки.",
+      "conditions": "A0 [reference]; A2 [candidate]; A3 [candidate]; A4 [candidate]",
+      "data_types": "TXT-транскрипт [required]; Экспертная разметка [reference]"
+    },
+    {
+      "effect_code": "E2",
+      "effect_name": "Точность обнаружения событий",
+      "check_code": "EC_E2",
+      "verification_method": "Сопоставление событий и таймкодов",
+      "metrics": "Precision; recall; macro-F1; temporal IoU; допуск по таймкоду",
+      "unit_of_analysis": "Событие или временной сегмент",
+      "comparison_description": "A2–A4 против таймкодов A0.",
+      "success_rule": "Пороги macro-F1 и temporal IoU фиксируются до независимого теста.",
+      "conditions": "A0 [reference]; A2 [candidate]; A3 [candidate]; A4 [candidate]",
+      "data_types": "SRT-транскрипт [required]; Структурированный транскрипт [required]; Экспертная разметка [reference]"
+    },
+    {
+      "effect_code": "E3",
+      "effect_name": "Согласие по итоговой оценке",
+      "check_code": "EC_E3",
+      "verification_method": "Согласие шкалы 0–2",
+      "metrics": "Weighted kappa; macro-F1; MAE",
+      "unit_of_analysis": "Критерий × занятие",
+      "comparison_description": "A1–A4 против согласованного A0.",
+      "success_rule": "Пороги weighted kappa, macro-F1 и MAE фиксируются после оценки межэкспертного согласия.",
+      "conditions": "A0 [reference]; A1 [candidate]; A2 [candidate]; A3 [candidate]; A4 [candidate]",
+      "data_types": "Экспертная разметка [reference]"
+    },
+    {
+      "effect_code": "E4",
+      "effect_name": "Добавочная ценность мультимодальности",
+      "check_code": "EC_E4",
+      "verification_method": "Мультимодальная абляция",
+      "metrics": "Разница F1/kappa; доля подтверждённых доказательств",
+      "unit_of_analysis": "Критерий × занятие",
+      "comparison_description": "Парная абляция A1 ↔ A2 ↔ A3 ↔ A4.",
+      "success_rule": "Добавление модальности должно давать заранее зарегистрированный положительный эффект или обоснованно не требоваться.",
+      "conditions": "A1 [baseline]; A2 [ablation]; A3 [ablation]; A4 [ablation]",
+      "data_types": "TXT-транскрипт [contrast]; Аудиозапись [contrast]; Видеозапись [contrast]; Слайды и визуальные материалы [contrast]"
+    },
+    {
+      "effect_code": "E5",
+      "effect_name": "Переносимость",
+      "check_code": "EC_E5",
+      "verification_method": "Holdout и анализ переносимости",
+      "metrics": "Метрики качества по стратам и их доверительные интервалы",
+      "unit_of_analysis": "Преподаватель, занятие и страта",
+      "comparison_description": "A1–A4 на holdout по преподавателям с A0 как референсом.",
+      "success_rule": "Качество и интервалы должны оставаться приемлемыми в ключевых стратах.",
+      "conditions": "A0 [reference]; A1 [candidate]; A2 [candidate]; A3 [candidate]; A4 [candidate]",
+      "data_types": "Технические метаданные [required]; Экспертная разметка [reference]"
+    },
+    {
+      "effect_code": "E6",
+      "effect_name": "Калиброванная неопределённость",
+      "check_code": "EC_E6",
+      "verification_method": "Калибровка неопределённости",
+      "metrics": "Coverage; selective accuracy; доля корректных отказов; опасные уверенные ошибки",
+      "unit_of_analysis": "Вывод или отказ по критерию",
+      "comparison_description": "A1–A4 против A0 при разных порогах уверенности.",
+      "success_rule": "Опасные уверенные ошибки ограничены, selective accuracy растёт при снижении coverage.",
+      "conditions": "A0 [reference]; A1 [candidate]; A2 [candidate]; A3 [candidate]; A4 [candidate]",
+      "data_types": "Экспертная разметка [reference]"
+    },
+    {
+      "effect_code": "E7",
+      "effect_name": "Практическая полезность эксперту",
+      "check_code": "EC_E7",
+      "verification_method": "Сбалансированный crossover A0–A5",
+      "metrics": "Время; согласие с референсом; исправления; пропуски; оценка полезности",
+      "unit_of_analysis": "Эксперт × критерий × занятие",
+      "comparison_description": "Сбалансированный crossover A0 ↔ A5.",
+      "success_rule": "Время сокращается без ухудшения согласия с референсом и без роста опасных пропусков.",
+      "conditions": "A0 [baseline]; A5 [assisted]",
+      "data_types": "Экспертная разметка [reference]"
+    },
+    {
+      "effect_code": "E8",
+      "effect_name": "Необходимость дополнительных данных",
+      "check_code": "EC_E8",
+      "verification_method": "Проверка границ и добавочных данных",
+      "metrics": "Прирост качества; корректные отказы; ложные выводы без прямых данных",
+      "unit_of_analysis": "Критерий × набор доступных данных",
+      "comparison_description": "Запись-only A4 против A4 с дополнительными материалами, диагностикой и опросами.",
+      "success_rule": "Без прямых данных система корректно отказывается; добавочные данные дают измеримый и интерпретируемый прирост.",
+      "conditions": "A0 [reference]; A4 [recording_only]",
+      "data_types": "План занятия [supplemental]; Программа дисциплины [supplemental]; Проверенные внешние источники [supplemental]; Опрос до занятия [contrast]; Опрос после занятия [contrast]; Exit ticket [contrast]; Валидированный опрос доверия [contrast]; Результаты обучения [contrast]"
+    },
+    {
+      "effect_code": "E9",
+      "effect_name": "Надёжность во времени",
+      "check_code": "EC_E9",
+      "verification_method": "Продольная и повторная проверка",
+      "metrics": "Стабильность признаков, ошибок, баллов и уверенности",
+      "unit_of_analysis": "Повторное занятие или повторный прогон",
+      "comparison_description": "Повторные A4 с A0 как референсом.",
+      "success_rule": "Стабильность фиксируется заранее выбранными метриками; критерий 26 оценивается только продольно.",
+      "conditions": "A0 [reference]; A4 [candidate]",
+      "data_types": "Технические метаданные [required]; Экспертная разметка [reference]"
+    }
+  ],
+  "total": 9
+}

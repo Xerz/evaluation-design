@@ -1,0 +1,135 @@
+{
+  "id": 1,
+  "study_id": 1,
+  "code": "A0",
+  "name": "Эксперт без ИИ",
+  "description": "Независимый экспертный референс и базовая трудоёмкость.",
+  "condition_order": 0,
+  "instruments": [
+    {
+      "code": "EXPERT",
+      "name": "Эксперт-человек",
+      "instrument_kind": "human",
+      "role": "reference",
+      "notes": "Независимая разметка."
+    }
+  ],
+  "data_types": [
+    {
+      "code": "transcript_txt",
+      "name": "TXT-транскрипт",
+      "category": "transcript",
+      "requirement_role": "required",
+      "purpose": "Основной текстовый источник референса."
+    },
+    {
+      "code": "audio_recording",
+      "name": "Аудиозапись",
+      "category": "recording",
+      "requirement_role": "optional",
+      "purpose": "Проверка речи."
+    },
+    {
+      "code": "video_recording",
+      "name": "Видеозапись",
+      "category": "recording",
+      "requirement_role": "optional",
+      "purpose": "Проверка визуального контекста."
+    },
+    {
+      "code": "slides",
+      "name": "Слайды и визуальные материалы",
+      "category": "materials",
+      "requirement_role": "optional",
+      "purpose": "Проверка слайдов."
+    },
+    {
+      "code": "course_program",
+      "name": "Программа дисциплины",
+      "category": "materials",
+      "requirement_role": "optional",
+      "purpose": "Предметный контекст."
+    },
+    {
+      "code": "expert_annotation",
+      "name": "Экспертная разметка",
+      "category": "annotation",
+      "requirement_role": "derived",
+      "purpose": "Экспертный референс."
+    }
+  ],
+  "effect_checks": [
+    {
+      "effect_code": "E1",
+      "effect_name": "Конструктная валидность",
+      "check_code": "EC_E1",
+      "role": "reference",
+      "notes": null,
+      "method_code": "T1",
+      "method_name": "Экспертная проверка доказательств"
+    },
+    {
+      "effect_code": "E2",
+      "effect_name": "Точность обнаружения событий",
+      "check_code": "EC_E2",
+      "role": "reference",
+      "notes": null,
+      "method_code": "T2",
+      "method_name": "Сопоставление событий и таймкодов"
+    },
+    {
+      "effect_code": "E3",
+      "effect_name": "Согласие по итоговой оценке",
+      "check_code": "EC_E3",
+      "role": "reference",
+      "notes": null,
+      "method_code": "T3",
+      "method_name": "Согласие шкалы 0–2"
+    },
+    {
+      "effect_code": "E5",
+      "effect_name": "Переносимость",
+      "check_code": "EC_E5",
+      "role": "reference",
+      "notes": null,
+      "method_code": "T5",
+      "method_name": "Holdout и анализ переносимости"
+    },
+    {
+      "effect_code": "E6",
+      "effect_name": "Калиброванная неопределённость",
+      "check_code": "EC_E6",
+      "role": "reference",
+      "notes": null,
+      "method_code": "T6",
+      "method_name": "Калибровка неопределённости"
+    },
+    {
+      "effect_code": "E7",
+      "effect_name": "Практическая полезность эксперту",
+      "check_code": "EC_E7",
+      "role": "baseline",
+      "notes": null,
+      "method_code": "T7",
+      "method_name": "Сбалансированный crossover A0–A5"
+    },
+    {
+      "effect_code": "E8",
+      "effect_name": "Необходимость дополнительных данных",
+      "check_code": "EC_E8",
+      "role": "reference",
+      "notes": null,
+      "method_code": "T8",
+      "method_name": "Проверка границ и добавочных данных"
+    },
+    {
+      "effect_code": "E9",
+      "effect_name": "Надёжность во времени",
+      "check_code": "EC_E9",
+      "role": "reference",
+      "notes": null,
+      "method_code": "T9",
+      "method_name": "Продольная и повторная проверка"
+    }
+  ]
+}

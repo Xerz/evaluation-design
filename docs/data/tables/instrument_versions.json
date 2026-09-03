@@ -1,0 +1,161 @@
+{
+  "name": "instrument_versions",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "instrument_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "version_code",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "version_name",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "lifecycle_status",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 5,
+      "name": "model_name",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 6,
+      "name": "prompt_version",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 7,
+      "name": "implementation_ref",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 8,
+      "name": "config_summary",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 9,
+      "name": "limitations",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 10,
+      "name": "methodology_status",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 11,
+      "name": "source_document_id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "instrument_id": 1,
+      "version_code": "eval-2024",
+      "version_name": "Eval-2024 — исторический транскрипт-only прототип",
+      "lifecycle_status": "historical",
+      "model_name": "Coze bot, идентификатор не переносится",
+      "prompt_version": "embedded-v1",
+      "implementation_ref": "Материалы/Eval-2024/class_eval/class_feedback.ipynb",
+      "config_summary": "Для каждого критерия передавались шкала 0–2 и первые 3000 символов транскрипта; выход — балл и текстовое обоснование.",
+      "limitations": "Нет таймкодов; анализируется не полный транскрипт; при ошибке код записывал 0; валидность не подтверждена; 17 отчётов существуют, но не импортируются.",
+      "methodology_status": "partial",
+      "source_document_id": 2
+    },
+    {
+      "id": 2,
+      "instrument_id": 2,
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия визуального модуля МГПУ",
+      "lifecycle_status": "prototype",
+      "model_name": null,
+      "prompt_version": null,
+      "implementation_ref": "Тренировки 1773–1775 и сравнительная книга",
+      "config_summary": "Наблюдаемые показатели интерфейса без доступной спецификации версии модели.",
+      "limitations": "Операциональные определения эмоций неизвестны; эмоции и взгляд нельзя трактовать как прямую меру внимания, доверия, успеха или безопасности.",
+      "methodology_status": "not_documented",
+      "source_document_id": 6
+    },
+    {
+      "id": 3,
+      "instrument_id": 3,
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия аудиомодуля МГПУ",
+      "lifecycle_status": "prototype",
+      "model_name": null,
+      "prompt_version": null,
+      "implementation_ref": "Тренировки 1773–1775 и сравнительная книга",
+      "config_summary": "Наблюдаемые речевые показатели и коммуникативные тактики интерфейса.",
+      "limitations": "Единицы и методики большинства показателей не документированы; доля речи не равна качеству диалога.",
+      "methodology_status": "not_documented",
+      "source_document_id": 6
+    },
+    {
+      "id": 4,
+      "instrument_id": 4,
+      "version_code": "checklist-2024-v1",
+      "version_name": "Экспертный протокол по чек-листу ТюмГУ 2024",
+      "lifecycle_status": "reference",
+      "model_name": null,
+      "prompt_version": null,
+      "implementation_ref": "Материалы/Eval-2024/class_eval/checklist.csv",
+      "config_summary": "Двойная независимая разметка по 26 критериям с доказательствами и согласованием расхождений.",
+      "limitations": "Требуются обучение экспертов, кодбук, проверка межэкспертного согласия и предметная экспертиза для содержательных критериев.",
+      "methodology_status": "documented",
+      "source_document_id": 1
+    }
+  ],
+  "total": 4
+}

@@ -1,0 +1,32 @@
+{
+  "id": 35,
+  "code": "S35",
+  "citation_apa": "Litman, J. A. (2008). Interest and deprivation factors of epistemic curiosity. Personality and Individual Differences, 44(7), 1585–1595.",
+  "doi": "10.1016/j.paid.2008.01.014",
+  "url": "https://doi.org/10.1016/j.paid.2008.01.014",
+  "study_type": "Психометрическое исследование",
+  "evidence_summary": "Выборка / контекст: Самоотчётные измерения эпистемического любопытства.\nИнструмент / конструкт: Interest- и deprivation-type epistemic curiosity.\nНадёжность / валидность: Различает два мотивационных компонента любопытства; конструкт измеряется у человека, а не по единичной записи занятия.",
+  "access_notes": "DOI/издатель; шкалу не воспроизводить целиком без проверки прав.",
+  "evidence_role": "Валидность скрытого конструкта; обоснование статуса «Условно»",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 7,
+      "code": "C07",
+      "number": 7,
+      "name": "Ресурсность",
+      "block_name": "Работа с содержанием",
+      "link_id": 111,
+      "relation_role": "Валидность скрытого конструкта; обоснование статуса «Условно»",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 39",
+      "notes": null
+    }
+  ]
+}

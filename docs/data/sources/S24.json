@@ -1,0 +1,32 @@
+{
+  "id": 24,
+  "code": "S24",
+  "citation_apa": "Hofer, M., Grandgenett, N., Harris, J. B., & Swan, K. (2011). Testing a TPACK-based technology integration observation instrument. In Proceedings of SITE 2011 (pp. 4352–4359). Association for the Advancement of Computing in Education.",
+  "doi": null,
+  "url": "https://digitalcommons.unomaha.edu/tedfacproc/19/",
+  "study_type": "Валидация наблюдательного инструмента",
+  "evidence_summary": "Выборка / контекст: Наблюдение технологической интеграции; экспертная проверка TPACK.\nИнструмент / конструкт: TPACK-based Technology Integration Observation Instrument.\nНадёжность / валидность: 7 экспертов для содержательной/конструктной проверки; межэкспертная надёжность 0,802 и 90,8% согласия; α=0,914; test–retest 93,9%.",
+  "access_notes": "Открытый институциональный репозиторий; условия использования инструмента проверять отдельно.",
+  "evidence_role": "Валидность наблюдаемого конструкта",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 22,
+      "code": "C22",
+      "number": 22,
+      "name": "Использование цифровых инструментов",
+      "block_name": "Управление результатами",
+      "link_id": 83,
+      "relation_role": "Валидность наблюдаемого конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 28",
+      "notes": null
+    }
+  ]
+}

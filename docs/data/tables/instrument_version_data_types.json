@@ -1,0 +1,137 @@
+{
+  "name": "instrument_version_data_types",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "instrument_version_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "data_type_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 2
+    },
+    {
+      "cid": 2,
+      "name": "requirement_role",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 3
+    },
+    {
+      "cid": 3,
+      "name": "purpose",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "instrument_version_id": 1,
+      "data_type_id": 1,
+      "requirement_role": "required",
+      "purpose": "Единственный фактически использованный вход исторической версии."
+    },
+    {
+      "instrument_version_id": 2,
+      "data_type_id": 5,
+      "requirement_role": "required",
+      "purpose": "Визуальные признаки аудитории и преподавателя."
+    },
+    {
+      "instrument_version_id": 2,
+      "data_type_id": 21,
+      "requirement_role": "derived",
+      "purpose": "Агрегированные показатели визуального модуля."
+    },
+    {
+      "instrument_version_id": 2,
+      "data_type_id": 22,
+      "requirement_role": "derived",
+      "purpose": "Статус обработки и версия модели, если будут доступны."
+    },
+    {
+      "instrument_version_id": 3,
+      "data_type_id": 1,
+      "requirement_role": "optional",
+      "purpose": "Транскрипт может уточнять интерпретацию речевых событий."
+    },
+    {
+      "instrument_version_id": 3,
+      "data_type_id": 4,
+      "requirement_role": "required",
+      "purpose": "Аудиосигнал занятия."
+    },
+    {
+      "instrument_version_id": 3,
+      "data_type_id": 21,
+      "requirement_role": "derived",
+      "purpose": "Агрегированные и интервальные показатели аудиомодуля."
+    },
+    {
+      "instrument_version_id": 3,
+      "data_type_id": 22,
+      "requirement_role": "derived",
+      "purpose": "Статус обработки и версия модели, если будут доступны."
+    },
+    {
+      "instrument_version_id": 4,
+      "data_type_id": 1,
+      "requirement_role": "required",
+      "purpose": "Основной текстовый источник для независимой разметки."
+    },
+    {
+      "instrument_version_id": 4,
+      "data_type_id": 4,
+      "requirement_role": "optional",
+      "purpose": "Проверка аудиоконтекста и речи."
+    },
+    {
+      "instrument_version_id": 4,
+      "data_type_id": 5,
+      "requirement_role": "optional",
+      "purpose": "Проверка действий, визуального контекста и аудитории."
+    },
+    {
+      "instrument_version_id": 4,
+      "data_type_id": 7,
+      "requirement_role": "optional",
+      "purpose": "Проверка слайдов и визуализации."
+    },
+    {
+      "instrument_version_id": 4,
+      "data_type_id": 8,
+      "requirement_role": "optional",
+      "purpose": "Сопоставление фактического и запланированного хода занятия."
+    },
+    {
+      "instrument_version_id": 4,
+      "data_type_id": 9,
+      "requirement_role": "optional",
+      "purpose": "Контекст дисциплины."
+    },
+    {
+      "instrument_version_id": 4,
+      "data_type_id": 10,
+      "requirement_role": "optional",
+      "purpose": "Сопоставление с целями и задачами."
+    },
+    {
+      "instrument_version_id": 4,
+      "data_type_id": 23,
+      "requirement_role": "derived",
+      "purpose": "Результат независимой экспертной разметки."
+    }
+  ],
+  "total": 16
+}

@@ -1,0 +1,32 @@
+{
+  "id": 20,
+  "code": "S20",
+  "citation_apa": "Lyon, C. J., Oláh, L. N., & Brenneman, M. (2020). A formative assessment observation protocol to measure implementation: Evaluating the scoring inference. Educational Assessment, 25(4), 288–313.",
+  "doi": "10.1080/10627197.2020.1766957",
+  "url": "https://doi.org/10.1080/10627197.2020.1766957",
+  "study_type": "Валидизация наблюдательного протокола",
+  "evidence_summary": "Выборка / контекст: 65 занятий 9-го класса по математике и ELA; парные независимые оценки.\nИнструмент / конструкт: HI-CAP formative assessment observation protocol.\nНадёжность / валидность: Скромные доказательства корректности и согласованности scoring inference; авторы подчёркивают дальнейшую валидацию.",
+  "access_notes": "DOI/издатель; описание конструкта публично, полные материалы проверять по правам.",
+  "evidence_role": "Валидность наблюдаемого конструкта; перенос из школы",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 17,
+      "code": "C17",
+      "number": 17,
+      "name": "Гибкость",
+      "block_name": "Управление результатами",
+      "link_id": 79,
+      "relation_role": "Валидность наблюдаемого конструкта; перенос из школы",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 24",
+      "notes": null
+    }
+  ]
+}

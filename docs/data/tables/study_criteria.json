@@ -1,0 +1,231 @@
+{
+  "name": "study_criteria",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "study_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "criterion_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 2
+    },
+    {
+      "cid": 2,
+      "name": "readiness_status",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "platform_coverage_status",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "notes",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "study_id": 1,
+      "criterion_id": 1,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 2,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 3,
+      "readiness_status": "conditional",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 4,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 5,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 6,
+      "readiness_status": "conditional",
+      "platform_coverage_status": "indirect",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 7,
+      "readiness_status": "conditional",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 8,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 9,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 10,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 11,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 12,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 13,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 14,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 15,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 16,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 17,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 18,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 19,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 20,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 21,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 22,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 23,
+      "readiness_status": "prototype_now",
+      "platform_coverage_status": "partial",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 24,
+      "readiness_status": "not_from_recording",
+      "platform_coverage_status": "indirect",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 25,
+      "readiness_status": "not_from_recording",
+      "platform_coverage_status": "indirect",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    },
+    {
+      "study_id": 1,
+      "criterion_id": 26,
+      "readiness_status": "conditional",
+      "platform_coverage_status": "not_covered",
+      "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл."
+    }
+  ],
+  "total": 26
+}

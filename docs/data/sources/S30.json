@@ -1,0 +1,32 @@
+{
+  "id": 30,
+  "code": "S30",
+  "citation_apa": "Osman, M. A., Omar, A. M., Ahmed, A. M., Farah, A. A. S., & Abdullahi, A. M. (2026). Teachers as behavioral role models in higher education: A systematic literature review and future research directions. Cogent Education, 13, 2652695.",
+  "doi": "10.1080/2331186X.2026.2652695",
+  "url": "https://doi.org/10.1080/2331186X.2026.2652695",
+  "study_type": "Систематический обзор",
+  "evidence_summary": "Выборка / контекст: 17 исследований высшего образования из 2 695 записей; 2015–2024.\nИнструмент / конструкт: Ролевое моделирование: этические качества, педагогическая экспертиза, relational mentoring.\nНадёжность / валидность: Преобладают студенческие самоотчёты и поперечные дизайны; авторы отмечают географическую и дисциплинарную ограниченность.",
+  "access_notes": "Открытая публикация/издательская страница; не готовый наблюдательный протокол.",
+  "evidence_role": "Определение конструкта и ограничений",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 26,
+      "code": "C26",
+      "number": 26,
+      "name": "«Делает то, что проповедует»",
+      "block_name": "Профессиональная позиция",
+      "link_id": 106,
+      "relation_role": "Определение конструкта и ограничений",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 34",
+      "notes": null
+    }
+  ]
+}

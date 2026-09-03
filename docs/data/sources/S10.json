@@ -1,0 +1,71 @@
+{
+  "id": 10,
+  "code": "S10",
+  "citation_apa": "Biggs, J. (1996). Enhancing teaching through constructive alignment. Higher Education, 32, 347–364.",
+  "doi": "10.1007/BF00138871",
+  "url": "https://doi.org/10.1007/BF00138871",
+  "study_type": "Теоретико-методическая статья",
+  "evidence_summary": "Выборка / контекст: Высшее образование.\nИнструмент / конструкт: Constructive alignment: согласование результатов, активности и оценивания.\nНадёжность / валидность: Концептуальная основа, не самостоятельный наблюдательный протокол.",
+  "access_notes": "DOI/издатель.",
+  "evidence_role": "Определение конструкта",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 1,
+      "code": "C01",
+      "number": 1,
+      "name": "Уместность",
+      "block_name": "Работа с содержанием",
+      "link_id": 57,
+      "relation_role": "Определение конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 14",
+      "notes": null
+    },
+    {
+      "id": 14,
+      "code": "C14",
+      "number": 14,
+      "name": "Цель и задачи занятия",
+      "block_name": "Управление результатами",
+      "link_id": 58,
+      "relation_role": "Определение конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 14",
+      "notes": null
+    },
+    {
+      "id": 15,
+      "code": "C15",
+      "number": 15,
+      "name": "Методический инструментарий",
+      "block_name": "Управление результатами",
+      "link_id": 59,
+      "relation_role": "Определение конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 14",
+      "notes": null
+    },
+    {
+      "id": 22,
+      "code": "C22",
+      "number": 22,
+      "name": "Использование цифровых инструментов",
+      "block_name": "Управление результатами",
+      "link_id": 60,
+      "relation_role": "Определение конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 14",
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": 16,
+  "code": "S16",
+  "citation_apa": "Barbieri, C. A., Miller-Cotto, D., Clerjuste, S. N., & Chawla, K. (2023). A meta-analysis of the worked examples effect on mathematics performance. Educational Psychology Review, 35(1), Article 11.",
+  "doi": "10.1007/s10648-023-09745-1",
+  "url": "https://doi.org/10.1007/s10648-023-09745-1",
+  "study_type": "Метаанализ",
+  "evidence_summary": "Выборка / контекст: 43 статьи, 55 исследований, 181 эффект; обучение математике.\nИнструмент / конструкт: Worked examples.\nНадёжность / валидность: Средний положительный эффект около g=0,48; значима неоднородность условий и реализации.",
+  "access_notes": "DOI/издатель.",
+  "evidence_role": "Экспериментальные доказательства конструкта",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 5,
+      "code": "C05",
+      "number": 5,
+      "name": "Наличие «частных случаев»",
+      "block_name": "Работа с содержанием",
+      "link_id": 69,
+      "relation_role": "Экспериментальные доказательства конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 20",
+      "notes": null
+    }
+  ]
+}

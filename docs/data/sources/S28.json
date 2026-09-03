@@ -1,0 +1,32 @@
+{
+  "id": 28,
+  "code": "S28",
+  "citation_apa": "Ramakrishnan, A., Zylich, B., Ottmar, E., LoCasale-Crouch, J., & Whitehill, J. (2020). Toward automated classroom observation: Multimodal machine learning to estimate CLASS positive and negative climate [Preprint]. arXiv.",
+  "doi": "10.48550/arXiv.2005.09525",
+  "url": "https://arxiv.org/abs/2005.09525",
+  "study_type": "Препринт; мультимодальная автоматизация",
+  "evidence_summary": "Выборка / контекст: 300 15-минутных сегментов toddler; дополнительный MET-набор около 2 000 сегментов.\nИнструмент / конструкт: Модели положительного и отрицательного климата CLASS.\nНадёжность / валидность: В одном наборе r≈0,55/0,63; в аудио-only MET r≈0,36/0,41. Контекст раннего возраста резко ограничивает перенос.",
+  "access_notes": "Открытый препринт; CLASS остаётся лицензируемым инструментом.",
+  "evidence_role": "Предварительные доказательства автоматизации",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 23,
+      "code": "C23",
+      "number": 23,
+      "name": "Эмоционально безопасное пространство",
+      "block_name": "Профессиональная позиция",
+      "link_id": 104,
+      "relation_role": "Предварительные доказательства автоматизации",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 32",
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "name": "evidence_fragments",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 1,
+      "nullable": false,
+      "generated": true,
+      "enum_options": [],
+      "json": false,
+      "foreign_key": null
+    },
+    {
+      "cid": 1,
+      "name": "criterion_evaluation_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0,
+      "nullable": false,
+      "generated": false,
+      "enum_options": [],
+      "json": false,
+      "foreign_key": {
+        "table": "criterion_evaluations",
+        "from": "criterion_evaluation_id",
+        "to": "id",
+        "on_update": "NO ACTION",
+        "on_delete": "CASCADE",
+        "group_id": 1,
+        "sequence": 0
+      }
+    },
+    {
+      "cid": 2,
+      "name": "artifact_id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0,
+      "nullable": true,
+      "generated": false,
+      "enum_options": [],
+      "json": false,
+      "foreign_key": {
+        "table": "lesson_artifacts",
+        "from": "artifact_id",
+        "to": "id",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION",
+        "group_id": 0,
+        "sequence": 0
+      }
+    },
+    {
+      "cid": 3,
+      "name": "start_ms",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0,
+      "nullable": true,
+      "generated": false,
+      "enum_options": [],
+      "json": false,
+      "foreign_key": null
+    },
+    {
+      "cid": 4,
+      "name": "end_ms",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0,
+      "nullable": true,
+      "generated": false,
+      "enum_options": [],
+      "json": false,
+      "foreign_key": null
+    },
+    {
+      "cid": 5,
+      "name": "locator",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0,
+      "nullable": true,
+      "generated": false,
+      "enum_options": [],
+      "json": false,
+      "foreign_key": null
+    },
+    {
+      "cid": 6,
+      "name": "text_excerpt",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0,
+      "nullable": true,
+      "generated": false,
+      "enum_options": [],
+      "json": false,
+      "foreign_key": null
+    },
+    {
+      "cid": 7,
+      "name": "description",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0,
+      "nullable": true,
+      "generated": false,
+      "enum_options": [],
+      "json": false,
+      "foreign_key": null
+    },
+    {
+      "cid": 8,
+      "name": "evidence_role",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0,
+      "nullable": false,
+      "generated": false,
+      "enum_options": [
+        "supports",
+        "contradicts",
+        "uncertainty"
+      ],
+      "json": false,
+      "foreign_key": null
+    },
+    {
+      "cid": 9,
+      "name": "confidence",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0,
+      "nullable": true,
+      "generated": false,
+      "enum_options": [],
+      "json": false,
+      "foreign_key": null
+    }
+  ],
+  "rows": [],
+  "total": null,
+  "restricted": true,
+  "visibility": "local_only"
+}

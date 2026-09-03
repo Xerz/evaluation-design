@@ -1,0 +1,32 @@
+{
+  "id": 14,
+  "code": "S14",
+  "citation_apa": "Hattan, C., Singer, L. M., Loughlin, S., & Alexander, P. A. (2015). Prior knowledge activation in design and in practice. Literacy Research: Theory, Method, and Practice, 64(1), 478–497.",
+  "doi": "10.1177/2381336915617603",
+  "url": "https://doi.org/10.1177/2381336915617603",
+  "study_type": "Разработка кодировки наблюдаемой речи",
+  "evidence_summary": "Выборка / контекст: 1 770 высказываний преподавателей/учителей в учебных эпизодах.\nИнструмент / конструкт: Коды речевых актов активации предварительных знаний и систем отсчёта.\nНадёжность / валидность: Выделены 27 типов высказываний активации и контекстные различия между дизайном и практикой.",
+  "access_notes": "DOI/издатель.",
+  "evidence_role": "Прямая операционализация наблюдаемого конструкта",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 8,
+      "code": "C08",
+      "number": 8,
+      "name": "Присоединение",
+      "block_name": "Работа с содержанием",
+      "link_id": 67,
+      "relation_role": "Прямая операционализация наблюдаемого конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 18",
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-03T06:10:57+00:00",
+  "source_database": "База пилота автоматизации критериев ТюмГУ.sqlite",
+  "source_sha256": "0edbf5217a59f2cc30ec6be5c314af4c6c8eb68582b923268ddf1364ed41bfd8",
+  "counts": {
+    "criteria": 26,
+    "score_levels": 78,
+    "instruments": 4,
+    "conditions": 6,
+    "effects": 9,
+    "research_sources": 35,
+    "criterion_source_links": 111,
+    "tables": 38,
+    "views": 4
+  },
+  "static_files": {
+    "criteria_details": 26,
+    "source_details": 35,
+    "instrument_details": 4,
+    "condition_details": 6,
+    "effect_details": 9,
+    "tables_and_views": 42
+  }
+}

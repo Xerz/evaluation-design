@@ -1,0 +1,91 @@
+{
+  "name": "v_condition_matrix",
+  "kind": "view",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "condition_code",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 1,
+      "name": "condition_name",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "description",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "instruments",
+      "type": "",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "data_types",
+      "type": "",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "condition_code": "A0",
+      "condition_name": "Эксперт без ИИ",
+      "description": "Независимый экспертный референс и базовая трудоёмкость.",
+      "instruments": "Эксперт-человек [reference]",
+      "data_types": "TXT-транскрипт [required]; Аудиозапись [optional]; Видеозапись [optional]; Слайды и визуальные материалы [optional]; Программа дисциплины [optional]; Экспертная разметка [derived]"
+    },
+    {
+      "condition_code": "A1",
+      "condition_name": "Готовые метрики МГПУ",
+      "description": "Визуальные и аудиопоказатели текущей платформы без новых моделей.",
+      "instruments": "Визуальный считыватель эмоций МГПУ [primary]; Анализатор аудио МГПУ [primary]",
+      "data_types": "Аудиозапись [required]; Видеозапись [required]; Метрики платформы МГПУ [derived]"
+    },
+    {
+      "condition_code": "A2",
+      "condition_name": "TXT + материалы",
+      "description": "LLM-анализ содержания по транскрипту и материалам курса.",
+      "instruments": "LLM-оценка критериев ТюмГУ [primary]",
+      "data_types": "TXT-транскрипт [required]; Слайды и визуальные материалы [optional]; План занятия [optional]; Программа дисциплины [optional]; Цели и задачи занятия [optional]"
+    },
+    {
+      "condition_code": "A3",
+      "condition_name": "Аудио + TXT + материалы",
+      "description": "Аудиопоказатели вместе с текстовым и содержательным анализом.",
+      "instruments": "LLM-оценка критериев ТюмГУ [primary]; Анализатор аудио МГПУ [assistant]",
+      "data_types": "TXT-транскрипт [required]; Аудиозапись [required]; План занятия [optional]; Программа дисциплины [optional]; Цели и задачи занятия [optional]"
+    },
+    {
+      "condition_code": "A4",
+      "condition_name": "Видео + аудио + TXT + материалы",
+      "description": "Полный мультимодальный анализ записи, слайдов и контекста.",
+      "instruments": "LLM-оценка критериев ТюмГУ [primary]; Визуальный считыватель эмоций МГПУ [assistant]; Анализатор аудио МГПУ [assistant]",
+      "data_types": "TXT-транскрипт [required]; Аудиозапись [required]; Видеозапись [required]; Запись демонстрации экрана [optional]; Слайды и визуальные материалы [optional]; План занятия [optional]; Программа дисциплины [optional]; Цели и задачи занятия [optional]; Кадры и OCR слайдов [derived]"
+    },
+    {
+      "condition_code": "A5",
+      "condition_name": "Эксперт + ИИ-доказательства",
+      "description": "Эксперт принимает решение с доступом к найденным ИИ фрагментам; crossover с A0.",
+      "instruments": "LLM-оценка критериев ТюмГУ [assistant]; Визуальный считыватель эмоций МГПУ [assistant]; Анализатор аудио МГПУ [assistant]; Эксперт-человек [primary]",
+      "data_types": "TXT-транскрипт [required]; Аудиозапись [optional]; Видеозапись [optional]; Слайды и визуальные материалы [optional]; Экспертная разметка [derived]"
+    }
+  ],
+  "total": 6
+}

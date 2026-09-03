@@ -1,0 +1,128 @@
+{
+  "name": "source_documents",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "code",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "title",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "relative_path",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "document_type",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 5,
+      "name": "sha256",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 6,
+      "name": "notes",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "code": "CHECKLIST_CSV",
+      "title": "Шкала 26 критериев ТюмГУ",
+      "relative_path": "Материалы/Eval-2024/class_eval/checklist.csv",
+      "document_type": "csv",
+      "sha256": "5265665f85d31721f7301cdb303e83064e89ec791f84cc7a44d52c35f931f477",
+      "notes": "Точные названия критериев и описания уровней 0–2."
+    },
+    {
+      "id": 2,
+      "code": "EVAL_NOTEBOOK",
+      "title": "Исторический прототип Eval-2024",
+      "relative_path": "Материалы/Eval-2024/class_eval/class_feedback.ipynb",
+      "document_type": "ipynb",
+      "sha256": "29782bd1001781ac0e299396a67f4f1fdc7857de667a1fa9832269608530eb53",
+      "notes": "Транскрипт-only LLM-анализ; секреты из notebook не импортируются."
+    },
+    {
+      "id": 3,
+      "code": "EVAL_COMPARISON",
+      "title": "Сравнение Eval-2024 с ручной оценкой",
+      "relative_path": "Материалы/Eval-2024/class_eval/comparison.ipynb",
+      "document_type": "ipynb",
+      "sha256": "a2b547fc25a1b6bb9e2b435b3b4be8cc3ac9b3e033d4fcbf539ce5ee2c1f654f",
+      "notes": "Историческая проверка на ограниченной подвыборке."
+    },
+    {
+      "id": 4,
+      "code": "EVAL_CHECKER",
+      "title": "Скрипт проверки совпадений Eval-2024",
+      "relative_path": "Материалы/Eval-2024/class_eval/checker.py",
+      "document_type": "python",
+      "sha256": "ed9544877928379238563b6d676a2b9fb11b159e46d1ad8448bb0fe82d8c740a",
+      "notes": "Сопоставление машинных и ручных оценок для двух занятий."
+    },
+    {
+      "id": 5,
+      "code": "EXPERIMENT_MMD",
+      "title": "Дизайн эксперимента по автоматизации критериев ТюмГУ",
+      "relative_path": "outputs/01a05c37-c522-7563-8846-1ea43a7a49d5/Дизайн эксперимента по автоматизации критериев ТюмГУ.mmd",
+      "document_type": "mermaid",
+      "sha256": "bbc4d31aac2e8240f84da21e104b4d88f14e30b90418faac9b19897a9ba7ad6e",
+      "notes": "Источник условий A0–A5, эффектов E1–E9 и способов проверки."
+    },
+    {
+      "id": 6,
+      "code": "CAPABILITIES_XLSX",
+      "title": "Возможности текущих инструментов по критериям ТюмГУ",
+      "relative_path": "outputs/01a05c37-c522-7563-8846-1ea43a7a49d5/Возможности текущих инструментов по критериям ТюмГУ.xlsx",
+      "document_type": "xlsx",
+      "sha256": "4e26d89d73ed5ba8621975b8c701bf2392871c7a793094e4072a3544696dc23e",
+      "notes": "Источник классификации 20+4+2 и покрытия платформы 13+3+10."
+    },
+    {
+      "id": 7,
+      "code": "OPERATIONALIZATION_XLSX",
+      "title": "Операционализация критериев оценки преподавателя ТюмГУ",
+      "relative_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+      "document_type": "xlsx",
+      "sha256": "82dab9063744a0f272ed4c41911fd4ca8244e0f3e6141061613f99beda36b5af",
+      "notes": "Операциональные определения, необходимые данные и ограничения."
+    }
+  ],
+  "total": 7
+}

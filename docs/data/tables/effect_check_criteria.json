@@ -1,0 +1,1103 @@
+{
+  "name": "effect_check_criteria",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "effect_check_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "criterion_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 2
+    },
+    {
+      "cid": 2,
+      "name": "scope_role",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "effect_check_id": 1,
+      "criterion_id": 1,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 2,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 3,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 4,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 5,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 6,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 7,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 8,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 9,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 10,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 11,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 12,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 13,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 14,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 15,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 16,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 17,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 18,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 19,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 20,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 21,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 22,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 23,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 24,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 25,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 1,
+      "criterion_id": 26,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 1,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 2,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 3,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 4,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 5,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 6,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 7,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 8,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 9,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 10,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 11,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 12,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 13,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 14,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 15,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 16,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 17,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 18,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 19,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 20,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 21,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 22,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 23,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 24,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 25,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 2,
+      "criterion_id": 26,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 1,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 2,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 3,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 4,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 5,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 6,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 7,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 8,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 9,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 10,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 11,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 12,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 13,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 14,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 15,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 16,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 17,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 18,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 19,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 20,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 21,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 22,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 23,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 24,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 25,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 3,
+      "criterion_id": 26,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 1,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 2,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 3,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 4,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 5,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 6,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 7,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 8,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 9,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 10,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 11,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 12,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 13,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 14,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 15,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 16,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 17,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 18,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 19,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 20,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 21,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 22,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 23,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 24,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 25,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 4,
+      "criterion_id": 26,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 1,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 2,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 3,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 4,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 5,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 6,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 7,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 8,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 9,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 10,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 11,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 12,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 13,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 14,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 15,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 16,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 17,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 18,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 19,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 20,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 21,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 22,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 23,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 24,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 25,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 5,
+      "criterion_id": 26,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 1,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 2,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 3,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 4,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 5,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 6,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 7,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 8,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 9,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 10,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 11,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 12,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 13,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 14,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 15,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 16,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 17,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 18,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 19,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 20,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 21,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 22,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 23,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 24,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 25,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 6,
+      "criterion_id": 26,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 1,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 2,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 3,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 4,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 5,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 6,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 7,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 8,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 9,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 10,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 11,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 12,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 13,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 14,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 15,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 16,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 17,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 18,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 19,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 20,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 21,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 22,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 23,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 24,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 25,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 7,
+      "criterion_id": 26,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 8,
+      "criterion_id": 3,
+      "scope_role": "boundary"
+    },
+    {
+      "effect_check_id": 8,
+      "criterion_id": 6,
+      "scope_role": "boundary"
+    },
+    {
+      "effect_check_id": 8,
+      "criterion_id": 7,
+      "scope_role": "boundary"
+    },
+    {
+      "effect_check_id": 8,
+      "criterion_id": 24,
+      "scope_role": "boundary"
+    },
+    {
+      "effect_check_id": 8,
+      "criterion_id": 25,
+      "scope_role": "boundary"
+    },
+    {
+      "effect_check_id": 8,
+      "criterion_id": 26,
+      "scope_role": "boundary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 1,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 2,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 3,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 4,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 5,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 6,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 7,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 8,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 9,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 10,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 11,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 12,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 13,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 14,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 15,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 16,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 17,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 18,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 19,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 20,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 21,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 22,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 23,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 24,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 25,
+      "scope_role": "primary"
+    },
+    {
+      "effect_check_id": 9,
+      "criterion_id": 26,
+      "scope_role": "longitudinal"
+    }
+  ],
+  "total": 214
+}

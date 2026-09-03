@@ -1,0 +1,69 @@
+{
+  "name": "run_instruments",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "run_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 1,
+      "nullable": false,
+      "generated": false,
+      "enum_options": [],
+      "json": false,
+      "foreign_key": {
+        "table": "evaluation_runs",
+        "from": "run_id",
+        "to": "id",
+        "on_update": "NO ACTION",
+        "on_delete": "CASCADE",
+        "group_id": 1,
+        "sequence": 0
+      }
+    },
+    {
+      "cid": 1,
+      "name": "instrument_version_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 2,
+      "nullable": false,
+      "generated": false,
+      "enum_options": [],
+      "json": false,
+      "foreign_key": {
+        "table": "instrument_versions",
+        "from": "instrument_version_id",
+        "to": "id",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION",
+        "group_id": 0,
+        "sequence": 0
+      }
+    },
+    {
+      "cid": 2,
+      "name": "role",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0,
+      "nullable": false,
+      "generated": false,
+      "enum_options": [
+        "primary",
+        "reference",
+        "assistant"
+      ],
+      "json": false,
+      "foreign_key": null
+    }
+  ],
+  "rows": [],
+  "total": null,
+  "restricted": true,
+  "visibility": "local_only"
+}

@@ -1,0 +1,32 @@
+{
+  "id": 34,
+  "code": "S34",
+  "citation_apa": "Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68–78.",
+  "doi": "10.1037/0003-066X.55.1.68",
+  "url": "https://doi.org/10.1037/0003-066X.55.1.68",
+  "study_type": "Теоретическая обзорная статья",
+  "evidence_summary": "Выборка / контекст: Общие образовательные и мотивационные контексты.\nИнструмент / конструкт: Потребности автономии, компетентности и связанности.\nНадёжность / валидность: Определяет воспринимаемую компетентность как психологический конструкт; не даёт видео-индикатора опыта успеха.",
+  "access_notes": "DOI/издатель; теория широко описана публично.",
+  "evidence_role": "Определение скрытого конструкта; обоснование исключения",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 24,
+      "code": "C24",
+      "number": 24,
+      "name": "Опыт успеха",
+      "block_name": "Профессиональная позиция",
+      "link_id": 110,
+      "relation_role": "Определение скрытого конструкта; обоснование исключения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 38",
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": 11,
+  "code": "S11",
+  "citation_apa": "Richter, J., Scheiter, K., & Eitel, A. (2016). Signaling text-picture relations in multimedia learning: A comprehensive meta-analysis. Educational Research Review, 17, 19–36.",
+  "doi": "10.1016/j.edurev.2015.12.003",
+  "url": "https://doi.org/10.1016/j.edurev.2015.12.003",
+  "study_type": "Метаанализ",
+  "evidence_summary": "Выборка / контекст: 27 исследований, 45 сравнений, N=2 464.\nИнструмент / конструкт: Сигнализация отношений текст—изображение.\nНадёжность / валидность: Средний эффект малой/средней величины (около r=0,17); выявлена модерация предварительными знаниями.",
+  "access_notes": "DOI/издатель.",
+  "evidence_role": "Валидность конструкта/экспериментальные доказательства",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 6,
+      "code": "C06",
+      "number": 6,
+      "name": "Сложность",
+      "block_name": "Работа с содержанием",
+      "link_id": 61,
+      "relation_role": "Валидность конструкта/экспериментальные доказательства",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 15",
+      "notes": null
+    },
+    {
+      "id": 11,
+      "code": "C11",
+      "number": 11,
+      "name": "Акцентирование",
+      "block_name": "Работа с содержанием",
+      "link_id": 62,
+      "relation_role": "Валидность конструкта/экспериментальные доказательства",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 15",
+      "notes": null
+    },
+    {
+      "id": 12,
+      "code": "C12",
+      "number": 12,
+      "name": "Визуализация",
+      "block_name": "Работа с содержанием",
+      "link_id": 63,
+      "relation_role": "Валидность конструкта/экспериментальные доказательства",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 15",
+      "notes": null
+    }
+  ]
+}

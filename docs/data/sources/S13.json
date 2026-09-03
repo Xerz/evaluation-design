@@ -1,0 +1,32 @@
+{
+  "id": 13,
+  "code": "S13",
+  "citation_apa": "Robinson, S. L., & Kiewra, K. A. (1997). Effects of lecture rate on students' comprehension and ratings of topic importance. Contemporary Educational Psychology, 22(2), 260–267.",
+  "doi": "10.1006/ceps.1997.0929",
+  "url": "https://doi.org/10.1006/ceps.1997.0929",
+  "study_type": "Экспериментальное исследование",
+  "evidence_summary": "Выборка / контекст: Студенты бакалавриата; три скорости лекционного предъявления.\nИнструмент / конструкт: Экспериментальная манипуляция темпом и оценка понимания/важности.\nНадёжность / валидность: Медленный темп улучшал показатели в конкретном эксперименте; результат не задаёт универсального порога.",
+  "access_notes": "DOI/издатель.",
+  "evidence_role": "Экспериментальные доказательства конструкта",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 13,
+      "code": "C13",
+      "number": 13,
+      "name": "Темп",
+      "block_name": "Работа с содержанием",
+      "link_id": 66,
+      "relation_role": "Экспериментальные доказательства конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 17",
+      "notes": null
+    }
+  ]
+}

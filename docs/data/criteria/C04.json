@@ -1,0 +1,209 @@
+{
+  "id": 4,
+  "number": 4,
+  "code": "C04",
+  "block_name": "Работа с содержанием",
+  "subblock_name": "Качество содержания",
+  "name": "Наличие «крупных планов»",
+  "source_document_id": 1,
+  "source_locator": "checklist.csv:16",
+  "readiness_status": "prototype_now",
+  "platform_coverage_status": "not_covered",
+  "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+  "source_title": "Шкала 26 критериев ТюмГУ",
+  "source_path": "Материалы/Eval-2024/class_eval/checklist.csv",
+  "levels": [
+    {
+      "score": 2,
+      "description": "показано место темы в более общей рамке (в предмете, в межпредметном пространстве, в системе концепций/теорий/подходов)"
+    },
+    {
+      "score": 1,
+      "description": "Общая рамка показана, но упрощенно/формально, однобоко, частично"
+    },
+    {
+      "score": 0,
+      "description": "Не показано место темы в более общей рамке (в предмете, в межпредметном пространстве, в системе концепций/теорий/подходов). Не отвечает на вопросы про связь темы с общей рамкой/ошибается при ответе"
+    }
+  ],
+  "data_requirements": [],
+  "instrument_coverage": [
+    {
+      "instrument_code": "LLM_EVAL",
+      "instrument_name": "LLM-оценка критериев ТюмГУ",
+      "instrument_kind": "llm",
+      "version_code": "eval-2024",
+      "version_name": "Eval-2024 — исторический транскрипт-only прототип",
+      "lifecycle_status": "historical",
+      "methodology_status": "partial",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_code": "MGPU_VISUAL",
+      "instrument_name": "Визуальный считыватель эмоций МГПУ",
+      "instrument_kind": "video_analytics",
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия визуального модуля МГПУ",
+      "lifecycle_status": "prototype",
+      "methodology_status": "not_documented",
+      "coverage_status": "not_mapped",
+      "validation_status": "not_documented",
+      "output_type": null,
+      "notes": null
+    },
+    {
+      "instrument_code": "MGPU_AUDIO",
+      "instrument_name": "Анализатор аудио МГПУ",
+      "instrument_kind": "audio_analytics",
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия аудиомодуля МГПУ",
+      "lifecycle_status": "prototype",
+      "methodology_status": "not_documented",
+      "coverage_status": "not_mapped",
+      "validation_status": "not_documented",
+      "output_type": null,
+      "notes": null
+    },
+    {
+      "instrument_code": "EXPERT",
+      "instrument_name": "Эксперт-человек",
+      "instrument_kind": "human",
+      "version_code": "checklist-2024-v1",
+      "version_name": "Экспертный протокол по чек-листу ТюмГУ 2024",
+      "lifecycle_status": "reference",
+      "methodology_status": "documented",
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    }
+  ],
+  "effects": [
+    {
+      "code": "E1",
+      "name": "Конструктная валидность",
+      "check_code": "EC_E1",
+      "method_code": "T1",
+      "method_name": "Экспертная проверка доказательств",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E2",
+      "name": "Точность обнаружения событий",
+      "check_code": "EC_E2",
+      "method_code": "T2",
+      "method_name": "Сопоставление событий и таймкодов",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E3",
+      "name": "Согласие по итоговой оценке",
+      "check_code": "EC_E3",
+      "method_code": "T3",
+      "method_name": "Согласие шкалы 0–2",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E4",
+      "name": "Добавочная ценность мультимодальности",
+      "check_code": "EC_E4",
+      "method_code": "T4",
+      "method_name": "Мультимодальная абляция",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E5",
+      "name": "Переносимость",
+      "check_code": "EC_E5",
+      "method_code": "T5",
+      "method_name": "Holdout и анализ переносимости",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E6",
+      "name": "Калиброванная неопределённость",
+      "check_code": "EC_E6",
+      "method_code": "T6",
+      "method_name": "Калибровка неопределённости",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E7",
+      "name": "Практическая полезность эксперту",
+      "check_code": "EC_E7",
+      "method_code": "T7",
+      "method_name": "Сбалансированный crossover A0–A5",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E9",
+      "name": "Надёжность во времени",
+      "check_code": "EC_E9",
+      "method_code": "T9",
+      "method_name": "Продольная и повторная проверка",
+      "scope_role": "primary"
+    }
+  ],
+  "research_sources": [
+    {
+      "id": 4,
+      "code": "S04",
+      "citation_apa": "Sawada, D., Piburn, M. D., Judson, E., Turley, J., Falconer, K., Benford, R., & Bloom, I. (2002). Measuring reform practices in science and mathematics classrooms: The Reformed Teaching Observation Protocol. School Science and Mathematics, 102(6), 245–253.",
+      "doi": "10.1111/j.1949-8594.2002.tb17883.x",
+      "url": "https://doi.org/10.1111/j.1949-8594.2002.tb17883.x",
+      "study_type": "Валидированный наблюдательный протокол",
+      "evidence_summary": "Выборка / контекст: 153 занятий школы, колледжа и университета; естественные науки и математика.\nИнструмент / конструкт: RTOP: наблюдение реформированного преподавания.\nНадёжность / валидность: Сообщаются высокая межэкспертная надёжность и внутренняя согласованность; в исходной выборке сильные связи RTOP с нормированными приростами.",
+      "access_notes": "DOI/издатель; инструмент имеет отдельное руководство. Не переносить шкалу без адаптации.",
+      "evidence_role": "Валидность конструкта/наблюдения",
+      "verification_status": "source_register_checked",
+      "registry_checked_on": "2026-09-01",
+      "link_id": 19,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 8",
+      "link_notes": null
+    },
+    {
+      "id": 6,
+      "code": "S06",
+      "citation_apa": "Hafen, C. A., Hamre, B. K., Allen, J. P., Bell, C. A., Gitomer, D. H., & Pianta, R. C. (2015). Teaching through interactions in secondary school classrooms: Revisiting the factor structure and practical application of the Classroom Assessment Scoring System—Secondary. Journal of Early Adolescence, 35(5–6), 651–680.",
+      "doi": "10.1177/0272431614537117",
+      "url": "https://doi.org/10.1177/0272431614537117",
+      "study_type": "Психометрическая проверка наблюдательного инструмента",
+      "evidence_summary": "Выборка / контекст: 1 482 класса средней школы; видео-наблюдение взаимодействий.\nИнструмент / конструкт: CLASS-S: эмоциональная, организационная и учебная поддержка.\nНадёжность / валидность: Проверка факторной структуры и практической применимости на крупной выборке.",
+      "access_notes": "Коммерческий/закрытый инструмент CLASS: не воспроизводить шкалы и якоря целиком; использовать описание конструкта и ссылку.",
+      "evidence_role": "Валидность конструкта; перенос из школы",
+      "verification_status": "source_register_checked",
+      "registry_checked_on": "2026-09-01",
+      "link_id": 31,
+      "relation_role": "Валидность конструкта; перенос из школы",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 10",
+      "link_notes": null
+    },
+    {
+      "id": 25,
+      "code": "S25",
+      "citation_apa": "Fütterer, T., Hou, R., Bühler, B., Bozkir, E., Bell, C., Kasneci, E., Gerjets, P., & Trautwein, U. (2026). Validating automated assessments of teaching effectiveness using multimodal data. Learning and Instruction, 101, 102264.",
+      "doi": "10.1016/j.learninstruc.2025.102264",
+      "url": "https://doi.org/10.1016/j.learninstruc.2025.102264",
+      "study_type": "Мультимодальная валидация автоматической оценки",
+      "evidence_summary": "Выборка / контекст: 46 учителей, 1 132 ученика, 92 видеоурока математики; Германия.\nИнструмент / конструкт: Модели по видео/аудио/тексту для 18 подизмерений управления классом, поддержки и когнитивной активации.\nНадёжность / валидность: Абсолютная точность ML выше в 11/18 измерений; надёжность различалась, предиктивная валидность была непоследовательной. Человеческая разметка — референс.",
+      "access_notes": "Открытый доступ; статья, а не готовая универсальная модель.",
+      "evidence_role": "Доказательства автоматического распознавания",
+      "verification_status": "source_register_checked",
+      "registry_checked_on": "2026-09-01",
+      "link_id": 85,
+      "relation_role": "Доказательства автоматического распознавания",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 29",
+      "link_notes": null
+    }
+  ]
+}

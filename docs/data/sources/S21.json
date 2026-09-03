@@ -1,0 +1,32 @@
+{
+  "id": 21,
+  "code": "S21",
+  "citation_apa": "McDonnell, L., Barker, M. K., & Wieman, C. (2016). Concepts first, jargon second improves student articulation of understanding. Biochemistry and Molecular Biology Education, 44(1), 12–19.",
+  "doi": "10.1002/bmb.20922",
+  "url": "https://doi.org/10.1002/bmb.20922",
+  "study_type": "Квазиэкспериментальное исследование",
+  "evidence_summary": "Выборка / контекст: Крупный вводный курс биологии в университете.\nИнструмент / конструкт: Сравнение «сначала понятия, затем жаргон» с обычным порядком.\nНадёжность / валидность: Улучшение корректной аргументации в открытых ответах; дисциплинарный контекст ограничивает перенос.",
+  "access_notes": "DOI/издатель; авторская версия может быть доступна.",
+  "evidence_role": "Экспериментальные доказательства конструкта",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 10,
+      "code": "C10",
+      "number": 10,
+      "name": "Профессиональный язык",
+      "block_name": "Работа с содержанием",
+      "link_id": 80,
+      "relation_role": "Экспериментальные доказательства конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 25",
+      "notes": null
+    }
+  ]
+}

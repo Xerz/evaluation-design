@@ -1,0 +1,1183 @@
+{
+  "name": "criterion_research_sources",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "criterion_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "research_source_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "relation_role",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "relevance_status",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": "'to_review'",
+      "pk": 0
+    },
+    {
+      "cid": 5,
+      "name": "supported_claim",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 6,
+      "name": "source_locator",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 7,
+      "name": "notes",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "criterion_id": 15,
+      "research_source_id": 1,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 5",
+      "notes": null
+    },
+    {
+      "id": 2,
+      "criterion_id": 18,
+      "research_source_id": 1,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 5",
+      "notes": null
+    },
+    {
+      "id": 3,
+      "criterion_id": 20,
+      "research_source_id": 1,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 5",
+      "notes": null
+    },
+    {
+      "id": 4,
+      "criterion_id": 22,
+      "research_source_id": 1,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 5",
+      "notes": null
+    },
+    {
+      "id": 5,
+      "criterion_id": 15,
+      "research_source_id": 2,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 6",
+      "notes": null
+    },
+    {
+      "id": 6,
+      "criterion_id": 17,
+      "research_source_id": 2,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 6",
+      "notes": null
+    },
+    {
+      "id": 7,
+      "criterion_id": 18,
+      "research_source_id": 2,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 6",
+      "notes": null
+    },
+    {
+      "id": 8,
+      "criterion_id": 19,
+      "research_source_id": 2,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 6",
+      "notes": null
+    },
+    {
+      "id": 9,
+      "criterion_id": 20,
+      "research_source_id": 2,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 6",
+      "notes": null
+    },
+    {
+      "id": 10,
+      "criterion_id": 22,
+      "research_source_id": 2,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 6",
+      "notes": null
+    },
+    {
+      "id": 11,
+      "criterion_id": 15,
+      "research_source_id": 3,
+      "relation_role": "Методическая рамка и валидность",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 7",
+      "notes": null
+    },
+    {
+      "id": 12,
+      "criterion_id": 17,
+      "research_source_id": 3,
+      "relation_role": "Методическая рамка и валидность",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 7",
+      "notes": null
+    },
+    {
+      "id": 13,
+      "criterion_id": 18,
+      "research_source_id": 3,
+      "relation_role": "Методическая рамка и валидность",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 7",
+      "notes": null
+    },
+    {
+      "id": 14,
+      "criterion_id": 19,
+      "research_source_id": 3,
+      "relation_role": "Методическая рамка и валидность",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 7",
+      "notes": null
+    },
+    {
+      "id": 15,
+      "criterion_id": 20,
+      "research_source_id": 3,
+      "relation_role": "Методическая рамка и валидность",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 7",
+      "notes": null
+    },
+    {
+      "id": 16,
+      "criterion_id": 22,
+      "research_source_id": 3,
+      "relation_role": "Методическая рамка и валидность",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 7",
+      "notes": null
+    },
+    {
+      "id": 17,
+      "criterion_id": 1,
+      "research_source_id": 4,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 8",
+      "notes": null
+    },
+    {
+      "id": 18,
+      "criterion_id": 3,
+      "research_source_id": 4,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 8",
+      "notes": null
+    },
+    {
+      "id": 19,
+      "criterion_id": 4,
+      "research_source_id": 4,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 8",
+      "notes": null
+    },
+    {
+      "id": 20,
+      "criterion_id": 8,
+      "research_source_id": 4,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 8",
+      "notes": null
+    },
+    {
+      "id": 21,
+      "criterion_id": 14,
+      "research_source_id": 4,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 8",
+      "notes": null
+    },
+    {
+      "id": 22,
+      "criterion_id": 15,
+      "research_source_id": 4,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 8",
+      "notes": null
+    },
+    {
+      "id": 23,
+      "criterion_id": 19,
+      "research_source_id": 4,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 8",
+      "notes": null
+    },
+    {
+      "id": 24,
+      "criterion_id": 20,
+      "research_source_id": 4,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 8",
+      "notes": null
+    },
+    {
+      "id": 25,
+      "criterion_id": 15,
+      "research_source_id": 5,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 9",
+      "notes": null
+    },
+    {
+      "id": 26,
+      "criterion_id": 17,
+      "research_source_id": 5,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 9",
+      "notes": null
+    },
+    {
+      "id": 27,
+      "criterion_id": 18,
+      "research_source_id": 5,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 9",
+      "notes": null
+    },
+    {
+      "id": 28,
+      "criterion_id": 19,
+      "research_source_id": 5,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 9",
+      "notes": null
+    },
+    {
+      "id": 29,
+      "criterion_id": 20,
+      "research_source_id": 5,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 9",
+      "notes": null
+    },
+    {
+      "id": 30,
+      "criterion_id": 23,
+      "research_source_id": 5,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 9",
+      "notes": null
+    },
+    {
+      "id": 31,
+      "criterion_id": 4,
+      "research_source_id": 6,
+      "relation_role": "Валидность конструкта; перенос из школы",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 10",
+      "notes": null
+    },
+    {
+      "id": 32,
+      "criterion_id": 17,
+      "research_source_id": 6,
+      "relation_role": "Валидность конструкта; перенос из школы",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 10",
+      "notes": null
+    },
+    {
+      "id": 33,
+      "criterion_id": 18,
+      "research_source_id": 6,
+      "relation_role": "Валидность конструкта; перенос из школы",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 10",
+      "notes": null
+    },
+    {
+      "id": 34,
+      "criterion_id": 19,
+      "research_source_id": 6,
+      "relation_role": "Валидность конструкта; перенос из школы",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 10",
+      "notes": null
+    },
+    {
+      "id": 35,
+      "criterion_id": 20,
+      "research_source_id": 6,
+      "relation_role": "Валидность конструкта; перенос из школы",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 10",
+      "notes": null
+    },
+    {
+      "id": 36,
+      "criterion_id": 23,
+      "research_source_id": 6,
+      "relation_role": "Валидность конструкта; перенос из школы",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 10",
+      "notes": null
+    },
+    {
+      "id": 37,
+      "criterion_id": 17,
+      "research_source_id": 7,
+      "relation_role": "Валидность конструкта; перенос из школы",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 11",
+      "notes": null
+    },
+    {
+      "id": 38,
+      "criterion_id": 18,
+      "research_source_id": 7,
+      "relation_role": "Валидность конструкта; перенос из школы",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 11",
+      "notes": null
+    },
+    {
+      "id": 39,
+      "criterion_id": 19,
+      "research_source_id": 7,
+      "relation_role": "Валидность конструкта; перенос из школы",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 11",
+      "notes": null
+    },
+    {
+      "id": 40,
+      "criterion_id": 20,
+      "research_source_id": 7,
+      "relation_role": "Валидность конструкта; перенос из школы",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 11",
+      "notes": null
+    },
+    {
+      "id": 41,
+      "criterion_id": 23,
+      "research_source_id": 7,
+      "relation_role": "Валидность конструкта; перенос из школы",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 11",
+      "notes": null
+    },
+    {
+      "id": 42,
+      "criterion_id": 2,
+      "research_source_id": 8,
+      "relation_role": "Валидность конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 12",
+      "notes": null
+    },
+    {
+      "id": 43,
+      "criterion_id": 5,
+      "research_source_id": 8,
+      "relation_role": "Валидность конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 12",
+      "notes": null
+    },
+    {
+      "id": 44,
+      "criterion_id": 8,
+      "research_source_id": 8,
+      "relation_role": "Валидность конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 12",
+      "notes": null
+    },
+    {
+      "id": 45,
+      "criterion_id": 9,
+      "research_source_id": 8,
+      "relation_role": "Валидность конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 12",
+      "notes": null
+    },
+    {
+      "id": 46,
+      "criterion_id": 10,
+      "research_source_id": 8,
+      "relation_role": "Валидность конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 12",
+      "notes": null
+    },
+    {
+      "id": 47,
+      "criterion_id": 11,
+      "research_source_id": 8,
+      "relation_role": "Валидность конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 12",
+      "notes": null
+    },
+    {
+      "id": 48,
+      "criterion_id": 13,
+      "research_source_id": 8,
+      "relation_role": "Валидность конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 12",
+      "notes": null
+    },
+    {
+      "id": 49,
+      "criterion_id": 16,
+      "research_source_id": 8,
+      "relation_role": "Валидность конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 12",
+      "notes": null
+    },
+    {
+      "id": 50,
+      "criterion_id": 21,
+      "research_source_id": 8,
+      "relation_role": "Валидность конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 12",
+      "notes": null
+    },
+    {
+      "id": 51,
+      "criterion_id": 2,
+      "research_source_id": 9,
+      "relation_role": "Валидность конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 13",
+      "notes": null
+    },
+    {
+      "id": 52,
+      "criterion_id": 5,
+      "research_source_id": 9,
+      "relation_role": "Валидность конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 13",
+      "notes": null
+    },
+    {
+      "id": 53,
+      "criterion_id": 9,
+      "research_source_id": 9,
+      "relation_role": "Валидность конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 13",
+      "notes": null
+    },
+    {
+      "id": 54,
+      "criterion_id": 10,
+      "research_source_id": 9,
+      "relation_role": "Валидность конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 13",
+      "notes": null
+    },
+    {
+      "id": 55,
+      "criterion_id": 11,
+      "research_source_id": 9,
+      "relation_role": "Валидность конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 13",
+      "notes": null
+    },
+    {
+      "id": 56,
+      "criterion_id": 21,
+      "research_source_id": 9,
+      "relation_role": "Валидность конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 13",
+      "notes": null
+    },
+    {
+      "id": 57,
+      "criterion_id": 1,
+      "research_source_id": 10,
+      "relation_role": "Определение конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 14",
+      "notes": null
+    },
+    {
+      "id": 58,
+      "criterion_id": 14,
+      "research_source_id": 10,
+      "relation_role": "Определение конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 14",
+      "notes": null
+    },
+    {
+      "id": 59,
+      "criterion_id": 15,
+      "research_source_id": 10,
+      "relation_role": "Определение конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 14",
+      "notes": null
+    },
+    {
+      "id": 60,
+      "criterion_id": 22,
+      "research_source_id": 10,
+      "relation_role": "Определение конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 14",
+      "notes": null
+    },
+    {
+      "id": 61,
+      "criterion_id": 6,
+      "research_source_id": 11,
+      "relation_role": "Валидность конструкта/экспериментальные доказательства",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 15",
+      "notes": null
+    },
+    {
+      "id": 62,
+      "criterion_id": 11,
+      "research_source_id": 11,
+      "relation_role": "Валидность конструкта/экспериментальные доказательства",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 15",
+      "notes": null
+    },
+    {
+      "id": 63,
+      "criterion_id": 12,
+      "research_source_id": 11,
+      "relation_role": "Валидность конструкта/экспериментальные доказательства",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 15",
+      "notes": null
+    },
+    {
+      "id": 64,
+      "criterion_id": 12,
+      "research_source_id": 12,
+      "relation_role": "Валидность конструкта/обзор",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 16",
+      "notes": null
+    },
+    {
+      "id": 65,
+      "criterion_id": 16,
+      "research_source_id": 12,
+      "relation_role": "Валидность конструкта/обзор",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 16",
+      "notes": null
+    },
+    {
+      "id": 66,
+      "criterion_id": 13,
+      "research_source_id": 13,
+      "relation_role": "Экспериментальные доказательства конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 17",
+      "notes": null
+    },
+    {
+      "id": 67,
+      "criterion_id": 8,
+      "research_source_id": 14,
+      "relation_role": "Прямая операционализация наблюдаемого конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 18",
+      "notes": null
+    },
+    {
+      "id": 68,
+      "criterion_id": 5,
+      "research_source_id": 15,
+      "relation_role": "Валидность конструкта/ограничения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 19",
+      "notes": null
+    },
+    {
+      "id": 69,
+      "criterion_id": 5,
+      "research_source_id": 16,
+      "relation_role": "Экспериментальные доказательства конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 20",
+      "notes": null
+    },
+    {
+      "id": 70,
+      "criterion_id": 19,
+      "research_source_id": 17,
+      "relation_role": "Прямая операционализация наблюдаемого конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 21",
+      "notes": null
+    },
+    {
+      "id": 71,
+      "criterion_id": 20,
+      "research_source_id": 17,
+      "relation_role": "Прямая операционализация наблюдаемого конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 21",
+      "notes": null
+    },
+    {
+      "id": 72,
+      "criterion_id": 7,
+      "research_source_id": 18,
+      "relation_role": "Определение конструкта и наблюдаемых индикаторов",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 22",
+      "notes": null
+    },
+    {
+      "id": 73,
+      "criterion_id": 15,
+      "research_source_id": 18,
+      "relation_role": "Определение конструкта и наблюдаемых индикаторов",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 22",
+      "notes": null
+    },
+    {
+      "id": 74,
+      "criterion_id": 18,
+      "research_source_id": 18,
+      "relation_role": "Определение конструкта и наблюдаемых индикаторов",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 22",
+      "notes": null
+    },
+    {
+      "id": 75,
+      "criterion_id": 19,
+      "research_source_id": 18,
+      "relation_role": "Определение конструкта и наблюдаемых индикаторов",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 22",
+      "notes": null
+    },
+    {
+      "id": 76,
+      "criterion_id": 22,
+      "research_source_id": 18,
+      "relation_role": "Определение конструкта и наблюдаемых индикаторов",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 22",
+      "notes": null
+    },
+    {
+      "id": 77,
+      "criterion_id": 17,
+      "research_source_id": 19,
+      "relation_role": "Определение конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 23",
+      "notes": null
+    },
+    {
+      "id": 78,
+      "criterion_id": 21,
+      "research_source_id": 19,
+      "relation_role": "Определение конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 23",
+      "notes": null
+    },
+    {
+      "id": 79,
+      "criterion_id": 17,
+      "research_source_id": 20,
+      "relation_role": "Валидность наблюдаемого конструкта; перенос из школы",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 24",
+      "notes": null
+    },
+    {
+      "id": 80,
+      "criterion_id": 10,
+      "research_source_id": 21,
+      "relation_role": "Экспериментальные доказательства конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 25",
+      "notes": null
+    },
+    {
+      "id": 81,
+      "criterion_id": 16,
+      "research_source_id": 22,
+      "relation_role": "Валидность акустических признаков",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 26",
+      "notes": null
+    },
+    {
+      "id": 82,
+      "criterion_id": 22,
+      "research_source_id": 23,
+      "relation_role": "Валидность конструкта; перенос к наблюдению",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 27",
+      "notes": null
+    },
+    {
+      "id": 83,
+      "criterion_id": 22,
+      "research_source_id": 24,
+      "relation_role": "Валидность наблюдаемого конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 28",
+      "notes": null
+    },
+    {
+      "id": 84,
+      "criterion_id": 2,
+      "research_source_id": 25,
+      "relation_role": "Доказательства автоматического распознавания",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 29",
+      "notes": null
+    },
+    {
+      "id": 85,
+      "criterion_id": 4,
+      "research_source_id": 25,
+      "relation_role": "Доказательства автоматического распознавания",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 29",
+      "notes": null
+    },
+    {
+      "id": 86,
+      "criterion_id": 8,
+      "research_source_id": 25,
+      "relation_role": "Доказательства автоматического распознавания",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 29",
+      "notes": null
+    },
+    {
+      "id": 87,
+      "criterion_id": 9,
+      "research_source_id": 25,
+      "relation_role": "Доказательства автоматического распознавания",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 29",
+      "notes": null
+    },
+    {
+      "id": 88,
+      "criterion_id": 15,
+      "research_source_id": 25,
+      "relation_role": "Доказательства автоматического распознавания",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 29",
+      "notes": null
+    },
+    {
+      "id": 89,
+      "criterion_id": 17,
+      "research_source_id": 25,
+      "relation_role": "Доказательства автоматического распознавания",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 29",
+      "notes": null
+    },
+    {
+      "id": 90,
+      "criterion_id": 18,
+      "research_source_id": 25,
+      "relation_role": "Доказательства автоматического распознавания",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 29",
+      "notes": null
+    },
+    {
+      "id": 91,
+      "criterion_id": 19,
+      "research_source_id": 25,
+      "relation_role": "Доказательства автоматического распознавания",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 29",
+      "notes": null
+    },
+    {
+      "id": 92,
+      "criterion_id": 20,
+      "research_source_id": 25,
+      "relation_role": "Доказательства автоматического распознавания",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 29",
+      "notes": null
+    },
+    {
+      "id": 93,
+      "criterion_id": 23,
+      "research_source_id": 25,
+      "relation_role": "Доказательства автоматического распознавания",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 29",
+      "notes": null
+    },
+    {
+      "id": 94,
+      "criterion_id": 8,
+      "research_source_id": 26,
+      "relation_role": "Доказательства автоматического распознавания",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 30",
+      "notes": null
+    },
+    {
+      "id": 95,
+      "criterion_id": 10,
+      "research_source_id": 26,
+      "relation_role": "Доказательства автоматического распознавания",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 30",
+      "notes": null
+    },
+    {
+      "id": 96,
+      "criterion_id": 17,
+      "research_source_id": 26,
+      "relation_role": "Доказательства автоматического распознавания",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 30",
+      "notes": null
+    },
+    {
+      "id": 97,
+      "criterion_id": 19,
+      "research_source_id": 26,
+      "relation_role": "Доказательства автоматического распознавания",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 30",
+      "notes": null
+    },
+    {
+      "id": 98,
+      "criterion_id": 20,
+      "research_source_id": 26,
+      "relation_role": "Доказательства автоматического распознавания",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 30",
+      "notes": null
+    },
+    {
+      "id": 99,
+      "criterion_id": 21,
+      "research_source_id": 26,
+      "relation_role": "Доказательства автоматического распознавания",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 30",
+      "notes": null
+    },
+    {
+      "id": 100,
+      "criterion_id": 9,
+      "research_source_id": 27,
+      "relation_role": "Предварительные доказательства автоматизации",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 31",
+      "notes": null
+    },
+    {
+      "id": 101,
+      "criterion_id": 17,
+      "research_source_id": 27,
+      "relation_role": "Предварительные доказательства автоматизации",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 31",
+      "notes": null
+    },
+    {
+      "id": 102,
+      "criterion_id": 19,
+      "research_source_id": 27,
+      "relation_role": "Предварительные доказательства автоматизации",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 31",
+      "notes": null
+    },
+    {
+      "id": 103,
+      "criterion_id": 20,
+      "research_source_id": 27,
+      "relation_role": "Предварительные доказательства автоматизации",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 31",
+      "notes": null
+    },
+    {
+      "id": 104,
+      "criterion_id": 23,
+      "research_source_id": 28,
+      "relation_role": "Предварительные доказательства автоматизации",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 32",
+      "notes": null
+    },
+    {
+      "id": 105,
+      "criterion_id": 25,
+      "research_source_id": 29,
+      "relation_role": "Валидность конструкта; обоснование дополнительного опроса",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 33",
+      "notes": null
+    },
+    {
+      "id": 106,
+      "criterion_id": 26,
+      "research_source_id": 30,
+      "relation_role": "Определение конструкта и ограничений",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 34",
+      "notes": null
+    },
+    {
+      "id": 107,
+      "criterion_id": 6,
+      "research_source_id": 31,
+      "relation_role": "Валидность конструкта; обоснование дополнительных данных",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 35",
+      "notes": null
+    },
+    {
+      "id": 108,
+      "criterion_id": 23,
+      "research_source_id": 32,
+      "relation_role": "Русскоязычная терминологическая и контекстная опора",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 36",
+      "notes": null
+    },
+    {
+      "id": 109,
+      "criterion_id": 25,
+      "research_source_id": 33,
+      "relation_role": "Русскоязычный контекст; обоснование роли опроса",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 37",
+      "notes": null
+    },
+    {
+      "id": 110,
+      "criterion_id": 24,
+      "research_source_id": 34,
+      "relation_role": "Определение скрытого конструкта; обоснование исключения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 38",
+      "notes": null
+    },
+    {
+      "id": 111,
+      "criterion_id": 7,
+      "research_source_id": 35,
+      "relation_role": "Валидность скрытого конструкта; обоснование статуса «Условно»",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 39",
+      "notes": null
+    }
+  ],
+  "total": 111
+}

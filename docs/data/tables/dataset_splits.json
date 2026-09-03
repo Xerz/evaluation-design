@@ -1,0 +1,112 @@
+{
+  "name": "dataset_splits",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 1,
+      "nullable": false,
+      "generated": true,
+      "enum_options": [],
+      "json": false,
+      "foreign_key": null
+    },
+    {
+      "cid": 1,
+      "name": "study_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0,
+      "nullable": false,
+      "generated": false,
+      "enum_options": [],
+      "json": false,
+      "foreign_key": {
+        "table": "studies",
+        "from": "study_id",
+        "to": "id",
+        "on_update": "NO ACTION",
+        "on_delete": "CASCADE",
+        "group_id": 0,
+        "sequence": 0
+      }
+    },
+    {
+      "cid": 2,
+      "name": "code",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0,
+      "nullable": false,
+      "generated": false,
+      "enum_options": [],
+      "json": false,
+      "foreign_key": null
+    },
+    {
+      "cid": 3,
+      "name": "name",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0,
+      "nullable": false,
+      "generated": false,
+      "enum_options": [],
+      "json": false,
+      "foreign_key": null
+    },
+    {
+      "cid": 4,
+      "name": "purpose",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0,
+      "nullable": false,
+      "generated": false,
+      "enum_options": [],
+      "json": false,
+      "foreign_key": null
+    },
+    {
+      "cid": 5,
+      "name": "is_locked",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": "0",
+      "pk": 0,
+      "nullable": false,
+      "generated": false,
+      "enum_options": [
+        0,
+        1
+      ],
+      "json": false,
+      "foreign_key": null
+    },
+    {
+      "cid": 6,
+      "name": "locked_at",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0,
+      "nullable": true,
+      "generated": false,
+      "enum_options": [],
+      "json": false,
+      "foreign_key": null
+    }
+  ],
+  "rows": [],
+  "total": null,
+  "restricted": true,
+  "visibility": "local_only"
+}

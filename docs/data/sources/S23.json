@@ -1,0 +1,32 @@
+{
+  "id": 23,
+  "code": "S23",
+  "citation_apa": "Antonietti, C., Schmitz, M.-L., Consoli, T., Cattaneo, A., Gonon, P., & Petko, D. (2023). Development and validation of the ICAP Technology Scale to measure how teachers integrate technology into learning activities. Computers & Education, 192, 104648.",
+  "doi": "10.1016/j.compedu.2022.104648",
+  "url": "https://doi.org/10.1016/j.compedu.2022.104648",
+  "study_type": "Разработка и валидация шкалы",
+  "evidence_summary": "Выборка / контекст: Учителя; преимущественно школьный контекст; интеграция технологий в активность.\nИнструмент / конструкт: ICAP Technology Scale, 12 пунктов, четыре фактора.\nНадёжность / валидность: Авторы сообщают удовлетворительные показатели надёжности и валидности; шкала самоотчётная, не видео-протокол.",
+  "access_notes": "DOI/издатель; не воспроизводить пункты целиком без проверки прав.",
+  "evidence_role": "Валидность конструкта; перенос к наблюдению",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 22,
+      "code": "C22",
+      "number": 22,
+      "name": "Использование цифровых инструментов",
+      "block_name": "Управление результатами",
+      "link_id": 82,
+      "relation_role": "Валидность конструкта; перенос к наблюдению",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 27",
+      "notes": null
+    }
+  ]
+}

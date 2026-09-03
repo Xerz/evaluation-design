@@ -1,0 +1,209 @@
+{
+  "id": 16,
+  "number": 16,
+  "code": "C16",
+  "block_name": "Управление результатами",
+  "subblock_name": null,
+  "name": "Создание комфортных условий",
+  "source_document_id": 1,
+  "source_locator": "checklist.csv:67",
+  "readiness_status": "prototype_now",
+  "platform_coverage_status": "partial",
+  "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+  "source_title": "Шкала 26 критериев ТюмГУ",
+  "source_path": "Материалы/Eval-2024/class_eval/checklist.csv",
+  "levels": [
+    {
+      "score": 2,
+      "description": "говорит грамотно, внятно, четко и достаточно громко и интонировано для удобного восприятия, дает ясные инструкции, использует читаемые слайды, опрятно выглядит"
+    },
+    {
+      "score": 1,
+      "description": "создает некомфортные условия для студентов: слишком тихий или слишком громкий голос, расположение в пространстве, требующее напряжения, дает слишком длинные инструкции и т.д."
+    },
+    {
+      "score": 0,
+      "description": "создает дискомфортные условия для студентов: отталкивающий/отвлекающий внешний вид (одежда, манера двигаться, мимика и т.д.), неподготовленная техника, противоречивые/некорректные инструкции, презентация и материалы используются номинально (чтобы было) и т.д."
+    }
+  ],
+  "data_requirements": [],
+  "instrument_coverage": [
+    {
+      "instrument_code": "LLM_EVAL",
+      "instrument_name": "LLM-оценка критериев ТюмГУ",
+      "instrument_kind": "llm",
+      "version_code": "eval-2024",
+      "version_name": "Eval-2024 — исторический транскрипт-only прототип",
+      "lifecycle_status": "historical",
+      "methodology_status": "partial",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_code": "MGPU_VISUAL",
+      "instrument_name": "Визуальный считыватель эмоций МГПУ",
+      "instrument_kind": "video_analytics",
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия визуального модуля МГПУ",
+      "lifecycle_status": "prototype",
+      "methodology_status": "not_documented",
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Визуальный сигнал покрывает лишь отдельные аспекты условий."
+    },
+    {
+      "instrument_code": "MGPU_AUDIO",
+      "instrument_name": "Анализатор аудио МГПУ",
+      "instrument_kind": "audio_analytics",
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия аудиомодуля МГПУ",
+      "lifecycle_status": "prototype",
+      "methodology_status": "not_documented",
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Громкость, темп и отдельные коммуникативные тактики."
+    },
+    {
+      "instrument_code": "EXPERT",
+      "instrument_name": "Эксперт-человек",
+      "instrument_kind": "human",
+      "version_code": "checklist-2024-v1",
+      "version_name": "Экспертный протокол по чек-листу ТюмГУ 2024",
+      "lifecycle_status": "reference",
+      "methodology_status": "documented",
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    }
+  ],
+  "effects": [
+    {
+      "code": "E1",
+      "name": "Конструктная валидность",
+      "check_code": "EC_E1",
+      "method_code": "T1",
+      "method_name": "Экспертная проверка доказательств",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E2",
+      "name": "Точность обнаружения событий",
+      "check_code": "EC_E2",
+      "method_code": "T2",
+      "method_name": "Сопоставление событий и таймкодов",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E3",
+      "name": "Согласие по итоговой оценке",
+      "check_code": "EC_E3",
+      "method_code": "T3",
+      "method_name": "Согласие шкалы 0–2",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E4",
+      "name": "Добавочная ценность мультимодальности",
+      "check_code": "EC_E4",
+      "method_code": "T4",
+      "method_name": "Мультимодальная абляция",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E5",
+      "name": "Переносимость",
+      "check_code": "EC_E5",
+      "method_code": "T5",
+      "method_name": "Holdout и анализ переносимости",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E6",
+      "name": "Калиброванная неопределённость",
+      "check_code": "EC_E6",
+      "method_code": "T6",
+      "method_name": "Калибровка неопределённости",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E7",
+      "name": "Практическая полезность эксперту",
+      "check_code": "EC_E7",
+      "method_code": "T7",
+      "method_name": "Сбалансированный crossover A0–A5",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E9",
+      "name": "Надёжность во времени",
+      "check_code": "EC_E9",
+      "method_code": "T9",
+      "method_name": "Продольная и повторная проверка",
+      "scope_role": "primary"
+    }
+  ],
+  "research_sources": [
+    {
+      "id": 8,
+      "code": "S08",
+      "citation_apa": "Bolkan, S. (2017). Development and validation of the Clarity Indicators Scale. Communication Education, 66(1), 19–36.",
+      "doi": "10.1080/03634523.2016.1202994",
+      "url": "https://doi.org/10.1080/03634523.2016.1202994",
+      "study_type": "Разработка и валидация шкалы",
+      "evidence_summary": "Выборка / контекст: 566 студентов колледжа/университета.\nИнструмент / конструкт: Clarity Indicators Scale: 20 пунктов, пять факторов низкой/средней инференции.\nНадёжность / валидность: Факторы включают дисфлюентность, перегрузку памяти, взаимодействие, когерентность и структуру; конвергентная связь с TCSI около r=0,83.",
+      "access_notes": "Издательская статья; не воспроизводить шкалу целиком без проверки прав.",
+      "evidence_role": "Валидность конструкта",
+      "verification_status": "source_register_checked",
+      "registry_checked_on": "2026-09-01",
+      "link_id": 49,
+      "relation_role": "Валидность конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 12",
+      "link_notes": null
+    },
+    {
+      "id": 12,
+      "code": "S12",
+      "citation_apa": "Çeken, B., & Taşkın, N. (2022). Multimedia learning principles in different learning environments: A systematic review. Smart Learning Environments, 9, Article 19.",
+      "doi": "10.1186/s40561-022-00200-2",
+      "url": "https://doi.org/10.1186/s40561-022-00200-2",
+      "study_type": "Систематический обзор",
+      "evidence_summary": "Выборка / контекст: 136 журнальных публикаций; разные цифровые и очные среды.\nИнструмент / конструкт: Принципы мультимедийного обучения.\nНадёжность / валидность: PRISMA-синтез применимости принципов; неоднородность контекстов учитывается как ограничение.",
+      "access_notes": "Открытый доступ (SpringerOpen).",
+      "evidence_role": "Валидность конструкта/обзор",
+      "verification_status": "source_register_checked",
+      "registry_checked_on": "2026-09-01",
+      "link_id": 65,
+      "relation_role": "Валидность конструкта/обзор",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 16",
+      "link_notes": null
+    },
+    {
+      "id": 22,
+      "code": "S22",
+      "citation_apa": "Minelli, G., Puglisi, G. E., & Astolfi, A. (2022). Acoustical parameters for learning in classroom: A review. Building and Environment, 208, 108582.",
+      "doi": "10.1016/j.buildenv.2021.108582",
+      "url": "https://doi.org/10.1016/j.buildenv.2021.108582",
+      "study_type": "Обзор эмпирических исследований",
+      "evidence_summary": "Выборка / контекст: 38 экологически валидных работ 2002–2020; типичные аудиторные условия.\nИнструмент / конструкт: Шум, реверберация, SNR, разборчивость речи и учебные показатели.\nНадёжность / валидность: Синтезирует связи акустических параметров с пониманием и выполнением задач; многие данные школьные.",
+      "access_notes": "DOI/издатель.",
+      "evidence_role": "Валидность акустических признаков",
+      "verification_status": "source_register_checked",
+      "registry_checked_on": "2026-09-01",
+      "link_id": 81,
+      "relation_role": "Валидность акустических признаков",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 26",
+      "link_notes": null
+    }
+  ]
+}

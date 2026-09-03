@@ -1,0 +1,45 @@
+{
+  "id": 12,
+  "code": "S12",
+  "citation_apa": "Çeken, B., & Taşkın, N. (2022). Multimedia learning principles in different learning environments: A systematic review. Smart Learning Environments, 9, Article 19.",
+  "doi": "10.1186/s40561-022-00200-2",
+  "url": "https://doi.org/10.1186/s40561-022-00200-2",
+  "study_type": "Систематический обзор",
+  "evidence_summary": "Выборка / контекст: 136 журнальных публикаций; разные цифровые и очные среды.\nИнструмент / конструкт: Принципы мультимедийного обучения.\nНадёжность / валидность: PRISMA-синтез применимости принципов; неоднородность контекстов учитывается как ограничение.",
+  "access_notes": "Открытый доступ (SpringerOpen).",
+  "evidence_role": "Валидность конструкта/обзор",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 12,
+      "code": "C12",
+      "number": 12,
+      "name": "Визуализация",
+      "block_name": "Работа с содержанием",
+      "link_id": 64,
+      "relation_role": "Валидность конструкта/обзор",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 16",
+      "notes": null
+    },
+    {
+      "id": 16,
+      "code": "C16",
+      "number": 16,
+      "name": "Создание комфортных условий",
+      "block_name": "Управление результатами",
+      "link_id": 65,
+      "relation_role": "Валидность конструкта/обзор",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 16",
+      "notes": null
+    }
+  ]
+}

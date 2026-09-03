@@ -1,0 +1,194 @@
+{
+  "id": 24,
+  "number": 24,
+  "code": "C24",
+  "block_name": "Профессиональная позиция",
+  "subblock_name": null,
+  "name": "Опыт успеха",
+  "source_document_id": 1,
+  "source_locator": "checklist.csv:101",
+  "readiness_status": "not_from_recording",
+  "platform_coverage_status": "indirect",
+  "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+  "source_title": "Шкала 26 критериев ТюмГУ",
+  "source_path": "Материалы/Eval-2024/class_eval/checklist.csv",
+  "levels": [
+    {
+      "score": 2,
+      "description": "Обеспечение прогресса и/или опыта успеха (субъективное переживание студентов, что произошло их продвижение в теме, достигнут успех)"
+    },
+    {
+      "score": 1,
+      "description": "Создает комфортную атмосферу общения (студентам приятно продолжать общаться с преподавателем)"
+    },
+    {
+      "score": 0,
+      "description": "Обеспечивает опыт неуспеха на большинстве этапов обучения"
+    }
+  ],
+  "data_requirements": [
+    {
+      "code": "exit_ticket",
+      "name": "Exit ticket",
+      "category": "survey",
+      "requirement_role": "required",
+      "reason": "Опыт успеха требует прямой студенческой самооценки продвижения."
+    },
+    {
+      "code": "learning_results",
+      "name": "Результаты обучения",
+      "category": "outcome",
+      "requirement_role": "supplemental",
+      "reason": "Результаты до–после могут подтвердить фактический прогресс."
+    }
+  ],
+  "instrument_coverage": [
+    {
+      "instrument_code": "LLM_EVAL",
+      "instrument_name": "LLM-оценка критериев ТюмГУ",
+      "instrument_kind": "llm",
+      "version_code": "eval-2024",
+      "version_name": "Eval-2024 — исторический транскрипт-only прототип",
+      "lifecycle_status": "historical",
+      "methodology_status": "partial",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_code": "MGPU_VISUAL",
+      "instrument_name": "Визуальный считыватель эмоций МГПУ",
+      "instrument_kind": "video_analytics",
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия визуального модуля МГПУ",
+      "lifecycle_status": "prototype",
+      "methodology_status": "not_documented",
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Позитивная эмоция не доказывает опыт успеха."
+    },
+    {
+      "instrument_code": "MGPU_AUDIO",
+      "instrument_name": "Анализатор аудио МГПУ",
+      "instrument_kind": "audio_analytics",
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия аудиомодуля МГПУ",
+      "lifecycle_status": "prototype",
+      "methodology_status": "not_documented",
+      "coverage_status": "indirect",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Похвала не доказывает субъективный опыт успеха."
+    },
+    {
+      "instrument_code": "EXPERT",
+      "instrument_name": "Эксперт-человек",
+      "instrument_kind": "human",
+      "version_code": "checklist-2024-v1",
+      "version_name": "Экспертный протокол по чек-листу ТюмГУ 2024",
+      "lifecycle_status": "reference",
+      "methodology_status": "documented",
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    }
+  ],
+  "effects": [
+    {
+      "code": "E1",
+      "name": "Конструктная валидность",
+      "check_code": "EC_E1",
+      "method_code": "T1",
+      "method_name": "Экспертная проверка доказательств",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E2",
+      "name": "Точность обнаружения событий",
+      "check_code": "EC_E2",
+      "method_code": "T2",
+      "method_name": "Сопоставление событий и таймкодов",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E3",
+      "name": "Согласие по итоговой оценке",
+      "check_code": "EC_E3",
+      "method_code": "T3",
+      "method_name": "Согласие шкалы 0–2",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E4",
+      "name": "Добавочная ценность мультимодальности",
+      "check_code": "EC_E4",
+      "method_code": "T4",
+      "method_name": "Мультимодальная абляция",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E5",
+      "name": "Переносимость",
+      "check_code": "EC_E5",
+      "method_code": "T5",
+      "method_name": "Holdout и анализ переносимости",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E6",
+      "name": "Калиброванная неопределённость",
+      "check_code": "EC_E6",
+      "method_code": "T6",
+      "method_name": "Калибровка неопределённости",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E7",
+      "name": "Практическая полезность эксперту",
+      "check_code": "EC_E7",
+      "method_code": "T7",
+      "method_name": "Сбалансированный crossover A0–A5",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E8",
+      "name": "Необходимость дополнительных данных",
+      "check_code": "EC_E8",
+      "method_code": "T8",
+      "method_name": "Проверка границ и добавочных данных",
+      "scope_role": "boundary"
+    },
+    {
+      "code": "E9",
+      "name": "Надёжность во времени",
+      "check_code": "EC_E9",
+      "method_code": "T9",
+      "method_name": "Продольная и повторная проверка",
+      "scope_role": "primary"
+    }
+  ],
+  "research_sources": [
+    {
+      "id": 34,
+      "code": "S34",
+      "citation_apa": "Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68–78.",
+      "doi": "10.1037/0003-066X.55.1.68",
+      "url": "https://doi.org/10.1037/0003-066X.55.1.68",
+      "study_type": "Теоретическая обзорная статья",
+      "evidence_summary": "Выборка / контекст: Общие образовательные и мотивационные контексты.\nИнструмент / конструкт: Потребности автономии, компетентности и связанности.\nНадёжность / валидность: Определяет воспринимаемую компетентность как психологический конструкт; не даёт видео-индикатора опыта успеха.",
+      "access_notes": "DOI/издатель; теория широко описана публично.",
+      "evidence_role": "Определение скрытого конструкта; обоснование исключения",
+      "verification_status": "source_register_checked",
+      "registry_checked_on": "2026-09-01",
+      "link_id": 110,
+      "relation_role": "Определение скрытого конструкта; обоснование исключения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 38",
+      "link_notes": null
+    }
+  ]
+}

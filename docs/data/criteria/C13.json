@@ -1,0 +1,190 @@
+{
+  "id": 13,
+  "number": 13,
+  "code": "C13",
+  "block_name": "Работа с содержанием",
+  "subblock_name": "Объяснение («разворачивание») содержания",
+  "name": "Темп",
+  "source_document_id": 1,
+  "source_locator": "checklist.csv:53",
+  "readiness_status": "prototype_now",
+  "platform_coverage_status": "partial",
+  "notes": "Машинный результат — проверяемое доказательство с неопределённостью, а не готовый автоматический балл.",
+  "source_title": "Шкала 26 критериев ТюмГУ",
+  "source_path": "Материалы/Eval-2024/class_eval/checklist.csv",
+  "levels": [
+    {
+      "score": 2,
+      "description": "Темп выдачи содержания позволяет воспринимать и осмыслять сказанное (не слишком быстро, не слишком медленно)"
+    },
+    {
+      "score": 1,
+      "description": "Темп неровный, его скачки нецелесообразны (например, на более сложном материале темп повышается, а на простом снижается)"
+    },
+    {
+      "score": 0,
+      "description": "Темп выдачи содержания слишком низкий или слишком высокий"
+    }
+  ],
+  "data_requirements": [],
+  "instrument_coverage": [
+    {
+      "instrument_code": "LLM_EVAL",
+      "instrument_name": "LLM-оценка критериев ТюмГУ",
+      "instrument_kind": "llm",
+      "version_code": "eval-2024",
+      "version_name": "Eval-2024 — исторический транскрипт-only прототип",
+      "lifecycle_status": "historical",
+      "methodology_status": "partial",
+      "coverage_status": "prototype_output",
+      "validation_status": "unvalidated",
+      "output_type": "score_and_rationale",
+      "notes": "Историческая версия формировала балл и обоснование по транскрипту; это не доказательство измерительной валидности."
+    },
+    {
+      "instrument_code": "MGPU_VISUAL",
+      "instrument_name": "Визуальный считыватель эмоций МГПУ",
+      "instrument_kind": "video_analytics",
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия визуального модуля МГПУ",
+      "lifecycle_status": "prototype",
+      "methodology_status": "not_documented",
+      "coverage_status": "not_mapped",
+      "validation_status": "not_documented",
+      "output_type": null,
+      "notes": null
+    },
+    {
+      "instrument_code": "MGPU_AUDIO",
+      "instrument_name": "Анализатор аудио МГПУ",
+      "instrument_kind": "audio_analytics",
+      "version_code": "observed-ui-2026",
+      "version_name": "Наблюдаемая версия аудиомодуля МГПУ",
+      "lifecycle_status": "prototype",
+      "methodology_status": "not_documented",
+      "coverage_status": "partial",
+      "validation_status": "not_documented",
+      "output_type": "proxy_metric",
+      "notes": "Скорость речи, речь и тишина."
+    },
+    {
+      "instrument_code": "EXPERT",
+      "instrument_name": "Эксперт-человек",
+      "instrument_kind": "human",
+      "version_code": "checklist-2024-v1",
+      "version_name": "Экспертный протокол по чек-листу ТюмГУ 2024",
+      "lifecycle_status": "reference",
+      "methodology_status": "documented",
+      "coverage_status": "reference",
+      "validation_status": "reference",
+      "output_type": "expert_score_and_evidence",
+      "notes": "Экспертный референс; для части критериев требуются предметные или прямые студенческие данные."
+    }
+  ],
+  "effects": [
+    {
+      "code": "E1",
+      "name": "Конструктная валидность",
+      "check_code": "EC_E1",
+      "method_code": "T1",
+      "method_name": "Экспертная проверка доказательств",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E2",
+      "name": "Точность обнаружения событий",
+      "check_code": "EC_E2",
+      "method_code": "T2",
+      "method_name": "Сопоставление событий и таймкодов",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E3",
+      "name": "Согласие по итоговой оценке",
+      "check_code": "EC_E3",
+      "method_code": "T3",
+      "method_name": "Согласие шкалы 0–2",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E4",
+      "name": "Добавочная ценность мультимодальности",
+      "check_code": "EC_E4",
+      "method_code": "T4",
+      "method_name": "Мультимодальная абляция",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E5",
+      "name": "Переносимость",
+      "check_code": "EC_E5",
+      "method_code": "T5",
+      "method_name": "Holdout и анализ переносимости",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E6",
+      "name": "Калиброванная неопределённость",
+      "check_code": "EC_E6",
+      "method_code": "T6",
+      "method_name": "Калибровка неопределённости",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E7",
+      "name": "Практическая полезность эксперту",
+      "check_code": "EC_E7",
+      "method_code": "T7",
+      "method_name": "Сбалансированный crossover A0–A5",
+      "scope_role": "primary"
+    },
+    {
+      "code": "E9",
+      "name": "Надёжность во времени",
+      "check_code": "EC_E9",
+      "method_code": "T9",
+      "method_name": "Продольная и повторная проверка",
+      "scope_role": "primary"
+    }
+  ],
+  "research_sources": [
+    {
+      "id": 8,
+      "code": "S08",
+      "citation_apa": "Bolkan, S. (2017). Development and validation of the Clarity Indicators Scale. Communication Education, 66(1), 19–36.",
+      "doi": "10.1080/03634523.2016.1202994",
+      "url": "https://doi.org/10.1080/03634523.2016.1202994",
+      "study_type": "Разработка и валидация шкалы",
+      "evidence_summary": "Выборка / контекст: 566 студентов колледжа/университета.\nИнструмент / конструкт: Clarity Indicators Scale: 20 пунктов, пять факторов низкой/средней инференции.\nНадёжность / валидность: Факторы включают дисфлюентность, перегрузку памяти, взаимодействие, когерентность и структуру; конвергентная связь с TCSI около r=0,83.",
+      "access_notes": "Издательская статья; не воспроизводить шкалу целиком без проверки прав.",
+      "evidence_role": "Валидность конструкта",
+      "verification_status": "source_register_checked",
+      "registry_checked_on": "2026-09-01",
+      "link_id": 48,
+      "relation_role": "Валидность конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 12",
+      "link_notes": null
+    },
+    {
+      "id": 13,
+      "code": "S13",
+      "citation_apa": "Robinson, S. L., & Kiewra, K. A. (1997). Effects of lecture rate on students' comprehension and ratings of topic importance. Contemporary Educational Psychology, 22(2), 260–267.",
+      "doi": "10.1006/ceps.1997.0929",
+      "url": "https://doi.org/10.1006/ceps.1997.0929",
+      "study_type": "Экспериментальное исследование",
+      "evidence_summary": "Выборка / контекст: Студенты бакалавриата; три скорости лекционного предъявления.\nИнструмент / конструкт: Экспериментальная манипуляция темпом и оценка понимания/важности.\nНадёжность / валидность: Медленный темп улучшал показатели в конкретном эксперименте; результат не задаёт универсального порога.",
+      "access_notes": "DOI/издатель.",
+      "evidence_role": "Экспериментальные доказательства конструкта",
+      "verification_status": "source_register_checked",
+      "registry_checked_on": "2026-09-01",
+      "link_id": 66,
+      "relation_role": "Экспериментальные доказательства конструкта",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 17",
+      "link_notes": null
+    }
+  ]
+}

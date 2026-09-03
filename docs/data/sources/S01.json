@@ -1,0 +1,71 @@
+{
+  "id": 1,
+  "code": "S01",
+  "citation_apa": "Smith, M. K., Jones, F. H. M., Gilbert, S. L., & Wieman, C. E. (2013). The Classroom Observation Protocol for Undergraduate STEM (COPUS): A new instrument to characterize university STEM classroom practices. CBE—Life Sciences Education, 12(4), 618–627.",
+  "doi": "10.1187/cbe.13-08-0154",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3846513/",
+  "study_type": "Валидированный наблюдательный протокол",
+  "evidence_summary": "Выборка / контекст: Высшее образование, STEM; наблюдение занятий по 2-минутным интервалам.\nИнструмент / конструкт: COPUS: 25 кодов действий преподавателя и студентов.\nНадёжность / валидность: Межэкспертная согласованность: средние κ около 0,79–0,87 для групп кодов; инструмент описательный, не шкала качества.",
+  "access_notes": "Открытый доступ (PMC). Коды опубликованы; при адаптации фиксировать изменения.",
+  "evidence_role": "Валидность конструкта/наблюдения",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 15,
+      "code": "C15",
+      "number": 15,
+      "name": "Методический инструментарий",
+      "block_name": "Управление результатами",
+      "link_id": 1,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 5",
+      "notes": null
+    },
+    {
+      "id": 18,
+      "code": "C18",
+      "number": 18,
+      "name": "Концентрация внимания",
+      "block_name": "Управление результатами",
+      "link_id": 2,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 5",
+      "notes": null
+    },
+    {
+      "id": 20,
+      "code": "C20",
+      "number": 20,
+      "name": "Диалогичность",
+      "block_name": "Управление результатами",
+      "link_id": 3,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 5",
+      "notes": null
+    },
+    {
+      "id": 22,
+      "code": "C22",
+      "number": 22,
+      "name": "Использование цифровых инструментов",
+      "block_name": "Управление результатами",
+      "link_id": 4,
+      "relation_role": "Валидность конструкта/наблюдения",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 5",
+      "notes": null
+    }
+  ]
+}

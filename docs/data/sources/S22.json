@@ -1,0 +1,32 @@
+{
+  "id": 22,
+  "code": "S22",
+  "citation_apa": "Minelli, G., Puglisi, G. E., & Astolfi, A. (2022). Acoustical parameters for learning in classroom: A review. Building and Environment, 208, 108582.",
+  "doi": "10.1016/j.buildenv.2021.108582",
+  "url": "https://doi.org/10.1016/j.buildenv.2021.108582",
+  "study_type": "Обзор эмпирических исследований",
+  "evidence_summary": "Выборка / контекст: 38 экологически валидных работ 2002–2020; типичные аудиторные условия.\nИнструмент / конструкт: Шум, реверберация, SNR, разборчивость речи и учебные показатели.\nНадёжность / валидность: Синтезирует связи акустических параметров с пониманием и выполнением задач; многие данные школьные.",
+  "access_notes": "DOI/издатель.",
+  "evidence_role": "Валидность акустических признаков",
+  "verification_status": "source_register_checked",
+  "registry_checked_on": "2026-09-01",
+  "provenance_document_id": 7,
+  "notes": null,
+  "provenance_title": "Операционализация критериев оценки преподавателя ТюмГУ",
+  "provenance_path": "outputs/tyumgu-literature-operationalization/Операционализация критериев оценки преподавателя ТюмГУ.xlsx",
+  "criteria": [
+    {
+      "id": 16,
+      "code": "C16",
+      "number": 16,
+      "name": "Создание комфортных условий",
+      "block_name": "Управление результатами",
+      "link_id": 81,
+      "relation_role": "Валидность акустических признаков",
+      "relevance_status": "to_review",
+      "supported_claim": null,
+      "source_locator": "Лист «Источники», строка 26",
+      "notes": null
+    }
+  ]
+}

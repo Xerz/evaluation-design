@@ -1,0 +1,281 @@
+{
+  "name": "data_types",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "code",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "name",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "category",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "description",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 5,
+      "name": "contains_personal_data",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": "0",
+      "pk": 0
+    },
+    {
+      "cid": 6,
+      "name": "default_format",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "code": "transcript_txt",
+      "name": "TXT-транскрипт",
+      "category": "transcript",
+      "description": "Полный текст занятия без обязательной временной разметки.",
+      "contains_personal_data": 1,
+      "default_format": "text/plain"
+    },
+    {
+      "id": 2,
+      "code": "transcript_srt",
+      "name": "SRT-транскрипт",
+      "category": "transcript",
+      "description": "Субтитры с таймкодами.",
+      "contains_personal_data": 1,
+      "default_format": "application/x-subrip"
+    },
+    {
+      "id": 3,
+      "code": "transcript_json",
+      "name": "Структурированный транскрипт",
+      "category": "transcript",
+      "description": "Сегменты с началом, окончанием и меткой говорящего, если доступна.",
+      "contains_personal_data": 1,
+      "default_format": "application/json"
+    },
+    {
+      "id": 4,
+      "code": "audio_recording",
+      "name": "Аудиозапись",
+      "category": "recording",
+      "description": "Аудиодорожка занятия.",
+      "contains_personal_data": 1,
+      "default_format": "audio/*"
+    },
+    {
+      "id": 5,
+      "code": "video_recording",
+      "name": "Видеозапись",
+      "category": "recording",
+      "description": "Видео аудитории и преподавателя.",
+      "contains_personal_data": 1,
+      "default_format": "video/mp4"
+    },
+    {
+      "id": 6,
+      "code": "screen_recording",
+      "name": "Запись демонстрации экрана",
+      "category": "recording",
+      "description": "Экран, презентация или цифровой инструмент с таймкодами.",
+      "contains_personal_data": 1,
+      "default_format": "video/mp4"
+    },
+    {
+      "id": 7,
+      "code": "slides",
+      "name": "Слайды и визуальные материалы",
+      "category": "materials",
+      "description": "Исходные слайды, изображения, схемы и раздаточные материалы.",
+      "contains_personal_data": 0,
+      "default_format": "application/*"
+    },
+    {
+      "id": 8,
+      "code": "lesson_plan",
+      "name": "План занятия",
+      "category": "materials",
+      "description": "Запланированная последовательность этапов и активностей.",
+      "contains_personal_data": 0,
+      "default_format": "application/*"
+    },
+    {
+      "id": 9,
+      "code": "course_program",
+      "name": "Программа дисциплины",
+      "category": "materials",
+      "description": "Место занятия в дисциплине, темы и результаты обучения.",
+      "contains_personal_data": 0,
+      "default_format": "application/*"
+    },
+    {
+      "id": 10,
+      "code": "learning_objectives",
+      "name": "Цели и задачи занятия",
+      "category": "materials",
+      "description": "Заявленные цели, задачи и ожидаемые результаты.",
+      "contains_personal_data": 0,
+      "default_format": "text/*"
+    },
+    {
+      "id": 11,
+      "code": "assignments",
+      "name": "Задания и кейсы",
+      "category": "materials",
+      "description": "Условия заданий, инструкции, критерии ответа и эталоны.",
+      "contains_personal_data": 0,
+      "default_format": "application/*"
+    },
+    {
+      "id": 12,
+      "code": "subject_glossary",
+      "name": "Предметный глоссарий",
+      "category": "materials",
+      "description": "Термины, определения и принятые обозначения.",
+      "contains_personal_data": 0,
+      "default_format": "text/*"
+    },
+    {
+      "id": 13,
+      "code": "prior_course_materials",
+      "name": "Материалы предыдущих тем",
+      "category": "materials",
+      "description": "Контекст ранее освоенных тем и входные требования.",
+      "contains_personal_data": 0,
+      "default_format": "application/*"
+    },
+    {
+      "id": 14,
+      "code": "group_profile",
+      "name": "Обезличенный профиль группы",
+      "category": "metadata",
+      "description": "Уровень подготовки, формат и агрегированные характеристики группы.",
+      "contains_personal_data": 1,
+      "default_format": "application/json"
+    },
+    {
+      "id": 15,
+      "code": "external_sources",
+      "name": "Проверенные внешние источники",
+      "category": "external",
+      "description": "Источники для проверки достоверности предметного содержания.",
+      "contains_personal_data": 0,
+      "default_format": "text/uri-list"
+    },
+    {
+      "id": 16,
+      "code": "pre_survey",
+      "name": "Опрос до занятия",
+      "category": "survey",
+      "description": "Прямые ответы студентов до занятия.",
+      "contains_personal_data": 1,
+      "default_format": "text/csv"
+    },
+    {
+      "id": 17,
+      "code": "post_survey",
+      "name": "Опрос после занятия",
+      "category": "survey",
+      "description": "Прямые ответы студентов после занятия.",
+      "contains_personal_data": 1,
+      "default_format": "text/csv"
+    },
+    {
+      "id": 18,
+      "code": "exit_ticket",
+      "name": "Exit ticket",
+      "category": "survey",
+      "description": "Короткая прямая самооценка продвижения и результата после занятия.",
+      "contains_personal_data": 1,
+      "default_format": "text/csv"
+    },
+    {
+      "id": 19,
+      "code": "trust_survey",
+      "name": "Валидированный опрос доверия",
+      "category": "survey",
+      "description": "Русскоязычный валидированный студенческий опрос для критерия 25.",
+      "contains_personal_data": 1,
+      "default_format": "text/csv"
+    },
+    {
+      "id": 20,
+      "code": "learning_results",
+      "name": "Результаты обучения",
+      "category": "outcome",
+      "description": "Результаты заданий или измерения до–после.",
+      "contains_personal_data": 1,
+      "default_format": "text/csv"
+    },
+    {
+      "id": 21,
+      "code": "platform_metrics",
+      "name": "Метрики платформы МГПУ",
+      "category": "platform",
+      "description": "Агрегированные и интервальные показатели платформы с единицами и статусом доступности.",
+      "contains_personal_data": 1,
+      "default_format": "text/csv"
+    },
+    {
+      "id": 22,
+      "code": "technical_metadata",
+      "name": "Технические метаданные",
+      "category": "metadata",
+      "description": "Параметры записи, качество, версии обработки и статусы модулей.",
+      "contains_personal_data": 0,
+      "default_format": "application/json"
+    },
+    {
+      "id": 23,
+      "code": "expert_annotation",
+      "name": "Экспертная разметка",
+      "category": "annotation",
+      "description": "Независимые оценки, события, доказательства и решения о достаточности данных.",
+      "contains_personal_data": 1,
+      "default_format": "application/json"
+    },
+    {
+      "id": 24,
+      "code": "slide_frames_ocr",
+      "name": "Кадры и OCR слайдов",
+      "category": "materials",
+      "description": "Производные кадры, границы слайдов и распознанный текст с таймкодами.",
+      "contains_personal_data": 1,
+      "default_format": "application/json"
+    }
+  ],
+  "total": 24
+}
