@@ -93,7 +93,7 @@
     {
       "name": "effect_check_conditions",
       "kind": "table",
-      "row_count": 33,
+      "row_count": 32,
       "column_count": 4,
       "empty": false
     },
@@ -237,7 +237,7 @@
     {
       "name": "research_sources",
       "kind": "table",
-      "row_count": 35,
+      "row_count": 47,
       "column_count": 13,
       "empty": false
     },
@@ -290,6 +290,13 @@
       "empty": false
     },
     {
+      "name": "verification_method_research_sources",
+      "kind": "table",
+      "row_count": 24,
+      "column_count": 4,
+      "empty": false
+    },
+    {
       "name": "verification_methods",
       "kind": "table",
       "row_count": 9,
@@ -314,7 +321,7 @@
       "name": "v_effect_check_plan",
       "kind": "view",
       "row_count": 9,
-      "column_count": 10,
+      "column_count": 11,
       "empty": false
     },
     {

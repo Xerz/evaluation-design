@@ -47,7 +47,7 @@
   "effect_checks": [
     {
       "effect_code": "E3",
-      "effect_name": "Согласие по итоговой оценке",
+      "effect_name": "Совпадение по итоговой оценке",
       "check_code": "EC_E3",
       "role": "candidate",
       "notes": null,
@@ -56,30 +56,30 @@
     },
     {
       "effect_code": "E4",
-      "effect_name": "Добавочная ценность распознавания видео",
+      "effect_name": "Ценность распознавания видео",
       "check_code": "EC_E4",
       "role": "baseline",
       "notes": null,
       "method_code": "T4",
-      "method_name": "Мультимодальная абляция"
+      "method_name": "Парная абляция модальностей"
     },
     {
       "effect_code": "E5",
-      "effect_name": "Переносимость",
+      "effect_name": "Независимость от курсов",
       "check_code": "EC_E5",
       "role": "candidate",
       "notes": null,
       "method_code": "T5",
-      "method_name": "Holdout и анализ переносимости"
+      "method_name": "Групповой holdout и анализ переносимости"
     },
     {
       "effect_code": "E6",
-      "effect_name": "Калиброванная неопределённость",
+      "effect_name": "Правильный отказ",
       "check_code": "EC_E6",
       "role": "candidate",
       "notes": null,
       "method_code": "T6",
-      "method_name": "Калибровка неопределённости"
+      "method_name": "Selective prediction и проверка отказов"
     }
   ]
 }

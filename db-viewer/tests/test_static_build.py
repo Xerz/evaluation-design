@@ -51,9 +51,9 @@ class StaticBuildTests(unittest.TestCase):
         for relative in ("index.html", "404.html", ".nojekyll", "static/app.js", "static/styles.css", "static/config.js", "assets/erd.svg", "assets/erd.mmd"):
             self.assertTrue((self.site / relative).is_file(), relative)
         index = (self.site / "index.html").read_text(encoding="utf-8")
-        self.assertIn('href="./static/styles.css?v=20260903-sources"', index)
-        self.assertIn('src="./static/config.js?v=20260903-sources"', index)
-        self.assertIn('src="./static/app.js?v=20260903-sources"', index)
+        self.assertIn('href="./static/styles.css?v=20260903-methods"', index)
+        self.assertIn('src="./static/config.js?v=20260903-methods"', index)
+        self.assertIn('src="./static/app.js?v=20260903-methods"', index)
         self.assertIn('mode: "static"', (self.site / "static/config.js").read_text(encoding="utf-8"))
 
     def test_snapshot_control_counts_and_details(self):
@@ -63,8 +63,9 @@ class StaticBuildTests(unittest.TestCase):
         self.assertEqual(summary["counts"]["instruments"], 4)
         self.assertEqual(summary["counts"]["conditions"], 6)
         self.assertEqual(summary["counts"]["effects"], 9)
-        self.assertEqual(summary["counts"]["research_sources"], 35)
+        self.assertEqual(summary["counts"]["research_sources"], 47)
         self.assertEqual(summary["counts"]["criterion_source_links"], 111)
+        self.assertEqual(summary["counts"]["method_source_links"], 24)
         self.assertEqual(summary["database"]["mode"], "static_snapshot")
         self.assertTrue((self.site / "data/criteria/C24.json").is_file())
         self.assertTrue((self.site / "data/instruments/LLM_EVAL.json").is_file())
@@ -73,6 +74,10 @@ class StaticBuildTests(unittest.TestCase):
         self.assertTrue((self.site / "data/sources/S29.json").is_file())
         source = self.read_json("data/sources/S29.json")
         self.assertEqual([item["code"] for item in source["criteria"]], ["C25"])
+        effect = self.read_json("data/effects/E9.json")
+        self.assertEqual(effect["method_name"], "Повторяемость идентичных прогонов")
+        self.assertTrue(effect["literature_sources"])
+        self.assertTrue((self.site / "data/sources/S46.json").is_file())
 
     def test_all_table_rows_are_exported(self):
         table = self.read_json("data/tables/effect_check_criteria.json")

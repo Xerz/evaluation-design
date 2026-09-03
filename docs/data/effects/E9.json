@@ -3,30 +3,25 @@
   "study_id": 1,
   "code": "E9",
   "name": "Надёжность во времени",
-  "hypothesis": "Вывод ИИ устойчив на повторных занятиях (одного преподавателя / дисциплины / если можно, то и одного занятия, но в разных группах) и повторных прогонах.",
+  "hypothesis": "Вывод ИИ устойчив при повторных прогонах.",
   "effect_order": 9,
   "effect_check_id": 9,
   "check_code": "EC_E9",
-  "unit_of_analysis": "Повторное занятие или повторный прогон",
-  "comparison_description": "Повторные A4 с A0 как референсом.",
-  "success_rule": "Стабильность фиксируется заранее выбранными метриками; критерий 26 оценивается только продольно.",
+  "unit_of_analysis": "Один и тот же вход × критерий × повтор прогона",
+  "comparison_description": "Независимые повторы A4 сравниваются между собой; A0 относится к проверке правильности в E1–E3, а не к повторяемости.",
+  "success_rule": "Порог точного совпадения статусов и баллов, weighted kappa, допустимый разброс уверенности и перекрытие доказательств фиксируются до независимого теста.",
+  "method_id": 9,
   "method_code": "T9",
-  "method_name": "Продольная и повторная проверка",
-  "method_description": "Сопоставляются повторные занятия и повторные прогоны одной версии.",
-  "metrics": "Стабильность признаков, ошибок, баллов и уверенности",
-  "procedure": "Для критерия 26 итог возможен только по нескольким наблюдениям.",
+  "method_name": "Повторяемость идентичных прогонов",
+  "method_description": "Один и тот же зафиксированный вход многократно обрабатывается одной версией модели с неизменными промптом и параметрами.",
+  "metrics": "Доля идентичных статусов и баллов; попарная weighted kappa; разброс уверенности; ICC для числовой уверенности; Jaccard/temporal IoU доказательных фрагментов; доля изменившихся отказов",
+  "procedure": "Для каждого выбранного занятия выполняется заранее заданное число независимых повторов A4. Версия модели, промпт, параметры генерации и checksum входов фиксируются; детерминированные и стохастические конфигурации анализируются отдельно. Повторяемость оценивается отдельно от правильности.",
   "conditions": [
-    {
-      "code": "A0",
-      "name": "Эксперт без ИИ",
-      "role": "reference",
-      "notes": null
-    },
     {
       "code": "A4",
       "name": "Видео + аудио + TXT + материалы",
       "role": "candidate",
-      "notes": null
+      "notes": "Одна конфигурация A4 запускается повторно на идентичных входах."
     }
   ],
   "data_types": [
@@ -34,13 +29,13 @@
       "code": "technical_metadata",
       "name": "Технические метаданные",
       "role": "required",
-      "notes": "Идентичность версий и качество повторных записей."
+      "notes": "Checksum входов, версия модели, промпт и параметры генерации для подтверждения идентичности условий."
     },
     {
       "code": "expert_annotation",
       "name": "Экспертная разметка",
       "role": "reference",
-      "notes": "Экспертный референс по повторным занятиям."
+      "notes": "Используется только для отдельной проверки правильности: стабильный вывод всё равно может быть неверным."
     }
   ],
   "criteria": [
@@ -198,7 +193,42 @@
       "code": "C26",
       "number": 26,
       "name": "«Делает то, что проповедует»",
-      "scope_role": "longitudinal"
+      "scope_role": "primary"
+    }
+  ],
+  "literature_sources": [
+    {
+      "id": 39,
+      "code": "S39",
+      "citation_apa": "Cohen, J. (1968). Weighted kappa: Nominal scale agreement provision for scaled disagreement or partial credit. Psychological Bulletin, 70(4), 213–220.",
+      "doi": "10.1037/h0026256",
+      "url": "https://doi.org/10.1037/h0026256",
+      "study_type": "Методологическая статья",
+      "verification_status": "to_review",
+      "relation_role": "metric_definition",
+      "notes": "Weighted kappa для повторяемости баллов 0–2."
+    },
+    {
+      "id": 46,
+      "code": "S46",
+      "citation_apa": "Vaidya, S., & Saini, J. R. (2026). Consistency evaluation protocol: A reproducible framework for assessing large language model output repeatability. MethodsX, 17, 104069.",
+      "doi": "10.1016/j.mex.2026.104069",
+      "url": "https://doi.org/10.1016/j.mex.2026.104069",
+      "study_type": "Протокол повторяемости LLM",
+      "verification_status": "to_review",
+      "relation_role": "design_example",
+      "notes": "Специализированный протокол повторных прогонов LLM."
+    },
+    {
+      "id": 47,
+      "code": "S47",
+      "citation_apa": "Shrout, P. E., & Fleiss, J. L. (1979). Intraclass correlations: Uses in assessing rater reliability. Psychological Bulletin, 86(2), 420–428.",
+      "doi": "10.1037/0033-2909.86.2.420",
+      "url": "https://doi.org/10.1037/0033-2909.86.2.420",
+      "study_type": "Методологическая статья о надёжности",
+      "verification_status": "to_review",
+      "relation_role": "metric_definition",
+      "notes": "ICC для повторных числовых измерений."
     }
   ]
 }

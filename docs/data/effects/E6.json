@@ -2,19 +2,20 @@
   "id": 6,
   "study_id": 1,
   "code": "E6",
-  "name": "Калиброванная неопределённость",
+  "name": "Правильный отказ",
   "hypothesis": "ИИ корректно отказывается от совершения неподтверждённых выводов.",
   "effect_order": 6,
   "effect_check_id": 6,
   "check_code": "EC_E6",
-  "unit_of_analysis": "Вывод или отказ по критерию",
-  "comparison_description": "A1–A4 против A0 при разных порогах уверенности.",
-  "success_rule": "Опасные уверенные ошибки ограничены, selective accuracy растёт при снижении coverage.",
+  "unit_of_analysis": "Вывод или отказ × критерий",
+  "comparison_description": "A1–A4 против A0 по всей кривой risk–coverage.",
+  "success_rule": "Опасные уверенные ошибки остаются ниже зарегистрированного предела, а риск монотонно снижается при уменьшении покрытия.",
+  "method_id": 6,
   "method_code": "T6",
-  "method_name": "Калибровка неопределённости",
-  "method_description": "Проверяется точность при разных порогах уверенности и качество отказов.",
-  "metrics": "Coverage; selective accuracy; доля корректных отказов; опасные уверенные ошибки",
-  "procedure": "Порог фиксируется после калибровки до открытия независимого теста.",
+  "method_name": "Selective prediction и проверка отказов",
+  "method_description": "Проверяется, уменьшается ли риск ошибки при расширении зоны отказа и соответствует ли заявленная уверенность фактической точности.",
+  "metrics": "Кривая risk–coverage; selective accuracy; точность статуса insufficient_data; доля корректных отказов; опасные уверенные ошибки; ECE/Brier при числовой уверенности",
+  "procedure": "Порог отказа и калибровка выбираются только на калибровочной выборке и блокируются до независимого теста. На тесте публикуется вся кривая риск–покрытие, а не одна удобная точка.",
   "conditions": [
     {
       "code": "A0",
@@ -211,6 +212,30 @@
       "number": 26,
       "name": "«Делает то, что проповедует»",
       "scope_role": "primary"
+    }
+  ],
+  "literature_sources": [
+    {
+      "id": 42,
+      "code": "S42",
+      "citation_apa": "Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017). On calibration of modern neural networks. Proceedings of Machine Learning Research, 70, 1321–1330.",
+      "doi": null,
+      "url": "https://proceedings.mlr.press/v70/guo17a.html",
+      "study_type": "Эмпирическая работа о калибровке",
+      "verification_status": "to_review",
+      "relation_role": "metric_definition",
+      "notes": "Калибровка числовой уверенности."
+    },
+    {
+      "id": 43,
+      "code": "S43",
+      "citation_apa": "Geifman, Y., & El-Yaniv, R. (2017). Selective classification for deep neural networks. Advances in Neural Information Processing Systems, 30.",
+      "doi": null,
+      "url": "https://papers.neurips.cc/paper_files/paper/2017/hash/4a8423d5e91fda00bb7e46540e2b0cf1-Abstract.html",
+      "study_type": "Методологическая работа о selective prediction",
+      "verification_status": "to_review",
+      "relation_role": "methodological_basis",
+      "notes": "Risk–coverage и право модели отказаться."
     }
   ]
 }

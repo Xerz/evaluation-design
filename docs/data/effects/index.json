@@ -4,19 +4,20 @@
       "id": 1,
       "study_id": 1,
       "code": "E1",
-      "name": "Конструктная валидность",
+      "name": "Понимание критериев",
       "hypothesis": "ИИ находит проявление самого критерия, а не похожий технический след (но не являющийся проявлением критерия).",
       "effect_order": 1,
       "effect_check_id": 1,
       "check_code": "EC_E1",
-      "unit_of_analysis": "Доказательный фрагмент по критерию",
-      "comparison_description": "A2–A4 против независимого A0.",
-      "success_rule": "Порог доли подтверждённых доказательств и допустимых типов ошибок фиксируется после калибровки.",
+      "unit_of_analysis": "Доказательный фрагмент × критерий",
+      "comparison_description": "A2–A4 против независимой слепой разметки A0.",
+      "success_rule": "Минимальная доля подтверждённых фрагментов, максимальная доля ложных прокси и минимальное межэкспертное согласие фиксируются после калибровки.",
+      "method_id": 1,
       "method_code": "T1",
-      "method_name": "Экспертная проверка доказательств",
-      "method_description": "Эксперт принимает или отклоняет каждый доказательный фрагмент и классифицирует подмену конструкта.",
-      "metrics": "Доля подтверждённых доказательств; типы ложных выводов",
-      "procedure": "Слепая независимая проверка и качественный разбор ошибок.",
+      "method_name": "Экспертная проверка соответствия критерию",
+      "method_description": "Эксперты проверяют, является ли каждый доказательный фрагмент проявлением именно заявленного критерия, а не похожим техническим прокси.",
+      "metrics": "Доля подтверждённых фрагментов (construct precision); доля ложных прокси; межэкспертное согласие; распределение типов ошибок",
+      "procedure": "Два эксперта независимо и вслепую кодируют фрагменты как «проявление критерия», «похожий след», «недостаточно данных» или «не относится». После независимой разметки расхождения согласуются, а ошибки разбираются по заранее заданной таксономии.",
       "conditions": [
         {
           "code": "A0",
@@ -214,6 +215,30 @@
           "name": "«Делает то, что проповедует»",
           "scope_role": "primary"
         }
+      ],
+      "literature_sources": [
+        {
+          "id": 27,
+          "code": "S27",
+          "citation_apa": "Whitehill, J., & LoCasale-Crouch, J. (2023). Automated evaluation of classroom instructional support with LLMs and BoWs: Connecting global predictions to specific feedback [Preprint]. arXiv.",
+          "doi": "10.48550/arXiv.2310.01132",
+          "url": "https://arxiv.org/abs/2310.01132",
+          "study_type": "Препринт; автоматический анализ транскрипта",
+          "verification_status": "source_register_checked",
+          "relation_role": "design_example",
+          "notes": "Пример экспертной оценки конкретных доказательств и обратной связи."
+        },
+        {
+          "id": 36,
+          "code": "S36",
+          "citation_apa": "Messick, S. (1995). Validity of psychological assessment: Validation of inferences from persons' responses and performances as scientific inquiry into score meaning. American Psychologist, 50(9), 741–749.",
+          "doi": "10.1037/0003-066X.50.9.741",
+          "url": "https://doi.org/10.1037/0003-066X.50.9.741",
+          "study_type": "Теоретическая статья о валидности",
+          "verification_status": "to_review",
+          "relation_role": "methodological_basis",
+          "notes": "Валидность интерпретации и риск подмены конструкта."
+        }
       ]
     },
     {
@@ -225,14 +250,15 @@
       "effect_order": 2,
       "effect_check_id": 2,
       "check_code": "EC_E2",
-      "unit_of_analysis": "Событие или временной сегмент",
-      "comparison_description": "A2–A4 против таймкодов A0.",
-      "success_rule": "Пороги macro-F1 и temporal IoU фиксируются до независимого теста.",
+      "unit_of_analysis": "Событие или временной сегмент × критерий",
+      "comparison_description": "A2–A4 против таймкодов независимой разметки A0.",
+      "success_rule": "Пороги macro-F1, temporal IoU и ошибки границ фиксируются до независимого теста.",
+      "method_id": 2,
       "method_code": "T2",
       "method_name": "Сопоставление событий и таймкодов",
-      "method_description": "Автоматические сегменты сопоставляются с экспертными событиями.",
-      "metrics": "Precision; recall; macro-F1; temporal IoU; допуск по таймкоду",
-      "procedure": "Расчёт отдельно по каждому критерию на независимой выборке.",
+      "method_description": "Автоматические и экспертные интервалы сопоставляются один-к-одному по заранее заданному порогу перекрытия и допуску границ.",
+      "metrics": "Precision; recall; macro-F1; temporal IoU; медианная абсолютная ошибка начала и конца сегмента",
+      "procedure": "Метрики рассчитываются отдельно по каждому критерию на независимой выборке. Порог temporal IoU, допуск таймкода и правило сопоставления одного события фиксируются до теста.",
       "conditions": [
         {
           "code": "A0",
@@ -436,25 +462,61 @@
           "name": "«Делает то, что проповедует»",
           "scope_role": "primary"
         }
+      ],
+      "literature_sources": [
+        {
+          "id": 26,
+          "code": "S26",
+          "citation_apa": "Dale, M. E., Godley, A. J., Capello, S. A., Donnelly, P. J., D'Mello, S. K., & Kelly, S. P. (2022). Toward the automated analysis of teacher talk in secondary ELA classrooms. Teaching and Teacher Education, 110, 103584.",
+          "doi": "10.1016/j.tate.2021.103584",
+          "url": "https://doi.org/10.1016/j.tate.2021.103584",
+          "study_type": "Исследование полуавтоматического анализа речи",
+          "verification_status": "source_register_checked",
+          "relation_role": "design_example",
+          "notes": "Автоматический анализ речи преподавателя с проверкой на размеченных данных."
+        },
+        {
+          "id": 37,
+          "code": "S37",
+          "citation_apa": "Sokolova, M., & Lapalme, G. (2009). A systematic analysis of performance measures for classification tasks. Information Processing & Management, 45(4), 427–437.",
+          "doi": "10.1016/j.ipm.2009.03.002",
+          "url": "https://doi.org/10.1016/j.ipm.2009.03.002",
+          "study_type": "Методологический обзор метрик классификации",
+          "verification_status": "to_review",
+          "relation_role": "metric_definition",
+          "notes": "Precision, recall и F1 для событийной классификации."
+        },
+        {
+          "id": 38,
+          "code": "S38",
+          "citation_apa": "Caba Heilbron, F., Escorcia, V., Ghanem, B., & Niebles, J. C. (2015). ActivityNet: A large-scale video benchmark for human activity understanding. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 961–970).",
+          "doi": "10.1109/CVPR.2015.7298698",
+          "url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Heilbron_ActivityNet_A_Large-Scale_2015_CVPR_paper.html",
+          "study_type": "Бенчмарк временной локализации событий",
+          "verification_status": "to_review",
+          "relation_role": "metric_definition",
+          "notes": "Temporal IoU и временная локализация событий."
+        }
       ]
     },
     {
       "id": 3,
       "study_id": 1,
       "code": "E3",
-      "name": "Согласие по итоговой оценке",
+      "name": "Совпадение по итоговой оценке",
       "hypothesis": "Итоговая оценка 0–2 совпадает с экспертной.",
       "effect_order": 3,
       "effect_check_id": 3,
       "check_code": "EC_E3",
       "unit_of_analysis": "Критерий × занятие",
-      "comparison_description": "A1–A4 против согласованного A0.",
-      "success_rule": "Пороги weighted kappa, macro-F1 и MAE фиксируются после оценки межэкспертного согласия.",
+      "comparison_description": "A1–A4 против согласованного экспертного A0.",
+      "success_rule": "Пороги точного совпадения, weighted kappa, macro-F1 и MAE фиксируются после оценки межэкспертного согласия.",
+      "method_id": 3,
       "method_code": "T3",
       "method_name": "Согласие шкалы 0–2",
-      "method_description": "Сначала проверяется согласие экспертов, затем машина сравнивается с согласованным референсом.",
-      "metrics": "Weighted kappa; macro-F1; MAE",
-      "procedure": "Статус недостатка данных анализируется отдельно и не кодируется нулём.",
+      "method_description": "После проверки согласия экспертов машинный балл сравнивается с согласованным экспертным референсом как порядковая, а не номинальная оценка.",
+      "metrics": "Точное совпадение; расхождение на 1 и 2 балла; weighted kappa; macro-F1; MAE",
+      "procedure": "Сначала оценивается межэкспертное согласие и формируется согласованный референс. Статусы insufficient_data, error и not_applicable анализируются отдельно и никогда не кодируются нулём.",
       "conditions": [
         {
           "code": "A0",
@@ -652,25 +714,61 @@
           "name": "«Делает то, что проповедует»",
           "scope_role": "primary"
         }
+      ],
+      "literature_sources": [
+        {
+          "id": 25,
+          "code": "S25",
+          "citation_apa": "Fütterer, T., Hou, R., Bühler, B., Bozkir, E., Bell, C., Kasneci, E., Gerjets, P., & Trautwein, U. (2026). Validating automated assessments of teaching effectiveness using multimodal data. Learning and Instruction, 101, 102264.",
+          "doi": "10.1016/j.learninstruc.2025.102264",
+          "url": "https://doi.org/10.1016/j.learninstruc.2025.102264",
+          "study_type": "Мультимодальная валидация автоматической оценки",
+          "verification_status": "source_register_checked",
+          "relation_role": "design_example",
+          "notes": "Валидация автоматической оценки преподавания по экспертному референсу."
+        },
+        {
+          "id": 37,
+          "code": "S37",
+          "citation_apa": "Sokolova, M., & Lapalme, G. (2009). A systematic analysis of performance measures for classification tasks. Information Processing & Management, 45(4), 427–437.",
+          "doi": "10.1016/j.ipm.2009.03.002",
+          "url": "https://doi.org/10.1016/j.ipm.2009.03.002",
+          "study_type": "Методологический обзор метрик классификации",
+          "verification_status": "to_review",
+          "relation_role": "metric_definition",
+          "notes": "Macro-F1 и различия между классами."
+        },
+        {
+          "id": 39,
+          "code": "S39",
+          "citation_apa": "Cohen, J. (1968). Weighted kappa: Nominal scale agreement provision for scaled disagreement or partial credit. Psychological Bulletin, 70(4), 213–220.",
+          "doi": "10.1037/h0026256",
+          "url": "https://doi.org/10.1037/h0026256",
+          "study_type": "Методологическая статья",
+          "verification_status": "to_review",
+          "relation_role": "metric_definition",
+          "notes": "Weighted kappa для порядковой шкалы."
+        }
       ]
     },
     {
       "id": 4,
       "study_id": 1,
       "code": "E4",
-      "name": "Добавочная ценность распознавания видео",
-      "hypothesis": "Использование распознавания эмоций / вовлечённости, а так же метрик, вычисленных по аудио, улучшают результат (то есть совпадение с оценками эксперта) относительно анализа только транскрипта.",
+      "name": "Ценность распознавания видео",
+      "hypothesis": "Использование распознавания эмоций / вовлечённости, а также метрик, вычисленных по аудио, улучшает совпадение с оценками эксперта относительно анализа только транскрипта.",
       "effect_order": 4,
       "effect_check_id": 4,
       "check_code": "EC_E4",
-      "unit_of_analysis": "Критерий × занятие",
-      "comparison_description": "Парная абляция A1 ↔ A2 ↔ A3 ↔ A4.",
-      "success_rule": "Добавление модальности должно давать заранее зарегистрированный положительный эффект или обоснованно не требоваться.",
+      "unit_of_analysis": "Критерий × занятие × шаг добавления модальности",
+      "comparison_description": "Основное сравнение A2 ↔ A3 ↔ A4; A1 используется как вторичная готовая база.",
+      "success_rule": "Для заявленно полезной модальности нижняя граница 95% ДИ заранее выбранной основной метрики должна превышать ноль или заданную минимально важную разницу.",
+      "method_id": 4,
       "method_code": "T4",
-      "method_name": "Мультимодальная абляция",
-      "method_description": "На одних занятиях последовательно сравниваются A1, A2, A3 и A4.",
-      "metrics": "Разница F1/kappa; доля подтверждённых доказательств",
-      "procedure": "Парное сравнение с кластерным bootstrap по занятиям и преподавателям.",
+      "method_name": "Парная абляция модальностей",
+      "method_description": "На одних и тех же занятиях отдельно измеряется вклад аудио и вклад видео/визуальных сигналов относительно транскрипта.",
+      "metrics": "Изменение точного совпадения, weighted kappa и macro-F1; изменение доли подтверждённых доказательств; 95% ДИ разницы",
+      "procedure": "При фиксированных версии модели, промпте и наборе занятий парно сравниваются A2 → A3 → A4. Доверительные интервалы рассчитываются кластерным bootstrap по преподавателям и занятиям; результат приводится отдельно по критериям.",
       "conditions": [
         {
           "code": "A1",
@@ -880,25 +978,61 @@
           "name": "«Делает то, что проповедует»",
           "scope_role": "primary"
         }
+      ],
+      "literature_sources": [
+        {
+          "id": 25,
+          "code": "S25",
+          "citation_apa": "Fütterer, T., Hou, R., Bühler, B., Bozkir, E., Bell, C., Kasneci, E., Gerjets, P., & Trautwein, U. (2026). Validating automated assessments of teaching effectiveness using multimodal data. Learning and Instruction, 101, 102264.",
+          "doi": "10.1016/j.learninstruc.2025.102264",
+          "url": "https://doi.org/10.1016/j.learninstruc.2025.102264",
+          "study_type": "Мультимодальная валидация автоматической оценки",
+          "verification_status": "source_register_checked",
+          "relation_role": "design_example",
+          "notes": "Мультимодальная автоматическая оценка преподавания."
+        },
+        {
+          "id": 28,
+          "code": "S28",
+          "citation_apa": "Ramakrishnan, A., Zylich, B., Ottmar, E., LoCasale-Crouch, J., & Whitehill, J. (2020). Toward automated classroom observation: Multimodal machine learning to estimate CLASS positive and negative climate [Preprint]. arXiv.",
+          "doi": "10.48550/arXiv.2005.09525",
+          "url": "https://arxiv.org/abs/2005.09525",
+          "study_type": "Препринт; мультимодальная автоматизация",
+          "verification_status": "source_register_checked",
+          "relation_role": "design_example",
+          "notes": "Пример мультимодального анализа наблюдаемого климата."
+        },
+        {
+          "id": 40,
+          "code": "S40",
+          "citation_apa": "Meyes, R., Lu, M., de Puiseau, C. W., & Meisen, T. (2019). Ablation studies in artificial neural networks [Preprint]. arXiv.",
+          "doi": "10.48550/arXiv.1901.08644",
+          "url": "https://arxiv.org/abs/1901.08644",
+          "study_type": "Методическая работа об абляциях",
+          "verification_status": "to_review",
+          "relation_role": "methodological_basis",
+          "notes": "Логика абляции компонентов системы."
+        }
       ]
     },
     {
       "id": 5,
       "study_id": 1,
       "code": "E5",
-      "name": "Переносимость",
-      "hypothesis": "Качество оценки не зависит от преподавателей, дисциплин, форматов.",
+      "name": "Независимость от курсов",
+      "hypothesis": "Качество оценки не зависит от преподавателей, дисциплин и форматов.",
       "effect_order": 5,
       "effect_check_id": 5,
       "check_code": "EC_E5",
-      "unit_of_analysis": "Преподаватель, занятие и страта",
-      "comparison_description": "A1–A4 на holdout по преподавателям с A0 как референсом.",
-      "success_rule": "Качество и интервалы должны оставаться приемлемыми в ключевых стратах.",
+      "unit_of_analysis": "Преподаватель или курс как группа; критерий × занятие как наблюдение",
+      "comparison_description": "A1–A4 на групповом holdout по преподавателям и курсам с A0 как референсом.",
+      "success_rule": "Падение качества в заранее заданных стратах не должно превышать зарегистрированную границу практической эквивалентности; простой p>0,05 не считается доказательством независимости.",
+      "method_id": 5,
       "method_code": "T5",
-      "method_name": "Holdout и анализ переносимости",
-      "method_description": "Настройка и тест разделяются по преподавателям и занятиям.",
-      "metrics": "Метрики качества по стратам и их доверительные интервалы",
-      "procedure": "Отдельные срезы по формату, размеру аудитории, дисциплине и качеству записи.",
+      "method_name": "Групповой holdout и анализ переносимости",
+      "method_description": "Данные одного преподавателя или курса целиком остаются только в настройке либо только в тесте, чтобы исключить утечку зависимых наблюдений.",
+      "metrics": "Метрики качества по преподавателям, дисциплинам и форматам; худшая страта; падение относительно общей выборки; доверительные интервалы",
+      "procedure": "Используется групповой holdout по преподавателю и курсу. На независимом тесте отдельно считаются заранее заданные страты формата, дисциплины и качества записи; отсутствие значимого различия не трактуется как доказательство равенства.",
       "conditions": [
         {
           "code": "A0",
@@ -1102,25 +1236,50 @@
           "name": "«Делает то, что проповедует»",
           "scope_role": "primary"
         }
+      ],
+      "literature_sources": [
+        {
+          "id": 25,
+          "code": "S25",
+          "citation_apa": "Fütterer, T., Hou, R., Bühler, B., Bozkir, E., Bell, C., Kasneci, E., Gerjets, P., & Trautwein, U. (2026). Validating automated assessments of teaching effectiveness using multimodal data. Learning and Instruction, 101, 102264.",
+          "doi": "10.1016/j.learninstruc.2025.102264",
+          "url": "https://doi.org/10.1016/j.learninstruc.2025.102264",
+          "study_type": "Мультимодальная валидация автоматической оценки",
+          "verification_status": "source_register_checked",
+          "relation_role": "design_example",
+          "notes": "Проверка качества автоматической оценки на разных данных."
+        },
+        {
+          "id": 41,
+          "code": "S41",
+          "citation_apa": "Roberts, D. R., Bahn, V., Ciuti, S., Boyce, M. S., Elith, J., Guillera-Arroita, G., Hauenstein, S., Lahoz-Monfort, J. J., Schröder, B., Thuiller, W., Warton, D. I., Wintle, B. A., Hartig, F., & Dormann, C. F. (2017). Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure. Ecography, 40(8), 913–929.",
+          "doi": "10.1111/ecog.02881",
+          "url": "https://doi.org/10.1111/ecog.02881",
+          "study_type": "Методологический обзор валидации",
+          "verification_status": "to_review",
+          "relation_role": "methodological_basis",
+          "notes": "Блочное разбиение и зависимые наблюдения."
+        }
       ]
     },
     {
       "id": 6,
       "study_id": 1,
       "code": "E6",
-      "name": "Калиброванная неопределённость",
+      "name": "Правильный отказ",
       "hypothesis": "ИИ корректно отказывается от совершения неподтверждённых выводов.",
       "effect_order": 6,
       "effect_check_id": 6,
       "check_code": "EC_E6",
-      "unit_of_analysis": "Вывод или отказ по критерию",
-      "comparison_description": "A1–A4 против A0 при разных порогах уверенности.",
-      "success_rule": "Опасные уверенные ошибки ограничены, selective accuracy растёт при снижении coverage.",
+      "unit_of_analysis": "Вывод или отказ × критерий",
+      "comparison_description": "A1–A4 против A0 по всей кривой risk–coverage.",
+      "success_rule": "Опасные уверенные ошибки остаются ниже зарегистрированного предела, а риск монотонно снижается при уменьшении покрытия.",
+      "method_id": 6,
       "method_code": "T6",
-      "method_name": "Калибровка неопределённости",
-      "method_description": "Проверяется точность при разных порогах уверенности и качество отказов.",
-      "metrics": "Coverage; selective accuracy; доля корректных отказов; опасные уверенные ошибки",
-      "procedure": "Порог фиксируется после калибровки до открытия независимого теста.",
+      "method_name": "Selective prediction и проверка отказов",
+      "method_description": "Проверяется, уменьшается ли риск ошибки при расширении зоны отказа и соответствует ли заявленная уверенность фактической точности.",
+      "metrics": "Кривая risk–coverage; selective accuracy; точность статуса insufficient_data; доля корректных отказов; опасные уверенные ошибки; ECE/Brier при числовой уверенности",
+      "procedure": "Порог отказа и калибровка выбираются только на калибровочной выборке и блокируются до независимого теста. На тесте публикуется вся кривая риск–покрытие, а не одна удобная точка.",
       "conditions": [
         {
           "code": "A0",
@@ -1318,6 +1477,30 @@
           "name": "«Делает то, что проповедует»",
           "scope_role": "primary"
         }
+      ],
+      "literature_sources": [
+        {
+          "id": 42,
+          "code": "S42",
+          "citation_apa": "Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017). On calibration of modern neural networks. Proceedings of Machine Learning Research, 70, 1321–1330.",
+          "doi": null,
+          "url": "https://proceedings.mlr.press/v70/guo17a.html",
+          "study_type": "Эмпирическая работа о калибровке",
+          "verification_status": "to_review",
+          "relation_role": "metric_definition",
+          "notes": "Калибровка числовой уверенности."
+        },
+        {
+          "id": 43,
+          "code": "S43",
+          "citation_apa": "Geifman, Y., & El-Yaniv, R. (2017). Selective classification for deep neural networks. Advances in Neural Information Processing Systems, 30.",
+          "doi": null,
+          "url": "https://papers.neurips.cc/paper_files/paper/2017/hash/4a8423d5e91fda00bb7e46540e2b0cf1-Abstract.html",
+          "study_type": "Методологическая работа о selective prediction",
+          "verification_status": "to_review",
+          "relation_role": "methodological_basis",
+          "notes": "Risk–coverage и право модели отказаться."
+        }
       ]
     },
     {
@@ -1332,11 +1515,12 @@
       "unit_of_analysis": "Эксперт × критерий × занятие",
       "comparison_description": "Сбалансированный crossover A0 ↔ A5.",
       "success_rule": "Время сокращается без ухудшения согласия с референсом и без роста опасных пропусков.",
+      "method_id": 7,
       "method_code": "T7",
       "method_name": "Сбалансированный crossover A0–A5",
-      "method_description": "Эксперты оценивают сбалансированные кейсы с ИИ-подсказками и без них.",
-      "metrics": "Время; согласие с референсом; исправления; пропуски; оценка полезности",
-      "procedure": "Рандомизировать порядок условий и фиксировать время работы.",
+      "method_description": "Одни эксперты работают с ИИ-подсказкой, другие без неё, а порядок и набор кейсов уравновешиваются, чтобы отделить эффект помощника от эффекта эксперта и сложности занятия.",
+      "metrics": "Время; точное совпадение и weighted kappa с референсом; исправления; опасные пропуски; субъективная полезность и нагрузка",
+      "procedure": "Рандомизировать и уравновесить порядок A0/A5 по экспертам и кейсам, не показывать одному эксперту один и тот же кейс рядом в двух условиях, фиксировать время и все изменения подсказки.",
       "conditions": [
         {
           "code": "A0",
@@ -1516,6 +1700,30 @@
           "name": "«Делает то, что проповедует»",
           "scope_role": "primary"
         }
+      ],
+      "literature_sources": [
+        {
+          "id": 44,
+          "code": "S44",
+          "citation_apa": "Tschandl, P., Rinner, C., Apalla, Z., et al. (2020). Human–computer collaboration for skin cancer recognition. Nature Medicine, 26, 1229–1234.",
+          "doi": "10.1038/s41591-020-0942-0",
+          "url": "https://doi.org/10.1038/s41591-020-0942-0",
+          "study_type": "Эксперимент human–AI collaboration",
+          "verification_status": "to_review",
+          "relation_role": "design_example",
+          "notes": "Оценка совместной работы человека и ИИ и риска ошибочной подсказки."
+        },
+        {
+          "id": 45,
+          "code": "S45",
+          "citation_apa": "Dwan, K., Li, T., Altman, D. G., & Elbourne, D. (2019). CONSORT 2010 statement: Extension to randomised crossover trials. BMJ, 366, l4378.",
+          "doi": "10.1136/bmj.l4378",
+          "url": "https://doi.org/10.1136/bmj.l4378",
+          "study_type": "Методическая рекомендация по crossover-дизайну",
+          "verification_status": "to_review",
+          "relation_role": "methodological_basis",
+          "notes": "Организация и отчётность crossover-сравнения."
+        }
       ]
     },
     {
@@ -1523,18 +1731,19 @@
       "study_id": 1,
       "code": "E8",
       "name": "Необходимость дополнительных данных",
-      "hypothesis": "Скрытые состояния и содержательные свойства не угадываются по эмоциям или поведению; новые данные дают проверяемый прирост. (вообще это на отдельное исследование похоже)",
+      "hypothesis": "Скрытые состояния и содержательные свойства не угадываются по эмоциям или поведению; новые данные дают проверяемый прирост. (Вообще это похоже на отдельное исследование.)",
       "effect_order": 8,
       "effect_check_id": 8,
       "check_code": "EC_E8",
-      "unit_of_analysis": "Критерий × набор доступных данных",
-      "comparison_description": "Запись-only A4 против A4 с дополнительными материалами, диагностикой и опросами.",
-      "success_rule": "Без прямых данных система корректно отказывается; добавочные данные дают измеримый и интерпретируемый прирост.",
+      "unit_of_analysis": "Критерий × занятие × набор доступных данных",
+      "comparison_description": "Запись-only A4 против того же A4 после добавления одного определённого типа данных.",
+      "success_rule": "Без прямых данных система корректно отказывается; каждый добавочный источник даёт заранее определённый измеримый и интерпретируемый прирост.",
+      "method_id": 8,
       "method_code": "T8",
-      "method_name": "Проверка границ и добавочных данных",
-      "method_description": "Сравнивается запись-only с записью плюс материалы, диагностика или прямой опрос.",
-      "metrics": "Прирост качества; корректные отказы; ложные выводы без прямых данных",
-      "procedure": "Для критериев 24–25 машинный вывод без прямых студенческих данных запрещён.",
+      "method_name": "Вложенная проверка границ и добавочных данных",
+      "method_description": "В отдельном подпилоте для каждого критерия сравнивается запись без дополнительных данных с тем же анализом после добавления материалов, диагностики или прямого опроса.",
+      "metrics": "Прирост качества и доли проверяемых выводов; корректные отказы; ложные выводы без прямых данных; изменение неопределённости",
+      "procedure": "Сравнение проводится парно на тех же занятиях и раздельно по типу добавленных данных. Для C24 и C25 вывод без exit ticket и trust survey запрещён; эмоции и поведение не используются как замена прямым ответам студентов.",
       "conditions": [
         {
           "code": "A0",
@@ -1636,6 +1845,52 @@
           "name": "«Делает то, что проповедует»",
           "scope_role": "boundary"
         }
+      ],
+      "literature_sources": [
+        {
+          "id": 29,
+          "code": "S29",
+          "citation_apa": "Graham, M. J., Hanauer, D. I., Aragón, O., Bauer, M., Bennie, J., Crowley, L., Gill, J., Morgan, M., Reeves, P. M., Withers, M., Yeh, P., Zhang, K., Zhang, T., & Chen, X. (2026). A measure of college student trust in their instructor. Frontiers in Education, 11, 1655426.",
+          "doi": "10.3389/feduc.2026.1655426",
+          "url": "https://doi.org/10.3389/feduc.2026.1655426",
+          "study_type": "Разработка и психометрическая валидация шкалы",
+          "verification_status": "source_register_checked",
+          "relation_role": "boundary_evidence",
+          "notes": "Прямой студенческий опрос для доверия."
+        },
+        {
+          "id": 31,
+          "code": "S31",
+          "citation_apa": "Leppink, J., Paas, F., Van der Vleuten, C. P. M., Van Gog, T., & Van Merriënboer, J. J. G. (2013). Development of an instrument for measuring different types of cognitive load. Behavior Research Methods, 45, 1058–1072.",
+          "doi": "10.3758/s13428-013-0334-1",
+          "url": "https://doi.org/10.3758/s13428-013-0334-1",
+          "study_type": "Разработка и валидация самоотчётной шкалы",
+          "verification_status": "source_register_checked",
+          "relation_role": "boundary_evidence",
+          "notes": "Самоотчёт как источник для когнитивной нагрузки."
+        },
+        {
+          "id": 34,
+          "code": "S34",
+          "citation_apa": "Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68–78.",
+          "doi": "10.1037/0003-066X.55.1.68",
+          "url": "https://doi.org/10.1037/0003-066X.55.1.68",
+          "study_type": "Теоретическая обзорная статья",
+          "verification_status": "source_register_checked",
+          "relation_role": "boundary_evidence",
+          "notes": "Скрытые мотивационные конструкты не выводятся напрямую из записи."
+        },
+        {
+          "id": 36,
+          "code": "S36",
+          "citation_apa": "Messick, S. (1995). Validity of psychological assessment: Validation of inferences from persons' responses and performances as scientific inquiry into score meaning. American Psychologist, 50(9), 741–749.",
+          "doi": "10.1037/0003-066X.50.9.741",
+          "url": "https://doi.org/10.1037/0003-066X.50.9.741",
+          "study_type": "Теоретическая статья о валидности",
+          "verification_status": "to_review",
+          "relation_role": "methodological_basis",
+          "notes": "Валидность интерпретации при добавлении новых источников."
+        }
       ]
     },
     {
@@ -1643,30 +1898,25 @@
       "study_id": 1,
       "code": "E9",
       "name": "Надёжность во времени",
-      "hypothesis": "Вывод ИИ устойчив на повторных занятиях (одного преподавателя / дисциплины / если можно, то и одного занятия, но в разных группах) и повторных прогонах.",
+      "hypothesis": "Вывод ИИ устойчив при повторных прогонах.",
       "effect_order": 9,
       "effect_check_id": 9,
       "check_code": "EC_E9",
-      "unit_of_analysis": "Повторное занятие или повторный прогон",
-      "comparison_description": "Повторные A4 с A0 как референсом.",
-      "success_rule": "Стабильность фиксируется заранее выбранными метриками; критерий 26 оценивается только продольно.",
+      "unit_of_analysis": "Один и тот же вход × критерий × повтор прогона",
+      "comparison_description": "Независимые повторы A4 сравниваются между собой; A0 относится к проверке правильности в E1–E3, а не к повторяемости.",
+      "success_rule": "Порог точного совпадения статусов и баллов, weighted kappa, допустимый разброс уверенности и перекрытие доказательств фиксируются до независимого теста.",
+      "method_id": 9,
       "method_code": "T9",
-      "method_name": "Продольная и повторная проверка",
-      "method_description": "Сопоставляются повторные занятия и повторные прогоны одной версии.",
-      "metrics": "Стабильность признаков, ошибок, баллов и уверенности",
-      "procedure": "Для критерия 26 итог возможен только по нескольким наблюдениям.",
+      "method_name": "Повторяемость идентичных прогонов",
+      "method_description": "Один и тот же зафиксированный вход многократно обрабатывается одной версией модели с неизменными промптом и параметрами.",
+      "metrics": "Доля идентичных статусов и баллов; попарная weighted kappa; разброс уверенности; ICC для числовой уверенности; Jaccard/temporal IoU доказательных фрагментов; доля изменившихся отказов",
+      "procedure": "Для каждого выбранного занятия выполняется заранее заданное число независимых повторов A4. Версия модели, промпт, параметры генерации и checksum входов фиксируются; детерминированные и стохастические конфигурации анализируются отдельно. Повторяемость оценивается отдельно от правильности.",
       "conditions": [
-        {
-          "code": "A0",
-          "name": "Эксперт без ИИ",
-          "role": "reference",
-          "notes": null
-        },
         {
           "code": "A4",
           "name": "Видео + аудио + TXT + материалы",
           "role": "candidate",
-          "notes": null
+          "notes": "Одна конфигурация A4 запускается повторно на идентичных входах."
         }
       ],
       "data_types": [
@@ -1674,13 +1924,13 @@
           "code": "technical_metadata",
           "name": "Технические метаданные",
           "role": "required",
-          "notes": "Идентичность версий и качество повторных записей."
+          "notes": "Checksum входов, версия модели, промпт и параметры генерации для подтверждения идентичности условий."
         },
         {
           "code": "expert_annotation",
           "name": "Экспертная разметка",
           "role": "reference",
-          "notes": "Экспертный референс по повторным занятиям."
+          "notes": "Используется только для отдельной проверки правильности: стабильный вывод всё равно может быть неверным."
         }
       ],
       "criteria": [
@@ -1838,7 +2088,42 @@
           "code": "C26",
           "number": 26,
           "name": "«Делает то, что проповедует»",
-          "scope_role": "longitudinal"
+          "scope_role": "primary"
+        }
+      ],
+      "literature_sources": [
+        {
+          "id": 39,
+          "code": "S39",
+          "citation_apa": "Cohen, J. (1968). Weighted kappa: Nominal scale agreement provision for scaled disagreement or partial credit. Psychological Bulletin, 70(4), 213–220.",
+          "doi": "10.1037/h0026256",
+          "url": "https://doi.org/10.1037/h0026256",
+          "study_type": "Методологическая статья",
+          "verification_status": "to_review",
+          "relation_role": "metric_definition",
+          "notes": "Weighted kappa для повторяемости баллов 0–2."
+        },
+        {
+          "id": 46,
+          "code": "S46",
+          "citation_apa": "Vaidya, S., & Saini, J. R. (2026). Consistency evaluation protocol: A reproducible framework for assessing large language model output repeatability. MethodsX, 17, 104069.",
+          "doi": "10.1016/j.mex.2026.104069",
+          "url": "https://doi.org/10.1016/j.mex.2026.104069",
+          "study_type": "Протокол повторяемости LLM",
+          "verification_status": "to_review",
+          "relation_role": "design_example",
+          "notes": "Специализированный протокол повторных прогонов LLM."
+        },
+        {
+          "id": 47,
+          "code": "S47",
+          "citation_apa": "Shrout, P. E., & Fleiss, J. L. (1979). Intraclass correlations: Uses in assessing rater reliability. Psychological Bulletin, 86(2), 420–428.",
+          "doi": "10.1037/0033-2909.86.2.420",
+          "url": "https://doi.org/10.1037/0033-2909.86.2.420",
+          "study_type": "Методологическая статья о надёжности",
+          "verification_status": "to_review",
+          "relation_role": "metric_definition",
+          "notes": "ICC для повторных числовых измерений."
         }
       ]
     }

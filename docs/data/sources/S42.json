@@ -1,0 +1,28 @@
+{
+  "id": 42,
+  "code": "S42",
+  "citation_apa": "Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017). On calibration of modern neural networks. Proceedings of Machine Learning Research, 70, 1321–1330.",
+  "doi": null,
+  "url": "https://proceedings.mlr.press/v70/guo17a.html",
+  "study_type": "Эмпирическая работа о калибровке",
+  "evidence_summary": "Различает качество предсказания и соответствие уверенности фактической вероятности ошибки; поддерживает отдельную проверку калибровки уверенности.",
+  "access_notes": "Открытая версия PMLR.",
+  "evidence_role": "Методическая основа калибровки",
+  "verification_status": "to_review",
+  "registry_checked_on": null,
+  "provenance_document_id": null,
+  "notes": "Подобрано для T6; требуется пользовательская верификация.",
+  "provenance_title": null,
+  "provenance_path": null,
+  "criteria": [],
+  "verification_methods": [
+    {
+      "id": 6,
+      "code": "T6",
+      "name": "Selective prediction и проверка отказов",
+      "effect_code": "E6",
+      "relation_role": "metric_definition",
+      "notes": "Калибровка числовой уверенности."
+    }
+  ]
+}

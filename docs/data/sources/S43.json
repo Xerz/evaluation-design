@@ -1,0 +1,28 @@
+{
+  "id": 43,
+  "code": "S43",
+  "citation_apa": "Geifman, Y., & El-Yaniv, R. (2017). Selective classification for deep neural networks. Advances in Neural Information Processing Systems, 30.",
+  "doi": null,
+  "url": "https://papers.neurips.cc/paper_files/paper/2017/hash/4a8423d5e91fda00bb7e46540e2b0cf1-Abstract.html",
+  "study_type": "Методологическая работа о selective prediction",
+  "evidence_summary": "Формализует компромисс риск–покрытие для системы с правом отказа; напрямую поддерживает оценку качества правильного отказа.",
+  "access_notes": "Открытая версия NeurIPS.",
+  "evidence_role": "Методическая основа режима отказа",
+  "verification_status": "to_review",
+  "registry_checked_on": null,
+  "provenance_document_id": null,
+  "notes": "Подобрано для T6; требуется пользовательская верификация.",
+  "provenance_title": null,
+  "provenance_path": null,
+  "criteria": [],
+  "verification_methods": [
+    {
+      "id": 6,
+      "code": "T6",
+      "name": "Selective prediction и проверка отказов",
+      "effect_code": "E6",
+      "relation_role": "methodological_basis",
+      "notes": "Risk–coverage и право модели отказаться."
+    }
+  ]
+}

@@ -28,5 +28,15 @@
       "source_locator": "Лист «Источники», строка 32",
       "notes": null
     }
+  ],
+  "verification_methods": [
+    {
+      "id": 4,
+      "code": "T4",
+      "name": "Парная абляция модальностей",
+      "effect_code": "E4",
+      "relation_role": "design_example",
+      "notes": "Пример мультимодального анализа наблюдаемого климата."
+    }
   ]
 }

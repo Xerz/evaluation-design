@@ -1096,7 +1096,7 @@
     {
       "effect_check_id": 9,
       "criterion_id": 26,
-      "scope_role": "longitudinal"
+      "scope_role": "primary"
     }
   ],
   "total": 214

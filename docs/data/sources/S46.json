@@ -1,0 +1,28 @@
+{
+  "id": 46,
+  "code": "S46",
+  "citation_apa": "Vaidya, S., & Saini, J. R. (2026). Consistency evaluation protocol: A reproducible framework for assessing large language model output repeatability. MethodsX, 17, 104069.",
+  "doi": "10.1016/j.mex.2026.104069",
+  "url": "https://doi.org/10.1016/j.mex.2026.104069",
+  "study_type": "Протокол повторяемости LLM",
+  "evidence_summary": "Предлагает повторный запуск одинаковых промптов и анализ семантической и структурной стабильности; в пилоте дополнительно нужны стабильность балла, отказа и таймкодов.",
+  "access_notes": "Открытая статья; электронная публикация 25.07.2026.",
+  "evidence_role": "Методическая основа повторных прогонов LLM",
+  "verification_status": "to_review",
+  "registry_checked_on": null,
+  "provenance_document_id": null,
+  "notes": "Подобрано для T9; требуется пользовательская верификация.",
+  "provenance_title": null,
+  "provenance_path": null,
+  "criteria": [],
+  "verification_methods": [
+    {
+      "id": 9,
+      "code": "T9",
+      "name": "Повторяемость идентичных прогонов",
+      "effect_code": "E9",
+      "relation_role": "design_example",
+      "notes": "Специализированный протокол повторных прогонов LLM."
+    }
+  ]
+}

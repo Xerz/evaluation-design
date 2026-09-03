@@ -55,7 +55,7 @@ class EditorDatabaseTests(unittest.TestCase):
         objects = self.database.object_names()
         tables = [name for name, kind in objects.items() if kind == "table"]
         views = [name for name, kind in objects.items() if kind == "view"]
-        self.assertEqual(len(tables), 38)
+        self.assertEqual(len(tables), 39)
         self.assertEqual(len(views), 4)
         for table in tables:
             schema = self.database.table_schema(table, require_table=True)

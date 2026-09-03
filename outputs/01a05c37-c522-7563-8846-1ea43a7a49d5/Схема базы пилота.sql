@@ -199,6 +199,16 @@ CREATE TABLE verification_methods (
     procedure TEXT NOT NULL
 );
 
+CREATE TABLE verification_method_research_sources (
+    verification_method_id INTEGER NOT NULL REFERENCES verification_methods(id) ON DELETE CASCADE,
+    research_source_id INTEGER NOT NULL REFERENCES research_sources(id) ON DELETE CASCADE,
+    relation_role TEXT NOT NULL CHECK (relation_role IN (
+        'methodological_basis', 'metric_definition', 'design_example', 'boundary_evidence'
+    )),
+    notes TEXT,
+    PRIMARY KEY (verification_method_id, research_source_id)
+);
+
 CREATE TABLE effect_checks (
     id INTEGER PRIMARY KEY,
     effect_id INTEGER NOT NULL REFERENCES effects(id) ON DELETE CASCADE,
@@ -427,6 +437,7 @@ CREATE INDEX idx_study_criteria_criterion ON study_criteria(criterion_id);
 CREATE INDEX idx_conditions_study ON comparison_conditions(study_id);
 CREATE INDEX idx_effects_study ON effects(study_id);
 CREATE INDEX idx_effect_checks_effect ON effect_checks(effect_id);
+CREATE INDEX idx_verification_method_sources_source ON verification_method_research_sources(research_source_id);
 CREATE INDEX idx_lessons_study ON lessons(study_id);
 CREATE INDEX idx_lessons_instructor ON lessons(instructor_id);
 CREATE INDEX idx_artifacts_lesson ON lesson_artifacts(lesson_id);
@@ -499,6 +510,12 @@ SELECT
     ec.unit_of_analysis,
     ec.comparison_description,
     ec.success_rule,
+    (
+        SELECT group_concat(rs.code || ': ' || rs.citation_apa, '; ')
+        FROM verification_method_research_sources AS vmrs
+        JOIN research_sources AS rs ON rs.id = vmrs.research_source_id
+        WHERE vmrs.verification_method_id = vm.id
+    ) AS literature,
     (
         SELECT group_concat(cc.code || ' [' || ecc.role || ']', '; ')
         FROM effect_check_conditions AS ecc

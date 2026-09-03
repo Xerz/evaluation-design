@@ -61,12 +61,12 @@
   "effect_checks": [
     {
       "effect_code": "E1",
-      "effect_name": "Конструктная валидность",
+      "effect_name": "Понимание критериев",
       "check_code": "EC_E1",
       "role": "reference",
       "notes": null,
       "method_code": "T1",
-      "method_name": "Экспертная проверка доказательств"
+      "method_name": "Экспертная проверка соответствия критерию"
     },
     {
       "effect_code": "E2",
@@ -79,7 +79,7 @@
     },
     {
       "effect_code": "E3",
-      "effect_name": "Согласие по итоговой оценке",
+      "effect_name": "Совпадение по итоговой оценке",
       "check_code": "EC_E3",
       "role": "reference",
       "notes": null,
@@ -88,21 +88,21 @@
     },
     {
       "effect_code": "E5",
-      "effect_name": "Переносимость",
+      "effect_name": "Независимость от курсов",
       "check_code": "EC_E5",
       "role": "reference",
       "notes": null,
       "method_code": "T5",
-      "method_name": "Holdout и анализ переносимости"
+      "method_name": "Групповой holdout и анализ переносимости"
     },
     {
       "effect_code": "E6",
-      "effect_name": "Калиброванная неопределённость",
+      "effect_name": "Правильный отказ",
       "check_code": "EC_E6",
       "role": "reference",
       "notes": null,
       "method_code": "T6",
-      "method_name": "Калибровка неопределённости"
+      "method_name": "Selective prediction и проверка отказов"
     },
     {
       "effect_code": "E7",
@@ -120,16 +120,7 @@
       "role": "reference",
       "notes": null,
       "method_code": "T8",
-      "method_name": "Проверка границ и добавочных данных"
-    },
-    {
-      "effect_code": "E9",
-      "effect_name": "Надёжность во времени",
-      "check_code": "EC_E9",
-      "role": "reference",
-      "notes": null,
-      "method_code": "T9",
-      "method_name": "Продольная и повторная проверка"
+      "method_name": "Вложенная проверка границ и добавочных данных"
     }
   ]
 }

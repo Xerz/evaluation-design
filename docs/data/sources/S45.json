@@ -1,0 +1,28 @@
+{
+  "id": 45,
+  "code": "S45",
+  "citation_apa": "Dwan, K., Li, T., Altman, D. G., & Elbourne, D. (2019). CONSORT 2010 statement: Extension to randomised crossover trials. BMJ, 366, l4378.",
+  "doi": "10.1136/bmj.l4378",
+  "url": "https://doi.org/10.1136/bmj.l4378",
+  "study_type": "Методическая рекомендация по crossover-дизайну",
+  "evidence_summary": "Описывает прозрачную организацию и отчётность crossover-сравнения, где участник служит собственным контролем; в пилоте нужна адаптация к экспертам и кейсам.",
+  "access_notes": "Открытый текст BMJ.",
+  "evidence_role": "Методическая основа crossover",
+  "verification_status": "to_review",
+  "registry_checked_on": null,
+  "provenance_document_id": null,
+  "notes": "Подобрано для T7; требуется пользовательская верификация.",
+  "provenance_title": null,
+  "provenance_path": null,
+  "criteria": [],
+  "verification_methods": [
+    {
+      "id": 7,
+      "code": "T7",
+      "name": "Сбалансированный crossover A0–A5",
+      "effect_code": "E7",
+      "relation_role": "methodological_basis",
+      "notes": "Организация и отчётность crossover-сравнения."
+    }
+  ]
+}

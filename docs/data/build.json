@@ -1,25 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-03T06:41:17+00:00",
+  "generated_at": "2026-09-03T07:31:36+00:00",
   "source_database": "База пилота автоматизации критериев ТюмГУ.sqlite",
-  "source_sha256": "030e8bbedafb8b21e9fbc9a724f0f29559d85cb2d0f81b82d7127509cdb6c820",
+  "source_sha256": "598d593c5898703f0bb2ff526dcf21d3f698e868a5f91e663ba753e8182615ca",
   "counts": {
     "criteria": 26,
     "score_levels": 78,
     "instruments": 4,
     "conditions": 6,
     "effects": 9,
-    "research_sources": 35,
+    "research_sources": 47,
     "criterion_source_links": 111,
-    "tables": 38,
+    "method_source_links": 24,
+    "tables": 39,
     "views": 4
   },
   "static_files": {
     "criteria_details": 26,
-    "source_details": 35,
+    "source_details": 47,
     "instrument_details": 4,
     "condition_details": 6,
     "effect_details": 9,
-    "tables_and_views": 42
+    "tables_and_views": 43
   }
 }

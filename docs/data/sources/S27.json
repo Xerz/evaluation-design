@@ -67,5 +67,15 @@
       "source_locator": "Лист «Источники», строка 31",
       "notes": null
     }
+  ],
+  "verification_methods": [
+    {
+      "id": 1,
+      "code": "T1",
+      "name": "Экспертная проверка соответствия критерию",
+      "effect_code": "E1",
+      "relation_role": "design_example",
+      "notes": "Пример экспертной оценки конкретных доказательств и обратной связи."
+    }
   ]
 }

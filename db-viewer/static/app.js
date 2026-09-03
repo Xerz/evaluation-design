@@ -62,6 +62,10 @@ const labels = {
   confirmed: "Подтверждено",
   partially_confirmed: "Подтверждено частично",
   rejected: "Отклонено",
+  methodological_basis: "Методическая основа",
+  metric_definition: "Определение метрики",
+  design_example: "Пример дизайна",
+  boundary_evidence: "Граница применимости",
 };
 
 const routeNames = {
@@ -315,7 +319,7 @@ async function renderOverview() {
     </div>
     <section class="metric-grid" aria-label="Основные количества">
       <a class="metric-card" href="#/criteria"><span class="metric-label">Критерии</span><div class="metric-value">${c.criteria}</div><div class="metric-note">${c.score_levels} описаний шкалы 0–2</div></a>
-      <a class="metric-card" href="#/sources"><span class="metric-label">Источники критериев</span><div class="metric-value">${c.research_sources}</div><div class="metric-note">${c.criterion_source_links} связей с критериями</div></a>
+      <a class="metric-card" href="#/sources"><span class="metric-label">Исследовательские источники</span><div class="metric-value">${c.research_sources}</div><div class="metric-note">${c.criterion_source_links} связей с критериями · ${c.method_source_links || 0} с методами</div></a>
       <a class="metric-card" href="#/instruments"><span class="metric-label">Инструменты</span><div class="metric-value">${c.instruments}</div><div class="metric-note">LLM · видео · аудио · эксперт</div></a>
       <a class="metric-card" href="#/conditions"><span class="metric-label">Условия</span><div class="metric-value">${c.conditions}</div><div class="metric-note">A0–A5</div></a>
       <a class="metric-card" href="#/effects"><span class="metric-label">Эффекты</span><div class="metric-value">${c.effects}</div><div class="metric-note">E1–E9 и методы T1–T9</div></a>
@@ -447,7 +451,7 @@ function researchSourceCard(item) {
     <div class="card-topline"><span class="entity-code">${escapeHTML(item.code)}</span>${badge(item.verification_status)}</div>
     <h2>${escapeHTML(item.study_type || "Исследовательский источник")}</h2>
     <p>${escapeHTML(item.citation_apa)}</p>
-    <div class="card-meta"><span class="badge blue">Связей: ${item.criteria_count}</span>${item.doi ? `<span class="badge gray">DOI</span>` : ""}</div>
+    <div class="card-meta"><span class="badge blue">Критерии: ${item.criteria_count}</span><span class="badge purple">Методы: ${item.verification_methods_count || 0}</span>${item.doi ? `<span class="badge gray">DOI</span>` : ""}</div>
   </a>`;
 }
 
@@ -476,7 +480,7 @@ async function renderResearchSource(code) {
   app.innerHTML = `
     ${breadcrumb("#/sources", "Источники", item.code)}
     ${pageHeader("Исследовательский источник", item.code, item.study_type || item.evidence_role || "Публикация", `${editorTableAction("research_sources", { id: item.id })}<a class="secondary-button" href="#/tables/research_sources">Строка в БД</a>`)}
-    <div class="card-meta" style="margin:-12px 0 22px">${badge(item.verification_status)}<span class="badge blue">Связей: ${item.criteria.length}</span></div>
+    <div class="card-meta" style="margin:-12px 0 22px">${badge(item.verification_status)}<span class="badge blue">Критерии: ${item.criteria.length}</span><span class="badge purple">Методы: ${item.verification_methods.length}</span></div>
     <section class="detail-layout">
       <div class="detail-column">
         <div class="detail-card"><div class="panel-header"><div><h2>Библиографическая ссылка</h2></div></div><p>${escapeHTML(item.citation_apa)}</p><dl class="definition-list"><div><dt>DOI</dt><dd>${display(item.doi)}</dd></div><div><dt>Ссылка</dt><dd>${url}</dd></div><div><dt>Тип исследования</dt><dd>${display(item.study_type)}</dd></div></dl></div>
@@ -484,6 +488,7 @@ async function renderResearchSource(code) {
       </div>
       <aside class="detail-column">
         <div class="detail-card"><div class="panel-header"><div><h3>Связанные критерии</h3><p>${item.criteria.length} связей</p></div><a href="#/tables/criterion_research_sources">Все связи →</a></div>${item.criteria.length ? `<div class="coverage-list">${item.criteria.map((criterion) => `<article class="coverage-row"><div class="coverage-head"><a href="#/criteria/${criterion.code}"><strong>${escapeHTML(criterion.code)} · ${escapeHTML(criterion.name)}</strong><span>${escapeHTML(criterion.block_name)}</span></a>${badge(criterion.relevance_status)}</div><p>${escapeHTML(criterion.relation_role)}</p>${criterion.supported_claim ? `<p><strong>Проверяемый тезис:</strong> ${escapeHTML(criterion.supported_claim)}</p>` : ""}${editorTableAction("criterion_research_sources", { id: criterion.link_id }, "Изменить связь")}</article>`).join("")}</div>` : emptyState("Связей пока нет", "Добавьте связь с критерием в локальном редакторе.", "§")}</div>
+        <div class="detail-card"><div class="panel-header"><div><h3>Связанные способы проверки</h3><p>${item.verification_methods.length} связей</p></div><a href="#/tables/verification_method_research_sources">Все связи →</a></div>${item.verification_methods.length ? `<div class="link-list">${item.verification_methods.map((method) => `<a class="link-row" href="#/effects/${encodeURIComponent(method.effect_code)}"><span class="route-code">${escapeHTML(method.code)}</span><span><strong>${escapeHTML(method.name)}</strong><span>${escapeHTML(method.notes || method.relation_role)}</span></span>${badge(method.relation_role)}</a>`).join("")}</div>` : emptyState("Методы не связаны", "Источник пока не используется в T1–T9.", "§")}</div>
         <div class="detail-card"><div class="panel-header"><div><h3>Проверка и происхождение</h3></div></div><dl class="definition-list"><div><dt>Статус</dt><dd>${escapeHTML(textLabel(item.verification_status))}</dd></div><div><dt>Дата в исходном реестре</dt><dd>${display(item.registry_checked_on)}</dd></div><div><dt>Файл происхождения</dt><dd>${display(item.provenance_title)}<br>${display(item.provenance_path)}</dd></div><div><dt>Комментарий</dt><dd>${display(item.notes)}</dd></div></dl></div>
       </aside>
     </section>`;
@@ -581,6 +586,7 @@ async function renderEffect(code) {
     <section class="detail-layout">
       <div class="detail-column">
         <div class="detail-card"><div class="panel-header"><div><h2>${escapeHTML(item.method_name)}</h2><p>Способ проверки ${escapeHTML(item.method_code)}</p></div></div><p>${escapeHTML(item.method_description)}</p><dl class="definition-list" style="margin-top:18px"><div><dt>Метрики</dt><dd>${escapeHTML(item.metrics)}</dd></div><div><dt>Процедура</dt><dd>${escapeHTML(item.procedure)}</dd></div><div><dt>Единица анализа</dt><dd>${escapeHTML(item.unit_of_analysis)}</dd></div><div><dt>Сравнение</dt><dd>${escapeHTML(item.comparison_description)}</dd></div><div><dt>Правило успеха</dt><dd>${escapeHTML(item.success_rule)}</dd></div></dl></div>
+        <div class="detail-card"><div class="panel-header"><div><h2>Литература к способу проверки</h2><p>${item.literature_sources.length} источников</p></div><a href="#/tables/verification_method_research_sources">Таблица связей →</a></div>${item.literature_sources.length ? `<div class="coverage-list">${item.literature_sources.map((source) => `<article class="coverage-row"><div class="coverage-head"><a href="#/sources/${encodeURIComponent(source.code)}"><strong>${escapeHTML(source.code)} · ${escapeHTML(source.study_type || "Методический источник")}</strong></a>${badge(source.relation_role)}</div><p>${escapeHTML(source.citation_apa)}</p><div class="card-meta">${badge(source.verification_status)}${source.url ? `<a class="badge blue" href="${escapeHTML(source.url)}" target="_blank" rel="noopener noreferrer">Открыть публикацию ↗</a>` : ""}</div>${source.notes ? `<p>${escapeHTML(source.notes)}</p>` : ""}${editorTableAction("verification_method_research_sources", { verification_method_id: item.method_id, research_source_id: source.id }, "Изменить связь")}</article>`).join("")}</div>` : emptyState("Литература не привязана", "Добавьте связь источника со способом проверки.", "§")}</div>
         <div class="detail-card"><div class="panel-header"><div><h2>Критерии</h2><p>${item.criteria.length} связанных критериев</p></div></div><div class="card-meta">${item.criteria.map((criterion) => `<a class="badge ${criterion.scope_role}" href="#/criteria/${criterion.code}">${escapeHTML(criterion.code)} · ${escapeHTML(criterion.name)}</a>`).join("")}</div></div>
       </div>
       <aside class="detail-column">

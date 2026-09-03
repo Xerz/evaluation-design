@@ -224,16 +224,10 @@
     },
     {
       "effect_check_id": 9,
-      "condition_id": 1,
-      "role": "reference",
-      "notes": null
-    },
-    {
-      "effect_check_id": 9,
       "condition_id": 5,
       "role": "candidate",
-      "notes": null
+      "notes": "Одна конфигурация A4 запускается повторно на идентичных входах."
     }
   ],
-  "total": 33
+  "total": 32
 }

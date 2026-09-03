@@ -1,0 +1,28 @@
+{
+  "id": 40,
+  "code": "S40",
+  "citation_apa": "Meyes, R., Lu, M., de Puiseau, C. W., & Meisen, T. (2019). Ablation studies in artificial neural networks [Preprint]. arXiv.",
+  "doi": "10.48550/arXiv.1901.08644",
+  "url": "https://arxiv.org/abs/1901.08644",
+  "study_type": "Методическая работа об абляциях",
+  "evidence_summary": "Показывает логику удаления или добавления компонентов для оценки их отдельного вклада; в пилоте применяется к модальностям, а не к внутренним нейронам модели.",
+  "access_notes": "Открытый препринт arXiv.",
+  "evidence_role": "Методическая основа абляционного сравнения",
+  "verification_status": "to_review",
+  "registry_checked_on": null,
+  "provenance_document_id": null,
+  "notes": "Подобрано для T4; требуется пользовательская верификация.",
+  "provenance_title": null,
+  "provenance_path": null,
+  "criteria": [],
+  "verification_methods": [
+    {
+      "id": 4,
+      "code": "T4",
+      "name": "Парная абляция модальностей",
+      "effect_code": "E4",
+      "relation_role": "methodological_basis",
+      "notes": "Логика абляции компонентов системы."
+    }
+  ]
+}

@@ -7,14 +7,15 @@
   "effect_order": 2,
   "effect_check_id": 2,
   "check_code": "EC_E2",
-  "unit_of_analysis": "Событие или временной сегмент",
-  "comparison_description": "A2–A4 против таймкодов A0.",
-  "success_rule": "Пороги macro-F1 и temporal IoU фиксируются до независимого теста.",
+  "unit_of_analysis": "Событие или временной сегмент × критерий",
+  "comparison_description": "A2–A4 против таймкодов независимой разметки A0.",
+  "success_rule": "Пороги macro-F1, temporal IoU и ошибки границ фиксируются до независимого теста.",
+  "method_id": 2,
   "method_code": "T2",
   "method_name": "Сопоставление событий и таймкодов",
-  "method_description": "Автоматические сегменты сопоставляются с экспертными событиями.",
-  "metrics": "Precision; recall; macro-F1; temporal IoU; допуск по таймкоду",
-  "procedure": "Расчёт отдельно по каждому критерию на независимой выборке.",
+  "method_description": "Автоматические и экспертные интервалы сопоставляются один-к-одному по заранее заданному порогу перекрытия и допуску границ.",
+  "metrics": "Precision; recall; macro-F1; temporal IoU; медианная абсолютная ошибка начала и конца сегмента",
+  "procedure": "Метрики рассчитываются отдельно по каждому критерию на независимой выборке. Порог temporal IoU, допуск таймкода и правило сопоставления одного события фиксируются до теста.",
   "conditions": [
     {
       "code": "A0",
@@ -217,6 +218,41 @@
       "number": 26,
       "name": "«Делает то, что проповедует»",
       "scope_role": "primary"
+    }
+  ],
+  "literature_sources": [
+    {
+      "id": 26,
+      "code": "S26",
+      "citation_apa": "Dale, M. E., Godley, A. J., Capello, S. A., Donnelly, P. J., D'Mello, S. K., & Kelly, S. P. (2022). Toward the automated analysis of teacher talk in secondary ELA classrooms. Teaching and Teacher Education, 110, 103584.",
+      "doi": "10.1016/j.tate.2021.103584",
+      "url": "https://doi.org/10.1016/j.tate.2021.103584",
+      "study_type": "Исследование полуавтоматического анализа речи",
+      "verification_status": "source_register_checked",
+      "relation_role": "design_example",
+      "notes": "Автоматический анализ речи преподавателя с проверкой на размеченных данных."
+    },
+    {
+      "id": 37,
+      "code": "S37",
+      "citation_apa": "Sokolova, M., & Lapalme, G. (2009). A systematic analysis of performance measures for classification tasks. Information Processing & Management, 45(4), 427–437.",
+      "doi": "10.1016/j.ipm.2009.03.002",
+      "url": "https://doi.org/10.1016/j.ipm.2009.03.002",
+      "study_type": "Методологический обзор метрик классификации",
+      "verification_status": "to_review",
+      "relation_role": "metric_definition",
+      "notes": "Precision, recall и F1 для событийной классификации."
+    },
+    {
+      "id": 38,
+      "code": "S38",
+      "citation_apa": "Caba Heilbron, F., Escorcia, V., Ghanem, B., & Niebles, J. C. (2015). ActivityNet: A large-scale video benchmark for human activity understanding. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 961–970).",
+      "doi": "10.1109/CVPR.2015.7298698",
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Heilbron_ActivityNet_A_Large-Scale_2015_CVPR_paper.html",
+      "study_type": "Бенчмарк временной локализации событий",
+      "verification_status": "to_review",
+      "relation_role": "metric_definition",
+      "notes": "Temporal IoU и временная локализация событий."
     }
   ]
 }

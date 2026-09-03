@@ -1,0 +1,36 @@
+{
+  "id": 39,
+  "code": "S39",
+  "citation_apa": "Cohen, J. (1968). Weighted kappa: Nominal scale agreement provision for scaled disagreement or partial credit. Psychological Bulletin, 70(4), 213–220.",
+  "doi": "10.1037/h0026256",
+  "url": "https://doi.org/10.1037/h0026256",
+  "study_type": "Методологическая статья",
+  "evidence_summary": "Вводит взвешенную каппу для порядковых категорий, где расхождение на один уровень отличается от расхождения на два.",
+  "access_notes": "DOI/издатель.",
+  "evidence_role": "Определение метрики согласия порядковой шкалы",
+  "verification_status": "to_review",
+  "registry_checked_on": null,
+  "provenance_document_id": null,
+  "notes": "Подобрано для T3 и T9; требуется пользовательская верификация.",
+  "provenance_title": null,
+  "provenance_path": null,
+  "criteria": [],
+  "verification_methods": [
+    {
+      "id": 3,
+      "code": "T3",
+      "name": "Согласие шкалы 0–2",
+      "effect_code": "E3",
+      "relation_role": "metric_definition",
+      "notes": "Weighted kappa для порядковой шкалы."
+    },
+    {
+      "id": 9,
+      "code": "T9",
+      "name": "Повторяемость идентичных прогонов",
+      "effect_code": "E9",
+      "relation_role": "metric_definition",
+      "notes": "Weighted kappa для повторяемости баллов 0–2."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": 44,
+  "code": "S44",
+  "citation_apa": "Tschandl, P., Rinner, C., Apalla, Z., et al. (2020). Human–computer collaboration for skin cancer recognition. Nature Medicine, 26, 1229–1234.",
+  "doi": "10.1038/s41591-020-0942-0",
+  "url": "https://doi.org/10.1038/s41591-020-0942-0",
+  "study_type": "Эксперимент human–AI collaboration",
+  "evidence_summary": "Показывает, что полезность ИИ нужно измерять на совместной работе человека и системы и отдельно контролировать риск того, что ошибочная подсказка ухудшает решение.",
+  "access_notes": "Страница издателя; полный текст может требовать доступ.",
+  "evidence_role": "Пример проверки поддержки эксперта",
+  "verification_status": "to_review",
+  "registry_checked_on": null,
+  "provenance_document_id": null,
+  "notes": "Подобрано для T7; перенос из медицинской диагностики требует адаптации.",
+  "provenance_title": null,
+  "provenance_path": null,
+  "criteria": [],
+  "verification_methods": [
+    {
+      "id": 7,
+      "code": "T7",
+      "name": "Сбалансированный crossover A0–A5",
+      "effect_code": "E7",
+      "relation_role": "design_example",
+      "notes": "Оценка совместной работы человека и ИИ и риска ошибочной подсказки."
+    }
+  ]
+}

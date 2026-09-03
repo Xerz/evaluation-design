@@ -46,8 +46,10 @@ class DatabaseTests(unittest.TestCase):
         self.assertEqual(summary["counts"]["instruments"], 4)
         self.assertEqual(summary["counts"]["conditions"], 6)
         self.assertEqual(summary["counts"]["effects"], 9)
-        self.assertEqual(summary["counts"]["research_sources"], 35)
+        self.assertEqual(summary["counts"]["research_sources"], 47)
         self.assertEqual(summary["counts"]["criterion_source_links"], 111)
+        self.assertEqual(summary["counts"]["method_source_links"], 24)
+        self.assertEqual(summary["counts"]["tables"], 39)
         self.assertEqual(summary["readiness"], {
             "conditional": 4,
             "not_from_recording": 2,
@@ -73,7 +75,7 @@ class DatabaseTests(unittest.TestCase):
 
     def test_research_sources_cover_all_criteria(self):
         sources = self.database.research_sources()
-        self.assertEqual(len(sources), 35)
+        self.assertEqual(len(sources), 47)
         self.assertEqual(len(self.database.criterion("C01")["research_sources"]), 2)
         trust_source = self.database.research_source("S29")
         self.assertIsNotNone(trust_source)
@@ -84,6 +86,16 @@ class DatabaseTests(unittest.TestCase):
                 connection.execute("SELECT COUNT(DISTINCT criterion_id) FROM criterion_research_sources").fetchone()[0],
                 26,
             )
+
+    def test_verification_methods_have_literature_and_e9_is_repeatability(self):
+        effects = {item["code"]: item for item in self.database.effects()}
+        self.assertEqual(set(effects), {f"E{number}" for number in range(1, 10)})
+        self.assertTrue(all(item["literature_sources"] for item in effects.values()))
+        self.assertEqual(sum(len(item["literature_sources"]) for item in effects.values()), 24)
+        self.assertEqual(effects["E9"]["method_name"], "Повторяемость идентичных прогонов")
+        self.assertEqual([item["code"] for item in effects["E9"]["conditions"]], ["A4"])
+        self.assertNotIn("занят", effects["E9"]["method_description"].casefold())
+        self.assertTrue(all(item["scope_role"] == "primary" for item in effects["E9"]["criteria"]))
 
     def test_eval_2024_is_historical_and_unvalidated(self):
         instrument = self.database.instrument("LLM_EVAL")

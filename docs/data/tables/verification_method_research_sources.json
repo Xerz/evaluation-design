@@ -1,0 +1,185 @@
+{
+  "name": "verification_method_research_sources",
+  "kind": "table",
+  "columns": [
+    {
+      "cid": 0,
+      "name": "verification_method_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "research_source_id",
+      "type": "INTEGER",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 2
+    },
+    {
+      "cid": 2,
+      "name": "relation_role",
+      "type": "TEXT",
+      "notnull": 1,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "notes",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": [
+    {
+      "verification_method_id": 1,
+      "research_source_id": 27,
+      "relation_role": "design_example",
+      "notes": "Пример экспертной оценки конкретных доказательств и обратной связи."
+    },
+    {
+      "verification_method_id": 1,
+      "research_source_id": 36,
+      "relation_role": "methodological_basis",
+      "notes": "Валидность интерпретации и риск подмены конструкта."
+    },
+    {
+      "verification_method_id": 2,
+      "research_source_id": 26,
+      "relation_role": "design_example",
+      "notes": "Автоматический анализ речи преподавателя с проверкой на размеченных данных."
+    },
+    {
+      "verification_method_id": 2,
+      "research_source_id": 37,
+      "relation_role": "metric_definition",
+      "notes": "Precision, recall и F1 для событийной классификации."
+    },
+    {
+      "verification_method_id": 2,
+      "research_source_id": 38,
+      "relation_role": "metric_definition",
+      "notes": "Temporal IoU и временная локализация событий."
+    },
+    {
+      "verification_method_id": 3,
+      "research_source_id": 25,
+      "relation_role": "design_example",
+      "notes": "Валидация автоматической оценки преподавания по экспертному референсу."
+    },
+    {
+      "verification_method_id": 3,
+      "research_source_id": 37,
+      "relation_role": "metric_definition",
+      "notes": "Macro-F1 и различия между классами."
+    },
+    {
+      "verification_method_id": 3,
+      "research_source_id": 39,
+      "relation_role": "metric_definition",
+      "notes": "Weighted kappa для порядковой шкалы."
+    },
+    {
+      "verification_method_id": 4,
+      "research_source_id": 25,
+      "relation_role": "design_example",
+      "notes": "Мультимодальная автоматическая оценка преподавания."
+    },
+    {
+      "verification_method_id": 4,
+      "research_source_id": 28,
+      "relation_role": "design_example",
+      "notes": "Пример мультимодального анализа наблюдаемого климата."
+    },
+    {
+      "verification_method_id": 4,
+      "research_source_id": 40,
+      "relation_role": "methodological_basis",
+      "notes": "Логика абляции компонентов системы."
+    },
+    {
+      "verification_method_id": 5,
+      "research_source_id": 25,
+      "relation_role": "design_example",
+      "notes": "Проверка качества автоматической оценки на разных данных."
+    },
+    {
+      "verification_method_id": 5,
+      "research_source_id": 41,
+      "relation_role": "methodological_basis",
+      "notes": "Блочное разбиение и зависимые наблюдения."
+    },
+    {
+      "verification_method_id": 6,
+      "research_source_id": 42,
+      "relation_role": "metric_definition",
+      "notes": "Калибровка числовой уверенности."
+    },
+    {
+      "verification_method_id": 6,
+      "research_source_id": 43,
+      "relation_role": "methodological_basis",
+      "notes": "Risk–coverage и право модели отказаться."
+    },
+    {
+      "verification_method_id": 7,
+      "research_source_id": 44,
+      "relation_role": "design_example",
+      "notes": "Оценка совместной работы человека и ИИ и риска ошибочной подсказки."
+    },
+    {
+      "verification_method_id": 7,
+      "research_source_id": 45,
+      "relation_role": "methodological_basis",
+      "notes": "Организация и отчётность crossover-сравнения."
+    },
+    {
+      "verification_method_id": 8,
+      "research_source_id": 29,
+      "relation_role": "boundary_evidence",
+      "notes": "Прямой студенческий опрос для доверия."
+    },
+    {
+      "verification_method_id": 8,
+      "research_source_id": 31,
+      "relation_role": "boundary_evidence",
+      "notes": "Самоотчёт как источник для когнитивной нагрузки."
+    },
+    {
+      "verification_method_id": 8,
+      "research_source_id": 34,
+      "relation_role": "boundary_evidence",
+      "notes": "Скрытые мотивационные конструкты не выводятся напрямую из записи."
+    },
+    {
+      "verification_method_id": 8,
+      "research_source_id": 36,
+      "relation_role": "methodological_basis",
+      "notes": "Валидность интерпретации при добавлении новых источников."
+    },
+    {
+      "verification_method_id": 9,
+      "research_source_id": 39,
+      "relation_role": "metric_definition",
+      "notes": "Weighted kappa для повторяемости баллов 0–2."
+    },
+    {
+      "verification_method_id": 9,
+      "research_source_id": 46,
+      "relation_role": "design_example",
+      "notes": "Специализированный протокол повторных прогонов LLM."
+    },
+    {
+      "verification_method_id": 9,
+      "research_source_id": 47,
+      "relation_role": "metric_definition",
+      "notes": "ICC для повторных числовых измерений."
+    }
+  ],
+  "total": 24
+}

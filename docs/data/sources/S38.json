@@ -1,0 +1,28 @@
+{
+  "id": 38,
+  "code": "S38",
+  "citation_apa": "Caba Heilbron, F., Escorcia, V., Ghanem, B., & Niebles, J. C. (2015). ActivityNet: A large-scale video benchmark for human activity understanding. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 961–970).",
+  "doi": "10.1109/CVPR.2015.7298698",
+  "url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Heilbron_ActivityNet_A_Large-Scale_2015_CVPR_paper.html",
+  "study_type": "Бенчмарк временной локализации событий",
+  "evidence_summary": "Даёт воспроизводимый пример оценки обнаружения событий во времени через перекрытие интервалов; перенос на педагогические события требует собственного правила сопоставления.",
+  "access_notes": "Открытая версия CVF.",
+  "evidence_role": "Методическая опора temporal IoU",
+  "verification_status": "to_review",
+  "registry_checked_on": null,
+  "provenance_document_id": null,
+  "notes": "Подобрано для T2; требуется пользовательская верификация.",
+  "provenance_title": null,
+  "provenance_path": null,
+  "criteria": [],
+  "verification_methods": [
+    {
+      "id": 2,
+      "code": "T2",
+      "name": "Сопоставление событий и таймкодов",
+      "effect_code": "E2",
+      "relation_role": "metric_definition",
+      "notes": "Temporal IoU и временная локализация событий."
+    }
+  ]
+}

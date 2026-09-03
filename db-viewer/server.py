@@ -159,6 +159,7 @@ class Database:
                        UNION ALL SELECT 'effects', COUNT(*) FROM effects
                        UNION ALL SELECT 'research_sources', COUNT(*) FROM research_sources
                        UNION ALL SELECT 'criterion_source_links', COUNT(*) FROM criterion_research_sources
+                       UNION ALL SELECT 'method_source_links', COUNT(*) FROM verification_method_research_sources
                        UNION ALL SELECT 'tables', COUNT(*) FROM sqlite_schema
                            WHERE type='table' AND name NOT LIKE 'sqlite_%'
                        UNION ALL SELECT 'views', COUNT(*) FROM sqlite_schema
@@ -330,7 +331,10 @@ class Database:
             return _dicts(
                 connection.execute(
                     f"""SELECT rs.*, COALESCE(rs.study_type, rs.citation_apa) AS name,
-                               COUNT(DISTINCT crs.criterion_id) AS criteria_count
+                               COUNT(DISTINCT crs.criterion_id) AS criteria_count,
+                               (SELECT COUNT(*)
+                                FROM verification_method_research_sources AS vmrs
+                                WHERE vmrs.research_source_id=rs.id) AS verification_methods_count
                         FROM research_sources AS rs
                         LEFT JOIN criterion_research_sources AS crs ON crs.research_source_id=rs.id
                         {where}
@@ -363,8 +367,22 @@ class Database:
                     (row["id"],),
                 ).fetchall()
             )
+            verification_methods = _dicts(
+                connection.execute(
+                    """SELECT vm.id, vm.code, vm.name, e.code AS effect_code,
+                              vmrs.relation_role, vmrs.notes
+                       FROM verification_method_research_sources AS vmrs
+                       JOIN verification_methods AS vm ON vm.id=vmrs.verification_method_id
+                       LEFT JOIN effect_checks AS ec ON ec.verification_method_id=vm.id
+                       LEFT JOIN effects AS e ON e.id=ec.effect_id
+                       WHERE vmrs.research_source_id=?
+                       ORDER BY CAST(SUBSTR(vm.code, 2) AS INTEGER), vm.code""",
+                    (row["id"],),
+                ).fetchall()
+            )
         result = dict(row)
         result["criteria"] = criteria
+        result["verification_methods"] = verification_methods
         return result
 
     def instruments(self) -> list[dict[str, Any]]:
@@ -480,7 +498,7 @@ class Database:
                 connection.execute(
                     """SELECT e.*, ec.id AS effect_check_id, ec.code AS check_code,
                               ec.unit_of_analysis, ec.comparison_description, ec.success_rule,
-                              vm.code AS method_code, vm.name AS method_name, vm.description AS method_description,
+                              vm.id AS method_id, vm.code AS method_code, vm.name AS method_name, vm.description AS method_description,
                               vm.metrics, vm.procedure
                        FROM effects AS e
                        JOIN effect_checks AS ec ON ec.effect_id=e.id
@@ -514,6 +532,18 @@ class Database:
                            JOIN criteria AS c ON c.id=ecc.criterion_id
                            WHERE ecc.effect_check_id=? ORDER BY c.number""",
                         (effect["effect_check_id"],),
+                    ).fetchall()
+                )
+                effect["literature_sources"] = _dicts(
+                    connection.execute(
+                        """SELECT rs.id, rs.code, rs.citation_apa, rs.doi, rs.url,
+                                  rs.study_type, rs.verification_status,
+                                  vmrs.relation_role, vmrs.notes
+                           FROM verification_method_research_sources AS vmrs
+                           JOIN research_sources AS rs ON rs.id=vmrs.research_source_id
+                           WHERE vmrs.verification_method_id=?
+                           ORDER BY CAST(SUBSTR(rs.code, 2) AS INTEGER), rs.code""",
+                        (effect["method_id"],),
                     ).fetchall()
                 )
         return effects

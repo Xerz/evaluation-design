@@ -93,5 +93,15 @@
       "source_locator": "Лист «Источники», строка 30",
       "notes": null
     }
+  ],
+  "verification_methods": [
+    {
+      "id": 2,
+      "code": "T2",
+      "name": "Сопоставление событий и таймкодов",
+      "effect_code": "E2",
+      "relation_role": "design_example",
+      "notes": "Автоматический анализ речи преподавателя с проверкой на размеченных данных."
+    }
   ]
 }

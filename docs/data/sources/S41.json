@@ -1,0 +1,28 @@
+{
+  "id": 41,
+  "code": "S41",
+  "citation_apa": "Roberts, D. R., Bahn, V., Ciuti, S., Boyce, M. S., Elith, J., Guillera-Arroita, G., Hauenstein, S., Lahoz-Monfort, J. J., Schröder, B., Thuiller, W., Warton, D. I., Wintle, B. A., Hartig, F., & Dormann, C. F. (2017). Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure. Ecography, 40(8), 913–929.",
+  "doi": "10.1111/ecog.02881",
+  "url": "https://doi.org/10.1111/ecog.02881",
+  "study_type": "Методологический обзор валидации",
+  "evidence_summary": "Обосновывает разбиение зависимых и иерархических данных блоками; занятия одного преподавателя нельзя распределять между настройкой и тестом как независимые строки.",
+  "access_notes": "DOI/издатель.",
+  "evidence_role": "Методическая основа группового holdout",
+  "verification_status": "to_review",
+  "registry_checked_on": null,
+  "provenance_document_id": null,
+  "notes": "Подобрано для T5; требуется пользовательская верификация.",
+  "provenance_title": null,
+  "provenance_path": null,
+  "criteria": [],
+  "verification_methods": [
+    {
+      "id": 5,
+      "code": "T5",
+      "name": "Групповой holdout и анализ переносимости",
+      "effect_code": "E5",
+      "relation_role": "methodological_basis",
+      "notes": "Блочное разбиение и зависимые наблюдения."
+    }
+  ]
+}

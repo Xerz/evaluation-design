@@ -130,6 +130,12 @@ erDiagram
         TEXT name
         TEXT metrics
     }
+    VERIFICATION_METHOD_RESEARCH_SOURCES {
+        INTEGER verification_method_id PK,FK
+        INTEGER research_source_id PK,FK
+        TEXT relation_role
+        TEXT notes
+    }
     EFFECT_CHECKS {
         INTEGER id PK
         INTEGER effect_id FK
@@ -290,6 +296,8 @@ erDiagram
     STUDIES ||--|{ EFFECTS : "проверяет"
     EFFECTS ||--|| EFFECT_CHECKS : "операционализирован"
     VERIFICATION_METHODS ||--o{ EFFECT_CHECKS : "реализует"
+    VERIFICATION_METHODS ||--o{ VERIFICATION_METHOD_RESEARCH_SOURCES : "опирается на"
+    RESEARCH_SOURCES ||--o{ VERIFICATION_METHOD_RESEARCH_SOURCES : "обосновывает метод"
     EFFECT_CHECKS ||--o{ EFFECT_CHECK_CONDITIONS : "сопоставляет"
     COMPARISON_CONDITIONS ||--o{ EFFECT_CHECK_CONDITIONS : "участвует"
     EFFECT_CHECKS ||--o{ EFFECT_CHECK_DATA_TYPES : "проверяет на данных"

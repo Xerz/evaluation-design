@@ -10,11 +10,12 @@
   "unit_of_analysis": "Эксперт × критерий × занятие",
   "comparison_description": "Сбалансированный crossover A0 ↔ A5.",
   "success_rule": "Время сокращается без ухудшения согласия с референсом и без роста опасных пропусков.",
+  "method_id": 7,
   "method_code": "T7",
   "method_name": "Сбалансированный crossover A0–A5",
-  "method_description": "Эксперты оценивают сбалансированные кейсы с ИИ-подсказками и без них.",
-  "metrics": "Время; согласие с референсом; исправления; пропуски; оценка полезности",
-  "procedure": "Рандомизировать порядок условий и фиксировать время работы.",
+  "method_description": "Одни эксперты работают с ИИ-подсказкой, другие без неё, а порядок и набор кейсов уравновешиваются, чтобы отделить эффект помощника от эффекта эксперта и сложности занятия.",
+  "metrics": "Время; точное совпадение и weighted kappa с референсом; исправления; опасные пропуски; субъективная полезность и нагрузка",
+  "procedure": "Рандомизировать и уравновесить порядок A0/A5 по экспертам и кейсам, не показывать одному эксперту один и тот же кейс рядом в двух условиях, фиксировать время и все изменения подсказки.",
   "conditions": [
     {
       "code": "A0",
@@ -193,6 +194,30 @@
       "number": 26,
       "name": "«Делает то, что проповедует»",
       "scope_role": "primary"
+    }
+  ],
+  "literature_sources": [
+    {
+      "id": 44,
+      "code": "S44",
+      "citation_apa": "Tschandl, P., Rinner, C., Apalla, Z., et al. (2020). Human–computer collaboration for skin cancer recognition. Nature Medicine, 26, 1229–1234.",
+      "doi": "10.1038/s41591-020-0942-0",
+      "url": "https://doi.org/10.1038/s41591-020-0942-0",
+      "study_type": "Эксперимент human–AI collaboration",
+      "verification_status": "to_review",
+      "relation_role": "design_example",
+      "notes": "Оценка совместной работы человека и ИИ и риска ошибочной подсказки."
+    },
+    {
+      "id": 45,
+      "code": "S45",
+      "citation_apa": "Dwan, K., Li, T., Altman, D. G., & Elbourne, D. (2019). CONSORT 2010 statement: Extension to randomised crossover trials. BMJ, 366, l4378.",
+      "doi": "10.1136/bmj.l4378",
+      "url": "https://doi.org/10.1136/bmj.l4378",
+      "study_type": "Методическая рекомендация по crossover-дизайну",
+      "verification_status": "to_review",
+      "relation_role": "methodological_basis",
+      "notes": "Организация и отчётность crossover-сравнения."
     }
   ]
 }

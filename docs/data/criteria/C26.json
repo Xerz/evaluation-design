@@ -99,10 +99,10 @@
   "effects": [
     {
       "code": "E1",
-      "name": "Конструктная валидность",
+      "name": "Понимание критериев",
       "check_code": "EC_E1",
       "method_code": "T1",
-      "method_name": "Экспертная проверка доказательств",
+      "method_name": "Экспертная проверка соответствия критерию",
       "scope_role": "primary"
     },
     {
@@ -115,7 +115,7 @@
     },
     {
       "code": "E3",
-      "name": "Согласие по итоговой оценке",
+      "name": "Совпадение по итоговой оценке",
       "check_code": "EC_E3",
       "method_code": "T3",
       "method_name": "Согласие шкалы 0–2",
@@ -123,26 +123,26 @@
     },
     {
       "code": "E4",
-      "name": "Добавочная ценность распознавания видео",
+      "name": "Ценность распознавания видео",
       "check_code": "EC_E4",
       "method_code": "T4",
-      "method_name": "Мультимодальная абляция",
+      "method_name": "Парная абляция модальностей",
       "scope_role": "primary"
     },
     {
       "code": "E5",
-      "name": "Переносимость",
+      "name": "Независимость от курсов",
       "check_code": "EC_E5",
       "method_code": "T5",
-      "method_name": "Holdout и анализ переносимости",
+      "method_name": "Групповой holdout и анализ переносимости",
       "scope_role": "primary"
     },
     {
       "code": "E6",
-      "name": "Калиброванная неопределённость",
+      "name": "Правильный отказ",
       "check_code": "EC_E6",
       "method_code": "T6",
-      "method_name": "Калибровка неопределённости",
+      "method_name": "Selective prediction и проверка отказов",
       "scope_role": "primary"
     },
     {
@@ -158,7 +158,7 @@
       "name": "Необходимость дополнительных данных",
       "check_code": "EC_E8",
       "method_code": "T8",
-      "method_name": "Проверка границ и добавочных данных",
+      "method_name": "Вложенная проверка границ и добавочных данных",
       "scope_role": "boundary"
     },
     {
@@ -166,8 +166,8 @@
       "name": "Надёжность во времени",
       "check_code": "EC_E9",
       "method_code": "T9",
-      "method_name": "Продольная и повторная проверка",
-      "scope_role": "longitudinal"
+      "method_name": "Повторяемость идентичных прогонов",
+      "scope_role": "primary"
     }
   ],
   "research_sources": [

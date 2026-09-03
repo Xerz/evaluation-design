@@ -1,0 +1,36 @@
+{
+  "id": 37,
+  "code": "S37",
+  "citation_apa": "Sokolova, M., & Lapalme, G. (2009). A systematic analysis of performance measures for classification tasks. Information Processing & Management, 45(4), 427–437.",
+  "doi": "10.1016/j.ipm.2009.03.002",
+  "url": "https://doi.org/10.1016/j.ipm.2009.03.002",
+  "study_type": "Методологический обзор метрик классификации",
+  "evidence_summary": "Систематизирует precision, recall, F1 и их варианты; помогает выбирать метрики отдельно для событий и трёх уровней оценки.",
+  "access_notes": "DOI/издатель.",
+  "evidence_role": "Определение метрик классификации",
+  "verification_status": "to_review",
+  "registry_checked_on": null,
+  "provenance_document_id": null,
+  "notes": "Подобрано для T2 и T3; требуется пользовательская верификация.",
+  "provenance_title": null,
+  "provenance_path": null,
+  "criteria": [],
+  "verification_methods": [
+    {
+      "id": 2,
+      "code": "T2",
+      "name": "Сопоставление событий и таймкодов",
+      "effect_code": "E2",
+      "relation_role": "metric_definition",
+      "notes": "Precision, recall и F1 для событийной классификации."
+    },
+    {
+      "id": 3,
+      "code": "T3",
+      "name": "Согласие шкалы 0–2",
+      "effect_code": "E3",
+      "relation_role": "metric_definition",
+      "notes": "Macro-F1 и различия между классами."
+    }
+  ]
+}

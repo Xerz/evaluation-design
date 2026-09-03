@@ -145,5 +145,31 @@
       "source_locator": "Лист «Источники», строка 29",
       "notes": null
     }
+  ],
+  "verification_methods": [
+    {
+      "id": 3,
+      "code": "T3",
+      "name": "Согласие шкалы 0–2",
+      "effect_code": "E3",
+      "relation_role": "design_example",
+      "notes": "Валидация автоматической оценки преподавания по экспертному референсу."
+    },
+    {
+      "id": 4,
+      "code": "T4",
+      "name": "Парная абляция модальностей",
+      "effect_code": "E4",
+      "relation_role": "design_example",
+      "notes": "Мультимодальная автоматическая оценка преподавания."
+    },
+    {
+      "id": 5,
+      "code": "T5",
+      "name": "Групповой holdout и анализ переносимости",
+      "effect_code": "E5",
+      "relation_role": "design_example",
+      "notes": "Проверка качества автоматической оценки на разных данных."
+    }
   ]
 }

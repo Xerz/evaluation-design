@@ -15,7 +15,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Валидированный наблюдательный протокол",
-      "criteria_count": 4
+      "criteria_count": 4,
+      "verification_methods_count": 0
     },
     {
       "id": 2,
@@ -32,7 +33,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Руководство валидированного наблюдательного протокола",
-      "criteria_count": 6
+      "criteria_count": 6,
+      "verification_methods_count": 0
     },
     {
       "id": 3,
@@ -49,7 +51,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Систематический обзор",
-      "criteria_count": 6
+      "criteria_count": 6,
+      "verification_methods_count": 0
     },
     {
       "id": 4,
@@ -66,7 +69,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Валидированный наблюдательный протокол",
-      "criteria_count": 8
+      "criteria_count": 8,
+      "verification_methods_count": 0
     },
     {
       "id": 5,
@@ -83,7 +87,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Наблюдательный инструмент на основе обзора доказательств",
-      "criteria_count": 6
+      "criteria_count": 6,
+      "verification_methods_count": 0
     },
     {
       "id": 6,
@@ -100,7 +105,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Психометрическая проверка наблюдательного инструмента",
-      "criteria_count": 6
+      "criteria_count": 6,
+      "verification_methods_count": 0
     },
     {
       "id": 7,
@@ -117,7 +123,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Кросс-культурная валидация наблюдательного инструмента",
-      "criteria_count": 5
+      "criteria_count": 5,
+      "verification_methods_count": 0
     },
     {
       "id": 8,
@@ -134,7 +141,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Разработка и валидация шкалы",
-      "criteria_count": 9
+      "criteria_count": 9,
+      "verification_methods_count": 0
     },
     {
       "id": 9,
@@ -151,7 +159,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Разработка и валидация краткой шкалы",
-      "criteria_count": 6
+      "criteria_count": 6,
+      "verification_methods_count": 0
     },
     {
       "id": 10,
@@ -168,7 +177,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Теоретико-методическая статья",
-      "criteria_count": 4
+      "criteria_count": 4,
+      "verification_methods_count": 0
     },
     {
       "id": 11,
@@ -185,7 +195,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Метаанализ",
-      "criteria_count": 3
+      "criteria_count": 3,
+      "verification_methods_count": 0
     },
     {
       "id": 12,
@@ -202,7 +213,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Систематический обзор",
-      "criteria_count": 2
+      "criteria_count": 2,
+      "verification_methods_count": 0
     },
     {
       "id": 13,
@@ -219,7 +231,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Экспериментальное исследование",
-      "criteria_count": 1
+      "criteria_count": 1,
+      "verification_methods_count": 0
     },
     {
       "id": 14,
@@ -236,7 +249,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Разработка кодировки наблюдаемой речи",
-      "criteria_count": 1
+      "criteria_count": 1,
+      "verification_methods_count": 0
     },
     {
       "id": 15,
@@ -253,7 +267,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Метааналитический обзор",
-      "criteria_count": 1
+      "criteria_count": 1,
+      "verification_methods_count": 0
     },
     {
       "id": 16,
@@ -270,7 +285,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Метаанализ",
-      "criteria_count": 1
+      "criteria_count": 1,
+      "verification_methods_count": 0
     },
     {
       "id": 17,
@@ -287,7 +303,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Разработка схемы кодирования",
-      "criteria_count": 2
+      "criteria_count": 2,
+      "verification_methods_count": 0
     },
     {
       "id": 18,
@@ -304,7 +321,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Теоретическая рамка с поведенческой операционализацией",
-      "criteria_count": 5
+      "criteria_count": 5,
+      "verification_methods_count": 0
     },
     {
       "id": 19,
@@ -321,7 +339,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Фундаментальный обзор",
-      "criteria_count": 2
+      "criteria_count": 2,
+      "verification_methods_count": 0
     },
     {
       "id": 20,
@@ -338,7 +357,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Валидизация наблюдательного протокола",
-      "criteria_count": 1
+      "criteria_count": 1,
+      "verification_methods_count": 0
     },
     {
       "id": 21,
@@ -355,7 +375,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Квазиэкспериментальное исследование",
-      "criteria_count": 1
+      "criteria_count": 1,
+      "verification_methods_count": 0
     },
     {
       "id": 22,
@@ -372,7 +393,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Обзор эмпирических исследований",
-      "criteria_count": 1
+      "criteria_count": 1,
+      "verification_methods_count": 0
     },
     {
       "id": 23,
@@ -389,7 +411,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Разработка и валидация шкалы",
-      "criteria_count": 1
+      "criteria_count": 1,
+      "verification_methods_count": 0
     },
     {
       "id": 24,
@@ -406,7 +429,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Валидация наблюдательного инструмента",
-      "criteria_count": 1
+      "criteria_count": 1,
+      "verification_methods_count": 0
     },
     {
       "id": 25,
@@ -423,7 +447,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Мультимодальная валидация автоматической оценки",
-      "criteria_count": 10
+      "criteria_count": 10,
+      "verification_methods_count": 3
     },
     {
       "id": 26,
@@ -440,7 +465,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Исследование полуавтоматического анализа речи",
-      "criteria_count": 6
+      "criteria_count": 6,
+      "verification_methods_count": 1
     },
     {
       "id": 27,
@@ -457,7 +483,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Препринт; автоматический анализ транскрипта",
-      "criteria_count": 4
+      "criteria_count": 4,
+      "verification_methods_count": 1
     },
     {
       "id": 28,
@@ -474,7 +501,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Препринт; мультимодальная автоматизация",
-      "criteria_count": 1
+      "criteria_count": 1,
+      "verification_methods_count": 1
     },
     {
       "id": 29,
@@ -491,7 +519,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Разработка и психометрическая валидация шкалы",
-      "criteria_count": 1
+      "criteria_count": 1,
+      "verification_methods_count": 1
     },
     {
       "id": 30,
@@ -508,7 +537,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Систематический обзор",
-      "criteria_count": 1
+      "criteria_count": 1,
+      "verification_methods_count": 0
     },
     {
       "id": 31,
@@ -525,7 +555,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Разработка и валидация самоотчётной шкалы",
-      "criteria_count": 1
+      "criteria_count": 1,
+      "verification_methods_count": 1
     },
     {
       "id": 32,
@@ -542,7 +573,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Русскоязычная обзорно-теоретическая статья",
-      "criteria_count": 1
+      "criteria_count": 1,
+      "verification_methods_count": 0
     },
     {
       "id": 33,
@@ -559,7 +591,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Русскоязычное эмпирическое исследование",
-      "criteria_count": 1
+      "criteria_count": 1,
+      "verification_methods_count": 0
     },
     {
       "id": 34,
@@ -576,7 +609,8 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Теоретическая обзорная статья",
-      "criteria_count": 1
+      "criteria_count": 1,
+      "verification_methods_count": 1
     },
     {
       "id": 35,
@@ -593,7 +627,224 @@
       "provenance_document_id": 7,
       "notes": null,
       "name": "Психометрическое исследование",
-      "criteria_count": 1
+      "criteria_count": 1,
+      "verification_methods_count": 0
+    },
+    {
+      "id": 36,
+      "code": "S36",
+      "citation_apa": "Messick, S. (1995). Validity of psychological assessment: Validation of inferences from persons' responses and performances as scientific inquiry into score meaning. American Psychologist, 50(9), 741–749.",
+      "doi": "10.1037/0003-066X.50.9.741",
+      "url": "https://doi.org/10.1037/0003-066X.50.9.741",
+      "study_type": "Теоретическая статья о валидности",
+      "evidence_summary": "Валидируется не инструмент сам по себе, а интерпретация результата; проверка должна исключать подмену педагогического конструкта похожим техническим признаком.",
+      "access_notes": "DOI/издатель.",
+      "evidence_role": "Методическая основа конструктной валидности",
+      "verification_status": "to_review",
+      "registry_checked_on": null,
+      "provenance_document_id": null,
+      "notes": "Подобрано для T1 и T8; требуется пользовательская верификация.",
+      "name": "Теоретическая статья о валидности",
+      "criteria_count": 0,
+      "verification_methods_count": 2
+    },
+    {
+      "id": 37,
+      "code": "S37",
+      "citation_apa": "Sokolova, M., & Lapalme, G. (2009). A systematic analysis of performance measures for classification tasks. Information Processing & Management, 45(4), 427–437.",
+      "doi": "10.1016/j.ipm.2009.03.002",
+      "url": "https://doi.org/10.1016/j.ipm.2009.03.002",
+      "study_type": "Методологический обзор метрик классификации",
+      "evidence_summary": "Систематизирует precision, recall, F1 и их варианты; помогает выбирать метрики отдельно для событий и трёх уровней оценки.",
+      "access_notes": "DOI/издатель.",
+      "evidence_role": "Определение метрик классификации",
+      "verification_status": "to_review",
+      "registry_checked_on": null,
+      "provenance_document_id": null,
+      "notes": "Подобрано для T2 и T3; требуется пользовательская верификация.",
+      "name": "Методологический обзор метрик классификации",
+      "criteria_count": 0,
+      "verification_methods_count": 2
+    },
+    {
+      "id": 38,
+      "code": "S38",
+      "citation_apa": "Caba Heilbron, F., Escorcia, V., Ghanem, B., & Niebles, J. C. (2015). ActivityNet: A large-scale video benchmark for human activity understanding. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 961–970).",
+      "doi": "10.1109/CVPR.2015.7298698",
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Heilbron_ActivityNet_A_Large-Scale_2015_CVPR_paper.html",
+      "study_type": "Бенчмарк временной локализации событий",
+      "evidence_summary": "Даёт воспроизводимый пример оценки обнаружения событий во времени через перекрытие интервалов; перенос на педагогические события требует собственного правила сопоставления.",
+      "access_notes": "Открытая версия CVF.",
+      "evidence_role": "Методическая опора temporal IoU",
+      "verification_status": "to_review",
+      "registry_checked_on": null,
+      "provenance_document_id": null,
+      "notes": "Подобрано для T2; требуется пользовательская верификация.",
+      "name": "Бенчмарк временной локализации событий",
+      "criteria_count": 0,
+      "verification_methods_count": 1
+    },
+    {
+      "id": 39,
+      "code": "S39",
+      "citation_apa": "Cohen, J. (1968). Weighted kappa: Nominal scale agreement provision for scaled disagreement or partial credit. Psychological Bulletin, 70(4), 213–220.",
+      "doi": "10.1037/h0026256",
+      "url": "https://doi.org/10.1037/h0026256",
+      "study_type": "Методологическая статья",
+      "evidence_summary": "Вводит взвешенную каппу для порядковых категорий, где расхождение на один уровень отличается от расхождения на два.",
+      "access_notes": "DOI/издатель.",
+      "evidence_role": "Определение метрики согласия порядковой шкалы",
+      "verification_status": "to_review",
+      "registry_checked_on": null,
+      "provenance_document_id": null,
+      "notes": "Подобрано для T3 и T9; требуется пользовательская верификация.",
+      "name": "Методологическая статья",
+      "criteria_count": 0,
+      "verification_methods_count": 2
+    },
+    {
+      "id": 40,
+      "code": "S40",
+      "citation_apa": "Meyes, R., Lu, M., de Puiseau, C. W., & Meisen, T. (2019). Ablation studies in artificial neural networks [Preprint]. arXiv.",
+      "doi": "10.48550/arXiv.1901.08644",
+      "url": "https://arxiv.org/abs/1901.08644",
+      "study_type": "Методическая работа об абляциях",
+      "evidence_summary": "Показывает логику удаления или добавления компонентов для оценки их отдельного вклада; в пилоте применяется к модальностям, а не к внутренним нейронам модели.",
+      "access_notes": "Открытый препринт arXiv.",
+      "evidence_role": "Методическая основа абляционного сравнения",
+      "verification_status": "to_review",
+      "registry_checked_on": null,
+      "provenance_document_id": null,
+      "notes": "Подобрано для T4; требуется пользовательская верификация.",
+      "name": "Методическая работа об абляциях",
+      "criteria_count": 0,
+      "verification_methods_count": 1
+    },
+    {
+      "id": 41,
+      "code": "S41",
+      "citation_apa": "Roberts, D. R., Bahn, V., Ciuti, S., Boyce, M. S., Elith, J., Guillera-Arroita, G., Hauenstein, S., Lahoz-Monfort, J. J., Schröder, B., Thuiller, W., Warton, D. I., Wintle, B. A., Hartig, F., & Dormann, C. F. (2017). Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure. Ecography, 40(8), 913–929.",
+      "doi": "10.1111/ecog.02881",
+      "url": "https://doi.org/10.1111/ecog.02881",
+      "study_type": "Методологический обзор валидации",
+      "evidence_summary": "Обосновывает разбиение зависимых и иерархических данных блоками; занятия одного преподавателя нельзя распределять между настройкой и тестом как независимые строки.",
+      "access_notes": "DOI/издатель.",
+      "evidence_role": "Методическая основа группового holdout",
+      "verification_status": "to_review",
+      "registry_checked_on": null,
+      "provenance_document_id": null,
+      "notes": "Подобрано для T5; требуется пользовательская верификация.",
+      "name": "Методологический обзор валидации",
+      "criteria_count": 0,
+      "verification_methods_count": 1
+    },
+    {
+      "id": 42,
+      "code": "S42",
+      "citation_apa": "Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017). On calibration of modern neural networks. Proceedings of Machine Learning Research, 70, 1321–1330.",
+      "doi": null,
+      "url": "https://proceedings.mlr.press/v70/guo17a.html",
+      "study_type": "Эмпирическая работа о калибровке",
+      "evidence_summary": "Различает качество предсказания и соответствие уверенности фактической вероятности ошибки; поддерживает отдельную проверку калибровки уверенности.",
+      "access_notes": "Открытая версия PMLR.",
+      "evidence_role": "Методическая основа калибровки",
+      "verification_status": "to_review",
+      "registry_checked_on": null,
+      "provenance_document_id": null,
+      "notes": "Подобрано для T6; требуется пользовательская верификация.",
+      "name": "Эмпирическая работа о калибровке",
+      "criteria_count": 0,
+      "verification_methods_count": 1
+    },
+    {
+      "id": 43,
+      "code": "S43",
+      "citation_apa": "Geifman, Y., & El-Yaniv, R. (2017). Selective classification for deep neural networks. Advances in Neural Information Processing Systems, 30.",
+      "doi": null,
+      "url": "https://papers.neurips.cc/paper_files/paper/2017/hash/4a8423d5e91fda00bb7e46540e2b0cf1-Abstract.html",
+      "study_type": "Методологическая работа о selective prediction",
+      "evidence_summary": "Формализует компромисс риск–покрытие для системы с правом отказа; напрямую поддерживает оценку качества правильного отказа.",
+      "access_notes": "Открытая версия NeurIPS.",
+      "evidence_role": "Методическая основа режима отказа",
+      "verification_status": "to_review",
+      "registry_checked_on": null,
+      "provenance_document_id": null,
+      "notes": "Подобрано для T6; требуется пользовательская верификация.",
+      "name": "Методологическая работа о selective prediction",
+      "criteria_count": 0,
+      "verification_methods_count": 1
+    },
+    {
+      "id": 44,
+      "code": "S44",
+      "citation_apa": "Tschandl, P., Rinner, C., Apalla, Z., et al. (2020). Human–computer collaboration for skin cancer recognition. Nature Medicine, 26, 1229–1234.",
+      "doi": "10.1038/s41591-020-0942-0",
+      "url": "https://doi.org/10.1038/s41591-020-0942-0",
+      "study_type": "Эксперимент human–AI collaboration",
+      "evidence_summary": "Показывает, что полезность ИИ нужно измерять на совместной работе человека и системы и отдельно контролировать риск того, что ошибочная подсказка ухудшает решение.",
+      "access_notes": "Страница издателя; полный текст может требовать доступ.",
+      "evidence_role": "Пример проверки поддержки эксперта",
+      "verification_status": "to_review",
+      "registry_checked_on": null,
+      "provenance_document_id": null,
+      "notes": "Подобрано для T7; перенос из медицинской диагностики требует адаптации.",
+      "name": "Эксперимент human–AI collaboration",
+      "criteria_count": 0,
+      "verification_methods_count": 1
+    },
+    {
+      "id": 45,
+      "code": "S45",
+      "citation_apa": "Dwan, K., Li, T., Altman, D. G., & Elbourne, D. (2019). CONSORT 2010 statement: Extension to randomised crossover trials. BMJ, 366, l4378.",
+      "doi": "10.1136/bmj.l4378",
+      "url": "https://doi.org/10.1136/bmj.l4378",
+      "study_type": "Методическая рекомендация по crossover-дизайну",
+      "evidence_summary": "Описывает прозрачную организацию и отчётность crossover-сравнения, где участник служит собственным контролем; в пилоте нужна адаптация к экспертам и кейсам.",
+      "access_notes": "Открытый текст BMJ.",
+      "evidence_role": "Методическая основа crossover",
+      "verification_status": "to_review",
+      "registry_checked_on": null,
+      "provenance_document_id": null,
+      "notes": "Подобрано для T7; требуется пользовательская верификация.",
+      "name": "Методическая рекомендация по crossover-дизайну",
+      "criteria_count": 0,
+      "verification_methods_count": 1
+    },
+    {
+      "id": 46,
+      "code": "S46",
+      "citation_apa": "Vaidya, S., & Saini, J. R. (2026). Consistency evaluation protocol: A reproducible framework for assessing large language model output repeatability. MethodsX, 17, 104069.",
+      "doi": "10.1016/j.mex.2026.104069",
+      "url": "https://doi.org/10.1016/j.mex.2026.104069",
+      "study_type": "Протокол повторяемости LLM",
+      "evidence_summary": "Предлагает повторный запуск одинаковых промптов и анализ семантической и структурной стабильности; в пилоте дополнительно нужны стабильность балла, отказа и таймкодов.",
+      "access_notes": "Открытая статья; электронная публикация 25.07.2026.",
+      "evidence_role": "Методическая основа повторных прогонов LLM",
+      "verification_status": "to_review",
+      "registry_checked_on": null,
+      "provenance_document_id": null,
+      "notes": "Подобрано для T9; требуется пользовательская верификация.",
+      "name": "Протокол повторяемости LLM",
+      "criteria_count": 0,
+      "verification_methods_count": 1
+    },
+    {
+      "id": 47,
+      "code": "S47",
+      "citation_apa": "Shrout, P. E., & Fleiss, J. L. (1979). Intraclass correlations: Uses in assessing rater reliability. Psychological Bulletin, 86(2), 420–428.",
+      "doi": "10.1037/0033-2909.86.2.420",
+      "url": "https://doi.org/10.1037/0033-2909.86.2.420",
+      "study_type": "Методологическая статья о надёжности",
+      "evidence_summary": "Даёт правила выбора внутриклассовой корреляции для повторных измерений; применима к числовой уверенности, но не заменяет проверку точного совпадения статусов и баллов.",
+      "access_notes": "DOI/издатель.",
+      "evidence_role": "Определение метрики повторяемости",
+      "verification_status": "to_review",
+      "registry_checked_on": null,
+      "provenance_document_id": null,
+      "notes": "Подобрано для T9; требуется пользовательская верификация.",
+      "name": "Методологическая статья о надёжности",
+      "criteria_count": 0,
+      "verification_methods_count": 1
     }
   ]
 }

@@ -28,5 +28,15 @@
       "source_locator": "Лист «Источники», строка 38",
       "notes": null
     }
+  ],
+  "verification_methods": [
+    {
+      "id": 8,
+      "code": "T8",
+      "name": "Вложенная проверка границ и добавочных данных",
+      "effect_code": "E8",
+      "relation_role": "boundary_evidence",
+      "notes": "Скрытые мотивационные конструкты не выводятся напрямую из записи."
+    }
   ]
 }

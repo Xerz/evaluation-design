@@ -2,19 +2,20 @@
   "id": 3,
   "study_id": 1,
   "code": "E3",
-  "name": "Согласие по итоговой оценке",
+  "name": "Совпадение по итоговой оценке",
   "hypothesis": "Итоговая оценка 0–2 совпадает с экспертной.",
   "effect_order": 3,
   "effect_check_id": 3,
   "check_code": "EC_E3",
   "unit_of_analysis": "Критерий × занятие",
-  "comparison_description": "A1–A4 против согласованного A0.",
-  "success_rule": "Пороги weighted kappa, macro-F1 и MAE фиксируются после оценки межэкспертного согласия.",
+  "comparison_description": "A1–A4 против согласованного экспертного A0.",
+  "success_rule": "Пороги точного совпадения, weighted kappa, macro-F1 и MAE фиксируются после оценки межэкспертного согласия.",
+  "method_id": 3,
   "method_code": "T3",
   "method_name": "Согласие шкалы 0–2",
-  "method_description": "Сначала проверяется согласие экспертов, затем машина сравнивается с согласованным референсом.",
-  "metrics": "Weighted kappa; macro-F1; MAE",
-  "procedure": "Статус недостатка данных анализируется отдельно и не кодируется нулём.",
+  "method_description": "После проверки согласия экспертов машинный балл сравнивается с согласованным экспертным референсом как порядковая, а не номинальная оценка.",
+  "metrics": "Точное совпадение; расхождение на 1 и 2 балла; weighted kappa; macro-F1; MAE",
+  "procedure": "Сначала оценивается межэкспертное согласие и формируется согласованный референс. Статусы insufficient_data, error и not_applicable анализируются отдельно и никогда не кодируются нулём.",
   "conditions": [
     {
       "code": "A0",
@@ -211,6 +212,41 @@
       "number": 26,
       "name": "«Делает то, что проповедует»",
       "scope_role": "primary"
+    }
+  ],
+  "literature_sources": [
+    {
+      "id": 25,
+      "code": "S25",
+      "citation_apa": "Fütterer, T., Hou, R., Bühler, B., Bozkir, E., Bell, C., Kasneci, E., Gerjets, P., & Trautwein, U. (2026). Validating automated assessments of teaching effectiveness using multimodal data. Learning and Instruction, 101, 102264.",
+      "doi": "10.1016/j.learninstruc.2025.102264",
+      "url": "https://doi.org/10.1016/j.learninstruc.2025.102264",
+      "study_type": "Мультимодальная валидация автоматической оценки",
+      "verification_status": "source_register_checked",
+      "relation_role": "design_example",
+      "notes": "Валидация автоматической оценки преподавания по экспертному референсу."
+    },
+    {
+      "id": 37,
+      "code": "S37",
+      "citation_apa": "Sokolova, M., & Lapalme, G. (2009). A systematic analysis of performance measures for classification tasks. Information Processing & Management, 45(4), 427–437.",
+      "doi": "10.1016/j.ipm.2009.03.002",
+      "url": "https://doi.org/10.1016/j.ipm.2009.03.002",
+      "study_type": "Методологический обзор метрик классификации",
+      "verification_status": "to_review",
+      "relation_role": "metric_definition",
+      "notes": "Macro-F1 и различия между классами."
+    },
+    {
+      "id": 39,
+      "code": "S39",
+      "citation_apa": "Cohen, J. (1968). Weighted kappa: Nominal scale agreement provision for scaled disagreement or partial credit. Psychological Bulletin, 70(4), 213–220.",
+      "doi": "10.1037/h0026256",
+      "url": "https://doi.org/10.1037/h0026256",
+      "study_type": "Методологическая статья",
+      "verification_status": "to_review",
+      "relation_role": "metric_definition",
+      "notes": "Weighted kappa для порядковой шкалы."
     }
   ]
 }

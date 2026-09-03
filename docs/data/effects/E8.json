@@ -3,18 +3,19 @@
   "study_id": 1,
   "code": "E8",
   "name": "Необходимость дополнительных данных",
-  "hypothesis": "Скрытые состояния и содержательные свойства не угадываются по эмоциям или поведению; новые данные дают проверяемый прирост. (вообще это на отдельное исследование похоже)",
+  "hypothesis": "Скрытые состояния и содержательные свойства не угадываются по эмоциям или поведению; новые данные дают проверяемый прирост. (Вообще это похоже на отдельное исследование.)",
   "effect_order": 8,
   "effect_check_id": 8,
   "check_code": "EC_E8",
-  "unit_of_analysis": "Критерий × набор доступных данных",
-  "comparison_description": "Запись-only A4 против A4 с дополнительными материалами, диагностикой и опросами.",
-  "success_rule": "Без прямых данных система корректно отказывается; добавочные данные дают измеримый и интерпретируемый прирост.",
+  "unit_of_analysis": "Критерий × занятие × набор доступных данных",
+  "comparison_description": "Запись-only A4 против того же A4 после добавления одного определённого типа данных.",
+  "success_rule": "Без прямых данных система корректно отказывается; каждый добавочный источник даёт заранее определённый измеримый и интерпретируемый прирост.",
+  "method_id": 8,
   "method_code": "T8",
-  "method_name": "Проверка границ и добавочных данных",
-  "method_description": "Сравнивается запись-only с записью плюс материалы, диагностика или прямой опрос.",
-  "metrics": "Прирост качества; корректные отказы; ложные выводы без прямых данных",
-  "procedure": "Для критериев 24–25 машинный вывод без прямых студенческих данных запрещён.",
+  "method_name": "Вложенная проверка границ и добавочных данных",
+  "method_description": "В отдельном подпилоте для каждого критерия сравнивается запись без дополнительных данных с тем же анализом после добавления материалов, диагностики или прямого опроса.",
+  "metrics": "Прирост качества и доли проверяемых выводов; корректные отказы; ложные выводы без прямых данных; изменение неопределённости",
+  "procedure": "Сравнение проводится парно на тех же занятиях и раздельно по типу добавленных данных. Для C24 и C25 вывод без exit ticket и trust survey запрещён; эмоции и поведение не используются как замена прямым ответам студентов.",
   "conditions": [
     {
       "code": "A0",
@@ -115,6 +116,52 @@
       "number": 26,
       "name": "«Делает то, что проповедует»",
       "scope_role": "boundary"
+    }
+  ],
+  "literature_sources": [
+    {
+      "id": 29,
+      "code": "S29",
+      "citation_apa": "Graham, M. J., Hanauer, D. I., Aragón, O., Bauer, M., Bennie, J., Crowley, L., Gill, J., Morgan, M., Reeves, P. M., Withers, M., Yeh, P., Zhang, K., Zhang, T., & Chen, X. (2026). A measure of college student trust in their instructor. Frontiers in Education, 11, 1655426.",
+      "doi": "10.3389/feduc.2026.1655426",
+      "url": "https://doi.org/10.3389/feduc.2026.1655426",
+      "study_type": "Разработка и психометрическая валидация шкалы",
+      "verification_status": "source_register_checked",
+      "relation_role": "boundary_evidence",
+      "notes": "Прямой студенческий опрос для доверия."
+    },
+    {
+      "id": 31,
+      "code": "S31",
+      "citation_apa": "Leppink, J., Paas, F., Van der Vleuten, C. P. M., Van Gog, T., & Van Merriënboer, J. J. G. (2013). Development of an instrument for measuring different types of cognitive load. Behavior Research Methods, 45, 1058–1072.",
+      "doi": "10.3758/s13428-013-0334-1",
+      "url": "https://doi.org/10.3758/s13428-013-0334-1",
+      "study_type": "Разработка и валидация самоотчётной шкалы",
+      "verification_status": "source_register_checked",
+      "relation_role": "boundary_evidence",
+      "notes": "Самоотчёт как источник для когнитивной нагрузки."
+    },
+    {
+      "id": 34,
+      "code": "S34",
+      "citation_apa": "Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68–78.",
+      "doi": "10.1037/0003-066X.55.1.68",
+      "url": "https://doi.org/10.1037/0003-066X.55.1.68",
+      "study_type": "Теоретическая обзорная статья",
+      "verification_status": "source_register_checked",
+      "relation_role": "boundary_evidence",
+      "notes": "Скрытые мотивационные конструкты не выводятся напрямую из записи."
+    },
+    {
+      "id": 36,
+      "code": "S36",
+      "citation_apa": "Messick, S. (1995). Validity of psychological assessment: Validation of inferences from persons' responses and performances as scientific inquiry into score meaning. American Psychologist, 50(9), 741–749.",
+      "doi": "10.1037/0003-066X.50.9.741",
+      "url": "https://doi.org/10.1037/0003-066X.50.9.741",
+      "study_type": "Теоретическая статья о валидности",
+      "verification_status": "to_review",
+      "relation_role": "methodological_basis",
+      "notes": "Валидность интерпретации при добавлении новых источников."
     }
   ]
 }

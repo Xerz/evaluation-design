@@ -2,19 +2,20 @@
   "id": 4,
   "study_id": 1,
   "code": "E4",
-  "name": "Добавочная ценность распознавания видео",
-  "hypothesis": "Использование распознавания эмоций / вовлечённости, а так же метрик, вычисленных по аудио, улучшают результат (то есть совпадение с оценками эксперта) относительно анализа только транскрипта.",
+  "name": "Ценность распознавания видео",
+  "hypothesis": "Использование распознавания эмоций / вовлечённости, а также метрик, вычисленных по аудио, улучшает совпадение с оценками эксперта относительно анализа только транскрипта.",
   "effect_order": 4,
   "effect_check_id": 4,
   "check_code": "EC_E4",
-  "unit_of_analysis": "Критерий × занятие",
-  "comparison_description": "Парная абляция A1 ↔ A2 ↔ A3 ↔ A4.",
-  "success_rule": "Добавление модальности должно давать заранее зарегистрированный положительный эффект или обоснованно не требоваться.",
+  "unit_of_analysis": "Критерий × занятие × шаг добавления модальности",
+  "comparison_description": "Основное сравнение A2 ↔ A3 ↔ A4; A1 используется как вторичная готовая база.",
+  "success_rule": "Для заявленно полезной модальности нижняя граница 95% ДИ заранее выбранной основной метрики должна превышать ноль или заданную минимально важную разницу.",
+  "method_id": 4,
   "method_code": "T4",
-  "method_name": "Мультимодальная абляция",
-  "method_description": "На одних занятиях последовательно сравниваются A1, A2, A3 и A4.",
-  "metrics": "Разница F1/kappa; доля подтверждённых доказательств",
-  "procedure": "Парное сравнение с кластерным bootstrap по занятиям и преподавателям.",
+  "method_name": "Парная абляция модальностей",
+  "method_description": "На одних и тех же занятиях отдельно измеряется вклад аудио и вклад видео/визуальных сигналов относительно транскрипта.",
+  "metrics": "Изменение точного совпадения, weighted kappa и macro-F1; изменение доли подтверждённых доказательств; 95% ДИ разницы",
+  "procedure": "При фиксированных версии модели, промпте и наборе занятий парно сравниваются A2 → A3 → A4. Доверительные интервалы рассчитываются кластерным bootstrap по преподавателям и занятиям; результат приводится отдельно по критериям.",
   "conditions": [
     {
       "code": "A1",
@@ -223,6 +224,41 @@
       "number": 26,
       "name": "«Делает то, что проповедует»",
       "scope_role": "primary"
+    }
+  ],
+  "literature_sources": [
+    {
+      "id": 25,
+      "code": "S25",
+      "citation_apa": "Fütterer, T., Hou, R., Bühler, B., Bozkir, E., Bell, C., Kasneci, E., Gerjets, P., & Trautwein, U. (2026). Validating automated assessments of teaching effectiveness using multimodal data. Learning and Instruction, 101, 102264.",
+      "doi": "10.1016/j.learninstruc.2025.102264",
+      "url": "https://doi.org/10.1016/j.learninstruc.2025.102264",
+      "study_type": "Мультимодальная валидация автоматической оценки",
+      "verification_status": "source_register_checked",
+      "relation_role": "design_example",
+      "notes": "Мультимодальная автоматическая оценка преподавания."
+    },
+    {
+      "id": 28,
+      "code": "S28",
+      "citation_apa": "Ramakrishnan, A., Zylich, B., Ottmar, E., LoCasale-Crouch, J., & Whitehill, J. (2020). Toward automated classroom observation: Multimodal machine learning to estimate CLASS positive and negative climate [Preprint]. arXiv.",
+      "doi": "10.48550/arXiv.2005.09525",
+      "url": "https://arxiv.org/abs/2005.09525",
+      "study_type": "Препринт; мультимодальная автоматизация",
+      "verification_status": "source_register_checked",
+      "relation_role": "design_example",
+      "notes": "Пример мультимодального анализа наблюдаемого климата."
+    },
+    {
+      "id": 40,
+      "code": "S40",
+      "citation_apa": "Meyes, R., Lu, M., de Puiseau, C. W., & Meisen, T. (2019). Ablation studies in artificial neural networks [Preprint]. arXiv.",
+      "doi": "10.48550/arXiv.1901.08644",
+      "url": "https://arxiv.org/abs/1901.08644",
+      "study_type": "Методическая работа об абляциях",
+      "verification_status": "to_review",
+      "relation_role": "methodological_basis",
+      "notes": "Логика абляции компонентов системы."
     }
   ]
 }

@@ -2,19 +2,20 @@
   "id": 1,
   "study_id": 1,
   "code": "E1",
-  "name": "Конструктная валидность",
+  "name": "Понимание критериев",
   "hypothesis": "ИИ находит проявление самого критерия, а не похожий технический след (но не являющийся проявлением критерия).",
   "effect_order": 1,
   "effect_check_id": 1,
   "check_code": "EC_E1",
-  "unit_of_analysis": "Доказательный фрагмент по критерию",
-  "comparison_description": "A2–A4 против независимого A0.",
-  "success_rule": "Порог доли подтверждённых доказательств и допустимых типов ошибок фиксируется после калибровки.",
+  "unit_of_analysis": "Доказательный фрагмент × критерий",
+  "comparison_description": "A2–A4 против независимой слепой разметки A0.",
+  "success_rule": "Минимальная доля подтверждённых фрагментов, максимальная доля ложных прокси и минимальное межэкспертное согласие фиксируются после калибровки.",
+  "method_id": 1,
   "method_code": "T1",
-  "method_name": "Экспертная проверка доказательств",
-  "method_description": "Эксперт принимает или отклоняет каждый доказательный фрагмент и классифицирует подмену конструкта.",
-  "metrics": "Доля подтверждённых доказательств; типы ложных выводов",
-  "procedure": "Слепая независимая проверка и качественный разбор ошибок.",
+  "method_name": "Экспертная проверка соответствия критерию",
+  "method_description": "Эксперты проверяют, является ли каждый доказательный фрагмент проявлением именно заявленного критерия, а не похожим техническим прокси.",
+  "metrics": "Доля подтверждённых фрагментов (construct precision); доля ложных прокси; межэкспертное согласие; распределение типов ошибок",
+  "procedure": "Два эксперта независимо и вслепую кодируют фрагменты как «проявление критерия», «похожий след», «недостаточно данных» или «не относится». После независимой разметки расхождения согласуются, а ошибки разбираются по заранее заданной таксономии.",
   "conditions": [
     {
       "code": "A0",
@@ -211,6 +212,30 @@
       "number": 26,
       "name": "«Делает то, что проповедует»",
       "scope_role": "primary"
+    }
+  ],
+  "literature_sources": [
+    {
+      "id": 27,
+      "code": "S27",
+      "citation_apa": "Whitehill, J., & LoCasale-Crouch, J. (2023). Automated evaluation of classroom instructional support with LLMs and BoWs: Connecting global predictions to specific feedback [Preprint]. arXiv.",
+      "doi": "10.48550/arXiv.2310.01132",
+      "url": "https://arxiv.org/abs/2310.01132",
+      "study_type": "Препринт; автоматический анализ транскрипта",
+      "verification_status": "source_register_checked",
+      "relation_role": "design_example",
+      "notes": "Пример экспертной оценки конкретных доказательств и обратной связи."
+    },
+    {
+      "id": 36,
+      "code": "S36",
+      "citation_apa": "Messick, S. (1995). Validity of psychological assessment: Validation of inferences from persons' responses and performances as scientific inquiry into score meaning. American Psychologist, 50(9), 741–749.",
+      "doi": "10.1037/0003-066X.50.9.741",
+      "url": "https://doi.org/10.1037/0003-066X.50.9.741",
+      "study_type": "Теоретическая статья о валидности",
+      "verification_status": "to_review",
+      "relation_role": "methodological_basis",
+      "notes": "Валидность интерпретации и риск подмены конструкта."
     }
   ]
 }

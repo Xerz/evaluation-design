@@ -1,0 +1,36 @@
+{
+  "id": 36,
+  "code": "S36",
+  "citation_apa": "Messick, S. (1995). Validity of psychological assessment: Validation of inferences from persons' responses and performances as scientific inquiry into score meaning. American Psychologist, 50(9), 741–749.",
+  "doi": "10.1037/0003-066X.50.9.741",
+  "url": "https://doi.org/10.1037/0003-066X.50.9.741",
+  "study_type": "Теоретическая статья о валидности",
+  "evidence_summary": "Валидируется не инструмент сам по себе, а интерпретация результата; проверка должна исключать подмену педагогического конструкта похожим техническим признаком.",
+  "access_notes": "DOI/издатель.",
+  "evidence_role": "Методическая основа конструктной валидности",
+  "verification_status": "to_review",
+  "registry_checked_on": null,
+  "provenance_document_id": null,
+  "notes": "Подобрано для T1 и T8; требуется пользовательская верификация.",
+  "provenance_title": null,
+  "provenance_path": null,
+  "criteria": [],
+  "verification_methods": [
+    {
+      "id": 1,
+      "code": "T1",
+      "name": "Экспертная проверка соответствия критерию",
+      "effect_code": "E1",
+      "relation_role": "methodological_basis",
+      "notes": "Валидность интерпретации и риск подмены конструкта."
+    },
+    {
+      "id": 8,
+      "code": "T8",
+      "name": "Вложенная проверка границ и добавочных данных",
+      "effect_code": "E8",
+      "relation_role": "methodological_basis",
+      "notes": "Валидность интерпретации при добавлении новых источников."
+    }
+  ]
+}
