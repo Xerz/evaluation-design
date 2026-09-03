@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-03T06:15:34+00:00",
+  "generated_at": "2026-09-03T06:41:17+00:00",
   "source_database": "База пилота автоматизации критериев ТюмГУ.sqlite",
-  "source_sha256": "6fed4d9fd88f6f45edcd2ae0896eabe2f4f62b057b7f7f546e5d4818006a78f5",
+  "source_sha256": "030e8bbedafb8b21e9fbc9a724f0f29559d85cb2d0f81b82d7127509cdb6c820",
   "counts": {
     "criteria": 26,
     "score_levels": 78,
