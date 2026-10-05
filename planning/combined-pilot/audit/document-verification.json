@@ -1,10 +1,10 @@
 {
   "status": "passed",
-  "markdown_files": 16,
-  "local_links": 318,
+  "markdown_files": 17,
+  "local_links": 347,
   "task_ids": 30,
   "dependency_cycles": 0,
-  "decisions": 15,
+  "decisions": 16,
   "open_questions": 11,
   "original_rubric_and_protocols": "preserved",
   "original_worktree": "untouched",

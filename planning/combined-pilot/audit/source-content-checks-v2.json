@@ -1,0 +1,286 @@
+{
+  "checked_on": "2026-10-06",
+  "reviews": [
+    {
+      "source_code": "S02",
+      "scope": "selected_full_text_fragments",
+      "url": "https://tdop.wceruw.org/TDOP-2.1-Users-Guide.pdf",
+      "locator": "pp. 1–3; p. 15 (version/citation)",
+      "supported_statement": "TDOP описывает наблюдаемые действия и требует обучения наблюдателей. Прямую шкалу качества из частот кодов руководство не задаёт.",
+      "boundary": "Используем как описание процедуры наблюдения; перевод в 0–2 нашей рубрики требует отдельной проверки.",
+      "id": "SR-2026-10-05-S02",
+      "checked_on": "2026-10-05",
+      "applicable_targets": []
+    },
+    {
+      "source_code": "S25",
+      "scope": "primary_abstract",
+      "url": "https://portal.fis.tum.de/en/publications/validating-automated-assessments-of-teaching-effectiveness-using-/",
+      "locator": "Abstract на странице авторской организации",
+      "supported_statement": "Мультимодальные автоматические оценки сравнивались с экспертами и результатами обучения; валидность зависела от подизмерения.",
+      "boundary": "Другой школьный контекст и другая рубрика. Abstract не даёт полного протокола, данных и оснований для наших 26 критериев.",
+      "id": "SR-2026-10-05-S25",
+      "checked_on": "2026-10-05",
+      "applicable_targets": []
+    },
+    {
+      "source_code": "S27",
+      "scope": "selected_full_text_fragments",
+      "url": "https://arxiv.org/html/2310.01132v4",
+      "locator": "v4 (2024-04-16), §§3.1, 4.1 (Tables 1–2), 5, 5.2, 7.1, 8.1",
+      "supported_statement": "Проверяются локальные высказывания и общий балл CLASS; независимая проверка фрагментов выявляет ошибки интерпретации, не устраняемые общим совпадением баллов.",
+      "boundary": "Toddler/pre-K, 15-минутные сессии, другая шкала. Пример T1 и предупреждение о локальных ошибках, не доказательство покрытия вузовской рубрики.",
+      "id": "SR-2026-10-05-S27",
+      "checked_on": "2026-10-05",
+      "applicable_targets": []
+    },
+    {
+      "source_code": "S28",
+      "scope": "withdrawal_notice",
+      "url": "https://arxiv.org/abs/2005.09525",
+      "locator": "Header, Comments, submission history v3 (2021-07-23)",
+      "supported_statement": "Авторы сняли препринт, сообщив о невоспроизводимости результатов.",
+      "boundary": "Не использовать прежние корреляции и выводы как подтверждение C23 или T4. Исторические связи сохраняются с исключающим статусом.",
+      "id": "SR-2026-10-05-S28",
+      "checked_on": "2026-10-05",
+      "applicable_targets": []
+    },
+    {
+      "source_code": "S29",
+      "scope": "registry_abstract",
+      "url": "https://api.crossref.org/works/10.3389%2Ffeduc.2026.1655426",
+      "locator": "Поле abstract в реестре DOI",
+      "supported_statement": "TRUST строится на ответах студентов колледжа о доверии преподавателю.",
+      "boundary": "Поддерживает требование прямого студенческого источника, но перенос/пункты/адаптация инструмента требуют полного текста. Первичная статья пока недоступна в просмотрщике.",
+      "id": "SR-2026-10-05-S29",
+      "checked_on": "2026-10-05",
+      "applicable_targets": []
+    },
+    {
+      "source_code": "S40",
+      "scope": "primary_abstract",
+      "url": "https://arxiv.org/abs/1901.08644",
+      "locator": "Abstract, v2 (2019-02-18)",
+      "supported_statement": "Исследуются удаления частей искусственных нейросетей на задачах компьютерного зрения.",
+      "boundary": "Термин ablation здесь относится к устройству сети. Это не прямое методическое обоснование сравнения источников занятия; связь T4 требует замены/дополнения.",
+      "id": "SR-2026-10-05-S40",
+      "checked_on": "2026-10-05",
+      "applicable_targets": []
+    },
+    {
+      "source_code": "S42",
+      "scope": "primary_abstract",
+      "url": "https://proceedings.mlr.press/v70/guo17a.html",
+      "locator": "Abstract",
+      "supported_statement": "Калибровка относится к вероятностным оценкам правильности предсказаний.",
+      "boundary": "Общая необходимость калибровки; формулу ECE и её применение ещё проверить по PDF. При confidence=None ECE для Eval-2024 не вычисляется.",
+      "id": "SR-2026-10-05-S42",
+      "checked_on": "2026-10-05",
+      "applicable_targets": []
+    },
+    {
+      "source_code": "S43",
+      "scope": "primary_abstract",
+      "url": "https://papers.neurips.cc/paper_files/paper/2017/hash/4a8423d5e91fda00bb7e46540e2b0cf1-Abstract.html",
+      "locator": "Abstract",
+      "supported_statement": "Отказ от части классификаций связывается с обменом между охватом и риском ошибки.",
+      "boundary": "Эксперименты CIFAR/ImageNet. Педагогические гарантии и пригодность нашего отказа из статьи не следуют.",
+      "id": "SR-2026-10-05-S43",
+      "checked_on": "2026-10-05",
+      "applicable_targets": []
+    },
+    {
+      "source_code": "S45",
+      "scope": "selected_full_text_fragments",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6667942/",
+      "locator": "Box 1; Table 1; Items 8a, 12a, 20",
+      "supported_statement": "Crossover отчёт учитывает последовательность AB/BA, период, парный характер сравнения и перенос эффекта.",
+      "boundary": "Клинический стандарт отчётности. Не гарантирует устранение памяти эксперта; повторную оценку одного кейса надо обосновать отдельно.",
+      "id": "SR-2026-10-05-S45",
+      "checked_on": "2026-10-05",
+      "applicable_targets": []
+    },
+    {
+      "id": "SR-2026-10-06-S01",
+      "source_code": "S01",
+      "checked_on": "2026-10-06",
+      "scope": "selected_full_text_fragments",
+      "url": "https://teach.ucmerced.edu/sites/g/files/ufvvjh1831/f/page/documents/smith-et-al-2017-the-classroom-observation-protocol-for-undergraduate-stem-copus-a-new-instrument-to-characterize.pdf",
+      "locator": "pp. 619–623, Figure 1, Validity",
+      "supported_statement": "COPUS кодирует действия преподавателя и студентов в двухминутных интервалах; несколько кодов могут сосуществовать.",
+      "boundary": "Описание действий не является оценкой эффективности. Сложные суждения о познавательном уровне и внимании исключались из основного набора из-за проблем согласия; C18 не получает автоматический балл внимания.",
+      "applicable_targets": [
+        "C15",
+        "C18",
+        "C20",
+        "C22"
+      ]
+    },
+    {
+      "id": "SR-2026-10-06-S02",
+      "source_code": "S02",
+      "checked_on": "2026-10-06",
+      "scope": "selected_full_text_fragments",
+      "url": "https://tdop.wceruw.org/TDOP-2.1-Users-Guide.pdf",
+      "locator": "TDOP 2.1: pp. 3–5, 13, 16; code keys and interpretation",
+      "supported_statement": "Набор наблюдаемых кодов выбирают под задачу; наблюдателей обучают и проверяют согласие. Доли двухминутных интервалов не равны секундам действия и не обязаны суммироваться до 100%.",
+      "boundary": "Прямого перевода частот в качество 0–2 нет. Рекомендация авторов по согласованности не принята как порог нашего пилота. Индивидуальная адаптация и цифровая эффективность требуют отдельного основания.",
+      "applicable_targets": [
+        "C15",
+        "C18",
+        "C19",
+        "C20",
+        "C22"
+      ]
+    },
+    {
+      "id": "SR-2026-10-06-S08",
+      "source_code": "S08",
+      "checked_on": "2026-10-06",
+      "scope": "primary_abstract",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/03634523.2016.1202994",
+      "locator": "Abstract: 566 students; 20 items; five factors",
+      "supported_statement": "Шкала ясности преподавания исследована по студенческим ответам; различаются уровни требуемого вывода.",
+      "boundary": "Пункты и полный анализ не прочитаны. Аннотация не подтверждает девять отдельных соответствий нашей рубрике и автоматическую оценку по транскрипту.",
+      "applicable_targets": []
+    },
+    {
+      "id": "SR-2026-10-06-S10",
+      "source_code": "S10",
+      "checked_on": "2026-10-06",
+      "scope": "primary_abstract",
+      "url": "https://link.springer.com/article/10.1007/BF00138871",
+      "locator": "Abstract: constructive alignment",
+      "supported_statement": "Цели, учебные действия и оценивание должны быть согласованы.",
+      "boundary": "Для проверки требуются реальные цели, задания и способы оценивания. Абстрактный принцип не подтверждает совпадение слов или эффективность цифрового средства.",
+      "applicable_targets": [
+        "C01",
+        "C14",
+        "C15"
+      ]
+    },
+    {
+      "id": "SR-2026-10-06-S12",
+      "source_code": "S12",
+      "checked_on": "2026-10-06",
+      "scope": "selected_full_text_fragments",
+      "url": "https://link.springer.com/article/10.1186/s40561-022-00200-2",
+      "locator": "Background: multimedia learning principles; Discussion",
+      "supported_statement": "Эффект мультимедийных принципов зависит от материалов, задач и особенностей учащихся; показ материала нужно проверять отдельно.",
+      "boundary": "Поддерживает рассмотрение реальных слайдов/материалов, но не проверку физического комфорта аудитории C16 и не автоматический балл C12.",
+      "applicable_targets": [
+        "C12"
+      ]
+    },
+    {
+      "id": "SR-2026-10-06-S17",
+      "source_code": "S17",
+      "checked_on": "2026-10-06",
+      "scope": "selected_full_text_fragments",
+      "url": "https://www.educ.cam.ac.uk/research/programmes/analysingdialogue/LCSI_2016_post-print.pdf",
+      "locator": "Author postprint, p. 4, §2: hierarchy, communicative act, temporal sequences",
+      "supported_statement": "SEDA рассматривает вклад одного участника и последовательность вкладов с учётом предшествующего контекста; выделяет функции рассуждения и диалога.",
+      "boundary": "Счёт вопросительных знаков не является анализом диалога. Аффект не составляет предмет схемы; взгляд/тон/жесты не заменяют анализ содержания. Выбранный фрагмент не является полным чтением 29 страниц.",
+      "applicable_targets": [
+        "C19",
+        "C20"
+      ]
+    },
+    {
+      "id": "SR-2026-10-06-S18",
+      "source_code": "S18",
+      "checked_on": "2026-10-06",
+      "scope": "selected_full_text_fragments",
+      "url": "https://education.asu.edu/sites/default/files/lcl/chiwylie2014icap_2.pdf",
+      "locator": "pp. 219–220, 235–236; caveats in knowledge-process account",
+      "supported_statement": "ICAP связывает виды наблюдаемой учебной деятельности с познавательной вовлечённостью. Работа в паре сама по себе не означает Interactive: требуется совместное построение содержания.",
+      "boundary": "Это не классификация эмоционального внимания или взгляда. Понятия ICAP не валидируют C07, перенаправление внимания C18 или цифровой инструмент C22. Контекст задания и предварительные знания существенны.",
+      "applicable_targets": [
+        "C15",
+        "C19"
+      ]
+    },
+    {
+      "id": "SR-2026-10-06-S29",
+      "source_code": "S29",
+      "checked_on": "2026-10-06",
+      "scope": "selected_full_text_fragments",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1655426/full",
+      "locator": "Abstract; §2; §4.4 Limitations; Table 1 belongs to initial item pool",
+      "supported_statement": "TRUST: итоговый инструмент содержит девять пунктов и два фактора и исследован на прямых ответах студентов.",
+      "boundary": "Исходный пул из 38 пунктов нельзя выдавать за итоговую шкалу. Контекст STEM/life-science и COVID; русская адаптация, доверие к одному занятию и балл 0–2 не проверены.",
+      "applicable_targets": [
+        "C25",
+        "T8"
+      ]
+    },
+    {
+      "id": "SR-2026-10-06-S32",
+      "source_code": "S32",
+      "checked_on": "2026-10-06",
+      "scope": "full_text_conceptual_review",
+      "url": "https://cyberleninka.ru/article/n/k-voprosu-o-psihologicheskoy-bezopasnosti-v-obrazovatelnoy-srede",
+      "locator": "Текст статьи: психологическая безопасность, насилие, отношения участников",
+      "supported_statement": "Психологическая безопасность обсуждается как характеристика образовательной среды и отношений, включая защиту от психологического насилия.",
+      "boundary": "Теоретический контекст C23, не эмпирическая валидация распознавания эмоций или перевода в 0–2. Страницы и выпуск библиографически ещё уточняются.",
+      "applicable_targets": [
+        "C23"
+      ]
+    },
+    {
+      "id": "SR-2026-10-06-S34",
+      "source_code": "S34",
+      "checked_on": "2026-10-06",
+      "scope": "selected_full_text_fragments",
+      "url": "https://www.selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf",
+      "locator": "pp. 68–71, especially p. 70: competence, autonomy, feedback",
+      "supported_statement": "Переживание компетентности и автономии связано с внутренней мотивацией; значение обратной связи зависит от контекста.",
+      "boundary": "Концептуальная связь с C24 не делает внутреннее переживание видимым по речи преподавателя. Статья не валидирует нашу шкалу и не предписывает конкретный exit-ticket.",
+      "applicable_targets": [
+        "C24",
+        "T8"
+      ]
+    },
+    {
+      "id": "SR-2026-10-06-S41",
+      "source_code": "S41",
+      "checked_on": "2026-10-06",
+      "scope": "selected_full_text_fragments",
+      "url": "https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.02881",
+      "locator": "Abstract; Guidance: choosing blocks, steps 1–4",
+      "supported_statement": "При зависимых данных схема cross-validation должна учитывать структуру зависимости и цель переноса; случайное разбиение может давать оптимистическую оценку.",
+      "boundary": "Группировка по преподавателю/занятию — наша адаптация к образовательным данным. Статья об экологических данных не доказывает достаточность восьми занятий или межвузовскую переносимость.",
+      "applicable_targets": [
+        "T5"
+      ]
+    },
+    {
+      "id": "SR-2026-10-06-S42",
+      "source_code": "S42",
+      "checked_on": "2026-10-06",
+      "scope": "selected_full_text_fragments_and_rendered_equation",
+      "url": "https://proceedings.mlr.press/v70/guo17a/guo17a.pdf",
+      "locator": "§2, pp. 2–3, equations 1–3; §4 calibration data",
+      "supported_statement": "ECE агрегирует разность эмпирической точности и вероятностной уверенности по корзинам с весом доли наблюдений.",
+      "boundary": "Баллы 0–2 и частота ответа не являются вероятностью правильности. Eval-2024 не выдаёт такую уверенность; ECE сейчас неприменима. Калибровка требует отдельной выборки.",
+      "applicable_targets": [
+        "T6"
+      ]
+    },
+    {
+      "id": "SR-2026-10-06-S43",
+      "source_code": "S43",
+      "checked_on": "2026-10-06",
+      "scope": "selected_full_text_fragments_and_rendered_equation",
+      "url": "https://arxiv.org/pdf/1705.08500",
+      "locator": "v2, §§2–3, pp. 3–4, Eq. 1; §4 ranking",
+      "supported_statement": "Selective risk — средняя потеря среди принятых ответов, coverage — доля принятых. Теоретические гарантии предполагают соответствующую процедуру и i.i.d. условия.",
+      "boundary": "Компьютерное зрение, не педагогическая рубрика. Без ранжирования/порогов доступна только наблюдаемая точка отказов; нельзя заявить всю кривую risk–coverage или перенести гарантии на наш пилот.",
+      "applicable_targets": [
+        "T6"
+      ]
+    }
+  ],
+  "all_full_texts_read": false,
+  "operational_data_included": false
+}

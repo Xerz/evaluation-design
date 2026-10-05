@@ -55,12 +55,24 @@ def check():
     assert len(new_links) == len({r["link_code"] for r in new_links}) == 2
     assert all(r["source_code"] == "S27" and r["review_status"] == "partial_support"
                and r["verified_paper_locator"] for r in new_links)
+    claims = read("claim-checks-v2.json")
+    assert len(claims["claims"]) == len({r["link_code"] for r in claims["claims"]}) == 137
+    assert set(r["link_code"] for r in claims["claims"]) == set(r["link_code"] for r in links + new_links)
+    reviews = read("source-content-checks-v2.json")["reviews"]
+    review_ids = {r["id"]:r for r in reviews}
+    assert len(reviews) == len(review_ids) == 22
+    assert len({r["source_code"] for r in reviews}) == 18
+    assert all(not r["supported_claim"] or (r["verified_locator"] and r["source_review_id"] in review_ids)
+               for r in claims["claims"])
+    assert all(r["review_status"] == "excluded_withdrawn" and r["supported_claim"] is None
+               for r in claims["claims"] if r["source_code"] == "S28")
+    assert claims["criteria_validation_claimed"] is False
     local = read("local-verification.json")
     assert local["unit_tests"]["status"] == "passed"
     assert local["real_bot_calls"] == local["real_recordings_checked"] == 0
     return {"status": "passed", "criteria": 26, "candidate_mappings": 36,
             "bibliography": 47, "historical_links": 135, "new_partial_method_links": 2,
-            "source_database": "unchanged"}
+            "source_database": "unchanged", "claim_reviews":137, "sources_with_bounded_content_reviews":18}
 
 
 if __name__ == "__main__":

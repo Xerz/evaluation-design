@@ -109,6 +109,6 @@ def build_combined(output: Path) -> None:
     for filename in ("style.css", "reading.js", "icon.svg"):
         shutil.copy2(SOURCE / filename, destination / filename)
     (destination / "manifest.json").write_text(
-        json.dumps({"status": "research_draft", "updated_on": "2026-10-05", "pages": manifest},
+        json.dumps({"status": "research_draft", "updated_on": "2026-10-06", "pages": manifest},
                    ensure_ascii=False, indent=2) + "\n", encoding="utf-8",
     )

@@ -2,6 +2,7 @@
 .codex-work/
 db-viewer/var/
 transcript-eval/var/
+research-db/var/
 __pycache__/
 *.pyc
 
