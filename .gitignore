@@ -1,6 +1,7 @@
 .DS_Store
 .codex-work/
 db-viewer/var/
+transcript-eval/var/
 __pycache__/
 *.pyc
 

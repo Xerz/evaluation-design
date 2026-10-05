@@ -7,6 +7,7 @@ on:
     paths:
       - "db-viewer/**"
       - "planning/combined-pilot/**"
+      - "transcript-eval/**"
       - "outputs/01a05c37-c522-7563-8846-1ea43a7a49d5/База пилота автоматизации критериев ТюмГУ.sqlite"
       - "outputs/01a05c37-c522-7563-8846-1ea43a7a49d5/ERD базы пилота автоматизации критериев ТюмГУ.svg"
       - "outputs/01a05c37-c522-7563-8846-1ea43a7a49d5/ERD базы пилота автоматизации критериев ТюмГУ.mmd"
@@ -35,6 +36,10 @@ jobs:
         run: python3 db-viewer/check_public_site.py --site _site
       - name: Check static builder regressions
         run: python3 -m unittest discover -s db-viewer/tests -p test_static_build.py
+      - name: Check transcript tool without external requests
+        run: python3 -m unittest discover -s transcript-eval/tests
+      - name: Check research audit fidelity
+        run: python3 planning/combined-pilot/audit/check_audit.py
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload Pages artifact

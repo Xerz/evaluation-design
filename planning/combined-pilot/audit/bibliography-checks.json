@@ -1,0 +1,2556 @@
+[
+  {
+    "code": "S01",
+    "checked_on": "2026-10-05",
+    "original_citation": "Smith, M. K., Jones, F. H. M., Gilbert, S. L., & Wieman, C. E. (2013). The Classroom Observation Protocol for Undergraduate STEM (COPUS): A new instrument to characterize university STEM classroom practices. CBE—Life Sciences Education, 12(4), 618–627.",
+    "original_doi": "10.1187/cbe.13-08-0154",
+    "original_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3846513/",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1187%2Fcbe.13-08-0154",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "The Classroom Observation Protocol for Undergraduate STEM (COPUS): A New Instrument to Characterize University STEM Classroom Practices",
+    "registered_authors": [
+      "Smith",
+      "Jones",
+      "Gilbert",
+      "Wieman"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2013,
+          12
+        ]
+      ],
+      "created": [
+        [
+          2013,
+          12,
+          2
+        ]
+      ],
+      "issued": [
+        [
+          2013,
+          12
+        ]
+      ],
+      "published": [
+        [
+          2013,
+          12
+        ]
+      ]
+    },
+    "registered_container": [
+      "CBE—Life Sciences Education"
+    ],
+    "registered_doi": "10.1187/cbe.13-08-0154",
+    "landing_url": "https://doi.org/10.1187/cbe.13-08-0154",
+    "registered_pages": "618-627",
+    "registered_volume": "12",
+    "registered_issue": "4",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S02",
+    "checked_on": "2026-10-05",
+    "original_citation": "Hora, M. T., & Ferrare, J. J. (2014). Teaching Dimensions Observation Protocol (TDOP) 2.1 user's guide. Wisconsin Center for Education Research.",
+    "original_doi": null,
+    "original_url": "https://tdop.wceruw.org/TDOP-2.1-Users-Guide.pdf",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "status": "primary_metadata_checked",
+    "reason": "No DOI; verify primary guide/proceedings/journal page separately",
+    "checked_url": "https://tdop.wceruw.org/TDOP-2.1-Users-Guide.pdf",
+    "metadata_note": "TDOP 2.1, revised August 2014; cover and p.15. Internal recommended citation refers to 2.0; record version 2.1 separately.",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S03",
+    "checked_on": "2026-10-05",
+    "original_citation": "Anwar, S., & Menekse, M. (2021). A systematic review of observation protocols used in postsecondary STEM classrooms. Review of Education, 9(1), 81–120.",
+    "original_doi": "10.1002/rev3.3235",
+    "original_url": "https://www.depts.ttu.edu/tlpdc/Teaching_Evaluations/Observation-Protocols-Review.pdf",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1002%2Frev3.3235",
+    "status": "metadata_retrieved",
+    "http_status": 200,
+    "previous_attempt": {
+      "http_status": 429,
+      "reason": "HTTPError"
+    },
+    "registered_title": "A systematic review of observation protocols used in postsecondary STEM classrooms",
+    "registered_authors": [
+      "Anwar",
+      "Menekse"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2021,
+          2
+        ]
+      ],
+      "created": [
+        [
+          2020,
+          10,
+          20
+        ]
+      ],
+      "published-online": [
+        [
+          2020,
+          10,
+          20
+        ]
+      ],
+      "issued": [
+        [
+          2020,
+          10,
+          20
+        ]
+      ],
+      "published": [
+        [
+          2020,
+          10,
+          20
+        ]
+      ]
+    },
+    "registered_container": [
+      "Review of Education"
+    ],
+    "registered_doi": "10.1002/rev3.3235",
+    "landing_url": "https://doi.org/10.1002/rev3.3235",
+    "registered_pages": "81-120",
+    "registered_volume": "9",
+    "registered_issue": "1",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S04",
+    "checked_on": "2026-10-05",
+    "original_citation": "Sawada, D., Piburn, M. D., Judson, E., Turley, J., Falconer, K., Benford, R., & Bloom, I. (2002). Measuring reform practices in science and mathematics classrooms: The Reformed Teaching Observation Protocol. School Science and Mathematics, 102(6), 245–253.",
+    "original_doi": "10.1111/j.1949-8594.2002.tb17883.x",
+    "original_url": "https://doi.org/10.1111/j.1949-8594.2002.tb17883.x",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1111%2Fj.1949-8594.2002.tb17883.x",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Measuring Reform Practices in Science and Mathematics Classrooms: The Reformed Teaching Observation Protocol",
+    "registered_authors": [
+      "Sawada",
+      "Piburn",
+      "Judson",
+      "Turley",
+      "Falconer",
+      "Benford",
+      "Bloom"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2002,
+          10
+        ]
+      ],
+      "created": [
+        [
+          2010,
+          3,
+          20
+        ]
+      ],
+      "published-online": [
+        [
+          2010,
+          3,
+          17
+        ]
+      ],
+      "issued": [
+        [
+          2002,
+          10
+        ]
+      ],
+      "published": [
+        [
+          2002,
+          10
+        ]
+      ]
+    },
+    "registered_container": [
+      "School Science and Mathematics"
+    ],
+    "registered_doi": "10.1111/j.1949-8594.2002.tb17883.x",
+    "landing_url": "https://doi.org/10.1111/j.1949-8594.2002.tb17883.x",
+    "registered_pages": "245-253",
+    "registered_volume": "102",
+    "registered_issue": "6",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S05",
+    "checked_on": "2026-10-05",
+    "original_citation": "Eddy, S. L., Converse, M., & Wenderoth, M. P. (2015). PORTAAL: A classroom observation tool assessing evidence-based teaching practices for active learning in large STEM classes. CBE—Life Sciences Education, 14(2), ar23.",
+    "original_doi": "10.1187/cbe-14-06-0095",
+    "original_url": "https://doi.org/10.1187/cbe-14-06-0095",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4477739/",
+    "status": "primary_metadata_checked_with_correction",
+    "previous_attempt": {
+      "http_status": 429,
+      "reason": "HTTPError"
+    },
+    "canonical_doi": "10.1187/cbe.14-06-0095",
+    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4477739/",
+    "metadata_note": "Canonical DOI uses cbe.14 rather than cbe-14; PMC title, authors, 2015 Jun 1,14(2):ar23 checked. Original DOI retained separately.",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error.",
+    "original_doi_check": {
+      "http_status": 404,
+      "reason": "HTTPError"
+    },
+    "primary_metadata_method": "Primary article metadata from indexed PMC page; full page subsequently requires verification, full text not read.",
+    "http_status": null
+  },
+  {
+    "code": "S06",
+    "checked_on": "2026-10-05",
+    "original_citation": "Hafen, C. A., Hamre, B. K., Allen, J. P., Bell, C. A., Gitomer, D. H., & Pianta, R. C. (2015). Teaching through interactions in secondary school classrooms: Revisiting the factor structure and practical application of the Classroom Assessment Scoring System—Secondary. Journal of Early Adolescence, 35(5–6), 651–680.",
+    "original_doi": "10.1177/0272431614537117",
+    "original_url": "https://doi.org/10.1177/0272431614537117",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1177%2F0272431614537117",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Teaching Through Interactions in Secondary School Classrooms",
+    "registered_authors": [
+      "Hafen",
+      "Hamre",
+      "Allen",
+      "Bell",
+      "Gitomer",
+      "Pianta"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2015,
+          6
+        ]
+      ],
+      "created": [
+        [
+          2014,
+          6,
+          9
+        ]
+      ],
+      "published-online": [
+        [
+          2014,
+          6,
+          9
+        ]
+      ],
+      "issued": [
+        [
+          2014,
+          6,
+          9
+        ]
+      ],
+      "published": [
+        [
+          2014,
+          6,
+          9
+        ]
+      ]
+    },
+    "registered_container": [
+      "The Journal of Early Adolescence"
+    ],
+    "registered_doi": "10.1177/0272431614537117",
+    "landing_url": "https://doi.org/10.1177/0272431614537117",
+    "registered_pages": "651-680",
+    "registered_volume": "35",
+    "registered_issue": "5-6",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S07",
+    "checked_on": "2026-10-05",
+    "original_citation": "Virtanen, T. E., Pakarinen, E., Lerkkanen, M.-K., Poikkeus, A.-M., Siekkinen, M., & Nurmi, J.-E. (2018). A validation study of Classroom Assessment Scoring System—Secondary in the Finnish school context. Journal of Early Adolescence, 38(6), 849–880.",
+    "original_doi": "10.1177/0272431617699944",
+    "original_url": "https://doi.org/10.1177/0272431617699944",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1177%2F0272431617699944",
+    "status": "metadata_retrieved",
+    "http_status": 200,
+    "previous_attempt": {
+      "http_status": 429,
+      "reason": "HTTPError"
+    },
+    "registered_title": "A Validation Study of Classroom Assessment Scoring System–Secondary in the Finnish School Context",
+    "registered_authors": [
+      "Virtanen",
+      "Pakarinen",
+      "Lerkkanen",
+      "Poikkeus",
+      "Siekkinen",
+      "Nurmi"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2018,
+          6
+        ]
+      ],
+      "created": [
+        [
+          2017,
+          3,
+          27
+        ]
+      ],
+      "published-online": [
+        [
+          2017,
+          3,
+          26
+        ]
+      ],
+      "issued": [
+        [
+          2017,
+          3,
+          26
+        ]
+      ],
+      "published": [
+        [
+          2017,
+          3,
+          26
+        ]
+      ]
+    },
+    "registered_container": [
+      "The Journal of Early Adolescence"
+    ],
+    "registered_doi": "10.1177/0272431617699944",
+    "landing_url": "https://doi.org/10.1177/0272431617699944",
+    "registered_pages": "849-880",
+    "registered_volume": "38",
+    "registered_issue": "6",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S08",
+    "checked_on": "2026-10-05",
+    "original_citation": "Bolkan, S. (2017). Development and validation of the Clarity Indicators Scale. Communication Education, 66(1), 19–36.",
+    "original_doi": "10.1080/03634523.2016.1202994",
+    "original_url": "https://doi.org/10.1080/03634523.2016.1202994",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1080%2F03634523.2016.1202994",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Development and validation of the clarity indicators scale",
+    "registered_authors": [
+      "Bolkan"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2017,
+          1,
+          2
+        ]
+      ],
+      "created": [
+        [
+          2016,
+          7,
+          4
+        ]
+      ],
+      "published-online": [
+        [
+          2016,
+          7,
+          4
+        ]
+      ],
+      "issued": [
+        [
+          2016,
+          7,
+          4
+        ]
+      ],
+      "published": [
+        [
+          2016,
+          7,
+          4
+        ]
+      ]
+    },
+    "registered_container": [
+      "Communication Education"
+    ],
+    "registered_doi": "10.1080/03634523.2016.1202994",
+    "landing_url": "https://doi.org/10.1080/03634523.2016.1202994",
+    "registered_pages": "19-36",
+    "registered_volume": "66",
+    "registered_issue": "1",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S09",
+    "checked_on": "2026-10-05",
+    "original_citation": "Chesebro, J. L., & McCroskey, J. C. (1998). The development of the Teacher Clarity Short Inventory (TCSI) to measure clear teaching in the classroom. Communication Research Reports, 15(3), 262–266.",
+    "original_doi": "10.1080/08824099809362122",
+    "original_url": "https://doi.org/10.1080/08824099809362122",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1080%2F08824099809362122",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "The development of the teacher clarity short inventory (TCSI) to measure clear teaching in the classroom",
+    "registered_authors": [
+      "Chesebro",
+      "McCroskey"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          1998,
+          6
+        ]
+      ],
+      "created": [
+        [
+          2011,
+          9,
+          18
+        ]
+      ],
+      "issued": [
+        [
+          1998,
+          6
+        ]
+      ],
+      "published": [
+        [
+          1998,
+          6
+        ]
+      ]
+    },
+    "registered_container": [
+      "Communication Research Reports"
+    ],
+    "registered_doi": "10.1080/08824099809362122",
+    "landing_url": "https://doi.org/10.1080/08824099809362122",
+    "registered_pages": "262-266",
+    "registered_volume": "15",
+    "registered_issue": "3",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S10",
+    "checked_on": "2026-10-05",
+    "original_citation": "Biggs, J. (1996). Enhancing teaching through constructive alignment. Higher Education, 32, 347–364.",
+    "original_doi": "10.1007/BF00138871",
+    "original_url": "https://doi.org/10.1007/BF00138871",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1007%2FBF00138871",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Enhancing teaching through constructive alignment",
+    "registered_authors": [
+      "Biggs"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          1996,
+          10
+        ]
+      ],
+      "created": [
+        [
+          2004,
+          11,
+          6
+        ]
+      ],
+      "issued": [
+        [
+          1996,
+          10
+        ]
+      ],
+      "published": [
+        [
+          1996,
+          10
+        ]
+      ]
+    },
+    "registered_container": [
+      "Higher Education"
+    ],
+    "registered_doi": "10.1007/bf00138871",
+    "landing_url": "https://doi.org/10.1007/bf00138871",
+    "registered_pages": "347-364",
+    "registered_volume": "32",
+    "registered_issue": "3",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S11",
+    "checked_on": "2026-10-05",
+    "original_citation": "Richter, J., Scheiter, K., & Eitel, A. (2016). Signaling text-picture relations in multimedia learning: A comprehensive meta-analysis. Educational Research Review, 17, 19–36.",
+    "original_doi": "10.1016/j.edurev.2015.12.003",
+    "original_url": "https://doi.org/10.1016/j.edurev.2015.12.003",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1016%2Fj.edurev.2015.12.003",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Signaling text-picture relations in multimedia learning: A comprehensive meta-analysis",
+    "registered_authors": [
+      "Richter",
+      "Scheiter",
+      "Eitel"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2016,
+          2
+        ]
+      ],
+      "created": [
+        [
+          2015,
+          12,
+          18
+        ]
+      ],
+      "issued": [
+        [
+          2016,
+          2
+        ]
+      ],
+      "published": [
+        [
+          2016,
+          2
+        ]
+      ]
+    },
+    "registered_container": [
+      "Educational Research Review"
+    ],
+    "registered_doi": "10.1016/j.edurev.2015.12.003",
+    "landing_url": "https://doi.org/10.1016/j.edurev.2015.12.003",
+    "registered_pages": "19-36",
+    "registered_volume": "17",
+    "registered_issue": null,
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S12",
+    "checked_on": "2026-10-05",
+    "original_citation": "Çeken, B., & Taşkın, N. (2022). Multimedia learning principles in different learning environments: A systematic review. Smart Learning Environments, 9, Article 19.",
+    "original_doi": "10.1186/s40561-022-00200-2",
+    "original_url": "https://doi.org/10.1186/s40561-022-00200-2",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1186%2Fs40561-022-00200-2",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Multimedia learning principles in different learning environments: a systematic review",
+    "registered_authors": [
+      "Çeken",
+      "Taşkın"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2022,
+          12
+        ]
+      ],
+      "created": [
+        [
+          2022,
+          4,
+          13
+        ]
+      ],
+      "published-online": [
+        [
+          2022,
+          4,
+          13
+        ]
+      ],
+      "issued": [
+        [
+          2022,
+          4,
+          13
+        ]
+      ],
+      "published": [
+        [
+          2022,
+          4,
+          13
+        ]
+      ]
+    },
+    "registered_container": [
+      "Smart Learning Environments"
+    ],
+    "registered_doi": "10.1186/s40561-022-00200-2",
+    "landing_url": "https://doi.org/10.1186/s40561-022-00200-2",
+    "registered_pages": null,
+    "registered_volume": "9",
+    "registered_issue": "1",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S13",
+    "checked_on": "2026-10-05",
+    "original_citation": "Robinson, S. L., & Kiewra, K. A. (1997). Effects of lecture rate on students' comprehension and ratings of topic importance. Contemporary Educational Psychology, 22(2), 260–267.",
+    "original_doi": "10.1006/ceps.1997.0929",
+    "original_url": "https://doi.org/10.1006/ceps.1997.0929",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1006%2Fceps.1997.0929",
+    "http_status": 200,
+    "status": "registry_checked_with_correction",
+    "registered_title": "Effects of Lecture Rate on Students’ Comprehension and Ratings of Topic Importance",
+    "registered_authors": [
+      "Robinson",
+      "Sterling",
+      "Skinner",
+      "Robinson"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          1997,
+          4
+        ]
+      ],
+      "created": [
+        [
+          2002,
+          10,
+          7
+        ]
+      ],
+      "issued": [
+        [
+          1997,
+          4
+        ]
+      ],
+      "published": [
+        [
+          1997,
+          4
+        ]
+      ]
+    },
+    "registered_container": [
+      "Contemporary Educational Psychology"
+    ],
+    "registered_doi": "10.1006/ceps.1997.0929",
+    "landing_url": "https://doi.org/10.1006/ceps.1997.0929",
+    "registered_pages": "260-267",
+    "registered_volume": "22",
+    "registered_issue": "2",
+    "metadata_note": "Original author list incorrectly includes Kiewra. Registered authors: Sheri L. Robinson, Heather E. Sterling, Christopher H. Skinner, Daniel H. Robinson.",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error.",
+    "canonical_citation": "Robinson, S. L., Sterling, H. E., Skinner, C. H., & Robinson, D. H. (1997). Effects of lecture rate on students’ comprehension and ratings of topic importance. Contemporary Educational Psychology, 22(2), 260–267."
+  },
+  {
+    "code": "S14",
+    "checked_on": "2026-10-05",
+    "original_citation": "Hattan, C., Singer, L. M., Loughlin, S., & Alexander, P. A. (2015). Prior knowledge activation in design and in practice. Literacy Research: Theory, Method, and Practice, 64(1), 478–497.",
+    "original_doi": "10.1177/2381336915617603",
+    "original_url": "https://doi.org/10.1177/2381336915617603",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1177%2F2381336915617603",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Prior Knowledge Activation in Design and in Practice",
+    "registered_authors": [
+      "Hattan",
+      "Singer",
+      "Loughlin",
+      "Alexander"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2015,
+          11
+        ]
+      ],
+      "created": [
+        [
+          2015,
+          12,
+          24
+        ]
+      ],
+      "published-online": [
+        [
+          2015,
+          11,
+          1
+        ]
+      ],
+      "issued": [
+        [
+          2015,
+          11
+        ]
+      ],
+      "published": [
+        [
+          2015,
+          11
+        ]
+      ]
+    },
+    "registered_container": [
+      "Literacy Research: Theory, Method, and Practice"
+    ],
+    "registered_doi": "10.1177/2381336915617603",
+    "landing_url": "https://doi.org/10.1177/2381336915617603",
+    "registered_pages": "478-497",
+    "registered_volume": "64",
+    "registered_issue": "1",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S15",
+    "checked_on": "2026-10-05",
+    "original_citation": "Wittwer, J., & Renkl, A. (2010). How effective are instructional explanations in example-based learning? A meta-analytic review. Educational Psychology Review, 22(4), 393–409.",
+    "original_doi": "10.1007/s10648-010-9136-5",
+    "original_url": "https://doi.org/10.1007/s10648-010-9136-5",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1007%2Fs10648-010-9136-5",
+    "status": "metadata_retrieved",
+    "http_status": 200,
+    "previous_attempt": {
+      "http_status": 429,
+      "reason": "HTTPError"
+    },
+    "registered_title": "How Effective are Instructional Explanations in Example-Based Learning? A Meta-Analytic Review",
+    "registered_authors": [
+      "Wittwer",
+      "Renkl"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2010,
+          12
+        ]
+      ],
+      "created": [
+        [
+          2010,
+          5,
+          13
+        ]
+      ],
+      "published-online": [
+        [
+          2010,
+          5,
+          14
+        ]
+      ],
+      "issued": [
+        [
+          2010,
+          5,
+          14
+        ]
+      ],
+      "published": [
+        [
+          2010,
+          5,
+          14
+        ]
+      ]
+    },
+    "registered_container": [
+      "Educational Psychology Review"
+    ],
+    "registered_doi": "10.1007/s10648-010-9136-5",
+    "landing_url": "https://doi.org/10.1007/s10648-010-9136-5",
+    "registered_pages": "393-409",
+    "registered_volume": "22",
+    "registered_issue": "4",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S16",
+    "checked_on": "2026-10-05",
+    "original_citation": "Barbieri, C. A., Miller-Cotto, D., Clerjuste, S. N., & Chawla, K. (2023). A meta-analysis of the worked examples effect on mathematics performance. Educational Psychology Review, 35(1), Article 11.",
+    "original_doi": "10.1007/s10648-023-09745-1",
+    "original_url": "https://doi.org/10.1007/s10648-023-09745-1",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1007%2Fs10648-023-09745-1",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "A Meta-analysis of the Worked Examples Effect on Mathematics Performance",
+    "registered_authors": [
+      "Barbieri",
+      "Miller-Cotto",
+      "Clerjuste",
+      "Chawla"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2023,
+          3
+        ]
+      ],
+      "created": [
+        [
+          2023,
+          1,
+          30
+        ]
+      ],
+      "published-online": [
+        [
+          2023,
+          1,
+          30
+        ]
+      ],
+      "issued": [
+        [
+          2023,
+          1,
+          30
+        ]
+      ],
+      "published": [
+        [
+          2023,
+          1,
+          30
+        ]
+      ]
+    },
+    "registered_container": [
+      "Educational Psychology Review"
+    ],
+    "registered_doi": "10.1007/s10648-023-09745-1",
+    "landing_url": "https://doi.org/10.1007/s10648-023-09745-1",
+    "registered_pages": null,
+    "registered_volume": "35",
+    "registered_issue": "1",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S17",
+    "checked_on": "2026-10-05",
+    "original_citation": "Hennessy, S., Rojas-Drummond, S., Higham, R., Márquez, A. M., Maine, F., Ríos, R. M., García-Carrión, R., Torreblanca, O., & Barrera, M. J. (2016). Developing a coding scheme for analysing classroom dialogue across educational contexts. Learning, Culture and Social Interaction, 9, 16–44.",
+    "original_doi": "10.1016/j.lcsi.2015.12.001",
+    "original_url": "https://doi.org/10.1016/j.lcsi.2015.12.001",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1016%2Fj.lcsi.2015.12.001",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Developing a coding scheme for analysing classroom dialogue across educational contexts",
+    "registered_authors": [
+      "Hennessy",
+      "Rojas-Drummond",
+      "Higham",
+      "Márquez",
+      "Maine",
+      "Ríos",
+      "García-Carrión",
+      "Torreblanca",
+      "Barrera"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2016,
+          6
+        ]
+      ],
+      "created": [
+        [
+          2016,
+          3,
+          18
+        ]
+      ],
+      "issued": [
+        [
+          2016,
+          6
+        ]
+      ],
+      "published": [
+        [
+          2016,
+          6
+        ]
+      ]
+    },
+    "registered_container": [
+      "Learning, Culture and Social Interaction"
+    ],
+    "registered_doi": "10.1016/j.lcsi.2015.12.001",
+    "landing_url": "https://doi.org/10.1016/j.lcsi.2015.12.001",
+    "registered_pages": "16-44",
+    "registered_volume": "9",
+    "registered_issue": null,
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S18",
+    "checked_on": "2026-10-05",
+    "original_citation": "Chi, M. T. H., & Wylie, R. (2014). The ICAP framework: Linking cognitive engagement to active learning outcomes. Educational Psychologist, 49(4), 219–243.",
+    "original_doi": "10.1080/00461520.2014.965823",
+    "original_url": "https://doi.org/10.1080/00461520.2014.965823",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1080%2F00461520.2014.965823",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "The ICAP Framework: Linking Cognitive Engagement to Active Learning Outcomes",
+    "registered_authors": [
+      "Chi",
+      "Wylie"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2014,
+          10,
+          2
+        ]
+      ],
+      "created": [
+        [
+          2014,
+          10,
+          28
+        ]
+      ],
+      "published-online": [
+        [
+          2014,
+          10,
+          28
+        ]
+      ],
+      "issued": [
+        [
+          2014,
+          10,
+          2
+        ]
+      ],
+      "published": [
+        [
+          2014,
+          10,
+          2
+        ]
+      ]
+    },
+    "registered_container": [
+      "Educational Psychologist"
+    ],
+    "registered_doi": "10.1080/00461520.2014.965823",
+    "landing_url": "https://doi.org/10.1080/00461520.2014.965823",
+    "registered_pages": "219-243",
+    "registered_volume": "49",
+    "registered_issue": "4",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S19",
+    "checked_on": "2026-10-05",
+    "original_citation": "Black, P., & Wiliam, D. (1998). Assessment and classroom learning. Assessment in Education: Principles, Policy & Practice, 5(1), 7–74.",
+    "original_doi": "10.1080/0969595980050102",
+    "original_url": "https://doi.org/10.1080/0969595980050102",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1080%2F0969595980050102",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Assessment and Classroom Learning",
+    "registered_authors": [
+      "Black",
+      "Wiliam"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          1998,
+          3
+        ]
+      ],
+      "created": [
+        [
+          2007,
+          6,
+          25
+        ]
+      ],
+      "published-online": [
+        [
+          2006,
+          7,
+          28
+        ]
+      ],
+      "issued": [
+        [
+          1998,
+          3
+        ]
+      ],
+      "published": [
+        [
+          1998,
+          3
+        ]
+      ]
+    },
+    "registered_container": [
+      "Assessment in Education: Principles, Policy &amp; Practice"
+    ],
+    "registered_doi": "10.1080/0969595980050102",
+    "landing_url": "https://doi.org/10.1080/0969595980050102",
+    "registered_pages": "7-74",
+    "registered_volume": "5",
+    "registered_issue": "1",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S20",
+    "checked_on": "2026-10-05",
+    "original_citation": "Lyon, C. J., Oláh, L. N., & Brenneman, M. (2020). A formative assessment observation protocol to measure implementation: Evaluating the scoring inference. Educational Assessment, 25(4), 288–313.",
+    "original_doi": "10.1080/10627197.2020.1766957",
+    "original_url": "https://doi.org/10.1080/10627197.2020.1766957",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1080%2F10627197.2020.1766957",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "A Formative Assessment Observation Protocol to Measure Implementation: Evaluating the Scoring Inference",
+    "registered_authors": [
+      "Lyon",
+      "Nabors Oláh",
+      "Brenneman"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2020,
+          10
+        ]
+      ],
+      "created": [
+        [
+          2020,
+          6,
+          4
+        ]
+      ],
+      "published-online": [
+        [
+          2020,
+          6,
+          4
+        ]
+      ],
+      "issued": [
+        [
+          2020,
+          6,
+          4
+        ]
+      ],
+      "published": [
+        [
+          2020,
+          6,
+          4
+        ]
+      ]
+    },
+    "registered_container": [
+      "Educational Assessment"
+    ],
+    "registered_doi": "10.1080/10627197.2020.1766957",
+    "landing_url": "https://doi.org/10.1080/10627197.2020.1766957",
+    "registered_pages": "288-313",
+    "registered_volume": "25",
+    "registered_issue": "4",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error. Compound surname display differs; verify preferred citation before final export."
+  },
+  {
+    "code": "S21",
+    "checked_on": "2026-10-05",
+    "original_citation": "McDonnell, L., Barker, M. K., & Wieman, C. (2016). Concepts first, jargon second improves student articulation of understanding. Biochemistry and Molecular Biology Education, 44(1), 12–19.",
+    "original_doi": "10.1002/bmb.20922",
+    "original_url": "https://doi.org/10.1002/bmb.20922",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1002%2Fbmb.20922",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Concepts first, jargon second improves student articulation of understanding",
+    "registered_authors": [
+      "McDonnell",
+      "Barker",
+      "Wieman"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2016,
+          1,
+          2
+        ]
+      ],
+      "created": [
+        [
+          2015,
+          11,
+          5
+        ]
+      ],
+      "published-online": [
+        [
+          2015,
+          11,
+          5
+        ]
+      ],
+      "issued": [
+        [
+          2015,
+          11,
+          5
+        ]
+      ],
+      "published": [
+        [
+          2015,
+          11,
+          5
+        ]
+      ]
+    },
+    "registered_container": [
+      "Biochemistry and Molecular Biology Education"
+    ],
+    "registered_doi": "10.1002/bmb.20922",
+    "landing_url": "https://doi.org/10.1002/bmb.20922",
+    "registered_pages": "12-19",
+    "registered_volume": "44",
+    "registered_issue": "1",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S22",
+    "checked_on": "2026-10-05",
+    "original_citation": "Minelli, G., Puglisi, G. E., & Astolfi, A. (2022). Acoustical parameters for learning in classroom: A review. Building and Environment, 208, 108582.",
+    "original_doi": "10.1016/j.buildenv.2021.108582",
+    "original_url": "https://doi.org/10.1016/j.buildenv.2021.108582",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1016%2Fj.buildenv.2021.108582",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Acoustical parameters for learning in classroom: A review",
+    "registered_authors": [
+      "Minelli",
+      "Puglisi",
+      "Astolfi"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2022,
+          1
+        ]
+      ],
+      "created": [
+        [
+          2021,
+          11,
+          15
+        ]
+      ],
+      "issued": [
+        [
+          2022,
+          1
+        ]
+      ],
+      "published": [
+        [
+          2022,
+          1
+        ]
+      ]
+    },
+    "registered_container": [
+      "Building and Environment"
+    ],
+    "registered_doi": "10.1016/j.buildenv.2021.108582",
+    "landing_url": "https://doi.org/10.1016/j.buildenv.2021.108582",
+    "registered_pages": "108582",
+    "registered_volume": "208",
+    "registered_issue": null,
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S23",
+    "checked_on": "2026-10-05",
+    "original_citation": "Antonietti, C., Schmitz, M.-L., Consoli, T., Cattaneo, A., Gonon, P., & Petko, D. (2023). Development and validation of the ICAP Technology Scale to measure how teachers integrate technology into learning activities. Computers & Education, 192, 104648.",
+    "original_doi": "10.1016/j.compedu.2022.104648",
+    "original_url": "https://doi.org/10.1016/j.compedu.2022.104648",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1016%2Fj.compedu.2022.104648",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "“Development and validation of the ICAP Technology Scale to measure how teachers integrate technology into learning activities”",
+    "registered_authors": [
+      "Antonietti",
+      "Schmitz",
+      "Consoli",
+      "Cattaneo",
+      "Gonon",
+      "Petko"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2023,
+          1
+        ]
+      ],
+      "created": [
+        [
+          2022,
+          10,
+          7
+        ]
+      ],
+      "issued": [
+        [
+          2023,
+          1
+        ]
+      ],
+      "published": [
+        [
+          2023,
+          1
+        ]
+      ]
+    },
+    "registered_container": [
+      "Computers &amp; Education"
+    ],
+    "registered_doi": "10.1016/j.compedu.2022.104648",
+    "landing_url": "https://doi.org/10.1016/j.compedu.2022.104648",
+    "registered_pages": "104648",
+    "registered_volume": "192",
+    "registered_issue": null,
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S24",
+    "checked_on": "2026-10-05",
+    "original_citation": "Hofer, M., Grandgenett, N., Harris, J. B., & Swan, K. (2011). Testing a TPACK-based technology integration observation instrument. In Proceedings of SITE 2011 (pp. 4352–4359). Association for the Advancement of Computing in Education.",
+    "original_doi": null,
+    "original_url": "https://digitalcommons.unomaha.edu/tedfacproc/19/",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "status": "primary_metadata_checked",
+    "reason": "No DOI; verify primary guide/proceedings/journal page separately",
+    "checked_url": "https://digitalcommons.unomaha.edu/tedfacproc/19/",
+    "metadata_note": "University author repository; authors, 2011, title, proceedings and pp.4352–4359 checked.",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S25",
+    "checked_on": "2026-10-05",
+    "original_citation": "Fütterer, T., Hou, R., Bühler, B., Bozkir, E., Bell, C., Kasneci, E., Gerjets, P., & Trautwein, U. (2026). Validating automated assessments of teaching effectiveness using multimodal data. Learning and Instruction, 101, 102264.",
+    "original_doi": "10.1016/j.learninstruc.2025.102264",
+    "original_url": "https://doi.org/10.1016/j.learninstruc.2025.102264",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1016%2Fj.learninstruc.2025.102264",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Validating automated assessments of teaching effectiveness using multimodal data",
+    "registered_authors": [
+      "Fütterer",
+      "Hou",
+      "Bühler",
+      "Bozkir",
+      "Bell",
+      "Kasneci",
+      "Gerjets",
+      "Trautwein"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2026,
+          2
+        ]
+      ],
+      "created": [
+        [
+          2025,
+          11,
+          20
+        ]
+      ],
+      "issued": [
+        [
+          2026,
+          2
+        ]
+      ],
+      "published": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "registered_container": [
+      "Learning and Instruction"
+    ],
+    "registered_doi": "10.1016/j.learninstruc.2025.102264",
+    "landing_url": "https://doi.org/10.1016/j.learninstruc.2025.102264",
+    "registered_pages": "102264",
+    "registered_volume": "101",
+    "registered_issue": null,
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S26",
+    "checked_on": "2026-10-05",
+    "original_citation": "Dale, M. E., Godley, A. J., Capello, S. A., Donnelly, P. J., D'Mello, S. K., & Kelly, S. P. (2022). Toward the automated analysis of teacher talk in secondary ELA classrooms. Teaching and Teacher Education, 110, 103584.",
+    "original_doi": "10.1016/j.tate.2021.103584",
+    "original_url": "https://doi.org/10.1016/j.tate.2021.103584",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1016%2Fj.tate.2021.103584",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Toward the automated analysis of teacher talk in secondary ELA classrooms",
+    "registered_authors": [
+      "Dale",
+      "Godley",
+      "Capello",
+      "Donnelly",
+      "D'Mello",
+      "Kelly"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2022,
+          2
+        ]
+      ],
+      "created": [
+        [
+          2021,
+          12,
+          4
+        ]
+      ],
+      "issued": [
+        [
+          2022,
+          2
+        ]
+      ],
+      "published": [
+        [
+          2022,
+          2
+        ]
+      ]
+    },
+    "registered_container": [
+      "Teaching and Teacher Education"
+    ],
+    "registered_doi": "10.1016/j.tate.2021.103584",
+    "landing_url": "https://doi.org/10.1016/j.tate.2021.103584",
+    "registered_pages": "103584",
+    "registered_volume": "110",
+    "registered_issue": null,
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S27",
+    "checked_on": "2026-10-05",
+    "original_citation": "Whitehill, J., & LoCasale-Crouch, J. (2023). Automated evaluation of classroom instructional support with LLMs and BoWs: Connecting global predictions to specific feedback [Preprint]. arXiv.",
+    "original_doi": "10.48550/arXiv.2310.01132",
+    "original_url": "https://arxiv.org/abs/2310.01132",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.datacite.org/dois/10.48550%2FarXiv.2310.01132",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Automated Evaluation of Classroom Instructional Support with LLMs and BoWs: Connecting Global Predictions to Specific Feedback",
+    "registered_authors": [
+      "Whitehill, Jacob",
+      "LoCasale-Crouch, Jennifer"
+    ],
+    "registered_dates": {
+      "publicationYear": 2023
+    },
+    "registered_container": [],
+    "registered_doi": "10.48550/arxiv.2310.01132",
+    "landing_url": "https://arxiv.org/abs/2310.01132",
+    "registered_pages": null,
+    "registered_volume": null,
+    "registered_issue": null,
+    "metadata_note": "First submission 2 Oct 2023; latest inspected version v4,16 Apr 2024. Original 2023 citation retained; use version locator for inspected text.",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S28",
+    "checked_on": "2026-10-05",
+    "original_citation": "Ramakrishnan, A., Zylich, B., Ottmar, E., LoCasale-Crouch, J., & Whitehill, J. (2020). Toward automated classroom observation: Multimodal machine learning to estimate CLASS positive and negative climate [Preprint]. arXiv.",
+    "original_doi": "10.48550/arXiv.2005.09525",
+    "original_url": "https://arxiv.org/abs/2005.09525",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://arxiv.org/abs/2005.09525",
+    "http_status": 200,
+    "status": "withdrawn",
+    "registered_title": "Toward Automated Classroom Observation: Multimodal Machine Learning to Estimate CLASS Positive Climate and Negative Climate",
+    "registered_authors": [
+      "Ramakrishnan, Anand",
+      "Zylich, Brian",
+      "Ottmar, Erin",
+      "LoCasale-Crouch, Jennifer",
+      "Whitehill, Jacob"
+    ],
+    "registered_dates": {
+      "publicationYear": 2020
+    },
+    "registered_container": [],
+    "registered_doi": "10.48550/arxiv.2005.09525",
+    "landing_url": "https://arxiv.org/abs/2005.09525",
+    "registered_pages": null,
+    "registered_volume": null,
+    "registered_issue": null,
+    "publication_status": "withdrawn",
+    "withdrawal_date": "2021-07-23",
+    "content_review_scope": "withdrawal_notice",
+    "content_note": "Authors report that results are not reproducible. Exclude from evidence for C23 and T4; preserve historical links.",
+    "notice_locator": "Header, Comments, submission history v3",
+    "full_text_read": false,
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S29",
+    "checked_on": "2026-10-05",
+    "original_citation": "Graham, M. J., Hanauer, D. I., Aragón, O., Bauer, M., Bennie, J., Crowley, L., Gill, J., Morgan, M., Reeves, P. M., Withers, M., Yeh, P., Zhang, K., Zhang, T., & Chen, X. (2026). A measure of college student trust in their instructor. Frontiers in Education, 11, 1655426.",
+    "original_doi": "10.3389/feduc.2026.1655426",
+    "original_url": "https://doi.org/10.3389/feduc.2026.1655426",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.3389%2Ffeduc.2026.1655426",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "A measure of college student trust in their instructor",
+    "registered_authors": [
+      "Graham",
+      "Hanauer",
+      "Aragón",
+      "Bauer",
+      "Bennie",
+      "Crowley",
+      "Gill",
+      "Morgan",
+      "Reeves",
+      "Withers",
+      "Yeh",
+      "Zhang",
+      "Zhang",
+      "Chen"
+    ],
+    "registered_dates": {
+      "created": [
+        [
+          2026,
+          3,
+          16
+        ]
+      ],
+      "published-online": [
+        [
+          2026,
+          3,
+          16
+        ]
+      ],
+      "issued": [
+        [
+          2026,
+          3,
+          16
+        ]
+      ],
+      "published": [
+        [
+          2026,
+          3,
+          16
+        ]
+      ]
+    },
+    "registered_container": [
+      "Frontiers in Education"
+    ],
+    "registered_doi": "10.3389/feduc.2026.1655426",
+    "landing_url": "https://doi.org/10.3389/feduc.2026.1655426",
+    "registered_pages": null,
+    "registered_volume": "11",
+    "registered_issue": null,
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S30",
+    "checked_on": "2026-10-05",
+    "original_citation": "Osman, M. A., Omar, A. M., Ahmed, A. M., Farah, A. A. S., & Abdullahi, A. M. (2026). Teachers as behavioral role models in higher education: A systematic literature review and future research directions. Cogent Education, 13, 2652695.",
+    "original_doi": "10.1080/2331186X.2026.2652695",
+    "original_url": "https://doi.org/10.1080/2331186X.2026.2652695",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1080%2F2331186X.2026.2652695",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Teachers as behavioral role models in higher education: a systematic literature review and future research directions",
+    "registered_authors": [
+      "Osman",
+      "Omar",
+      "Ahmed",
+      "Sheikh Farah",
+      "Abdullahi"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2026,
+          12,
+          31
+        ]
+      ],
+      "created": [
+        [
+          2026,
+          4,
+          10
+        ]
+      ],
+      "published-online": [
+        [
+          2026,
+          4,
+          10
+        ]
+      ],
+      "issued": [
+        [
+          2026,
+          4,
+          10
+        ]
+      ],
+      "published": [
+        [
+          2026,
+          4,
+          10
+        ]
+      ]
+    },
+    "registered_container": [
+      "Cogent Education"
+    ],
+    "registered_doi": "10.1080/2331186x.2026.2652695",
+    "landing_url": "https://doi.org/10.1080/2331186x.2026.2652695",
+    "registered_pages": null,
+    "registered_volume": "13",
+    "registered_issue": "1",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error. Compound surname display differs; verify preferred citation before final export."
+  },
+  {
+    "code": "S31",
+    "checked_on": "2026-10-05",
+    "original_citation": "Leppink, J., Paas, F., Van der Vleuten, C. P. M., Van Gog, T., & Van Merriënboer, J. J. G. (2013). Development of an instrument for measuring different types of cognitive load. Behavior Research Methods, 45, 1058–1072.",
+    "original_doi": "10.3758/s13428-013-0334-1",
+    "original_url": "https://doi.org/10.3758/s13428-013-0334-1",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.3758%2Fs13428-013-0334-1",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Development of an instrument for measuring different types of cognitive load",
+    "registered_authors": [
+      "Leppink",
+      "Paas",
+      "Van der Vleuten",
+      "Van Gog",
+      "Van Merriënboer"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2013,
+          12
+        ]
+      ],
+      "created": [
+        [
+          2013,
+          4,
+          9
+        ]
+      ],
+      "published-online": [
+        [
+          2013,
+          4,
+          10
+        ]
+      ],
+      "issued": [
+        [
+          2013,
+          4,
+          10
+        ]
+      ],
+      "published": [
+        [
+          2013,
+          4,
+          10
+        ]
+      ]
+    },
+    "registered_container": [
+      "Behavior Research Methods"
+    ],
+    "registered_doi": "10.3758/s13428-013-0334-1",
+    "landing_url": "https://doi.org/10.3758/s13428-013-0334-1",
+    "registered_pages": "1058-1072",
+    "registered_volume": "45",
+    "registered_issue": "4",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S32",
+    "checked_on": "2026-10-05",
+    "original_citation": "Калабекова, С. В., Байрамукова, А. У., & Бережнова, О. В. (2023). К вопросу о психологической безопасности в образовательной среде. Альманах «Крым».",
+    "original_doi": null,
+    "original_url": "https://cyberleninka.ru/article/n/k-voprosu-o-psihologicheskoy-bezopasnosti-v-obrazovatelnoy-srede",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "status": "author_text_metadata_checked",
+    "reason": "No DOI; verify primary guide/proceedings/journal page separately",
+    "checked_url": "https://cyberleninka.ru/article/n/k-voprosu-o-psihologicheskoy-bezopasnosti-v-obrazovatelnoy-srede",
+    "metadata_note": "Author text and catalogue accessible; author list checked. Publication issue and exact pages still need primary journal check.",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S33",
+    "checked_on": "2026-10-05",
+    "original_citation": "Макарова, О. А., & Гайфуллина, Н. Г. (2022). Качество преподавания в вузе глазами студентов. Проблемы современного педагогического образования, 76(4), 383–385.",
+    "original_doi": null,
+    "original_url": "https://cyberleninka.ru/article/n/kachestvo-prepodavaniya-v-vuze-glazami-studentov",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "status": "access_blocked",
+    "reason": "No DOI; verify primary guide/proceedings/journal page separately",
+    "checked_url": "https://cyberleninka.ru/article/n/kachestvo-prepodavaniya-v-vuze-glazami-studentov",
+    "metadata_note": "Human verification page; article content not obtained. No content confirmation.",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S34",
+    "checked_on": "2026-10-05",
+    "original_citation": "Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68–78.",
+    "original_doi": "10.1037/0003-066X.55.1.68",
+    "original_url": "https://doi.org/10.1037/0003-066X.55.1.68",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1037%2F0003-066X.55.1.68",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being.",
+    "registered_authors": [
+      "Ryan",
+      "Deci"
+    ],
+    "registered_dates": {
+      "created": [
+        [
+          2005,
+          10,
+          5
+        ]
+      ],
+      "published-online": [
+        [
+          2000
+        ]
+      ],
+      "issued": [
+        [
+          2000
+        ]
+      ],
+      "published": [
+        [
+          2000
+        ]
+      ]
+    },
+    "registered_container": [
+      "American Psychologist"
+    ],
+    "registered_doi": "10.1037/0003-066x.55.1.68",
+    "landing_url": "https://doi.org/10.1037/0003-066x.55.1.68",
+    "registered_pages": "68-78",
+    "registered_volume": "55",
+    "registered_issue": "1",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S35",
+    "checked_on": "2026-10-05",
+    "original_citation": "Litman, J. A. (2008). Interest and deprivation factors of epistemic curiosity. Personality and Individual Differences, 44(7), 1585–1595.",
+    "original_doi": "10.1016/j.paid.2008.01.014",
+    "original_url": "https://doi.org/10.1016/j.paid.2008.01.014",
+    "original_status": "source_register_checked",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1016%2Fj.paid.2008.01.014",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Interest and deprivation factors of epistemic curiosity",
+    "registered_authors": [
+      "Litman"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2008,
+          5
+        ]
+      ],
+      "created": [
+        [
+          2008,
+          3,
+          6
+        ]
+      ],
+      "issued": [
+        [
+          2008,
+          5
+        ]
+      ],
+      "published": [
+        [
+          2008,
+          5
+        ]
+      ]
+    },
+    "registered_container": [
+      "Personality and Individual Differences"
+    ],
+    "registered_doi": "10.1016/j.paid.2008.01.014",
+    "landing_url": "https://doi.org/10.1016/j.paid.2008.01.014",
+    "registered_pages": "1585-1595",
+    "registered_volume": "44",
+    "registered_issue": "7",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S36",
+    "checked_on": "2026-10-05",
+    "original_citation": "Messick, S. (1995). Validity of psychological assessment: Validation of inferences from persons' responses and performances as scientific inquiry into score meaning. American Psychologist, 50(9), 741–749.",
+    "original_doi": "10.1037/0003-066X.50.9.741",
+    "original_url": "https://doi.org/10.1037/0003-066X.50.9.741",
+    "original_status": "to_review",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1037%2F0003-066X.50.9.741",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Validity of psychological assessment: Validation of inferences from persons' responses and performances as scientific inquiry into score meaning.",
+    "registered_authors": [
+      "Messick"
+    ],
+    "registered_dates": {
+      "created": [
+        [
+          2005,
+          9,
+          21
+        ]
+      ],
+      "published-online": [
+        [
+          1995,
+          9
+        ]
+      ],
+      "issued": [
+        [
+          1995,
+          9
+        ]
+      ],
+      "published": [
+        [
+          1995,
+          9
+        ]
+      ]
+    },
+    "registered_container": [
+      "American Psychologist"
+    ],
+    "registered_doi": "10.1037/0003-066x.50.9.741",
+    "landing_url": "https://doi.org/10.1037/0003-066x.50.9.741",
+    "registered_pages": "741-749",
+    "registered_volume": "50",
+    "registered_issue": "9",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S37",
+    "checked_on": "2026-10-05",
+    "original_citation": "Sokolova, M., & Lapalme, G. (2009). A systematic analysis of performance measures for classification tasks. Information Processing & Management, 45(4), 427–437.",
+    "original_doi": "10.1016/j.ipm.2009.03.002",
+    "original_url": "https://doi.org/10.1016/j.ipm.2009.03.002",
+    "original_status": "to_review",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1016%2Fj.ipm.2009.03.002",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "A systematic analysis of performance measures for classification tasks",
+    "registered_authors": [
+      "Sokolova",
+      "Lapalme"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2009,
+          7
+        ]
+      ],
+      "created": [
+        [
+          2009,
+          5,
+          9
+        ]
+      ],
+      "issued": [
+        [
+          2009,
+          7
+        ]
+      ],
+      "published": [
+        [
+          2009,
+          7
+        ]
+      ]
+    },
+    "registered_container": [
+      "Information Processing &amp; Management"
+    ],
+    "registered_doi": "10.1016/j.ipm.2009.03.002",
+    "landing_url": "https://doi.org/10.1016/j.ipm.2009.03.002",
+    "registered_pages": "427-437",
+    "registered_volume": "45",
+    "registered_issue": "4",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S38",
+    "checked_on": "2026-10-05",
+    "original_citation": "Caba Heilbron, F., Escorcia, V., Ghanem, B., & Niebles, J. C. (2015). ActivityNet: A large-scale video benchmark for human activity understanding. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 961–970).",
+    "original_doi": "10.1109/CVPR.2015.7298698",
+    "original_url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Heilbron_ActivityNet_A_Large-Scale_2015_CVPR_paper.html",
+    "original_status": "to_review",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1109%2FCVPR.2015.7298698",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "ActivityNet: A large-scale video benchmark for human activity understanding",
+    "registered_authors": [
+      "Heilbron",
+      "Escorcia",
+      "Ghanem",
+      "Niebles"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2015,
+          6
+        ]
+      ],
+      "created": [
+        [
+          2015,
+          10,
+          15
+        ]
+      ],
+      "issued": [
+        [
+          2015,
+          6
+        ]
+      ],
+      "published": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "registered_container": [
+      "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "registered_doi": "10.1109/cvpr.2015.7298698",
+    "landing_url": "https://doi.org/10.1109/cvpr.2015.7298698",
+    "registered_pages": "961-970",
+    "registered_volume": null,
+    "registered_issue": null,
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error. Compound surname display differs; verify preferred citation before final export."
+  },
+  {
+    "code": "S39",
+    "checked_on": "2026-10-05",
+    "original_citation": "Cohen, J. (1968). Weighted kappa: Nominal scale agreement provision for scaled disagreement or partial credit. Psychological Bulletin, 70(4), 213–220.",
+    "original_doi": "10.1037/h0026256",
+    "original_url": "https://doi.org/10.1037/h0026256",
+    "original_status": "to_review",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1037%2Fh0026256",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Weighted kappa: Nominal scale agreement provision for scaled disagreement or partial credit.",
+    "registered_authors": [
+      "Cohen"
+    ],
+    "registered_dates": {
+      "created": [
+        [
+          2006,
+          6,
+          7
+        ]
+      ],
+      "published-online": [
+        [
+          1968
+        ]
+      ],
+      "issued": [
+        [
+          1968
+        ]
+      ],
+      "published": [
+        [
+          1968
+        ]
+      ]
+    },
+    "registered_container": [
+      "Psychological Bulletin"
+    ],
+    "registered_doi": "10.1037/h0026256",
+    "landing_url": "https://doi.org/10.1037/h0026256",
+    "registered_pages": "213-220",
+    "registered_volume": "70",
+    "registered_issue": "4",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S40",
+    "checked_on": "2026-10-05",
+    "original_citation": "Meyes, R., Lu, M., de Puiseau, C. W., & Meisen, T. (2019). Ablation studies in artificial neural networks [Preprint]. arXiv.",
+    "original_doi": "10.48550/arXiv.1901.08644",
+    "original_url": "https://arxiv.org/abs/1901.08644",
+    "original_status": "to_review",
+    "content_checked": false,
+    "checked_url": "https://api.datacite.org/dois/10.48550%2FarXiv.1901.08644",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Ablation Studies in Artificial Neural Networks",
+    "registered_authors": [
+      "Meyes, Richard",
+      "Lu, Melanie",
+      "de Puiseau, Constantin Waubert",
+      "Meisen, Tobias"
+    ],
+    "registered_dates": {
+      "publicationYear": 2019
+    },
+    "registered_container": [],
+    "registered_doi": "10.48550/arxiv.1901.08644",
+    "landing_url": "https://arxiv.org/abs/1901.08644",
+    "registered_pages": null,
+    "registered_volume": null,
+    "registered_issue": null,
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S41",
+    "checked_on": "2026-10-05",
+    "original_citation": "Roberts, D. R., Bahn, V., Ciuti, S., Boyce, M. S., Elith, J., Guillera-Arroita, G., Hauenstein, S., Lahoz-Monfort, J. J., Schröder, B., Thuiller, W., Warton, D. I., Wintle, B. A., Hartig, F., & Dormann, C. F. (2017). Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure. Ecography, 40(8), 913–929.",
+    "original_doi": "10.1111/ecog.02881",
+    "original_url": "https://doi.org/10.1111/ecog.02881",
+    "original_status": "to_review",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1111%2Fecog.02881",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure",
+    "registered_authors": [
+      "Roberts",
+      "Bahn",
+      "Ciuti",
+      "Boyce",
+      "Elith",
+      "Guillera‐Arroita",
+      "Hauenstein",
+      "Lahoz‐Monfort",
+      "Schröder",
+      "Thuiller",
+      "Warton",
+      "Wintle",
+      "Hartig",
+      "Dormann"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2017,
+          8
+        ]
+      ],
+      "created": [
+        [
+          2016,
+          12,
+          8
+        ]
+      ],
+      "published-online": [
+        [
+          2017,
+          3,
+          3
+        ]
+      ],
+      "issued": [
+        [
+          2017,
+          3,
+          3
+        ]
+      ],
+      "published": [
+        [
+          2017,
+          3,
+          3
+        ]
+      ]
+    },
+    "registered_container": [
+      "Ecography"
+    ],
+    "registered_doi": "10.1111/ecog.02881",
+    "landing_url": "https://doi.org/10.1111/ecog.02881",
+    "registered_pages": "913-929",
+    "registered_volume": "40",
+    "registered_issue": "8",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S42",
+    "checked_on": "2026-10-05",
+    "original_citation": "Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017). On calibration of modern neural networks. Proceedings of Machine Learning Research, 70, 1321–1330.",
+    "original_doi": null,
+    "original_url": "https://proceedings.mlr.press/v70/guo17a.html",
+    "original_status": "to_review",
+    "content_checked": false,
+    "status": "primary_metadata_checked",
+    "reason": "No DOI; verify primary guide/proceedings/journal page separately",
+    "checked_url": "https://proceedings.mlr.press/v70/guo17a.html",
+    "metadata_note": "Authors, title, 2017, PMLR70 pp.1321–1330 checked on official proceedings page; abstract inspected.",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S43",
+    "checked_on": "2026-10-05",
+    "original_citation": "Geifman, Y., & El-Yaniv, R. (2017). Selective classification for deep neural networks. Advances in Neural Information Processing Systems, 30.",
+    "original_doi": null,
+    "original_url": "https://papers.neurips.cc/paper_files/paper/2017/hash/4a8423d5e91fda00bb7e46540e2b0cf1-Abstract.html",
+    "original_status": "to_review",
+    "content_checked": false,
+    "status": "primary_metadata_checked",
+    "reason": "No DOI; verify primary guide/proceedings/journal page separately",
+    "checked_url": "https://papers.neurips.cc/paper_files/paper/2017/hash/4a8423d5e91fda00bb7e46540e2b0cf1-Abstract.html",
+    "metadata_note": "Authors, title, 2017 and proceedings checked; abstract inspected.",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S44",
+    "checked_on": "2026-10-05",
+    "original_citation": "Tschandl, P., Rinner, C., Apalla, Z., et al. (2020). Human–computer collaboration for skin cancer recognition. Nature Medicine, 26, 1229–1234.",
+    "original_doi": "10.1038/s41591-020-0942-0",
+    "original_url": "https://doi.org/10.1038/s41591-020-0942-0",
+    "original_status": "to_review",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1038%2Fs41591-020-0942-0",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Human–computer collaboration for skin cancer recognition",
+    "registered_authors": [
+      "Tschandl",
+      "Rinner",
+      "Apalla",
+      "Argenziano",
+      "Codella",
+      "Halpern",
+      "Janda",
+      "Lallas",
+      "Longo",
+      "Malvehy",
+      "Paoli",
+      "Puig",
+      "Rosendahl",
+      "Soyer",
+      "Zalaudek",
+      "Kittler"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2020,
+          8
+        ]
+      ],
+      "created": [
+        [
+          2020,
+          6,
+          22
+        ]
+      ],
+      "published-online": [
+        [
+          2020,
+          6,
+          22
+        ]
+      ],
+      "issued": [
+        [
+          2020,
+          6,
+          22
+        ]
+      ],
+      "published": [
+        [
+          2020,
+          6,
+          22
+        ]
+      ]
+    },
+    "registered_container": [
+      "Nature Medicine"
+    ],
+    "registered_doi": "10.1038/s41591-020-0942-0",
+    "landing_url": "https://doi.org/10.1038/s41591-020-0942-0",
+    "registered_pages": "1229-1234",
+    "registered_volume": "26",
+    "registered_issue": "8",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S45",
+    "checked_on": "2026-10-05",
+    "original_citation": "Dwan, K., Li, T., Altman, D. G., & Elbourne, D. (2019). CONSORT 2010 statement: Extension to randomised crossover trials. BMJ, 366, l4378.",
+    "original_doi": "10.1136/bmj.l4378",
+    "original_url": "https://doi.org/10.1136/bmj.l4378",
+    "original_status": "to_review",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1136%2Fbmj.l4378",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "CONSORT 2010 statement: extension to randomised crossover trials",
+    "registered_authors": [
+      "Dwan",
+      "Li",
+      "Altman",
+      "Elbourne"
+    ],
+    "registered_dates": {
+      "created": [
+        [
+          2019,
+          7,
+          31
+        ]
+      ],
+      "published-online": [
+        [
+          2019,
+          7,
+          31
+        ]
+      ],
+      "issued": [
+        [
+          2019,
+          7,
+          31
+        ]
+      ],
+      "published": [
+        [
+          2019,
+          7,
+          31
+        ]
+      ]
+    },
+    "registered_container": [
+      "BMJ"
+    ],
+    "registered_doi": "10.1136/bmj.l4378",
+    "landing_url": "https://doi.org/10.1136/bmj.l4378",
+    "registered_pages": "l4378",
+    "registered_volume": null,
+    "registered_issue": null,
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S46",
+    "checked_on": "2026-10-05",
+    "original_citation": "Vaidya, S., & Saini, J. R. (2026). Consistency evaluation protocol: A reproducible framework for assessing large language model output repeatability. MethodsX, 17, 104069.",
+    "original_doi": "10.1016/j.mex.2026.104069",
+    "original_url": "https://doi.org/10.1016/j.mex.2026.104069",
+    "original_status": "to_review",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1016%2Fj.mex.2026.104069",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Consistency evaluation protocol: A reproducible framework for assessing large language model output repeatability",
+    "registered_authors": [
+      "Vaidya",
+      "Saini"
+    ],
+    "registered_dates": {
+      "published-print": [
+        [
+          2026,
+          12
+        ]
+      ],
+      "created": [
+        [
+          2026,
+          7,
+          25
+        ]
+      ],
+      "issued": [
+        [
+          2026,
+          12
+        ]
+      ],
+      "published": [
+        [
+          2026,
+          12
+        ]
+      ]
+    },
+    "registered_container": [
+      "MethodsX"
+    ],
+    "registered_doi": "10.1016/j.mex.2026.104069",
+    "landing_url": "https://doi.org/10.1016/j.mex.2026.104069",
+    "registered_pages": "104069",
+    "registered_volume": "17",
+    "registered_issue": null,
+    "metadata_note": "Registered issue date is December 2026, after audit date; record existed since 25 July 2026. Verify publisher availability and online date separately; do not infer full text access from registry.",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  },
+  {
+    "code": "S47",
+    "checked_on": "2026-10-05",
+    "original_citation": "Shrout, P. E., & Fleiss, J. L. (1979). Intraclass correlations: Uses in assessing rater reliability. Psychological Bulletin, 86(2), 420–428.",
+    "original_doi": "10.1037/0033-2909.86.2.420",
+    "original_url": "https://doi.org/10.1037/0033-2909.86.2.420",
+    "original_status": "to_review",
+    "content_checked": false,
+    "checked_url": "https://api.crossref.org/works/10.1037%2F0033-2909.86.2.420",
+    "http_status": 200,
+    "status": "metadata_retrieved",
+    "registered_title": "Intraclass correlations: Uses in assessing rater reliability.",
+    "registered_authors": [
+      "Shrout",
+      "Fleiss"
+    ],
+    "registered_dates": {
+      "created": [
+        [
+          2006,
+          6,
+          9
+        ]
+      ],
+      "published-online": [
+        [
+          1979
+        ]
+      ],
+      "issued": [
+        [
+          1979
+        ]
+      ],
+      "published": [
+        [
+          1979
+        ]
+      ]
+    },
+    "registered_container": [
+      "Psychological Bulletin"
+    ],
+    "registered_doi": "10.1037/0033-2909.86.2.420",
+    "landing_url": "https://doi.org/10.1037/0033-2909.86.2.420",
+    "registered_pages": "420-428",
+    "registered_volume": "86",
+    "registered_issue": "2",
+    "full_text_read": false,
+    "content_review_scope": "metadata_only",
+    "metadata_comparison_on": "2026-10-05",
+    "comparison_note": "Title, registered surname list, year/page fields compared with source register; punctuation and online/issue dates do not by themselves establish an error."
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-10-05",
+  "primary_url": "https://arxiv.org/html/2310.01132v4",
+  "links": [
+    {
+      "link_code": "MRS-NEW-T4-S27-01",
+      "method_code": "T4",
+      "source_code": "S27",
+      "relation_role": "design_example",
+      "supported_claim": "На одних данных сравниваются наборы признаков и варианты модели; это ограниченный пример контроля условий сравнения.",
+      "verified_paper_locator": "arXiv:2310.01132v4, §4.1, Tables 1–2",
+      "review_status": "partial_support",
+      "applicability": "Другая шкала/популяция; не подтверждает вклад МГПУ и не задаёт наш парный статистический тест."
+    },
+    {
+      "link_code": "MRS-NEW-T5-S27-01",
+      "method_code": "T5",
+      "source_code": "S27",
+      "relation_role": "design_example",
+      "supported_claim": "Авторы разделяют folds без появления одного преподавателя в разных folds.",
+      "verified_paper_locator": "arXiv:2310.01132v4, §8.1, Interpretation of cross-validation accuracy",
+      "review_status": "partial_support",
+      "applicability": "Пример группировки по преподавателю; не доказывает перенос на другой вуз и достаточность восьми занятий."
+    }
+  ]
+}

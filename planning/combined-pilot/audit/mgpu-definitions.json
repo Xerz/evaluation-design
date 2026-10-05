@@ -1,0 +1,297 @@
+{
+  "checked_on": "2026-10-05",
+  "source": "SRC-10",
+  "source_sha256": "3877a8a8e30e4637d05df5c87d33a56f489df3796a1b5c5f6580a4cfa116fbb7",
+  "metric_count": 41,
+  "historical_candidate_link_count": 62,
+  "operational_values_included": false,
+  "metrics": [
+    {
+      "code": "M01",
+      "name": "Злость",
+      "metric_kind": "reported_percent",
+      "reported_unit": "%",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M02",
+      "name": "Счастье",
+      "metric_kind": "reported_percent",
+      "reported_unit": "%",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M03",
+      "name": "Нейтральность",
+      "metric_kind": "reported_percent",
+      "reported_unit": "%",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M04",
+      "name": "Грусть",
+      "metric_kind": "reported_percent",
+      "reported_unit": "%",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M05",
+      "name": "Удивление",
+      "metric_kind": "reported_percent",
+      "reported_unit": "%",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M06",
+      "name": "Средняя вовлечённость",
+      "metric_kind": "reported_percent",
+      "reported_unit": "%",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M07",
+      "name": "Выражение похвалы",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M08",
+      "name": "Начало урока",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M09",
+      "name": "Лидерство",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M10",
+      "name": "Выставление границ",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M11",
+      "name": "Речь",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Единица не подписана; значение похоже на %",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M12",
+      "name": "Тишина",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Единица не подписана; значение похоже на %",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M13",
+      "name": "Средняя скорость речи учителя",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Не указана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M14",
+      "name": "Речь учителя",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Единица не подписана; значение похоже на %",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M15",
+      "name": "Смешанная речь",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Единица не подписана; значение похоже на %",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M16",
+      "name": "Время тишины",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Единица не подписана; значение похоже на %",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M17",
+      "name": "МЫ-режим",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Не указана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M18",
+      "name": "Я-режим",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Не указана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M19",
+      "name": "Всего произнесено слов",
+      "metric_kind": "confirmed_word_count",
+      "reported_unit": "Слова",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M20",
+      "name": "Мотивация мыслительной деятельности",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M21",
+      "name": "Акцентуация собственной точки зрения",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M22",
+      "name": "Противопоставление точек зрения",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M23",
+      "name": "Провокация",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M24",
+      "name": "Критическая оценка",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M25",
+      "name": "Координация",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M26",
+      "name": "Смена ориентиров",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M27",
+      "name": "Избирательная подача информации",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M28",
+      "name": "Преувеличение/преуменьшение",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M29",
+      "name": "Эмоциональное давление",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M30",
+      "name": "Постановка темы",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M31",
+      "name": "Вводный инструктаж",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M32",
+      "name": "Приглашение к участию",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M33",
+      "name": "Выбор и приглашение спикера",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M34",
+      "name": "Обеспечение переходов",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M35",
+      "name": "Промежуточное микрорезюме",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M36",
+      "name": "Эхо-повтор",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M37",
+      "name": "Мотивирование к продолжению речевой деятельности",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M38",
+      "name": "Оценка мнения",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M39",
+      "name": "Общее резюме",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M40",
+      "name": "Собственная точка зрения модератора",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    },
+    {
+      "code": "M41",
+      "name": "Благодарность участников",
+      "metric_kind": "unconfirmed_numeric",
+      "reported_unit": "Счётчик; единица не подписана",
+      "definition_status": "to_confirm"
+    }
+  ]
+}

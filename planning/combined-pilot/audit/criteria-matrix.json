@@ -1,0 +1,946 @@
+{
+  "revision": "audit-2026-10-05",
+  "criteria": [
+    {
+      "code": "C01",
+      "number": 1,
+      "name": "Уместность",
+      "status": "candidate",
+      "mgpu_potential": false,
+      "transcript_condition": "T-CTX",
+      "proposed_signal": "Соответствие темы и заданий заявленным целям",
+      "required_inputs": "План занятия, программа курса, предметный эксперт",
+      "limitation": "Транскрипт не определяет уместность без цели и уровня курса",
+      "legacy_source_codes": [
+        "S04",
+        "S10"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C02",
+      "number": 2,
+      "name": "Структурность",
+      "status": "candidate",
+      "mgpu_potential": true,
+      "transcript_condition": "T",
+      "proposed_signal": "Переходы, последовательность частей и обозначение структуры",
+      "required_inputs": "Полный текст, включая начало и конец",
+      "limitation": "Объявленная структура не гарантирует полезности её реализации",
+      "legacy_source_codes": [
+        "S08",
+        "S09",
+        "S25"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C03",
+      "number": 3,
+      "name": "Достоверность",
+      "status": "candidate",
+      "mgpu_potential": false,
+      "transcript_condition": "T-CTX",
+      "proposed_signal": "Проверяемые фактические и предметные утверждения",
+      "required_inputs": "Предметные источники и эксперт; версия материалов",
+      "limitation": "Бот без внешней проверки может уверенно ошибаться; факт и педагогическая оценка различаются",
+      "legacy_source_codes": [
+        "S04"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C04",
+      "number": 4,
+      "name": "Наличие «крупных планов»",
+      "status": "candidate",
+      "mgpu_potential": false,
+      "transcript_condition": "T",
+      "proposed_signal": "Связи темы с общей системой, обобщения",
+      "required_inputs": "Полный текст; предметный контекст при необходимости",
+      "limitation": "Упоминание общей идеи не доказывает понимания студентами",
+      "legacy_source_codes": [
+        "S04",
+        "S06",
+        "S25"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C05",
+      "number": 5,
+      "name": "Наличие «частных случаев»",
+      "status": "candidate",
+      "mgpu_potential": false,
+      "transcript_condition": "T",
+      "proposed_signal": "Примеры, частные случаи, контрпримеры",
+      "required_inputs": "Полный текст; экспертная проверка смысла",
+      "limitation": "Количество примеров не задаёт качество и адекватность",
+      "legacy_source_codes": [
+        "S08",
+        "S09",
+        "S15",
+        "S16"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C06",
+      "number": 6,
+      "name": "Сложность",
+      "status": "candidate",
+      "mgpu_potential": false,
+      "transcript_condition": "T-CTX",
+      "proposed_signal": "Сложность заданий и объяснений относительно подготовки",
+      "required_inputs": "Уровень студентов, задания, предметный эксперт",
+      "limitation": "Длина слов или реплик не измеряет когнитивную нагрузку",
+      "legacy_source_codes": [
+        "S11",
+        "S31"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C07",
+      "number": 7,
+      "name": "Ресурсность",
+      "status": "candidate",
+      "mgpu_potential": true,
+      "transcript_condition": "T",
+      "proposed_signal": "Предложения ресурсов, помощи и способов продолжения работы",
+      "required_inputs": "Полный текст; проверяемые ссылки/материалы отдельно",
+      "limitation": "Предложение ресурса не подтверждает его доступность и пригодность",
+      "legacy_source_codes": [
+        "S18",
+        "S35"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C08",
+      "number": 8,
+      "name": "Присоединение",
+      "status": "candidate",
+      "mgpu_potential": false,
+      "transcript_condition": "T",
+      "proposed_signal": "Обращение к прежнему опыту и знаниям",
+      "required_inputs": "Полный текст; известный учебный контекст",
+      "limitation": "Вопрос о прошлом опыте не доказывает фактической активации знаний",
+      "legacy_source_codes": [
+        "S04",
+        "S08",
+        "S14",
+        "S25",
+        "S26"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C09",
+      "number": 9,
+      "name": "Понятность и логичность",
+      "status": "candidate",
+      "mgpu_potential": true,
+      "transcript_condition": "T",
+      "proposed_signal": "Последовательность объяснения, явные связи и определения",
+      "required_inputs": "Полный текст; независимые эксперты",
+      "limitation": "Текстовый прокси ясности отделять от восприятия слушателями",
+      "legacy_source_codes": [
+        "S08",
+        "S09",
+        "S25",
+        "S27"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C10",
+      "number": 10,
+      "name": "Профессиональный язык",
+      "status": "candidate",
+      "mgpu_potential": false,
+      "transcript_condition": "T-CTX",
+      "proposed_signal": "Термины, определения и предметная точность",
+      "required_inputs": "Глоссарий/курс и предметный эксперт",
+      "limitation": "Словарь терминов не подтверждает правильность их употребления",
+      "legacy_source_codes": [
+        "S08",
+        "S09",
+        "S21",
+        "S26"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C11",
+      "number": 11,
+      "name": "Акцентирование",
+      "status": "candidate",
+      "mgpu_potential": false,
+      "transcript_condition": "T",
+      "proposed_signal": "Словесное выделение важного и резюмирование",
+      "required_inputs": "Полный текст; акустическое выделение требует отдельного аудио",
+      "limitation": "Интонация, громкость и визуальные акценты в TXT отсутствуют",
+      "legacy_source_codes": [
+        "S08",
+        "S09",
+        "S11"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C12",
+      "number": 12,
+      "name": "Визуализация",
+      "status": "candidate",
+      "mgpu_potential": false,
+      "transcript_condition": "T-CTX",
+      "proposed_signal": "Связь объяснения с фактически показанным изображением",
+      "required_inputs": "Слайды/доска и подтверждение показа; пока отдельная экспертиза",
+      "limitation": "Текстовое упоминание схемы не доказывает её показ; обработка изображений не реализована",
+      "legacy_source_codes": [
+        "S11",
+        "S12"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C13",
+      "number": 13,
+      "name": "Темп",
+      "status": "candidate",
+      "mgpu_potential": true,
+      "transcript_condition": "T-TIMED",
+      "proposed_signal": "Темп по словам и реальной длительности пригодной речи",
+      "required_inputs": "Временная разметка, известные роли и единица МГПУ",
+      "limitation": "Символьные координаты нельзя считать временем; текущий TXT-контур не измеряет темп",
+      "legacy_source_codes": [
+        "S08",
+        "S13"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C14",
+      "number": 14,
+      "name": "Цель и задачи занятия",
+      "status": "candidate",
+      "mgpu_potential": true,
+      "transcript_condition": "T",
+      "proposed_signal": "Формулировки цели и задач, связь с итогами",
+      "required_inputs": "Полный текст, включая завершение",
+      "limitation": "Проверять реализацию цели отдельно от её произнесения",
+      "legacy_source_codes": [
+        "S04",
+        "S10"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C15",
+      "number": 15,
+      "name": "Методический инструментарий",
+      "status": "candidate",
+      "mgpu_potential": true,
+      "transcript_condition": "T",
+      "proposed_signal": "Наблюдаемые речевые этапы и способы организации заданий",
+      "required_inputs": "Полный текст; фактическая деятельность по записи",
+      "limitation": "Названный метод не равен применённому методу",
+      "legacy_source_codes": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S10",
+        "S18",
+        "S25"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C16",
+      "number": 16,
+      "name": "Создание комфортных условий",
+      "status": "candidate",
+      "mgpu_potential": true,
+      "transcript_condition": null,
+      "proposed_signal": "Комфорт физической среды и организации",
+      "required_inputs": "Запись/наблюдение и QC; решение об очном режиме открыто",
+      "limitation": "Самостоятельного достаточного текстового сигнала пока не заявляем",
+      "legacy_source_codes": [
+        "S08",
+        "S12",
+        "S22"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C17",
+      "number": 17,
+      "name": "Гибкость",
+      "status": "candidate",
+      "mgpu_potential": true,
+      "transcript_condition": "T-ROLE",
+      "proposed_signal": "Изменения объяснения в ответ на затруднение",
+      "required_inputs": "Подтверждённые роли и порядок реплик, запись при споре",
+      "limitation": "Не угадывать преподавателя по словарю; без запроса/реакции нет доказательства адаптации",
+      "legacy_source_codes": [
+        "S02",
+        "S03",
+        "S05",
+        "S06",
+        "S07",
+        "S19",
+        "S20",
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C18",
+      "number": 18,
+      "name": "Концентрация внимания",
+      "status": "candidate",
+      "mgpu_potential": true,
+      "transcript_condition": "T-ROLE",
+      "proposed_signal": "Реплики, возвращающие к задаче, и наблюдаемое участие",
+      "required_inputs": "Подтверждённые роли; независимое наблюдение",
+      "limitation": "Активность речи и взгляд не измеряют внутреннее внимание",
+      "legacy_source_codes": [
+        "S01",
+        "S02",
+        "S03",
+        "S05",
+        "S06",
+        "S07",
+        "S18",
+        "S25"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C19",
+      "number": 19,
+      "name": "Проблемность",
+      "status": "candidate",
+      "mgpu_potential": true,
+      "transcript_condition": "T",
+      "proposed_signal": "Проблемные вопросы, противоречия и аргументация",
+      "required_inputs": "Полный текст; предметная проверка",
+      "limitation": "Знак вопроса и частота вопросов не измеряют проблемность",
+      "legacy_source_codes": [
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S17",
+        "S18",
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C20",
+      "number": 20,
+      "name": "Диалогичность",
+      "status": "candidate",
+      "mgpu_potential": true,
+      "transcript_condition": "T-ROLE",
+      "proposed_signal": "Последовательности вопрос–ответ–подхват идеи",
+      "required_inputs": "Подтверждённые роли и порядок реплик",
+      "limitation": "Доля речи не равна продуктивному диалогу; реализация классификации требует проверки",
+      "legacy_source_codes": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S17",
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C21",
+      "number": 21,
+      "name": "Подведение итогов",
+      "status": "candidate",
+      "mgpu_potential": true,
+      "transcript_condition": "T",
+      "proposed_signal": "Заключение, выводы и связь с задачами",
+      "required_inputs": "Полный текст с концом занятия",
+      "limitation": "Старая обрезка 3000 символов систематически исключала завершение",
+      "legacy_source_codes": [
+        "S08",
+        "S09",
+        "S19",
+        "S26"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C22",
+      "number": 22,
+      "name": "Использование цифровых инструментов",
+      "status": "candidate",
+      "mgpu_potential": false,
+      "transcript_condition": "T-CTX",
+      "proposed_signal": "Применение цифрового средства для учебного действия",
+      "required_inputs": "Артефакт/задание и подтверждение фактического использования",
+      "limitation": "Упоминание приложения не доказывает его применение; новый визуальный обработчик не создан",
+      "legacy_source_codes": [
+        "S01",
+        "S02",
+        "S03",
+        "S10",
+        "S18",
+        "S23",
+        "S24"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C23",
+      "number": 23,
+      "name": "Эмоционально безопасное пространство",
+      "status": "candidate",
+      "mgpu_potential": true,
+      "transcript_condition": "T-ROLE",
+      "proposed_signal": "Поддерживающие/унижающие реплики и реакция участников",
+      "required_inputs": "Подтверждённые роли; независимый эксперт",
+      "limitation": "Отсутствие выявленных реплик не доказывает безопасность; S28 исключён как основание",
+      "legacy_source_codes": [
+        "S05",
+        "S06",
+        "S07",
+        "S25",
+        "S28",
+        "S32"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C24",
+      "number": 24,
+      "name": "Опыт успеха",
+      "status": "candidate",
+      "mgpu_potential": false,
+      "transcript_condition": null,
+      "proposed_signal": "Опыт успеха по прямым данным студентов",
+      "required_inputs": "Прямые ответы/результаты студентов и согласованный сбор",
+      "limitation": "По одной речи преподавателя не выводить переживание успеха",
+      "legacy_source_codes": [
+        "S34"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C25",
+      "number": 25,
+      "name": "Доверие",
+      "status": "candidate",
+      "mgpu_potential": false,
+      "transcript_condition": null,
+      "proposed_signal": "Доверие по прямым данным студентов",
+      "required_inputs": "Прямые ответы студентов; подходящий проверенный инструмент",
+      "limitation": "Выражение лица и слова преподавателя не заменяют измерения доверия",
+      "legacy_source_codes": [
+        "S29",
+        "S33"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "code": "C26",
+      "number": 26,
+      "name": "«Делает то, что проповедует»",
+      "status": "candidate",
+      "mgpu_potential": false,
+      "transcript_condition": "T-CTX-LONG",
+      "proposed_signal": "Согласованность заявленных принципов и наблюдаемой практики",
+      "required_inputs": "Принципы/материалы и повторные наблюдения во времени",
+      "limitation": "Один транскрипт недостаточен для общего заключения; продольное дополнение не реализовано",
+      "legacy_source_codes": [
+        "S30"
+      ],
+      "literature_link_status": "not_content_verified",
+      "checks": [
+        "T1",
+        "T3",
+        "T8"
+      ]
+    }
+  ],
+  "mappings": [
+    {
+      "mapping_code": "MAP-OWN-C01-01",
+      "criterion_code": "C01",
+      "condition_code": "T-CTX",
+      "status": "candidate",
+      "signal": "Соответствие темы и заданий заявленным целям",
+      "required_inputs": "План занятия, программа курса, предметный эксперт",
+      "implementation_status": "additional_inputs_or_processing_required",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C02-01",
+      "criterion_code": "C02",
+      "condition_code": "T",
+      "status": "candidate",
+      "signal": "Переходы, последовательность частей и обозначение структуры",
+      "required_inputs": "Полный текст, включая начало и конец",
+      "implementation_status": "local_wrapper_only",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-MGPU-C02-01",
+      "criterion_code": "C02",
+      "condition_code": "MA/MV",
+      "status": "candidate",
+      "implementation_status": "export_and_definitions_to_confirm",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C03-01",
+      "criterion_code": "C03",
+      "condition_code": "T-CTX",
+      "status": "candidate",
+      "signal": "Проверяемые фактические и предметные утверждения",
+      "required_inputs": "Предметные источники и эксперт; версия материалов",
+      "implementation_status": "additional_inputs_or_processing_required",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C04-01",
+      "criterion_code": "C04",
+      "condition_code": "T",
+      "status": "candidate",
+      "signal": "Связи темы с общей системой, обобщения",
+      "required_inputs": "Полный текст; предметный контекст при необходимости",
+      "implementation_status": "local_wrapper_only",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C05-01",
+      "criterion_code": "C05",
+      "condition_code": "T",
+      "status": "candidate",
+      "signal": "Примеры, частные случаи, контрпримеры",
+      "required_inputs": "Полный текст; экспертная проверка смысла",
+      "implementation_status": "local_wrapper_only",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C06-01",
+      "criterion_code": "C06",
+      "condition_code": "T-CTX",
+      "status": "candidate",
+      "signal": "Сложность заданий и объяснений относительно подготовки",
+      "required_inputs": "Уровень студентов, задания, предметный эксперт",
+      "implementation_status": "additional_inputs_or_processing_required",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C07-01",
+      "criterion_code": "C07",
+      "condition_code": "T",
+      "status": "candidate",
+      "signal": "Предложения ресурсов, помощи и способов продолжения работы",
+      "required_inputs": "Полный текст; проверяемые ссылки/материалы отдельно",
+      "implementation_status": "local_wrapper_only",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-MGPU-C07-01",
+      "criterion_code": "C07",
+      "condition_code": "MA/MV",
+      "status": "candidate",
+      "implementation_status": "export_and_definitions_to_confirm",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C08-01",
+      "criterion_code": "C08",
+      "condition_code": "T",
+      "status": "candidate",
+      "signal": "Обращение к прежнему опыту и знаниям",
+      "required_inputs": "Полный текст; известный учебный контекст",
+      "implementation_status": "local_wrapper_only",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C09-01",
+      "criterion_code": "C09",
+      "condition_code": "T",
+      "status": "candidate",
+      "signal": "Последовательность объяснения, явные связи и определения",
+      "required_inputs": "Полный текст; независимые эксперты",
+      "implementation_status": "local_wrapper_only",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-MGPU-C09-01",
+      "criterion_code": "C09",
+      "condition_code": "MA/MV",
+      "status": "candidate",
+      "implementation_status": "export_and_definitions_to_confirm",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C10-01",
+      "criterion_code": "C10",
+      "condition_code": "T-CTX",
+      "status": "candidate",
+      "signal": "Термины, определения и предметная точность",
+      "required_inputs": "Глоссарий/курс и предметный эксперт",
+      "implementation_status": "additional_inputs_or_processing_required",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C11-01",
+      "criterion_code": "C11",
+      "condition_code": "T",
+      "status": "candidate",
+      "signal": "Словесное выделение важного и резюмирование",
+      "required_inputs": "Полный текст; акустическое выделение требует отдельного аудио",
+      "implementation_status": "local_wrapper_only",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C12-01",
+      "criterion_code": "C12",
+      "condition_code": "T-CTX",
+      "status": "candidate",
+      "signal": "Связь объяснения с фактически показанным изображением",
+      "required_inputs": "Слайды/доска и подтверждение показа; пока отдельная экспертиза",
+      "implementation_status": "additional_inputs_or_processing_required",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C13-01",
+      "criterion_code": "C13",
+      "condition_code": "T-TIMED",
+      "status": "candidate",
+      "signal": "Темп по словам и реальной длительности пригодной речи",
+      "required_inputs": "Временная разметка, известные роли и единица МГПУ",
+      "implementation_status": "additional_inputs_or_processing_required",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-MGPU-C13-01",
+      "criterion_code": "C13",
+      "condition_code": "MA/MV",
+      "status": "candidate",
+      "implementation_status": "export_and_definitions_to_confirm",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C14-01",
+      "criterion_code": "C14",
+      "condition_code": "T",
+      "status": "candidate",
+      "signal": "Формулировки цели и задач, связь с итогами",
+      "required_inputs": "Полный текст, включая завершение",
+      "implementation_status": "local_wrapper_only",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-MGPU-C14-01",
+      "criterion_code": "C14",
+      "condition_code": "MA/MV",
+      "status": "candidate",
+      "implementation_status": "export_and_definitions_to_confirm",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C15-01",
+      "criterion_code": "C15",
+      "condition_code": "T",
+      "status": "candidate",
+      "signal": "Наблюдаемые речевые этапы и способы организации заданий",
+      "required_inputs": "Полный текст; фактическая деятельность по записи",
+      "implementation_status": "local_wrapper_only",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-MGPU-C15-01",
+      "criterion_code": "C15",
+      "condition_code": "MA/MV",
+      "status": "candidate",
+      "implementation_status": "export_and_definitions_to_confirm",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-MGPU-C16-01",
+      "criterion_code": "C16",
+      "condition_code": "MA/MV",
+      "status": "candidate",
+      "implementation_status": "export_and_definitions_to_confirm",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C17-01",
+      "criterion_code": "C17",
+      "condition_code": "T-ROLE",
+      "status": "candidate",
+      "signal": "Изменения объяснения в ответ на затруднение",
+      "required_inputs": "Подтверждённые роли и порядок реплик, запись при споре",
+      "implementation_status": "additional_inputs_or_processing_required",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-MGPU-C17-01",
+      "criterion_code": "C17",
+      "condition_code": "MA/MV",
+      "status": "candidate",
+      "implementation_status": "export_and_definitions_to_confirm",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C18-01",
+      "criterion_code": "C18",
+      "condition_code": "T-ROLE",
+      "status": "candidate",
+      "signal": "Реплики, возвращающие к задаче, и наблюдаемое участие",
+      "required_inputs": "Подтверждённые роли; независимое наблюдение",
+      "implementation_status": "additional_inputs_or_processing_required",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-MGPU-C18-01",
+      "criterion_code": "C18",
+      "condition_code": "MA/MV",
+      "status": "candidate",
+      "implementation_status": "export_and_definitions_to_confirm",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C19-01",
+      "criterion_code": "C19",
+      "condition_code": "T",
+      "status": "candidate",
+      "signal": "Проблемные вопросы, противоречия и аргументация",
+      "required_inputs": "Полный текст; предметная проверка",
+      "implementation_status": "local_wrapper_only",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-MGPU-C19-01",
+      "criterion_code": "C19",
+      "condition_code": "MA/MV",
+      "status": "candidate",
+      "implementation_status": "export_and_definitions_to_confirm",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C20-01",
+      "criterion_code": "C20",
+      "condition_code": "T-ROLE",
+      "status": "candidate",
+      "signal": "Последовательности вопрос–ответ–подхват идеи",
+      "required_inputs": "Подтверждённые роли и порядок реплик",
+      "implementation_status": "additional_inputs_or_processing_required",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-MGPU-C20-01",
+      "criterion_code": "C20",
+      "condition_code": "MA/MV",
+      "status": "candidate",
+      "implementation_status": "export_and_definitions_to_confirm",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C21-01",
+      "criterion_code": "C21",
+      "condition_code": "T",
+      "status": "candidate",
+      "signal": "Заключение, выводы и связь с задачами",
+      "required_inputs": "Полный текст с концом занятия",
+      "implementation_status": "local_wrapper_only",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-MGPU-C21-01",
+      "criterion_code": "C21",
+      "condition_code": "MA/MV",
+      "status": "candidate",
+      "implementation_status": "export_and_definitions_to_confirm",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C22-01",
+      "criterion_code": "C22",
+      "condition_code": "T-CTX",
+      "status": "candidate",
+      "signal": "Применение цифрового средства для учебного действия",
+      "required_inputs": "Артефакт/задание и подтверждение фактического использования",
+      "implementation_status": "additional_inputs_or_processing_required",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C23-01",
+      "criterion_code": "C23",
+      "condition_code": "T-ROLE",
+      "status": "candidate",
+      "signal": "Поддерживающие/унижающие реплики и реакция участников",
+      "required_inputs": "Подтверждённые роли; независимый эксперт",
+      "implementation_status": "additional_inputs_or_processing_required",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-MGPU-C23-01",
+      "criterion_code": "C23",
+      "condition_code": "MA/MV",
+      "status": "candidate",
+      "implementation_status": "export_and_definitions_to_confirm",
+      "evidence_status": "not_validated"
+    },
+    {
+      "mapping_code": "MAP-OWN-C26-01",
+      "criterion_code": "C26",
+      "condition_code": "T-CTX-LONG",
+      "status": "candidate",
+      "signal": "Согласованность заявленных принципов и наблюдаемой практики",
+      "required_inputs": "Принципы/материалы и повторные наблюдения во времени",
+      "implementation_status": "additional_inputs_or_processing_required",
+      "evidence_status": "not_validated"
+    }
+  ]
+}

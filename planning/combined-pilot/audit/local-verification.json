@@ -1,0 +1,75 @@
+{
+  "checked_on": "2026-10-05",
+  "tool_revision": "eval-2024-full-transcript-v2",
+  "unit_tests": {
+    "count": 12,
+    "status": "passed"
+  },
+  "synthetic_dry_runs": [
+    {
+      "fixture": "synthetic-1",
+      "synthetic": true,
+      "input_characters": 8388,
+      "input_sha256": "f3815cdf7db3b6c30d0a55639e5e20f0087380e5047a1a841f22f6c2e68258b0",
+      "prompts": 26,
+      "full_exact_text_in_each_prompt": true,
+      "tail_preserved": true,
+      "external_calls": 0
+    },
+    {
+      "fixture": "synthetic-2",
+      "synthetic": true,
+      "input_characters": 9091,
+      "input_sha256": "8811f3f6324610f2925fdc4f3417a972acd82aca303f9c33d1ef9abf24b28d00",
+      "prompts": 26,
+      "full_exact_text_in_each_prompt": true,
+      "tail_preserved": true,
+      "external_calls": 0
+    }
+  ],
+  "rubric_comparison": {
+    "criteria": 26,
+    "score_levels": 78,
+    "score_descriptions_exact_match": true,
+    "criterion_name_punctuation_differences": [
+      {
+        "criterion_code": "C02",
+        "difference": "CSV name has terminal colon; both source versions retained"
+      },
+      {
+        "criterion_code": "C03",
+        "difference": "CSV name has terminal colon; both source versions retained"
+      },
+      {
+        "criterion_code": "C04",
+        "difference": "CSV name has terminal colon; both source versions retained"
+      },
+      {
+        "criterion_code": "C05",
+        "difference": "CSV name has terminal colon; both source versions retained"
+      },
+      {
+        "criterion_code": "C07",
+        "difference": "CSV name has terminal colon; both source versions retained"
+      },
+      {
+        "criterion_code": "C08",
+        "difference": "CSV name has terminal colon; both source versions retained"
+      }
+    ]
+  },
+  "coze_sdk": {
+    "installed_version": "0.20.0",
+    "answer_enum_compatible": true,
+    "completed_enum_compatible": true,
+    "poll_timeout_supported": true
+  },
+  "real_bot_calls": 0,
+  "real_recordings_checked": 0,
+  "live_probe": {
+    "status": "not_run_auto_review_rejected",
+    "external_requests_executed": 0,
+    "reason": "Embedded credential use in an external Coze request requires explicit user approval.",
+    "approval": "required"
+  }
+}

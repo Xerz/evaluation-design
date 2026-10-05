@@ -96,6 +96,13 @@ def check_site(site: Path, database: Path = DEFAULT_DB) -> dict:
     assert criterion_page.mgpu_labels == len(MGPU_CANDIDATES) == 13
     assert len([x for x in sources_page.cards if re.fullmatch(r"s\d{2}", x)]) == 47
     assert len([x for x in experiment_page.cards if re.fullmatch(r"t\d", x)]) == 9
+    assert "снят авторами" in sources_page.cards["s28"]
+    assert "Исключён из действующего основания" in sources_page.cards["s28"]
+    assert "10.1187/cbe.14-06-0095" in sources_page.cards["s05"]
+    assert "Heather E. Sterling" in sources_page.cards["s13"]
+    assert "S28 исключён" in experiment_page.cards["t4"]
+    assert "S28 исключён" in criterion_page.cards["c23"]
+    assert "ошибку/отказ от нуля" in " ".join(criterion_page.text)
     criterion_links = sum(link.startswith("sources.html#s") for link in criterion_page.links)
     method_links = sum(link.startswith("sources.html#s") for link in experiment_page.links)
     assert criterion_links == 111 and method_links == 24, "Missing historical scientific links"

@@ -1,0 +1,18 @@
+{
+  "checked_on": "2026-10-05",
+  "historical_database_sha256": "598d593c5898703f0bb2ff526dcf21d3f698e868a5f91e663ba753e8182615ca",
+  "historical_mgpu_database_sha256": "3877a8a8e30e4637d05df5c87d33a56f489df3796a1b5c5f6580a4cfa116fbb7",
+  "original_notebook_sha256": "29782bd1001781ac0e299396a67f4f1fdc7857de667a1fa9832269608530eb53",
+  "original_checklist_sha256": "5265665f85d31721f7301cdb303e83064e89ec791f84cc7a44d52c35f931f477",
+  "source_references": [
+    "SRC-02",
+    "SRC-10",
+    "SRC-20",
+    "SRC-22",
+    "SRC-23"
+  ],
+  "real_bot_calls": 0,
+  "real_recording_probe": "not_run",
+  "new_unified_database": "not_created",
+  "operational_data_included": false
+}
