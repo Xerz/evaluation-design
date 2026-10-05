@@ -1,0 +1,15 @@
+{
+  "checked_on": "2026-10-05",
+  "source_commit": "0946f74b7c13f6dbd834ed3aab5749581e24f60c",
+  "actions_url": "https://github.com/Xerz/evaluation-design/actions/runs/37348139521",
+  "status": "passed",
+  "deployed_files": 17,
+  "byte_for_byte_match": true,
+  "url": "https://xerz.github.io/evaluation-design/combined-pilot/index.html",
+  "historical_database_sha256": "598d593c5898703f0bb2ff526dcf21d3f698e868a5f91e663ba753e8182615ca",
+  "browser_checks": {
+    "desktop": "1440x960; S28 warning visible",
+    "mobile": "390x844; new matrix and C23 deep link, no page overflow",
+    "old_viewer": "available"
+  }
+}
