@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - "db-viewer/**"
+      - "planning/combined-pilot/**"
       - "outputs/01a05c37-c522-7563-8846-1ea43a7a49d5/База пилота автоматизации критериев ТюмГУ.sqlite"
       - "outputs/01a05c37-c522-7563-8846-1ea43a7a49d5/ERD базы пилота автоматизации критериев ТюмГУ.svg"
       - "outputs/01a05c37-c522-7563-8846-1ea43a7a49d5/ERD базы пилота автоматизации критериев ТюмГУ.mmd"
@@ -26,8 +27,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+      - name: Install static renderer
+        run: python3 -m pip install -r db-viewer/requirements.txt
       - name: Build static snapshot
         run: python3 db-viewer/build_static.py --output _site
+      - name: Check public snapshot
+        run: python3 db-viewer/check_public_site.py --site _site
+      - name: Check static builder regressions
+        run: python3 -m unittest discover -s db-viewer/tests -p test_static_build.py
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload Pages artifact

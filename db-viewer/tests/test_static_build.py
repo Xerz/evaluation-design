@@ -79,6 +79,14 @@ class StaticBuildTests(unittest.TestCase):
         self.assertTrue(effect["literature_sources"])
         self.assertTrue((self.site / "data/sources/S46.json").is_file())
 
+    def test_combined_draft_fidelity_links_and_privacy(self):
+        from check_public_site import check_site
+
+        report = check_site(self.site, DB_PATH)
+        self.assertEqual(report["status"], "passed")
+        self.assertEqual(report["criterion_source_links"], 111)
+        self.assertEqual(report["method_source_links"], 24)
+
     def test_all_table_rows_are_exported(self):
         table = self.read_json("data/tables/effect_check_criteria.json")
         self.assertEqual(table["total"], 214)

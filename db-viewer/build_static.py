@@ -12,6 +12,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from publish_combined import build_combined
 from server import (
     DEFAULT_DB,
     DEFAULT_ERD,
@@ -115,8 +116,38 @@ def build_site(database_path: Path, output: Path) -> Path:
         (temp_root / "static").mkdir(parents=True)
         for filename in ("app.js", "styles.css"):
             shutil.copy2(STATIC_DIR / filename, temp_root / "static" / filename)
-        shutil.copy2(STATIC_DIR / "index.html", temp_root / "index.html")
-        shutil.copy2(STATIC_DIR / "index.html", temp_root / "404.html")
+        viewer_html = (STATIC_DIR / "index.html").read_text(encoding="utf-8")
+        viewer_html = viewer_html.replace(
+            '<title>Навигатор БД · Пилот ТюмГУ</title>',
+            '<title>Историческая БД · Пилот ТюмГУ</title>',
+        ).replace(
+            '<span>Навигатор БД</span>',
+            '<span>Историческая версия дизайна</span>',
+        ).replace(
+            '<nav class="main-nav">',
+            '<nav class="main-nav">\n'
+            '        <a href="./combined-pilot/index.html">'
+            '<span class="nav-icon" aria-hidden="true">↗</span>'
+            '<span>Объединённый пилот<br><small>Проект исследования</small></span></a>',
+        ).replace(
+            'Локальный навигатор и редактор базы пилота автоматизации критериев ТюмГУ',
+            'Историческая формализованная версия дизайна оценки преподавания ТюмГУ',
+        ).replace(
+            '<main id="app" tabindex="-1">',
+            '<div class="historical-design-notice" role="note">'
+            '<strong>Историческая версия дизайна.</strong> '
+            '<a href="./combined-pilot/index.html">Объединённый пилот — проект исследования ↗</a>'
+            '</div>\n      <main id="app" tabindex="-1">',
+        )
+        with (temp_root / "static/styles.css").open("a", encoding="utf-8") as stylesheet:
+            stylesheet.write(
+                '\n.historical-design-notice { padding: 12px 24px; border-bottom: 1px solid #dbe3dc; '
+                'background: #edf3ec; color: #24473c; font-size: 13px; line-height: 1.6; }\n'
+                '.historical-design-notice a { color: #175c4a; }\n'
+            )
+        for filename in ("index.html", "404.html"):
+            (temp_root / filename).write_text(viewer_html, encoding="utf-8")
+        build_combined(temp_root)
         (temp_root / "static" / "config.js").write_text(
             'window.DB_VIEWER_CONFIG = { mode: "static", dataBase: "./data" };\n',
             encoding="utf-8",
@@ -197,6 +228,11 @@ def build_site(database_path: Path, output: Path) -> Path:
                     "condition_details": len(conditions),
                     "effect_details": len(effects),
                     "tables_and_views": len(tables),
+                },
+                "combined_pilot": {
+                    "status": "research_draft",
+                    "entry_point": "combined-pilot/index.html",
+                    "manifest": "combined-pilot/manifest.json",
                 },
             },
         )
