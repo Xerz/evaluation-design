@@ -14,5 +14,8 @@
   "real_bot_calls": 0,
   "real_recording_probe": "not_run",
   "new_unified_database": "not_created",
-  "operational_data_included": false
+  "operational_data_included": false,
+  "old_coze_credentials_use": "prohibited_by_user",
+  "old_coze_credentials_reported_state": "not_working",
+  "report_basis": "User statement 2026-10-05; not independently tested."
 }

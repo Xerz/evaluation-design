@@ -4,7 +4,7 @@
   "local_links": 318,
   "task_ids": 30,
   "dependency_cycles": 0,
-  "decisions": 14,
+  "decisions": 15,
   "open_questions": 11,
   "original_rubric_and_protocols": "preserved",
   "original_worktree": "untouched",

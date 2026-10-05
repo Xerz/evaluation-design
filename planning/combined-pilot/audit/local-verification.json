@@ -67,9 +67,10 @@
   "real_bot_calls": 0,
   "real_recordings_checked": 0,
   "live_probe": {
-    "status": "not_run_auto_review_rejected",
+    "status": "not_run_user_declined_old_credentials",
     "external_requests_executed": 0,
     "reason": "Embedded credential use in an external Coze request requires explicit user approval.",
-    "approval": "required"
+    "approval": "declined",
+    "user_report": "Old credentials do not work; not independently probed."
   }
 }
