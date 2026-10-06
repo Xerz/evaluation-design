@@ -1,8 +1,11 @@
 # Общая исследовательская БД и полный GitHub Pages
 
-Версия документа: 1.3. Дата обновления: 2026-10-06. Исследование: комбинированный верификационный пилот.
+Версия документа: 1.4. Дата обновления: 2026-10-07. Исследование: комбинированный верификационный пилот.
 
 [Порядок работы и источники](README.md) · [Задачи и решения](08-workplan-and-decisions.md)
+
+**Авторство:** Рабочая детализация Codex; отдельно не согласована: [AI-18](audit/assistant-decisions.md#ai-18), [AI-19](audit/assistant-decisions.md#ai-19), [AI-20](audit/assistant-decisions.md#ai-20), [AI-21](audit/assistant-decisions.md#ai-21), [AI-22](audit/assistant-decisions.md#ai-22), [AI-23](audit/assistant-decisions.md#ai-23), [AI-24](audit/assistant-decisions.md#ai-24), [AI-26](audit/assistant-decisions.md#ai-26).
+
 
 ## Состояние и границы формализации
 

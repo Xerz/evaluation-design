@@ -21,6 +21,7 @@ PAGES = (
     ("annotation", "Выборка и разметка"),
     ("database", "Модель БД"),
     ("roadmap", "Следующие этапы"),
+    ("authorship", "Авторство решений"),
 )
 MGPU_CANDIDATES = {
     "C02", "C07", "C09", "C13", "C14", "C15", "C16", "C17", "C18",
@@ -109,6 +110,8 @@ def build_combined(output: Path) -> None:
     for filename in ("style.css", "reading.js", "icon.svg"):
         shutil.copy2(SOURCE / filename, destination / filename)
     (destination / "manifest.json").write_text(
-        json.dumps({"status": "research_draft", "updated_on": "2026-10-06", "pages": manifest},
+        json.dumps({"status": "research_draft", "updated_on": "2026-10-07",
+                    "assistant_choices": "authorship.html", "publication_is_method_approval": False,
+                    "pages": manifest},
                    ensure_ascii=False, indent=2) + "\n", encoding="utf-8",
     )

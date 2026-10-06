@@ -1,8 +1,11 @@
 # Выборка MODEUS, экспертная разметка и трудозатраты
 
-Версия документа: 1.3. Дата обновления: 2026-10-06. Исследование: комбинированный верификационный пилот.
+Версия документа: 1.4. Дата обновления: 2026-10-07. Исследование: комбинированный верификационный пилот.
 
 [Порядок работы и источники](README.md) · [Задачи и решения](08-workplan-and-decisions.md)
+
+**Авторство:** Рабочая детализация Codex; отдельно не согласована: [AI-09](audit/assistant-decisions.md#ai-09), [AI-10](audit/assistant-decisions.md#ai-10), [AI-11](audit/assistant-decisions.md#ai-11), [AI-12](audit/assistant-decisions.md#ai-12), [AI-13](audit/assistant-decisions.md#ai-13), [AI-16](audit/assistant-decisions.md#ai-16).
+
 
 ## Подготовка выборки · 06.10.2026
 

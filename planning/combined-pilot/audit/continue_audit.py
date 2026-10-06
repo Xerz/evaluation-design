@@ -9,6 +9,11 @@ def read(name):
     return json.loads((HERE / name).read_text())
 
 def write(name, value):
+    if name in {"source-content-checks-v2.json", "claim-checks-v2.json", "new-method-source-links.json"}:
+        value["authorship"] = dict(author="Codex", marked_on="2026-10-07",
+            assistant_decision_ids=["AI-07"], registry="assistant-decisions.json",
+            approval="working proposal or audit judgment; not separately approved",
+            historical_fields_preserved=True)
     (HERE / name).write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n")
 
 def review(code, scope, url, locator, statement, boundary, targets):
@@ -140,6 +145,7 @@ def build():
         lines.append(f"| {c['source_code']} → {c['target']} | {c['review_status']} | {clean(c['verified_locator'])} | {clean(c['applicability'])} |")
     lines += ["", "## Что ещё проверить", "", "Полные пункты и результаты S08; S25/S26 и другие педагогические связи; формулы/сопоставление S37–S39; выбор модели ICC S47; первичный текст S36; протокол совместной работы S44; статус и полный текст S46. S33 закрыт CAPTCHA, обход не выполнялся. Недоступность текста не означает отсутствие основания, но запрещает объявлять его проверенным.", "",
               "Для 41 метрики МГПУ всё ещё нужны определения, единицы, версия и пример экспорта. 13 потенциальных критериев не ограничивают общую матрицу из 36 кандидатных соответствий по C01–C26.", ""]
+    lines[2:2] = ["**Авторство:** Интерпретации, статусы и новая детализация — работа Codex; исторические поля сохранены: [AI-07](assistant-decisions.md#ai-07).", ""]
     (HERE / "claim-checks-v2.md").write_text("\n".join(lines))
     return counts
 

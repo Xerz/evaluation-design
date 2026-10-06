@@ -282,5 +282,15 @@
     }
   ],
   "all_full_texts_read": false,
-  "operational_data_included": false
+  "operational_data_included": false,
+  "authorship": {
+    "author": "Codex",
+    "marked_on": "2026-10-07",
+    "assistant_decision_ids": [
+      "AI-07"
+    ],
+    "registry": "assistant-decisions.json",
+    "approval": "working proposal or audit judgment; not separately approved",
+    "historical_fields_preserved": true
+  }
 }

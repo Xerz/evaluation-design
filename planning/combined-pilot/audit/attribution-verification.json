@@ -1,0 +1,38 @@
+{
+  "checked_on": "2026-10-07",
+  "assistant_choice_groups": 29,
+  "public_pages": 10,
+  "public_local_links": 458,
+  "private_document_links": 451,
+  "rubric_and_historical_protocols": "preserved",
+  "real_bot_calls": 0,
+  "operational_data_in_public_export": false,
+  "unit_tests": {
+    "static_builder": 8,
+    "transcript_shell": 12,
+    "research_database": 29,
+    "status": "passed"
+  },
+  "browser_checks": {
+    "mobile": {
+      "viewport_width": 354,
+      "content_width": 354,
+      "AI_12_anchor": "visible"
+    },
+    "desktop": {
+      "viewport_width": 1163,
+      "content_width": 1163,
+      "annotation_inline_ids": [
+        "AI-09",
+        "AI-16",
+        "AI-10",
+        "AI-11",
+        "AI-12",
+        "AI-13"
+      ]
+    },
+    "temporary_viewport": "reset"
+  },
+  "deployment": "not_yet_checked",
+  "publication_is_method_approval": false
+}

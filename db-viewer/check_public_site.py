@@ -71,6 +71,8 @@ def check_site(site: Path, database: Path = DEFAULT_DB) -> dict:
         text = path.read_text(encoding="utf-8")
         assert not PRIVATE_REFERENCE.search(text), f"Private reference: {path.name}"
         assert "Проект исследования" in text, f"Missing draft label: {path.name}"
+        assert 'href="authorship.html"' in text and "Публикация не означает утверждения методики" in text, \
+            f"Missing attribution boundary: {path.name}"
         assert 'name="viewport"' in text, f"Missing responsive viewport: {path.name}"
         pages[path.resolve()] = Page(text)
     link_count = 0
@@ -92,6 +94,15 @@ def check_site(site: Path, database: Path = DEFAULT_DB) -> dict:
     criterion_page = pages[(site / "combined-pilot/criteria.html").resolve()]
     experiment_page = pages[(site / "combined-pilot/experiment.html").resolve()]
     sources_page = pages[(site / "combined-pilot/sources.html").resolve()]
+    authorship_page = pages[(site / "combined-pilot/authorship.html").resolve()]
+    registry = json.loads((Path(__file__).resolve().parents[1] /
+                          "planning/combined-pilot/audit/assistant-decisions.json").read_text())
+    assert registry["publication_is_method_approval"] is False
+    for entry in registry["entries"]:
+        anchor = entry["id"].lower()
+        assert anchor in authorship_page.ids, f"Missing attribution: {anchor}"
+        topic = pages[(site / "combined-pilot" / entry["public_page"]).resolve()]
+        assert f"authorship.html#{anchor}" in topic.links, f"Missing inline attribution: {anchor}"
     assert len([x for x in criterion_page.cards if re.fullmatch(r"c\d{2}", x)]) == 26
     assert criterion_page.mgpu_labels == len(MGPU_CANDIDATES) == 13
     assert len([x for x in sources_page.cards if re.fullmatch(r"s\d{2}", x)]) == 47
@@ -140,7 +151,9 @@ def check_site(site: Path, database: Path = DEFAULT_DB) -> dict:
     index = (site / "index.html").read_text()
     assert 'href="./combined-pilot/index.html"' in index
     assert "Историческая версия дизайна" in index
-    return {"pages": len(pages), "local_links": link_count, "criteria": 26,
+    return {"pages": len(pages), "local_links": link_count,
+            "assistant_choice_groups": len(registry["entries"]), "inline_attribution": "checked",
+            "publication_is_method_approval": False, "criteria": 26,
             "score_levels": 78, "mgpu_candidates": 13, "protocols": 9, "sources": 47,
             "criterion_source_links": criterion_links, "method_source_links": method_links,
             "original_method_fields": "preserved", "operational_export": "schema_only",

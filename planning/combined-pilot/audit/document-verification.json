@@ -1,12 +1,13 @@
 {
   "status": "passed",
-  "markdown_files": 17,
-  "local_links": 347,
+  "markdown_files": 18,
+  "local_links": 451,
   "task_ids": 30,
   "dependency_cycles": 0,
-  "decisions": 16,
+  "decisions": 17,
   "open_questions": 11,
   "original_rubric_and_protocols": "preserved",
   "original_worktree": "untouched",
+  "assistant_choice_groups": 29,
   "source_database_sha256": "598d593c5898703f0bb2ff526dcf21d3f698e868a5f91e663ba753e8182615ca"
 }

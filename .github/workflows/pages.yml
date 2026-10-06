@@ -41,6 +41,8 @@ jobs:
         run: python3 -m unittest discover -s transcript-eval/tests
       - name: Check research audit fidelity
         run: python3 planning/combined-pilot/audit/check_audit.py
+      - name: Check assistant choice attribution
+        run: python3 planning/combined-pilot/audit/render_assistant_decisions.py --check
       - name: Check research database invariants and sampling
         run: python3 -m unittest discover -s research-db -p 'test_*.py'
       - name: Configure Pages

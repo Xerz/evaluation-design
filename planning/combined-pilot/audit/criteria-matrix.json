@@ -942,5 +942,16 @@
       "implementation_status": "additional_inputs_or_processing_required",
       "evidence_status": "not_validated"
     }
-  ]
+  ],
+  "authorship": {
+    "author": "Codex",
+    "marked_on": "2026-10-07",
+    "assistant_decision_ids": [
+      "AI-02",
+      "AI-03"
+    ],
+    "registry": "assistant-decisions.json",
+    "approval": "working proposal or audit judgment; not separately approved",
+    "historical_fields_preserved": true
+  }
 }

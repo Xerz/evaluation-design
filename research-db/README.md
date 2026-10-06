@@ -1,5 +1,7 @@
 # Черновая общая исследовательская БД
 
+**Авторство реализации:** Codex. Конкретные рабочие решения отмечены в реестре: [AI-09](../planning/combined-pilot/audit/assistant-decisions.md#ai-09), [AI-10](../planning/combined-pilot/audit/assistant-decisions.md#ai-10), [AI-11](../planning/combined-pilot/audit/assistant-decisions.md#ai-11), [AI-12](../planning/combined-pilot/audit/assistant-decisions.md#ai-12), [AI-13](../planning/combined-pilot/audit/assistant-decisions.md#ai-13), [AI-14](../planning/combined-pilot/audit/assistant-decisions.md#ai-14), [AI-16](../planning/combined-pilot/audit/assistant-decisions.md#ai-16), [AI-17](../planning/combined-pilot/audit/assistant-decisions.md#ai-17), [AI-18](../planning/combined-pilot/audit/assistant-decisions.md#ai-18), [AI-19](../planning/combined-pilot/audit/assistant-decisions.md#ai-19), [AI-20](../planning/combined-pilot/audit/assistant-decisions.md#ai-20), [AI-21](../planning/combined-pilot/audit/assistant-decisions.md#ai-21), [AI-22](../planning/combined-pilot/audit/assistant-decisions.md#ai-22), [AI-23](../planning/combined-pilot/audit/assistant-decisions.md#ai-23), [AI-24](../planning/combined-pilot/audit/assistant-decisions.md#ai-24). Они не являются отдельно утверждённым исследовательским протоколом.
+
 Версия: `combined-draft-2026-10-06`, миграция схемы 1. [План и правила обновления](../planning/combined-pilot/README.md). Это исполняемая модель проекта, до пробы и утверждения протокола.
 
 37 таблиц: версии дизайна, исторические снимки, C01–C26 и 78 описаний шкалы, статьи/тезисы/фрагменты, T1–T9/E1–E9, условия и сравнения, 36 кандидатных соответствий, 41 историческое определение МГПУ, технические профили, внешние связи, занятия, артефакты, назначения, прогоны, результаты, доказательства, нормирование, время, прямые студенческие наблюдения и видимость. [Схема SQL](schema.sql), [ERD](ERD.mmd).
@@ -53,3 +55,7 @@ DB, полный SQL, словарь, снимки MODEUS и операцион�
 ## Ещё требуется
 
 Действующая модель Eval-2024 без старых Coze-доступов, реальная проба двух записей, спецификации/экспорт МГПУ, завершение литературных оснований, свежий MODEUS, подтверждение записи/экспертов, численные QC-пороги и бюджет, адаптированные прямые данные C24/C25, очное наблюдение и расширение выборки. Финальный протокол и независимый тест не объявлены готовыми. Просмотрщик новой БД и трёхминутный HTML — последующие этапы.
+
+## Маркировка авторства 07.10.2026
+
+Реестр AI хранится рядом с моделью как версия документации 1.4. SQLite-снимок от 06.10 не переписывается ради пометок: его научные данные и хеш сохраняются. При следующей содержательной версии БД включить актуальные метаданные авторства аудита и ссылку на реестр; D-17 не утверждает AI-методику.

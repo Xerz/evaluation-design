@@ -22,5 +22,15 @@
       "review_status": "partial_support",
       "applicability": "Пример группировки по преподавателю; не доказывает перенос на другой вуз и достаточность восьми занятий."
     }
-  ]
+  ],
+  "authorship": {
+    "author": "Codex",
+    "marked_on": "2026-10-07",
+    "assistant_decision_ids": [
+      "AI-07"
+    ],
+    "registry": "assistant-decisions.json",
+    "approval": "working proposal or audit judgment; not separately approved",
+    "historical_fields_preserved": true
+  }
 }
